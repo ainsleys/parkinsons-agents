@@ -1,0 +1,576 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Double-blind (DB) Phase (Randomization through Week 48): Participants will receive blinded IP.\n\nOpen-label Phase: Participants will receive BHV-8000.",
+     "interventionNames": [
+      "Drug: BHV-8000 10mg",
+      "Drug: BHV-8000 20 mg",
+      "Drug: Placebo"
+     ],
+     "label": "BHV-8000 10 mg",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Double-blind (DB) Phase (Randomization through Week 48): Participants will receive blinded IP.\n\nOpen-label Phase: Participants will receive BHV-8000.",
+     "interventionNames": [
+      "Drug: BHV-8000 10mg",
+      "Drug: BHV-8000 20 mg",
+      "Drug: Placebo"
+     ],
+     "label": "BHV-8000 20 mg",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Double-blind (DB) Phase (Randomization through Week 48): Participants will receive blinded IP (matching placebo).\n\nOpen-label Phase: Participants will receive BHV-8000.",
+     "interventionNames": [
+      "Drug: BHV-8000 10mg",
+      "Drug: BHV-8000 20 mg",
+      "Drug: Placebo"
+     ],
+     "label": "Placebo",
+     "type": "PLACEBO_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "BHV-8000 10 mg",
+      "BHV-8000 20 mg",
+      "Placebo"
+     ],
+     "description": "taken orally",
+     "name": "BHV-8000 10mg",
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "BHV-8000 10 mg",
+      "BHV-8000 20 mg",
+      "Placebo"
+     ],
+     "description": "taken orally",
+     "name": "BHV-8000 20 mg",
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "BHV-8000 10 mg",
+      "BHV-8000 20 mg",
+      "Placebo"
+     ],
+     "description": "taken orally",
+     "name": "Placebo",
+     "type": "DRUG"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson Disease"
+   ],
+   "keywords": [
+    "Early Parkinson's Disease",
+    "Parkinson's Disease",
+    "Early stage Parkinson's Disease",
+    "treatment naiive early Parkinson's Disease"
+   ]
+  },
+  "contactsLocationsModule": {
+   "centralContacts": [
+    {
+     "email": "clinicaltrials@biohavenpharma.com",
+     "name": "Chief Medical Officer",
+     "phone": "203-404-0410",
+     "role": "CONTACT"
+    }
+   ],
+   "locations": [
+    {
+     "city": "Birmingham",
+     "country": "United States",
+     "facility": "Site-049",
+     "geoPoint": {
+      "lat": 33.52066,
+      "lon": -86.80249
+     },
+     "state": "Alabama",
+     "status": "RECRUITING",
+     "zip": "35294"
+    },
+    {
+     "city": "Irvine",
+     "country": "United States",
+     "facility": "Site-003",
+     "geoPoint": {
+      "lat": 33.66946,
+      "lon": -117.82311
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "92618"
+    },
+    {
+     "city": "Los Angeles",
+     "country": "United States",
+     "facility": "Site-041",
+     "geoPoint": {
+      "lat": 34.05223,
+      "lon": -118.24368
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "90033"
+    },
+    {
+     "city": "Aurora",
+     "country": "United States",
+     "facility": "Site-025",
+     "geoPoint": {
+      "lat": 39.72943,
+      "lon": -104.83192
+     },
+     "state": "Colorado",
+     "status": "RECRUITING",
+     "zip": "80045"
+    },
+    {
+     "city": "Farmington",
+     "country": "United States",
+     "facility": "Site-031",
+     "geoPoint": {
+      "lat": 41.71982,
+      "lon": -72.83204
+     },
+     "state": "Connecticut",
+     "status": "RECRUITING",
+     "zip": "06030"
+    },
+    {
+     "city": "New Haven",
+     "country": "United States",
+     "facility": "Site-028",
+     "geoPoint": {
+      "lat": 41.30815,
+      "lon": -72.92816
+     },
+     "state": "Connecticut",
+     "status": "RECRUITING",
+     "zip": "06510"
+    },
+    {
+     "city": "Atlantis",
+     "country": "United States",
+     "facility": "Site-038",
+     "geoPoint": {
+      "lat": 26.5909,
+      "lon": -80.10088
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33462"
+    },
+    {
+     "city": "Boca Raton",
+     "country": "United States",
+     "facility": "Site-017",
+     "geoPoint": {
+      "lat": 26.35869,
+      "lon": -80.0831
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33486"
+    },
+    {
+     "city": "Maitland",
+     "country": "United States",
+     "facility": "Site-051",
+     "geoPoint": {
+      "lat": 28.62778,
+      "lon": -81.36312
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "32751"
+    },
+    {
+     "city": "Chicago",
+     "country": "United States",
+     "facility": "Site-027",
+     "geoPoint": {
+      "lat": 41.85003,
+      "lon": -87.65005
+     },
+     "state": "Illinois",
+     "status": "RECRUITING",
+     "zip": "60611"
+    },
+    {
+     "city": "Kansas City",
+     "country": "United States",
+     "facility": "Site-029",
+     "geoPoint": {
+      "lat": 39.11417,
+      "lon": -94.62746
+     },
+     "state": "Kansas",
+     "status": "RECRUITING",
+     "zip": "66160"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Site-071",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "status": "RECRUITING",
+     "zip": "02114"
+    },
+    {
+     "city": "Foxborough",
+     "country": "United States",
+     "facility": "Site-004",
+     "geoPoint": {
+      "lat": 42.06538,
+      "lon": -71.24783
+     },
+     "state": "Massachusetts",
+     "status": "RECRUITING",
+     "zip": "02035"
+    },
+    {
+     "city": "Farmington Hills",
+     "country": "United States",
+     "facility": "Site-015",
+     "geoPoint": {
+      "lat": 42.48531,
+      "lon": -83.37716
+     },
+     "state": "Michigan",
+     "status": "RECRUITING",
+     "zip": "48334"
+    },
+    {
+     "city": "Chesterfield",
+     "country": "United States",
+     "facility": "Site-044",
+     "geoPoint": {
+      "lat": 38.66311,
+      "lon": -90.57707
+     },
+     "state": "Missouri",
+     "status": "RECRUITING",
+     "zip": "63005"
+    },
+    {
+     "city": "Albany",
+     "country": "United States",
+     "facility": "Site-006",
+     "geoPoint": {
+      "lat": 42.65258,
+      "lon": -73.75623
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "12208"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Site-005",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "10021"
+    },
+    {
+     "city": "Cleveland",
+     "country": "United States",
+     "facility": "Site-082",
+     "geoPoint": {
+      "lat": 41.4995,
+      "lon": -81.69541
+     },
+     "state": "Ohio",
+     "status": "RECRUITING",
+     "zip": "44195"
+    },
+    {
+     "city": "Portland",
+     "country": "United States",
+     "facility": "Site-091",
+     "geoPoint": {
+      "lat": 45.52345,
+      "lon": -122.67621
+     },
+     "state": "Oregon",
+     "status": "RECRUITING",
+     "zip": "97210"
+    },
+    {
+     "city": "Round Rock",
+     "country": "United States",
+     "facility": "Site-043",
+     "geoPoint": {
+      "lat": 30.50826,
+      "lon": -97.6789
+     },
+     "state": "Texas",
+     "status": "RECRUITING",
+     "zip": "78681"
+    },
+    {
+     "city": "Henrico",
+     "country": "United States",
+     "facility": "Site-009",
+     "geoPoint": {
+      "lat": 36.59264,
+      "lon": -78.61611
+     },
+     "state": "Virginia",
+     "status": "RECRUITING",
+     "zip": "23233"
+    },
+    {
+     "city": "Newport News",
+     "country": "United States",
+     "facility": "Site-074",
+     "geoPoint": {
+      "lat": 36.98038,
+      "lon": -76.42975
+     },
+     "state": "Virginia",
+     "status": "RECRUITING",
+     "zip": "23601"
+    },
+    {
+     "city": "Bellevue",
+     "country": "United States",
+     "facility": "Site-007",
+     "geoPoint": {
+      "lat": 47.61038,
+      "lon": -122.20068
+     },
+     "state": "Washington",
+     "status": "RECRUITING",
+     "zip": "98007"
+    },
+    {
+     "city": "Seattle",
+     "country": "United States",
+     "facility": "Site-019",
+     "geoPoint": {
+      "lat": 47.60621,
+      "lon": -122.33207
+     },
+     "state": "Washington",
+     "status": "RECRUITING",
+     "zip": "98122"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "A study to determine if BHV-8000 is efficacious, safe and tolerable in adults diagnosed with early Parkinson's disease. The study will consist of a 48-week double-blind treatment phase followed by a 48-week open-label phase."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "maskingInfo": {
+     "masking": "QUADRUPLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 550,
+    "type": "ESTIMATED"
+   },
+   "phases": [
+    "PHASE2",
+    "PHASE3"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Male or female participants 40 to 80 years of age, inclusive, at the time of informed consent.\n* Meet the diagnostic criteria for \"Probable PD\" as assessed on the Movement Disorder Society (MDS) Clinical Diagnostic Criteria for PD as assessed by the Investigator.\n* Have a clinician-documented diagnosis of idiopathic PD with an onset within 2 years of the Screening Visit\n\nKey Exclusion Criteria:\n\n* Medical history indicating a Parkinsonian syndrome other than idiopathic PD, including, but not limited to, progressive supranuclear gaze palsy, multiple system atrophy, drug-induced Parkinsonism, essential tremor, or primary dystonia.\n* Diagnosis of clinically significant central nervous system (CNS) disease other than PD.\n* Participants who are current smokers (defined as smoking \\[in any form, e.g., tobacco smoke, electronic cigarettes, etc.\\] )\n* Treatment with PD medication(s)\n* Any other condition(s) that may compromise participant safety, interfere with study conduct, or jeopardize the potential proper interpretation of study results, in the opinion of the investigator.",
+   "healthyVolunteers": false,
+   "maximumAge": "80 Years",
+   "minimumAge": "40 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "briefTitle": "A Study to Determine if BHV-8000 is Effective, Safe and Tolerable as a Treatment for Adults Living With Early Parkinson's Disease",
+   "nctId": "NCT06976268",
+   "officialTitle": "A Phase 2/3, Double-Blind, Placebo-Controlled Study of BHV-8000 in Participants With Early Parkinson's Disease",
+   "orgStudyIdInfo": {
+    "id": "BHV8000-301"
+   },
+   "organization": {
+    "class": "INDUSTRY",
+    "fullName": "Biohaven Pharmaceuticals, Inc."
+   },
+   "secondaryIdInfos": [
+    {
+     "id": "2025-521113-13-00",
+     "type": "CTIS"
+    },
+    {
+     "id": "2025",
+     "link": "https://reporter.nih.gov/quickSearch/2025",
+     "type": "NIH"
+    }
+   ]
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "description": "To evaluate the efficacy of BHV-8000 compared to placebo. This objective is measured by assessing the time to prespecified worsening on MDS-UPDRS Part II (motor experiences of daily living per self-administered questionnaire). MDS-UPDRS Part II is a 52-point scale with a higher total score representing more severe disability.",
+     "measure": "Time to first qualifying worsening event on Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part II",
+     "timeFrame": "Up to 48 Weeks"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "description": "To evaluate the efficacy of BHV-8000 compared to placebo. This objective is measured by assessing the change in MDS-UPDRS Part III (motor examination conducted by rater). MDS-UPDRS Part III is a 132-point scale with a higher total score representing a greater degree of motor impairment.",
+     "measure": "Change in Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part III from Baseline to Week 48 of the DB Phase",
+     "timeFrame": "Baseline to Week 48"
+    },
+    {
+     "description": "To evaluate the efficacy of BHV-8000 compared to placebo. This objective is measured by assessing the change in severity of a participant's illness as determined by the managing clinician. The CGI-S is a 7-point scale (1 - 7) with 7 representing the most extremely ill participants.",
+     "measure": "Change in Clinical Global Impression of Severity (CGI-S) from Baseline to Week 48 of the DB Phase",
+     "timeFrame": "Baseline to Week 48"
+    },
+    {
+     "description": "To evaluate the efficacy of BHV-8000 compared to placebo. This objective is measured by change in DaT-SPECT Striatal Binding Ratio (SBR) in the putamen (assessing the activity of the dopamine transporters). Reduced uptake of the radiotracer is indicative of a decreased number of dopamine-secreting cells and suggestive of disease progression.",
+     "measure": "Change in DaT-SPECT scan from Baseline to Week 48 of the DB Phase",
+     "timeFrame": "Baseline to Week 48"
+    },
+    {
+     "description": "To compare the efficacy of BHV-8000 compared to placebo. This objective is measured by changes in the Parkinson's Disease Composite Score - Function (PARCOMS-Function) score. The PARCOMS-Function is a composite of select items taken from the MDS-UPDRS Part II and the PDQ-39\u00a9 (assessing ability to complete daily activities). The PARCOMS-Function is a 100-point scale (0 - 100) with higher scores representing greater dysfunction.",
+     "measure": "Change in Parkinson's Disease Composite Score - Function (PARCOMS-Function) from Baseline to Week 48 of the DB Phase",
+     "timeFrame": "Baseline to Week 48"
+    },
+    {
+     "description": "To assess the safety and tolerability of BHV-8000. This objective will be measured by assessing the number of unique participants with deaths, SAEs, AEs leading to discontinuation, and moderate and severe AEs",
+     "measure": "Number of Participants with Deaths, Serious AEs (SAEs), AEs Leading to Study Drug Discontinuation, and moderate or severe AEs",
+     "timeFrame": "Up to 96 weeks"
+    },
+    {
+     "description": "To assess the safety and tolerability of BHV-8000. This objective will be measured by assessing the number of unique participants with treatment-emergent Grade 3 and 4 laboratory abnormalities",
+     "measure": "Number of participants with clinically significant laboratory abnormalities",
+     "timeFrame": "Up to 96 weeks"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": true,
+   "oversightHasDmc": true
+  },
+  "sponsorCollaboratorsModule": {
+   "leadSponsor": {
+    "class": "INDUSTRY",
+    "name": "Biohaven Therapeutics Ltd."
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2028-09",
+    "type": "ESTIMATED"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2026-09-28",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2026-09-24",
+   "overallStatus": "RECRUITING",
+   "primaryCompletionDateStruct": {
+    "date": "2027-08",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2025-05-28",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2026-09",
+   "studyFirstPostDateStruct": {
+    "date": "2025-05-16",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2025-05-09",
+   "studyFirstSubmitQcDate": "2025-05-09"
+  }
+ }
+}

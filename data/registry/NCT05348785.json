@@ -1,0 +1,1468 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "interventionBrowseModule": {
+   "meshes": [
+    {
+     "id": "C000730636",
+     "term": "DNL151"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Participants will receive BIIB122, 225 mg tablets, by mouth, once daily (QD) for up to a minimum of 48 weeks and a maximum of 144 weeks.\n\nParticipants who received BIIB122 and completed the ET visit of study 283PD302 (NCT05418673) will continue to receive BIIB122, 225 mg tablets, by mouth, QD for up to a minimum of 48 weeks and a maximum of 144 weeks.",
+     "interventionNames": [
+      "Drug: BIIB122"
+     ],
+     "label": "BIIB122 225 mg",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Participants will receive BIIB122 matching placebo tablets, by mouth, QD for up to a minimum of 48 weeks and a maximum of 144 weeks.\n\nParticipants who received placebo and completed the ET visit of study 283PD302 (NCT05418673) will continue to receive BIIB122 matching placebo tablets, by mouth, QD for up to a minimum of 48 weeks and a maximum of 144 weeks.",
+     "interventionNames": [
+      "Drug: BIIB122-Matching Placebo"
+     ],
+     "label": "BIIB122 Matching Placebo",
+     "type": "PLACEBO_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "BIIB122 225 mg"
+     ],
+     "description": "Administered as specified in the treatment arm",
+     "name": "BIIB122",
+     "otherNames": [
+      "DNL151"
+     ],
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "BIIB122 Matching Placebo"
+     ],
+     "description": "Administered as specified in the treatment arm",
+     "name": "BIIB122-Matching Placebo",
+     "type": "DRUG"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson Disease"
+   ],
+   "keywords": [
+    "Early-stage Parkinson Disease"
+   ]
+  },
+  "contactsLocationsModule": {
+   "locations": [
+    {
+     "city": "Phoenix",
+     "country": "United States",
+     "facility": "Mayo Clinic Arizona",
+     "geoPoint": {
+      "lat": 33.44838,
+      "lon": -112.07404
+     },
+     "state": "Arizona",
+     "zip": "85054"
+    },
+    {
+     "city": "Sun City",
+     "country": "United States",
+     "facility": "Banner Sun Health Research Institute",
+     "geoPoint": {
+      "lat": 33.59754,
+      "lon": -112.27182
+     },
+     "state": "Arizona",
+     "zip": "85351"
+    },
+    {
+     "city": "Los Angeles",
+     "country": "United States",
+     "facility": "University of Southern California",
+     "geoPoint": {
+      "lat": 34.05223,
+      "lon": -118.24368
+     },
+     "state": "California",
+     "zip": "90033"
+    },
+    {
+     "city": "Los Angeles",
+     "country": "United States",
+     "facility": "Cedars Sinai",
+     "geoPoint": {
+      "lat": 34.05223,
+      "lon": -118.24368
+     },
+     "state": "California",
+     "zip": "90048"
+    },
+    {
+     "city": "Pasadena",
+     "country": "United States",
+     "facility": "SC3 Research Group Inc.",
+     "geoPoint": {
+      "lat": 34.14778,
+      "lon": -118.14452
+     },
+     "state": "California",
+     "zip": "91105"
+    },
+    {
+     "city": "San Francisco",
+     "country": "United States",
+     "facility": "University of California San Francisco (UCSF)",
+     "geoPoint": {
+      "lat": 37.77493,
+      "lon": -122.41942
+     },
+     "state": "California",
+     "zip": "94143"
+    },
+    {
+     "city": "Aurora",
+     "country": "United States",
+     "facility": "University of Colorado",
+     "geoPoint": {
+      "lat": 39.72943,
+      "lon": -104.83192
+     },
+     "state": "Colorado",
+     "zip": "80045"
+    },
+    {
+     "city": "Englewood",
+     "country": "United States",
+     "facility": "CenExel Rocky Mountain Clinical Research",
+     "geoPoint": {
+      "lat": 39.64777,
+      "lon": -104.98776
+     },
+     "state": "Colorado",
+     "zip": "80113"
+    },
+    {
+     "city": "New Haven",
+     "country": "United States",
+     "facility": "Invicro",
+     "geoPoint": {
+      "lat": 41.30815,
+      "lon": -72.92816
+     },
+     "state": "Connecticut",
+     "zip": "06510"
+    },
+    {
+     "city": "Boca Raton",
+     "country": "United States",
+     "facility": "Parkinson's Disease and Movement Disorders Center of Boca Raton",
+     "geoPoint": {
+      "lat": 26.35869,
+      "lon": -80.0831
+     },
+     "state": "Florida",
+     "zip": "33486"
+    },
+    {
+     "city": "Miami",
+     "country": "United States",
+     "facility": "University of Miami",
+     "geoPoint": {
+      "lat": 25.77427,
+      "lon": -80.19366
+     },
+     "state": "Florida",
+     "zip": "33136"
+    },
+    {
+     "city": "Orlando",
+     "country": "United States",
+     "facility": "Adventist Health System/Sunbelt, Inc.",
+     "geoPoint": {
+      "lat": 28.53834,
+      "lon": -81.37924
+     },
+     "state": "Florida",
+     "zip": "32803"
+    },
+    {
+     "city": "Tampa",
+     "country": "United States",
+     "facility": "USF Health Byrd Institute",
+     "geoPoint": {
+      "lat": 27.94752,
+      "lon": -82.45843
+     },
+     "state": "Florida",
+     "zip": "33613"
+    },
+    {
+     "city": "Honolulu",
+     "country": "United States",
+     "facility": "Hawaii Pacific Neuroscience, LLC",
+     "geoPoint": {
+      "lat": 21.30694,
+      "lon": -157.85833
+     },
+     "state": "Hawaii",
+     "zip": "96817"
+    },
+    {
+     "city": "Chicago",
+     "country": "United States",
+     "facility": "Northwestern University",
+     "geoPoint": {
+      "lat": 41.85003,
+      "lon": -87.65005
+     },
+     "state": "Illinois",
+     "zip": "60611"
+    },
+    {
+     "city": "Chicago",
+     "country": "United States",
+     "facility": "Rush University Medical Center",
+     "geoPoint": {
+      "lat": 41.85003,
+      "lon": -87.65005
+     },
+     "state": "Illinois",
+     "zip": "60612"
+    },
+    {
+     "city": "Kansas City",
+     "country": "United States",
+     "facility": "University of Kansas Medical Center Research Institute, Inc.",
+     "geoPoint": {
+      "lat": 39.11417,
+      "lon": -94.62746
+     },
+     "state": "Kansas",
+     "zip": "66160"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Boston University Medical Center",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "zip": "02118"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Beth Israel Deaconess Medical Center",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "zip": "02215"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Massachusetts General Hospital",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "zip": "02421"
+    },
+    {
+     "city": "Farmington Hills",
+     "country": "United States",
+     "facility": "Quest Research Institute",
+     "geoPoint": {
+      "lat": 42.48531,
+      "lon": -83.37716
+     },
+     "state": "Michigan",
+     "zip": "48334"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Mount Sinai Beth Israel",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "zip": "10003"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Weill Medical College of Cornell University",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "zip": "10021"
+    },
+    {
+     "city": "Durham",
+     "country": "United States",
+     "facility": "Duke Movement Disorders Clinic",
+     "geoPoint": {
+      "lat": 35.99403,
+      "lon": -78.89862
+     },
+     "state": "North Carolina",
+     "zip": "27705"
+    },
+    {
+     "city": "Cleveland",
+     "country": "United States",
+     "facility": "The Cleveland Clinic Foundation",
+     "geoPoint": {
+      "lat": 41.4995,
+      "lon": -81.69541
+     },
+     "state": "Ohio",
+     "zip": "44195"
+    },
+    {
+     "city": "Philadelphia",
+     "country": "United States",
+     "facility": "UPHS",
+     "geoPoint": {
+      "lat": 39.95238,
+      "lon": -75.16362
+     },
+     "state": "Pennsylvania",
+     "zip": "19107"
+    },
+    {
+     "city": "Charleston",
+     "country": "United States",
+     "facility": "Medical University of South Carolina",
+     "geoPoint": {
+      "lat": 32.77632,
+      "lon": -79.93275
+     },
+     "state": "South Carolina",
+     "zip": "29425"
+    },
+    {
+     "city": "Cordova",
+     "country": "United States",
+     "facility": "Neurology Clinic, PC",
+     "geoPoint": {
+      "lat": 35.15565,
+      "lon": -89.7762
+     },
+     "state": "Tennessee",
+     "zip": "38018"
+    },
+    {
+     "city": "Houston",
+     "country": "United States",
+     "facility": "The Methodist Hospital Research Institute",
+     "geoPoint": {
+      "lat": 29.76328,
+      "lon": -95.36327
+     },
+     "state": "Texas",
+     "zip": "77030"
+    },
+    {
+     "city": "Round Rock",
+     "country": "United States",
+     "facility": "Central Texas Neurology Consultants",
+     "geoPoint": {
+      "lat": 30.50826,
+      "lon": -97.6789
+     },
+     "state": "Texas",
+     "zip": "78681"
+    },
+    {
+     "city": "Richmond",
+     "country": "United States",
+     "facility": "Virginia Commonwealth University Department of Neurology",
+     "geoPoint": {
+      "lat": 37.55376,
+      "lon": -77.46026
+     },
+     "state": "Virginia",
+     "zip": "23298"
+    },
+    {
+     "city": "Kirkland",
+     "country": "United States",
+     "facility": "Evergreen Hospital Medical Center",
+     "geoPoint": {
+      "lat": 47.68149,
+      "lon": -122.20874
+     },
+     "state": "Washington",
+     "zip": "98034"
+    },
+    {
+     "city": "Spokane",
+     "country": "United States",
+     "facility": "Inland Northwest Research",
+     "geoPoint": {
+      "lat": 47.65966,
+      "lon": -117.42908
+     },
+     "state": "Washington",
+     "zip": "99202"
+    },
+    {
+     "city": "Innsbruck",
+     "country": "Austria",
+     "facility": "Medizinische Universit\u00e4t",
+     "geoPoint": {
+      "lat": 47.26266,
+      "lon": 11.39454
+     },
+     "state": "Tyrol",
+     "zip": "6020"
+    },
+    {
+     "city": "Vienna",
+     "country": "Austria",
+     "facility": "Klinik Ottakring",
+     "geoPoint": {
+      "lat": 48.20849,
+      "lon": 16.37208
+     },
+     "zip": "1160"
+    },
+    {
+     "city": "Calgary",
+     "country": "Canada",
+     "facility": "University of Calgary",
+     "geoPoint": {
+      "lat": 51.05011,
+      "lon": -114.08529
+     },
+     "state": "Alberta",
+     "zip": "T2N 1N4"
+    },
+    {
+     "city": "Halifax",
+     "country": "Canada",
+     "facility": "True North Clinical Research",
+     "geoPoint": {
+      "lat": 44.64269,
+      "lon": -63.57688
+     },
+     "state": "Nova Scotia",
+     "zip": "B3S 1M7"
+    },
+    {
+     "city": "Toronto",
+     "country": "Canada",
+     "facility": "Toronto Western Hospital",
+     "geoPoint": {
+      "lat": 43.70643,
+      "lon": -79.39864
+     },
+     "state": "Ontario",
+     "zip": "M5T 2S8"
+    },
+    {
+     "city": "Montreal",
+     "country": "Canada",
+     "facility": "CHUM Centre de Recherche",
+     "geoPoint": {
+      "lat": 45.50884,
+      "lon": -73.58781
+     },
+     "state": "Quebec",
+     "zip": "H2L 4M1"
+    },
+    {
+     "city": "Montreal",
+     "country": "Canada",
+     "facility": "Montreal Neurological Institute",
+     "geoPoint": {
+      "lat": 45.50884,
+      "lon": -73.58781
+     },
+     "state": "Quebec",
+     "zip": "H3A 2B4"
+    },
+    {
+     "city": "Beijing",
+     "country": "China",
+     "facility": "Xuanwu Hospital Capital Medical University",
+     "geoPoint": {
+      "lat": 39.9075,
+      "lon": 116.39723
+     },
+     "state": "Beijing Municipality",
+     "zip": "100053"
+    },
+    {
+     "city": "Beijing",
+     "country": "China",
+     "facility": "Beijing Hospital",
+     "geoPoint": {
+      "lat": 39.9075,
+      "lon": 116.39723
+     },
+     "state": "Beijing Municipality",
+     "zip": "100730"
+    },
+    {
+     "city": "Suzhou",
+     "country": "China",
+     "facility": "The Second Affiliated Hospital of Soochow University",
+     "geoPoint": {
+      "lat": 31.30408,
+      "lon": 120.59538
+     },
+     "state": "Jiangsu",
+     "zip": "215004"
+    },
+    {
+     "city": "Chengdu",
+     "country": "China",
+     "facility": "West China Hospital, Sichuan University",
+     "geoPoint": {
+      "lat": 30.66667,
+      "lon": 104.06667
+     },
+     "state": "Sichuan",
+     "zip": "610041"
+    },
+    {
+     "city": "Marseille",
+     "country": "France",
+     "facility": "H\u00f4pital de la Timone",
+     "geoPoint": {
+      "lat": 43.29695,
+      "lon": 5.38107
+     },
+     "state": "Bouches-du-Rh\u00f4ne",
+     "zip": "13005"
+    },
+    {
+     "city": "Toulouse",
+     "country": "France",
+     "facility": "Hopital Purpan",
+     "geoPoint": {
+      "lat": 43.60426,
+      "lon": 1.44367
+     },
+     "state": "Haute Garonne",
+     "zip": "31059"
+    },
+    {
+     "city": "Montpellier",
+     "country": "France",
+     "facility": "Hopital Gui de Chauliac",
+     "geoPoint": {
+      "lat": 43.61093,
+      "lon": 3.87635
+     },
+     "state": "Herault",
+     "zip": "34295"
+    },
+    {
+     "city": "Rennes",
+     "country": "France",
+     "facility": "CHU Rennes - Hopital Pontchaillou",
+     "geoPoint": {
+      "lat": 48.11109,
+      "lon": -1.67431
+     },
+     "state": "Ille Et Vilaine",
+     "zip": "35033"
+    },
+    {
+     "city": "Loire-Atlantique",
+     "country": "France",
+     "facility": "CHU Nantes - Hopital Nord La\u00ebn",
+     "state": "Loire-Atlantique",
+     "zip": "44093"
+    },
+    {
+     "city": "Clermont-Ferrand",
+     "country": "France",
+     "facility": "CHU Clermont Ferrand - Hopital Gabriel Montpied",
+     "geoPoint": {
+      "lat": 45.77969,
+      "lon": 3.08682
+     },
+     "state": "Puy De Dome",
+     "zip": "63003"
+    },
+    {
+     "city": "Bron",
+     "country": "France",
+     "facility": "Centre Hospitalier Universitaire de Lyon-Hospices Civils de Lyon-Hopital Pierre Wertheimer",
+     "geoPoint": {
+      "lat": 45.73865,
+      "lon": 4.91303
+     },
+     "state": "Rhone",
+     "zip": "69500"
+    },
+    {
+     "city": "Paris",
+     "country": "France",
+     "facility": "Groupe Hospitalier Pitie-Salpetriere",
+     "geoPoint": {
+      "lat": 48.85341,
+      "lon": 2.3488
+     },
+     "zip": "75013"
+    },
+    {
+     "city": "Paris",
+     "country": "France",
+     "facility": "Hopital Henri Mondor",
+     "geoPoint": {
+      "lat": 48.85341,
+      "lon": 2.3488
+     },
+     "zip": "94010"
+    },
+    {
+     "city": "T\u00fcbingen",
+     "country": "Germany",
+     "facility": "Universitaetsklinikum Tuebingen",
+     "geoPoint": {
+      "lat": 48.52266,
+      "lon": 9.05222
+     },
+     "state": "Baden-Wurttemberg",
+     "zip": "72076"
+    },
+    {
+     "city": "Ulm",
+     "country": "Germany",
+     "facility": "Universitaetsklinikum Ulm",
+     "geoPoint": {
+      "lat": 48.39841,
+      "lon": 9.99155
+     },
+     "state": "Baden-Wurttemberg",
+     "zip": "89081"
+    },
+    {
+     "city": "Munich",
+     "country": "Germany",
+     "facility": "Klinikum der Universit\u00e4t M\u00fcnchen",
+     "geoPoint": {
+      "lat": 48.13743,
+      "lon": 11.57549
+     },
+     "state": "Bavaria",
+     "zip": "81377"
+    },
+    {
+     "city": "Munich",
+     "country": "Germany",
+     "facility": "Klinikum rechts der Isar der TU Muenchen",
+     "geoPoint": {
+      "lat": 48.13743,
+      "lon": 11.57549
+     },
+     "state": "Bavaria",
+     "zip": "81675"
+    },
+    {
+     "city": "W\u00fcrzburg",
+     "country": "Germany",
+     "facility": "Universitaetsklinikum Wuerzburg",
+     "geoPoint": {
+      "lat": 49.79391,
+      "lon": 9.95121
+     },
+     "state": "Bavaria",
+     "zip": "97080"
+    },
+    {
+     "city": "Kassel",
+     "country": "Germany",
+     "facility": "Paracelsus-Elena-Klinik Kassel",
+     "geoPoint": {
+      "lat": 51.31667,
+      "lon": 9.5
+     },
+     "state": "Hesse",
+     "zip": "34128"
+    },
+    {
+     "city": "Marburg",
+     "country": "Germany",
+     "facility": "Philipps University of Marburg",
+     "geoPoint": {
+      "lat": 50.80904,
+      "lon": 8.77069
+     },
+     "state": "Hesse",
+     "zip": "35043"
+    },
+    {
+     "city": "Hanover",
+     "country": "Germany",
+     "facility": "Medizinische Hochschule Hannover",
+     "geoPoint": {
+      "lat": 52.37052,
+      "lon": 9.73322
+     },
+     "state": "Lower Saxony",
+     "zip": "30625"
+    },
+    {
+     "city": "Bochum",
+     "country": "Germany",
+     "facility": "Katholisches Klinikum Bochum gGmbH",
+     "geoPoint": {
+      "lat": 51.48165,
+      "lon": 7.21648
+     },
+     "state": "North Rhine-Westphalia",
+     "zip": "44791"
+    },
+    {
+     "city": "D\u00fcsseldorf",
+     "country": "Germany",
+     "facility": "Universitaetsklinikum Duesseldorf AoeR",
+     "geoPoint": {
+      "lat": 51.22319,
+      "lon": 6.77927
+     },
+     "state": "North Rhine-Westphalia",
+     "zip": "40225"
+    },
+    {
+     "city": "Dresden",
+     "country": "Germany",
+     "facility": "Universitaetsklinikum Carl Gustav Carus TU Dresden",
+     "geoPoint": {
+      "lat": 51.05089,
+      "lon": 13.73832
+     },
+     "state": "Saxony",
+     "zip": "01307"
+    },
+    {
+     "city": "L\u00fcbeck",
+     "country": "Germany",
+     "facility": "Universitaetsklinikum Schleswig-Holstein - Campus Luebeck",
+     "geoPoint": {
+      "lat": 53.86893,
+      "lon": 10.68729
+     },
+     "state": "Schleswig-Holstein",
+     "zip": "23538"
+    },
+    {
+     "city": "Petah Tikva",
+     "country": "Israel",
+     "facility": "Rabin Medical Center",
+     "geoPoint": {
+      "lat": 32.0888,
+      "lon": 34.88666
+     },
+     "zip": "4941492"
+    },
+    {
+     "city": "Ramat Gan",
+     "country": "Israel",
+     "facility": "Center Chaim Sheba Medical Center",
+     "geoPoint": {
+      "lat": 32.08227,
+      "lon": 34.81065
+     },
+     "zip": "5262000"
+    },
+    {
+     "city": "Tel Aviv",
+     "country": "Israel",
+     "facility": "Tel Aviv Sourasky Medical Center",
+     "geoPoint": {
+      "lat": 32.08088,
+      "lon": 34.78057
+     },
+     "zip": "6423906"
+    },
+    {
+     "city": "Diego",
+     "country": "Italy",
+     "facility": "I.R.C.C.S. Neuromed",
+     "state": "Centonze",
+     "zip": "86077"
+    },
+    {
+     "city": "Bologna",
+     "country": "Italy",
+     "facility": "IRCCS-Institute of Neurological Sciences of Bologna",
+     "geoPoint": {
+      "lat": 44.49381,
+      "lon": 11.33875
+     },
+     "zip": "40139"
+    },
+    {
+     "city": "Brescia",
+     "country": "Italy",
+     "facility": "Azienda Ospedaliera Spedali",
+     "geoPoint": {
+      "lat": 45.53558,
+      "lon": 10.21472
+     },
+     "zip": "25123"
+    },
+    {
+     "city": "Catania",
+     "country": "Italy",
+     "facility": "Azienda Ospedaliero Universitaria Policlinico 'Gaspare Rodolico - San Marco' (Presidio G. Rodolico)",
+     "geoPoint": {
+      "lat": 37.49223,
+      "lon": 15.07041
+     },
+     "zip": "95123"
+    },
+    {
+     "city": "Chieti",
+     "country": "Italy",
+     "facility": "Ospedale Clinicizzato SS. Annu",
+     "geoPoint": {
+      "lat": 42.34827,
+      "lon": 14.16494
+     },
+     "zip": "66100"
+    },
+    {
+     "city": "Milan",
+     "country": "Italy",
+     "facility": "Fondazione",
+     "geoPoint": {
+      "lat": 42.78235,
+      "lon": 12.59836
+     },
+     "zip": "20122"
+    },
+    {
+     "city": "Milan",
+     "country": "Italy",
+     "facility": "Ospedale San Raffaele",
+     "geoPoint": {
+      "lat": 42.78235,
+      "lon": 12.59836
+     },
+     "zip": "20132"
+    },
+    {
+     "city": "Naples",
+     "country": "Italy",
+     "facility": "AOU Luigi Vanvitelli",
+     "geoPoint": {
+      "lat": 40.85216,
+      "lon": 14.26811
+     },
+     "zip": "80138"
+    },
+    {
+     "city": "Pisa",
+     "country": "Italy",
+     "facility": "AO Universitaria Pisana",
+     "geoPoint": {
+      "lat": 43.70853,
+      "lon": 10.4036
+     },
+     "zip": "56126"
+    },
+    {
+     "city": "Roma",
+     "country": "Italy",
+     "facility": "IRCCS San Raffaele Pisana",
+     "geoPoint": {
+      "lat": 44.99364,
+      "lon": 11.10642
+     },
+     "zip": "00163"
+    },
+    {
+     "city": "Haeburu",
+     "country": "Japan",
+     "facility": "Okinawa Prefectural Nanbu",
+     "state": "Okinawa",
+     "zip": "901-1105"
+    },
+    {
+     "city": "Osaka",
+     "country": "Japan",
+     "facility": "Tazuke-kofukai Medical Research Institute Kitano Hospital",
+     "geoPoint": {
+      "lat": 34.69379,
+      "lon": 135.50107
+     },
+     "state": "Osaka",
+     "zip": "530-8480"
+    },
+    {
+     "city": "Asahikawa-shi",
+     "country": "Japan",
+     "facility": "NHO Asahikawa Medical Center",
+     "zip": "070-8644"
+    },
+    {
+     "city": "Himeji-shi",
+     "country": "Japan",
+     "facility": "Himeji Central",
+     "zip": "672-8043"
+    },
+    {
+     "city": "Sendai",
+     "country": "Japan",
+     "facility": "Sendai Nishitaga National Hospital",
+     "geoPoint": {
+      "lat": 38.26667,
+      "lon": 140.86667
+     },
+     "zip": "982-8555"
+    },
+    {
+     "city": "Tokyo",
+     "country": "Japan",
+     "facility": "Juntendo University",
+     "geoPoint": {
+      "lat": 35.6895,
+      "lon": 139.69171
+     },
+     "zip": "113-8431"
+    },
+    {
+     "city": "Amsterdam",
+     "country": "Netherlands",
+     "facility": "Brain Research Center Amsterdam",
+     "geoPoint": {
+      "lat": 52.37403,
+      "lon": 4.88969
+     },
+     "zip": "1081 GN"
+    },
+    {
+     "city": "Nijmegen",
+     "country": "Netherlands",
+     "facility": "Radboudumc",
+     "geoPoint": {
+      "lat": 51.8425,
+      "lon": 5.85278
+     },
+     "zip": "6525 GA"
+    },
+    {
+     "city": "Zwolle",
+     "country": "Netherlands",
+     "facility": "Brain Research Center Zwolle B.V.",
+     "geoPoint": {
+      "lat": 52.5125,
+      "lon": 6.09444
+     },
+     "zip": "8025 AZ"
+    },
+    {
+     "city": "O\u015bwi\u0119cim",
+     "country": "Poland",
+     "facility": "Instytut Zdrowia dr Boczarska-Jedynak sp.z.o.o, Sp.K",
+     "geoPoint": {
+      "lat": 50.03437,
+      "lon": 19.21037
+     },
+     "state": "Katowice",
+     "zip": "32-600"
+    },
+    {
+     "city": "Warsaw",
+     "country": "Poland",
+     "facility": "NeuroProtect Sp. z o.o.",
+     "geoPoint": {
+      "lat": 52.22977,
+      "lon": 21.01178
+     },
+     "state": "Masovian Voivodeship",
+     "zip": "01-684"
+    },
+    {
+     "city": "Bydgoszcz",
+     "country": "Poland",
+     "facility": "Centrum Medyczne Neuromed",
+     "geoPoint": {
+      "lat": 53.1235,
+      "lon": 18.00762
+     },
+     "zip": "85-163"
+    },
+    {
+     "city": "Katowice",
+     "country": "Poland",
+     "facility": "Nzoz Novo-Med",
+     "geoPoint": {
+      "lat": 50.2597,
+      "lon": 19.02173
+     },
+     "zip": "40-650"
+    },
+    {
+     "city": "Warsaw",
+     "country": "Poland",
+     "facility": "INSULA Centrum Badan Klinicznych",
+     "geoPoint": {
+      "lat": 52.22977,
+      "lon": 21.01178
+     },
+     "zip": "02-699"
+    },
+    {
+     "city": "Warsaw",
+     "country": "Poland",
+     "facility": "MD Clinic Praga",
+     "geoPoint": {
+      "lat": 52.22977,
+      "lon": 21.01178
+     },
+     "zip": "03-505"
+    },
+    {
+     "city": "Sant Cugat del Vall\u00e8s",
+     "country": "Spain",
+     "facility": "Hospital General de Catalunya",
+     "geoPoint": {
+      "lat": 41.47063,
+      "lon": 2.08611
+     },
+     "state": "Barcelona",
+     "zip": "'08190"
+    },
+    {
+     "city": "Pamplona",
+     "country": "Spain",
+     "facility": "Clinica Universidad de Navarra",
+     "geoPoint": {
+      "lat": 42.81687,
+      "lon": -1.64323
+     },
+     "state": "Navarre",
+     "zip": "31008"
+    },
+    {
+     "city": "Santanda",
+     "country": "Spain",
+     "facility": "Hospital Universitario Marques",
+     "state": "Santanda",
+     "zip": "38003"
+    },
+    {
+     "city": "A Coru\u00f1a",
+     "country": "Spain",
+     "facility": "Complejo Hospitalario Universitario A Coru\u00f1a",
+     "geoPoint": {
+      "lat": 43.37135,
+      "lon": -8.396
+     },
+     "zip": "15006"
+    },
+    {
+     "city": "Barakaldo",
+     "country": "Spain",
+     "facility": "Hospital de Cruces",
+     "geoPoint": {
+      "lat": 43.29639,
+      "lon": -2.98813
+     },
+     "zip": "48903"
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Universitari Vall d'Hebron",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     },
+     "zip": "08035"
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital de la Santa Creu i Sant Pau",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     },
+     "zip": "08041"
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Clinic de Barcelona",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     },
+     "zip": "8036"
+    },
+    {
+     "city": "Donostia / San Sebastian",
+     "country": "Spain",
+     "facility": "Policlinica Gipuzkoa",
+     "geoPoint": {
+      "lat": 43.31283,
+      "lon": -1.97499
+     },
+     "zip": "20014"
+    },
+    {
+     "city": "Madrid",
+     "country": "Spain",
+     "facility": "Hospital Universitario de La Princesa",
+     "geoPoint": {
+      "lat": 40.4165,
+      "lon": -3.70256
+     },
+     "zip": "28006"
+    },
+    {
+     "city": "Seville",
+     "country": "Spain",
+     "facility": "Hospital Universitario Virgen del Rocio",
+     "geoPoint": {
+      "lat": 37.38283,
+      "lon": -5.97317
+     },
+     "zip": "41013"
+    },
+    {
+     "city": "Plymouth",
+     "country": "United Kingdom",
+     "facility": "University Hospitals Plymouth",
+     "geoPoint": {
+      "lat": 50.37153,
+      "lon": -4.14305
+     },
+     "state": "Devon",
+     "zip": "PL6 8DH"
+    },
+    {
+     "city": "London",
+     "country": "United Kingdom",
+     "facility": "Re:Cognition Health Ltd (London)",
+     "geoPoint": {
+      "lat": 51.50853,
+      "lon": -0.12574
+     },
+     "state": "Greater London",
+     "zip": "W1G 9RU"
+    },
+    {
+     "city": "London",
+     "country": "United Kingdom",
+     "facility": "Charing Cross Hospital",
+     "geoPoint": {
+      "lat": 51.50853,
+      "lon": -0.12574
+     },
+     "state": "Greater London",
+     "zip": "W6 8RF"
+    },
+    {
+     "city": "London",
+     "country": "United Kingdom",
+     "facility": "The National Hospital for Neurology & Neurosurgery",
+     "geoPoint": {
+      "lat": 51.50853,
+      "lon": -0.12574
+     },
+     "state": "Greater London",
+     "zip": "WC1N 3BG"
+    },
+    {
+     "city": "Salford",
+     "country": "United Kingdom",
+     "facility": "Salford Royal NHS Foundation Trust",
+     "geoPoint": {
+      "lat": 53.48771,
+      "lon": -2.29042
+     },
+     "state": "Greater Manchester",
+     "zip": "M6 8HD"
+    },
+    {
+     "city": "Motherwell",
+     "country": "United Kingdom",
+     "facility": "NeuroClin Limited",
+     "geoPoint": {
+      "lat": 55.78924,
+      "lon": -3.99187
+     },
+     "state": "Strathclyde",
+     "zip": "ML1 4UF"
+    },
+    {
+     "city": "Newcastle upon Tyne",
+     "country": "United Kingdom",
+     "facility": "Newcastle University",
+     "geoPoint": {
+      "lat": 54.97328,
+      "lon": -1.61396
+     },
+     "state": "Tyne and Wear",
+     "zip": "NE4 5PL"
+    },
+    {
+     "city": "Birmingham",
+     "country": "United Kingdom",
+     "facility": "Re:Cognition Health - Birmingham",
+     "geoPoint": {
+      "lat": 52.48142,
+      "lon": -1.89983
+     },
+     "state": "West Midlands",
+     "zip": "B16 8LT"
+    },
+    {
+     "city": "Dundee",
+     "country": "United Kingdom",
+     "facility": "Ninewells Hospital",
+     "geoPoint": {
+      "lat": 56.46913,
+      "lon": -2.97489
+     },
+     "zip": "DD1 9SY"
+    }
+   ],
+   "overallOfficials": [
+    {
+     "affiliation": "Biogen",
+     "name": "Medical Director",
+     "role": "STUDY_DIRECTOR"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "In this study, researchers will learn more about BIIB122 in participants with early-stage Parkinson's disease (PD). The study will include adults aged 30 to 80 who were diagnosed with PD within 2 years of starting the study.\n\nThe main objective of the study is to learn about the effect BIIB122 has on slowing down the worsening of PD symptoms. The main question researchers want to answer is:\n\n\\- How long does it take for PD symptoms to worsen during BIIB122 treatment?\n\nResearchers will answer this and other questions by measuring the symptoms of PD over time using a variety of scoring tools. These include the Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) and the modified Schwab and England Activities of Daily Living Scale (mSE-ADL).\n\nThe MDS-UPDRS is used to measure symptoms of PD. It has 4 parts: Part I, II, III, and IV. Each part measures different aspects of motor and non-motor symptoms. The mSE-ADL measures a participant's ability to perform daily activities or personal chores.\n\nResearchers will also learn more about the safety of BIIB122. They will check participants for adverse events. Adverse events are unwanted health problems that may or may not be caused by the study drug.\n\nThe study will be done as follows:\n\n* Participants will be randomly assigned to take either BIIBB122 or placebo. A placebo looks like the study drug but contains no real medicine.\n* Neither the researchers nor the participants will know if the participants are receiving BIIB122 or placebo.\n* Participants will take BIIB122 or placebo tablets by mouth once a day.\n* The treatment period for each participant will last between 48 and 144 weeks.\n* There will be a safety follow-up period for 2 weeks after the last dose of BIIB122.\n* In total, participants will have up to 29 study visits.\n* Participants will stay in the study for at least 1 year, up to about 3 years.",
+   "detailedDescription": "BIIB122 is an investigational central nervous system-penetrant small molecule inhibitor of leucine-rich repeat kinase 2 (LRRK2). Participants who completed the early termination (ET) visit of the study 283PD302 (NCT05418673) would be eligible for screening of this study and if enrolled, these participants are not eligible for the sub studies of 283PD201."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "maskingInfo": {
+     "masking": "QUADRUPLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 650,
+    "type": "ACTUAL"
+   },
+   "phases": [
+    "PHASE2"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Clinical diagnosis of PD meeting the Movement Disorder Society Clinical Diagnostic Criteria within 2 years of the Screening Visit, inclusive, and at least 30 years of age at the time of diagnosis\n* Modified Hoehn and Yahr scale stages 1 to 2 (in OFF state), inclusive, at screening\n* MDS-UPDRS Parts II and III (in OFF state) combined score less than or equal to (\u2264)50 at screening\n\nKey Exclusion Criteria:\n\n* Clinically significant neurological disorder other than PD, including but not limited to stroke, dementia, or seizure, within 5 years of screening visit, in the opinion of the Investigator\n* Clinical evidence of atypical parkinsonism (e.g., multiple-system atrophy or progressive supranuclear palsy) or evidence of drug-induced parkinsonism.\n* Montreal Cognitive Assessment (MoCA) score \\<24 at the screening visit.\n\nNOTE: Other protocol-defined Inclusion/Exclusion criteria may apply.",
+   "healthyVolunteers": false,
+   "maximumAge": "80 Years",
+   "minimumAge": "30 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "LUMA",
+   "briefTitle": "A Study to Learn About the Safety of BIIB122 Tablets and Whether They Can Slow the Worsening of Early-Stage Parkinson's Disease in Adults Between the Ages of 30 and 80",
+   "nctId": "NCT05348785",
+   "officialTitle": "A Phase 2b, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Determine the Efficacy and Safety of BIIB122 in Participants With Parkinson's Disease",
+   "orgStudyIdInfo": {
+    "id": "283PD201"
+   },
+   "organization": {
+    "class": "INDUSTRY",
+    "fullName": "Biogen"
+   },
+   "secondaryIdInfos": [
+    {
+     "domain": "EU CT Number",
+     "id": "2023-505645-12",
+     "type": "OTHER"
+    },
+    {
+     "id": "2023",
+     "link": "https://reporter.nih.gov/quickSearch/2023",
+     "type": "NIH"
+    }
+   ]
+  },
+  "ipdSharingStatementModule": {
+   "description": "In accordance with Biogen's Clinical Trial Transparency and Data Sharing Policy on https://www.biogentrialtransparency.com/",
+   "ipdSharing": "YES",
+   "url": "https://vivli.org/"
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (Range 0-52). It contains 13 questions which are to be completed by the participant. Part III assesses the motor signs of PD and is administered by the rater (Range 0-132). Part III contains 33 scores based on 18 items. For each question a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS Part II and III combined score equals the sum of Parts II and III (Range 0-184). A higher score indicates more severe symptoms of PD.",
+     "measure": "Time to Confirmed Worsening in Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Parts II and III Combined Score Over the Treatment Period",
+     "timeFrame": "Up to Week 144"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "description": "An AE is any untoward medical occurrence in a participant or clinical investigation participant administered a pharmaceutical product and that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product. An SAE is any untoward medical occurrence that at any dose results in death; in the view of the investigator, places the participant at immediate risk of death (a life-threatening event); requires inpatient hospitalization or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; results in a congenital anomaly/birth defect or is a medically important event.",
+     "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+     "timeFrame": "Up to Week 144"
+    },
+    {
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (Range 0-52). It contains 13 questions which are to be completed by the participant. For each question a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. A higher score indicates more severe symptoms of PD.",
+     "measure": "Time to Confirmed Worsening in MDS-UPDRS Part II Score Over the Treatment Period",
+     "timeFrame": "Up to a minimum of 48 weeks and a maximum of 144 weeks"
+    },
+    {
+     "description": "MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (Range 0-52). It contains 13 questions which are to be completed by the participant. For each question a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. A higher score indicates more severe symptoms of PD. Part III assesses the motor signs of PD and is administered by the rater (Range 0-132). Part III contains 33 scores based on 18 items. For each question a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS Parts II and III combined score equals the sum of Part II and III (Range 0-184). A higher score indicates more severe symptoms of PD.",
+     "measure": "Change From Baseline in MDS-UPDRS Parts II and III Combined Score",
+     "timeFrame": "From Baseline up to Week 48"
+    },
+    {
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. The mSE-ADL scale reflects the speed, ease, and independence with which an individual performs daily activities or personal chores with 100% indicating total independence, falling to 0%, which indicates a state of complete dependence. The individual is asked to rate his or her function using an 11-point scale (10% increments), from 100% (completely independent; able to do all chores without slowness, difficulty, or impairment; essentially normal; unaware of any difficulty) to 0% (vegetative functions such as swallowing, bladder and bowels are not functioning; bedridden). The lower the score, the worse the functional status.",
+     "measure": "Time to Confirmed Worsening in Modified Schwab and England Activities of Daily Living Scale (mSE-ADL) Over the Treatment Period",
+     "timeFrame": "Up to a minimum of 48 weeks and a maximum of 144 weeks"
+    },
+    {
+     "description": "MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part I assesses non-motor experiences of daily living and has 2 components (Range 0-52). Part IA contains 6 questions and is assessed by the examiner (Range 0-24). Part IB contains 7 questions on non-motor experiences of daily living which are to be completed by the participant (Range 0-28). Part II assesses motor experiences of daily living (Range 0-52). It contains 13 questions which are to be completed by the participant. Part III assesses the motor signs of PD and is administered by the rater (Range 0-132). Part III contains 33 scores based on 18 items. For each question a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS total score equals the sum of Parts I, II, and III (Range 0-236). A higher score indicates more severe symptoms of PD.",
+     "measure": "Change From Baseline in MDS-UPDRS Parts I, II, and III Combined Score",
+     "timeFrame": "From Baseline up to Week 48"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": true,
+   "oversightHasDmc": true
+  },
+  "referencesModule": {
+   "references": [
+    {
+     "citation": "Joshi D, Kulkarni M, Parekh P, Shah S, Greig NH, Acharya S. Targeting protein kinases in Parkinson's disease: the emerging role of phytoconstituents. Nutr Neurosci. 2025 Dec;28(12):1532-1563. doi: 10.1080/1028415X.2025.2531356. Epub 2025 Jul 18.",
+     "pmid": "40680102",
+     "type": "DERIVED"
+    }
+   ]
+  },
+  "sponsorCollaboratorsModule": {
+   "collaborators": [
+    {
+     "class": "INDUSTRY",
+     "name": "Denali Therapeutics Inc."
+    }
+   ],
+   "leadSponsor": {
+    "class": "INDUSTRY",
+    "name": "Biogen"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2026-03-09",
+    "type": "ACTUAL"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2026-06-04",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2026-06-03",
+   "overallStatus": "COMPLETED",
+   "primaryCompletionDateStruct": {
+    "date": "2026-03-09",
+    "type": "ACTUAL"
+   },
+   "startDateStruct": {
+    "date": "2022-04-19",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2026-06",
+   "studyFirstPostDateStruct": {
+    "date": "2022-04-27",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2022-04-04",
+   "studyFirstSubmitQcDate": "2022-04-26"
+  }
+ }
+}

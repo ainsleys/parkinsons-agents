@@ -2,6 +2,13 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-19 (later)
+
+- Added `scripts/pull_registry.py`: pulls every NCT ID in `data/trials.yaml` from the ClinicalTrials.gov v2 API into `data/registry/` (raw JSON, one file per trial) and prints a reviewable summary. Deterministic, no LLM.
+- Populated structured eligibility for all trials in `data/trials.yaml` from the registry: ages, disease duration, stage, medication state, genetic requirement, key exclusions, enrollment target, primary completion, registry last-updated date.
+- Corrections found by the pull: LUMA is NCT05348785 (the record previously cited, NCT05418673, is LIGHTHOUSE, a terminated phase 3 in LRRK2 carriers). PARAISO lists 192 sites, not 231. BHV-8000 requires participants to be **untreated** and non-smokers, ages 40 to 80, onset within 2 years. ASPro-PD is ages 35 to 75, within 7 years of diagnosis, and excludes LRRK2 G2019S carriers. GREAT enrolls GBA1 carriers only; its ClinicalTrials.gov record is stale and the EU registry shows it recruiting since September 2024.
+- `guide/on-ramps.md` updated to match.
+
 ## 2026-10-19
 
 - Initial public release.

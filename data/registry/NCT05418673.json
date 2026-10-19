@@ -1,0 +1,1176 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "interventionBrowseModule": {
+   "meshes": [
+    {
+     "id": "C000730636",
+     "term": "DNL151"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "submissionTracking": {
+    "firstMcpInfo": {
+     "postDateStruct": {
+      "date": "2024-03-26",
+      "type": "ACTUAL"
+     }
+    }
+   },
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "documentSection": {
+  "largeDocumentModule": {
+   "largeDocs": [
+    {
+     "date": "2023-04-09",
+     "filename": "Prot_SAP_000.pdf",
+     "hasIcf": false,
+     "hasProtocol": true,
+     "hasSap": true,
+     "label": "Study Protocol and Statistical Analysis Plan",
+     "size": 30449672,
+     "typeAbbrev": "Prot_SAP",
+     "uploadDate": "2024-02-27T09:09"
+    }
+   ]
+  }
+ },
+ "hasResults": true,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Participants will receive 225 mg of BIIB122 tablets, orally, once daily (QD) for up to 180 weeks.",
+     "interventionNames": [
+      "Drug: BIIB122"
+     ],
+     "label": "BIIB122 225 mg",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Participants will receive BIIB122-matching placebo tablets, orally, QD for up to 180 weeks.",
+     "interventionNames": [
+      "Drug: BIIB122-Matching Placebo"
+     ],
+     "label": "BIIB122-Matching Placebo",
+     "type": "PLACEBO_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "BIIB122 225 mg"
+     ],
+     "description": "Administered as specified in the treatment arm.",
+     "name": "BIIB122",
+     "otherNames": [
+      "DNL151"
+     ],
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "BIIB122-Matching Placebo"
+     ],
+     "description": "Administered as specified in the treatment arm.",
+     "name": "BIIB122-Matching Placebo",
+     "type": "DRUG"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson Disease"
+   ]
+  },
+  "contactsLocationsModule": {
+   "locations": [
+    {
+     "city": "San Francisco",
+     "country": "United States",
+     "facility": "University of California San Francisco (UCSF)",
+     "geoPoint": {
+      "lat": 37.77493,
+      "lon": -122.41942
+     },
+     "state": "California",
+     "zip": "94143"
+    },
+    {
+     "city": "Aurora",
+     "country": "United States",
+     "facility": "University of Colorado",
+     "geoPoint": {
+      "lat": 39.72943,
+      "lon": -104.83192
+     },
+     "state": "Colorado",
+     "zip": "80045"
+    },
+    {
+     "city": "Englewood",
+     "country": "United States",
+     "facility": "Rocky Mountain Movement Disorders Center, PC",
+     "geoPoint": {
+      "lat": 39.64777,
+      "lon": -104.98776
+     },
+     "state": "Colorado",
+     "zip": "80113"
+    },
+    {
+     "city": "Boca Raton",
+     "country": "United States",
+     "facility": "Parkinson's Disease and Movement Disorders Center",
+     "geoPoint": {
+      "lat": 26.35869,
+      "lon": -80.0831
+     },
+     "state": "Florida",
+     "zip": "33486"
+    },
+    {
+     "city": "Tampa",
+     "country": "United States",
+     "facility": "USF Health Byrd Institute",
+     "geoPoint": {
+      "lat": 27.94752,
+      "lon": -82.45843
+     },
+     "state": "Florida",
+     "zip": "33613"
+    },
+    {
+     "city": "Kansas City",
+     "country": "United States",
+     "facility": "University of Kansas Medical Center Research Institute, Inc.",
+     "geoPoint": {
+      "lat": 39.11417,
+      "lon": -94.62746
+     },
+     "state": "Kansas",
+     "zip": "66160"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Massachusetts General Hospital",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "zip": "02114"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Mount Sinai Beth Israel",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "zip": "10003"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Weill Medical College of Cornell University",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "zip": "10021"
+    },
+    {
+     "city": "Philadelphia",
+     "country": "United States",
+     "facility": "Pennsylvania Hospital",
+     "geoPoint": {
+      "lat": 39.95238,
+      "lon": -75.16362
+     },
+     "state": "Pennsylvania",
+     "zip": "19107"
+    },
+    {
+     "city": "Kirkland",
+     "country": "United States",
+     "facility": "Evergreen Hospital Medical Center",
+     "geoPoint": {
+      "lat": 47.68149,
+      "lon": -122.20874
+     },
+     "state": "Washington",
+     "zip": "98034"
+    },
+    {
+     "city": "Spokane",
+     "country": "United States",
+     "facility": "Inland Northwest Research",
+     "geoPoint": {
+      "lat": 47.65966,
+      "lon": -117.42908
+     },
+     "state": "Washington",
+     "zip": "99202"
+    },
+    {
+     "city": "Marseille",
+     "country": "France",
+     "facility": "H\u00f4pital de la Timone",
+     "geoPoint": {
+      "lat": 43.29695,
+      "lon": 5.38107
+     },
+     "state": "Bouches-du-Rh\u00f4ne",
+     "zip": "13385"
+    },
+    {
+     "city": "Toulouse",
+     "country": "France",
+     "facility": "Hopital Purpan",
+     "geoPoint": {
+      "lat": 43.60426,
+      "lon": 1.44367
+     },
+     "state": "Haute Garonne",
+     "zip": "31059"
+    },
+    {
+     "city": "Rennes",
+     "country": "France",
+     "facility": "CHU Rennes - Hopital Pontchaillou",
+     "geoPoint": {
+      "lat": 48.11109,
+      "lon": -1.67431
+     },
+     "state": "Ille Et Vilaine",
+     "zip": "35033"
+    },
+    {
+     "city": "Bron",
+     "country": "France",
+     "facility": "Centre Hospitalier Universitaire de Lyon-Hospices Civils de Lyon-Hopital Pierre Wertheimer",
+     "geoPoint": {
+      "lat": 45.73865,
+      "lon": 4.91303
+     },
+     "state": "Rhone",
+     "zip": "69500"
+    },
+    {
+     "city": "Paris",
+     "country": "France",
+     "facility": "Groupe Hospitalier Pitie-Salpetriere",
+     "geoPoint": {
+      "lat": 48.85341,
+      "lon": 2.3488
+     },
+     "zip": "75013"
+    },
+    {
+     "city": "T\u00fcbingen",
+     "country": "Germany",
+     "facility": "Universitaetsklinikum Tuebingen",
+     "geoPoint": {
+      "lat": 48.52266,
+      "lon": 9.05222
+     },
+     "state": "Baden-Wurttemberg",
+     "zip": "72076"
+    },
+    {
+     "city": "Dresden",
+     "country": "Germany",
+     "facility": "Universitaetsklinikum Carl Gustav Carus TU Dresden",
+     "geoPoint": {
+      "lat": 51.05089,
+      "lon": 13.73832
+     },
+     "zip": "1307"
+    },
+    {
+     "city": "Milan",
+     "country": "Italy",
+     "facility": "Fondazione IRCCS Istituto Neurologico Carlo Besta",
+     "geoPoint": {
+      "lat": 42.78235,
+      "lon": 12.59836
+     },
+     "zip": "20133"
+    },
+    {
+     "city": "Sant Cugat del Vall\u00e8s",
+     "country": "Spain",
+     "facility": "Hospital General de Catalunya",
+     "geoPoint": {
+      "lat": 41.47063,
+      "lon": 2.08611
+     },
+     "state": "Barcelona",
+     "zip": "8190"
+    },
+    {
+     "city": "Santander",
+     "country": "Spain",
+     "facility": "Hospital Universitario Marques de Valdecilla",
+     "geoPoint": {
+      "lat": 43.46589,
+      "lon": -3.80493
+     },
+     "state": "Cantabria",
+     "zip": "38003"
+    },
+    {
+     "city": "Donostia / San Sebastian",
+     "country": "Spain",
+     "facility": "Hospital Universitario Donostia",
+     "geoPoint": {
+      "lat": 43.31283,
+      "lon": -1.97499
+     },
+     "state": "Guipuzcoa",
+     "zip": "20014"
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Universitari Vall d'Hebron",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     },
+     "zip": "8035"
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Clinic de Barcelona",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     },
+     "zip": "8036"
+    },
+    {
+     "city": "Seville",
+     "country": "Spain",
+     "facility": "Hospital Universitario Virgen del Rocio",
+     "geoPoint": {
+      "lat": 37.38283,
+      "lon": -5.97317
+     },
+     "zip": "41013"
+    },
+    {
+     "city": "Dundee",
+     "country": "United Kingdom",
+     "facility": "Ninewells Hospital",
+     "geoPoint": {
+      "lat": 56.46913,
+      "lon": -2.97489
+     },
+     "state": "Tayside Region",
+     "zip": "DD1 9SY"
+    }
+   ],
+   "overallOfficials": [
+    {
+     "affiliation": "Biogen",
+     "name": "Medical Director",
+     "role": "STUDY_DIRECTOR"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "In this study, researchers will learn more about a study drug called BIIB122 in participants with early-stage Parkinson's disease (PD). The study will focus on participants with a specific genetic variant in their LRRK2 gene.\n\nThe main question researchers are trying to answer is if taking BIIB122 slows the worsening of PD more than placebo in the early stages of PD.\n\nTo help answer this question, researchers will use a questionnaire called the Movement Disorder Society-Unified Parkinson's Disease Rating Scale, also known as the MDS-UPDRS.\n\n* The MDS-UPDRS measures impairment and disability in people living with PD. It was created in the 1980s and is one of the most used rating scales for PD symptoms.\n* The MDS-UPDRS has 4 parts, and a higher score means more severe PD symptoms.\n* Part I assesses non-motor experiences of daily living, including but not limited to memory loss, problems sleeping, pain, depression, and anxiety.\n* Part II measures motor experiences of daily living.\n* Part III is the results of a motor symptoms exam by a medical professional.\n* Part IV records PD complications caused by motor symptoms.\n\nResearchers will also learn more about the safety of BIIB122.\n\nA description of how the study will be done is given below.\n\n* Participants will take BIIB122 or a placebo as tablets by mouth. A placebo looks like the study drug but contains no real medicine.\n* Participants will be in the study for 103 weeks to 187 weeks. This includes the screening and follow-up periods.\n* Participants will take BIIB122 or placebo 1 time a day for 96 to 180 weeks.\n* Participants can continue to take certain medications for PD. Participants must be on the same dose of medication for at least 90 days before the study begins.\n* Participants will visit the clinic less often as the study continues, ranging every 4 weeks to every 24 weeks.",
+   "detailedDescription": "BIIB122 is an investigational central nervous system-penetrant small molecule inhibitor of LRRK2 kinase"
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "maskingInfo": {
+     "masking": "QUADRUPLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 7,
+    "type": "ACTUAL"
+   },
+   "phases": [
+    "PHASE3"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Clinical diagnosis of PD meeting the Movement Disorder Society Clinical Diagnostic Criteria within 5 years of the Screening Visit, inclusive, and at least 30 years of age at the time of diagnosis\n* Modified Hoehn and Yahr scale (mHY), Stages 1 to 2.5 (in OFF state), inclusive, at Screening\n* MDS-UPDRS Parts II and III (in OFF state) combined score \u226440 at Screening\n* Screening genetic test results verifying the presence of a pathogenic leucine-rich repeat kinase 2 (LRRK2) variant\n\nKey Exclusion Criteria:\n\n* Clinically significant neurologic disorder other than PD, including, but not limited to, stroke, dementia, or seizure within 5 years of Screening Visit, in the opinion of the Investigator\n* Clinical evidence of atypical parkinsonism (e.g., multiple-system atrophy or progressive supranuclear palsy) or evidence of drug-induced parkinsonism\n\nNOTE: Other protocol defined Inclusion/Exclusion criteria may apply.",
+   "healthyVolunteers": false,
+   "maximumAge": "80 Years",
+   "minimumAge": "30 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "LIGHTHOUSE",
+   "briefTitle": "A Study to Assess if BIIB122 Tablets Are Safe and Can Slow Worsening of Early-Stage Parkinson's Disease in Participants With Specific LRRK2 Genetic Variants Between the Ages of 30 and 80 Using the Movement Disorder Society-Unified Parkinson's Disease Rating Scale",
+   "nctId": "NCT05418673",
+   "officialTitle": "A Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Determine the Efficacy and Safety of BIIB122/DNL151 in Participants With Parkinson's Disease and Pathogenic LRRK2 Variants",
+   "orgStudyIdInfo": {
+    "id": "283PD302"
+   },
+   "organization": {
+    "class": "INDUSTRY",
+    "fullName": "Biogen"
+   },
+   "secondaryIdInfos": [
+    {
+     "id": "2022-000747-77",
+     "type": "EUDRACT_NUMBER"
+    }
+   ]
+  },
+  "ipdSharingStatementModule": {
+   "description": "In accordance with Biogen's Clinical Trial Transparency and Data Sharing Policy on https://www.biogentrialtransparency.com/",
+   "ipdSharing": "YES",
+   "url": "https://vivli.org/"
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (range 0-52). It contains 13 questions which are to be completed by the participant. Part III assesses the motor signs of PD and is administered by the rater (range 0-132). Part III contains 33 scores based on 18 items. For each question, a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS Part II and III combined score equals the sum of Parts II and III (range 0-184). A higher score indicates more severe symptoms of Parkinson's disease (PD).",
+     "measure": "Time to Confirmed Worsening in Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Parts II and III",
+     "timeFrame": "From Week 96 to Week 180"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "description": "An adverse event (AE) is any untoward medical occurrence in a participant or clinical investigation participant administered a pharmaceutical product and that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product. An SAE is any untoward medical occurrence that at any dose results in death; in the view of the investigator, places the participant at immediate risk of death (a life-threatening event); requires inpatient hospitalization or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; results in a congenital anomaly/birth defect or is a medically important event.",
+     "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+     "timeFrame": "From the first dose (Day 1) of the study drug up to the end of follow-up (up to 336 days)"
+    },
+    {
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (range 0-52). It contains 13 questions which are to be completed by the participant. For each question, a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS Part II score ranges from 0-52. A higher score indicates more severe symptoms of PD.",
+     "measure": "Time to Confirmed Worsening in MDS-UPDRS Part II Score",
+     "timeFrame": "From Week 96 to Week 180"
+    },
+    {
+     "description": "MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (range 0-52). It contains 13 questions which are to be completed by the participant. Part III assesses the motor signs of PD and is administered by the rater (range 0-132). Part III contains 33 scores based on 18 items. For each question, a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS Part II and III combined score equals the sum of Parts II and III (range 0-184). A higher score indicates more severe symptoms of PD.",
+     "measure": "Change From Baseline in MDS-UPDRS Parts II and III Combined Score at Week 96",
+     "timeFrame": "Baseline, Week 96"
+    },
+    {
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. The mSE-ADL scale reflects the speed, ease, and independence with which an individual performs daily activities or personal chores with 100% indicating total independence, falling to 0%, which indicates a state of complete dependence. The individual is asked to rate his or her function using an 11-point scale (10% increments), from 100% (completely independent; able to do all chores without slowness, difficulty, or impairment; essentially normal; unaware of any difficulty) to 0% (vegetative functions such as swallowing, bladder and bowels are not functioning; bedridden). The lower the score, the worse the functional status.",
+     "measure": "Time to Confirmed Worsening in Modified Schwab and England Activities of Daily Living Scale (mSE-ADL) Score",
+     "timeFrame": "From Week 96 to Week 180"
+    },
+    {
+     "description": "The MDS-UPDRS is a multimodal scale consisting of four parts. Part I assessed non-motor experiences of daily living and has 2 components (Range 0-52). Part IA contains 6 questions and are assessed by the examiner (Range 0-24). Part IB contains 7 questions on non-motor experiences of daily living which was completed by the participant (Range 0-28). Part II assessed motor experiences of daily living (Range 0-52). It contained 13 questions completed by the participant. Part III assessed the motor signs of PD and was administered by the rater (Range 0-132). Part III contained 33 scores based on 18 items. For each question a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. The MDS-UPDRS Total Score equals the sum of Parts I,II, and III (Range: 0-236). A higher score indicated more severe symptoms of PD.",
+     "measure": "Change From Baseline in MDS-UPDRS Parts I, II, and III Combined Score at Week 96",
+     "timeFrame": "Baseline, Week 96"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": true,
+   "oversightHasDmc": true
+  },
+  "sponsorCollaboratorsModule": {
+   "collaborators": [
+    {
+     "class": "INDUSTRY",
+     "name": "Denali Therapeutics Inc."
+    }
+   ],
+   "leadSponsor": {
+    "class": "INDUSTRY",
+    "name": "Biogen"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2023-07-27",
+    "type": "ACTUAL"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2024-06-26",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2024-05-31",
+   "overallStatus": "TERMINATED",
+   "primaryCompletionDateStruct": {
+    "date": "2023-07-27",
+    "type": "ACTUAL"
+   },
+   "resultsFirstPostDateStruct": {
+    "date": "2024-06-26",
+    "type": "ACTUAL"
+   },
+   "resultsFirstSubmitDate": "2024-02-27",
+   "resultsFirstSubmitQcDate": "2024-05-31",
+   "startDateStruct": {
+    "date": "2022-08-26",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2024-05",
+   "studyFirstPostDateStruct": {
+    "date": "2022-06-14",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2022-06-10",
+   "studyFirstSubmitQcDate": "2022-06-10",
+   "whyStopped": "Sponsor Decision"
+  }
+ },
+ "resultsSection": {
+  "adverseEventsModule": {
+   "description": "Safety analysis set included all the randomized participants who had received at least 1 dose of study treatment. Since a low number of participants were enrolled in the study and some of the participants have been rolled over to the 283PD201 (NCT05348785), the data was reported as a pooled group and preferred terms are reported as system organ class to avoid the identification of individual participants and to maintain the blinding.",
+   "eventGroups": [
+    {
+     "deathsNumAffected": 0,
+     "deathsNumAtRisk": 7,
+     "description": "Participants either received BIIB122 225 mg or BIIB122-matching placebo tablets, orally, QD for up to 290 days.",
+     "id": "EG000",
+     "otherNumAffected": 5,
+     "otherNumAtRisk": 7,
+     "seriousNumAffected": 0,
+     "seriousNumAtRisk": 7,
+     "title": "BIIB 122 or Matching-placebo (Pooled)"
+    }
+   ],
+   "frequencyThreshold": "0",
+   "otherEvents": [
+    {
+     "assessmentType": "SYSTEMATIC_ASSESSMENT",
+     "organSystem": "Ear and labyrinth disorders",
+     "sourceVocabulary": "MedDRA 26",
+     "stats": [
+      {
+       "groupId": "EG000",
+       "numAffected": 1,
+       "numAtRisk": 7
+      }
+     ],
+     "term": "Ear and Labyrinth Disorders"
+    },
+    {
+     "assessmentType": "SYSTEMATIC_ASSESSMENT",
+     "organSystem": "Infections and infestations",
+     "sourceVocabulary": "MedDRA 26",
+     "stats": [
+      {
+       "groupId": "EG000",
+       "numAffected": 1,
+       "numAtRisk": 7
+      }
+     ],
+     "term": "Infections and Infestations"
+    },
+    {
+     "assessmentType": "SYSTEMATIC_ASSESSMENT",
+     "organSystem": "Injury, poisoning and procedural complications",
+     "sourceVocabulary": "MedDRA 26",
+     "stats": [
+      {
+       "groupId": "EG000",
+       "numAffected": 2,
+       "numAtRisk": 7
+      }
+     ],
+     "term": "Injury, Poisoning and Procedural Complications"
+    },
+    {
+     "assessmentType": "SYSTEMATIC_ASSESSMENT",
+     "organSystem": "Musculoskeletal and connective tissue disorders",
+     "sourceVocabulary": "MedDRA 26",
+     "stats": [
+      {
+       "groupId": "EG000",
+       "numAffected": 1,
+       "numAtRisk": 7
+      }
+     ],
+     "term": "Musculoskeletal and Connective Tissue Disorders"
+    },
+    {
+     "assessmentType": "SYSTEMATIC_ASSESSMENT",
+     "organSystem": "Nervous system disorders",
+     "sourceVocabulary": "MedDRA 26",
+     "stats": [
+      {
+       "groupId": "EG000",
+       "numAffected": 1,
+       "numAtRisk": 7
+      }
+     ],
+     "term": "Nervous System Disorders"
+    },
+    {
+     "assessmentType": "SYSTEMATIC_ASSESSMENT",
+     "organSystem": "Psychiatric disorders",
+     "sourceVocabulary": "MedDRA 26",
+     "stats": [
+      {
+       "groupId": "EG000",
+       "numAffected": 1,
+       "numAtRisk": 7
+      }
+     ],
+     "term": "Psychiatric Disorders"
+    },
+    {
+     "assessmentType": "SYSTEMATIC_ASSESSMENT",
+     "organSystem": "Skin and subcutaneous tissue disorders",
+     "sourceVocabulary": "MedDRA 26",
+     "stats": [
+      {
+       "groupId": "EG000",
+       "numAffected": 1,
+       "numAtRisk": 7
+      }
+     ],
+     "term": "Skin and Subcutaneous Tissue Disorders"
+    }
+   ],
+   "timeFrame": "From the first dose (Day 1) of the study drug up to the end of follow-up (up to 336 days)"
+  },
+  "baselineCharacteristicsModule": {
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "BG000",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "Participants either received BIIB122 225 mg or BIIB122-matching placebo tablets, orally, QD for up to 290 days.",
+     "id": "BG000",
+     "title": "BIIB 122 or Matching-placebo (Pooled)"
+    }
+   ],
+   "measures": [
+    {
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "BG000",
+           "spread": "10.7",
+           "value": "66.9"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "dispersionType": "STANDARD_DEVIATION",
+     "paramType": "MEAN",
+     "title": "Age, Continuous",
+     "unitOfMeasure": "years"
+    },
+    {
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "BG000",
+           "value": "2"
+          }
+         ],
+         "title": "Female"
+        },
+        {
+         "measurements": [
+          {
+           "groupId": "BG000",
+           "value": "5"
+          }
+         ],
+         "title": "Male"
+        }
+       ]
+      }
+     ],
+     "paramType": "COUNT_OF_PARTICIPANTS",
+     "title": "Sex: Female, Male",
+     "unitOfMeasure": "Participants"
+    },
+    {
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "BG000",
+           "value": "7"
+          }
+         ],
+         "title": "White"
+        }
+       ],
+       "title": "Race"
+      }
+     ],
+     "paramType": "COUNT_OF_PARTICIPANTS",
+     "title": "Race/Ethnicity, Customized",
+     "unitOfMeasure": "Participants"
+    },
+    {
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "BG000",
+           "value": "7"
+          }
+         ],
+         "title": "Not Hispanic or Latino"
+        }
+       ],
+       "title": "Ethnicity"
+      }
+     ],
+     "paramType": "COUNT_OF_PARTICIPANTS",
+     "title": "Race/Ethnicity, Customized",
+     "unitOfMeasure": "Participants"
+    }
+   ],
+   "populationDescription": "Full analysis set (FAS) included all randomized participants who had received at least 1 dose of study treatment. Since a low number of participants were enrolled in the study and some of the participants have been rolled over to the 283PD201 (NCT05348785), the data was reported as a pooled group to avoid the identification of individual participants and to maintain the blinding."
+  },
+  "moreInfoModule": {
+   "certainAgreement": {
+    "otherDetails": "Our agreement is subject to confidentiality but generally the PI can publish, for non-commercial purposes only, results and methods of the trial, but no other Sponsor Confidential Information. PI must give Sponsor no less than 60 days to review any manuscript for a proposed publication and must delay publication for up to an additional 90 days thereafter if Sponsor needs to file any patent application to protect any of Sponsor's intellectual property contained in the proposed publication.",
+    "piSponsorEmployee": false,
+    "restrictionType": "OTHER",
+    "restrictiveAgreement": true
+   },
+   "limitationsAndCaveats": {
+    "description": "Sponsor decided to stop study based on operational and strategic considerations and not for reasons related to efficacy/safety. Due to the early cessation of the study before participants reached the time window for efficacy assessments, efficacy analysis was not possible."
+   },
+   "pointOfContact": {
+    "email": "clinicaltrials@biogen.com",
+    "organization": "Biogen",
+    "phone": "866-633-4636",
+    "title": "US Biogen Clinical Trial Center"
+   }
+  },
+  "outcomeMeasuresModule": {
+   "outcomeMeasures": [
+    {
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (range 0-52). It contains 13 questions which are to be completed by the participant. Part III assesses the motor signs of PD and is administered by the rater (range 0-132). Part III contains 33 scores based on 18 items. For each question, a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS Part II and III combined score equals the sum of Parts II and III (range 0-184). A higher score indicates more severe symptoms of Parkinson's disease (PD).",
+     "groups": [
+      {
+       "description": "Participants received BIIB122-matching placebo tablets, orally, QD for up to 290 days.",
+       "id": "OG000",
+       "title": "Placebo"
+      },
+      {
+       "description": "Participants received BIIB122 225 mg tablets, orally, QD for up to 290 days.",
+       "id": "OG001",
+       "title": "BIIB122 225 mg"
+      }
+     ],
+     "populationDescription": "Based on the low enrolment number and to protect and maintain participant privacy/confidentiality, no data is reported, as only 1 participant completed post-baseline visit for clinical efficacy outcomes.",
+     "reportingStatus": "POSTED",
+     "timeFrame": "From Week 96 to Week 180",
+     "title": "Time to Confirmed Worsening in Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Parts II and III",
+     "type": "PRIMARY"
+    },
+    {
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "OG000",
+           "value": "2"
+          },
+          {
+           "groupId": "OG001",
+           "value": "3"
+          }
+         ]
+        }
+       ],
+       "title": "AEs"
+      },
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "OG000",
+           "value": "0"
+          },
+          {
+           "groupId": "OG001",
+           "value": "0"
+          }
+         ]
+        }
+       ],
+       "title": "SAEs"
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "description": "An adverse event (AE) is any untoward medical occurrence in a participant or clinical investigation participant administered a pharmaceutical product and that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product. An SAE is any untoward medical occurrence that at any dose results in death; in the view of the investigator, places the participant at immediate risk of death (a life-threatening event); requires inpatient hospitalization or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; results in a congenital anomaly/birth defect or is a medically important event.",
+     "groups": [
+      {
+       "description": "Participants received BIIB122-matching placebo tablets, orally, QD for up to 290 days.",
+       "id": "OG000",
+       "title": "Placebo"
+      },
+      {
+       "description": "Participants received BIIB122 225 mg tablets, orally, QD for up to 290 days.",
+       "id": "OG001",
+       "title": "BIIB122 225 mg"
+      }
+     ],
+     "paramType": "COUNT_OF_PARTICIPANTS",
+     "populationDescription": "Safety analysis set included all randomized participants who had received at least 1 dose of study treatment.",
+     "reportingStatus": "POSTED",
+     "timeFrame": "From the first dose (Day 1) of the study drug up to the end of follow-up (up to 336 days)",
+     "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+     "type": "SECONDARY",
+     "unitOfMeasure": "Participants"
+    },
+    {
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (range 0-52). It contains 13 questions which are to be completed by the participant. For each question, a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS Part II score ranges from 0-52. A higher score indicates more severe symptoms of PD.",
+     "groups": [
+      {
+       "description": "Participants received BIIB122-matching placebo tablets, orally, QD for up to 290 days.",
+       "id": "OG000",
+       "title": "Placebo"
+      },
+      {
+       "description": "Participants received BIIB122 225 mg tablets, orally, QD for up to 290 days.",
+       "id": "OG001",
+       "title": "BIIB122 225 mg"
+      }
+     ],
+     "populationDescription": "Based on the low enrolment number and to protect and maintain participant privacy/confidentiality, no data is reported, as only 1 participant completed post-baseline visit for clinical efficacy outcomes.",
+     "reportingStatus": "POSTED",
+     "timeFrame": "From Week 96 to Week 180",
+     "title": "Time to Confirmed Worsening in MDS-UPDRS Part II Score",
+     "type": "SECONDARY"
+    },
+    {
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "description": "MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (range 0-52). It contains 13 questions which are to be completed by the participant. Part III assesses the motor signs of PD and is administered by the rater (range 0-132). Part III contains 33 scores based on 18 items. For each question, a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. MDS-UPDRS Part II and III combined score equals the sum of Parts II and III (range 0-184). A higher score indicates more severe symptoms of PD.",
+     "groups": [
+      {
+       "description": "Participants received BIIB122-matching placebo tablets, orally, QD for up to 290 days.",
+       "id": "OG000",
+       "title": "Placebo"
+      },
+      {
+       "description": "Participants received BIIB122 225 mg tablets, orally, QD for up to 290 days.",
+       "id": "OG001",
+       "title": "BIIB122 225 mg"
+      }
+     ],
+     "populationDescription": "Due to the early termination of the study (before week 48), sufficient data were not collected for the outcome measure analysis.",
+     "reportingStatus": "POSTED",
+     "timeFrame": "Baseline, Week 96",
+     "title": "Change From Baseline in MDS-UPDRS Parts II and III Combined Score at Week 96",
+     "type": "SECONDARY"
+    },
+    {
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "description": "Time to confirmed worsening is defined as a worsening event sustained over 2 consecutive assessments. The mSE-ADL scale reflects the speed, ease, and independence with which an individual performs daily activities or personal chores with 100% indicating total independence, falling to 0%, which indicates a state of complete dependence. The individual is asked to rate his or her function using an 11-point scale (10% increments), from 100% (completely independent; able to do all chores without slowness, difficulty, or impairment; essentially normal; unaware of any difficulty) to 0% (vegetative functions such as swallowing, bladder and bowels are not functioning; bedridden). The lower the score, the worse the functional status.",
+     "groups": [
+      {
+       "description": "Participants received BIIB122-matching placebo tablets, orally, QD for up to 290 days.",
+       "id": "OG000",
+       "title": "Placebo"
+      },
+      {
+       "description": "Participants received BIIB122 225 mg tablets, orally, QD for up to 290 days.",
+       "id": "OG001",
+       "title": "BIIB122 225 mg"
+      }
+     ],
+     "populationDescription": "Based on the low enrolment number and to protect and maintain participant privacy/confidentiality, no data is reported, as only 1 participant completed post-baseline visit for clinical efficacy outcomes.",
+     "reportingStatus": "POSTED",
+     "timeFrame": "From Week 96 to Week 180",
+     "title": "Time to Confirmed Worsening in Modified Schwab and England Activities of Daily Living Scale (mSE-ADL) Score",
+     "type": "SECONDARY"
+    },
+    {
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "description": "The MDS-UPDRS is a multimodal scale consisting of four parts. Part I assessed non-motor experiences of daily living and has 2 components (Range 0-52). Part IA contains 6 questions and are assessed by the examiner (Range 0-24). Part IB contains 7 questions on non-motor experiences of daily living which was completed by the participant (Range 0-28). Part II assessed motor experiences of daily living (Range 0-52). It contained 13 questions completed by the participant. Part III assessed the motor signs of PD and was administered by the rater (Range 0-132). Part III contained 33 scores based on 18 items. For each question a numeric score is assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe. The MDS-UPDRS Total Score equals the sum of Parts I,II, and III (Range: 0-236). A higher score indicated more severe symptoms of PD.",
+     "groups": [
+      {
+       "description": "Participants received BIIB122-matching placebo tablets, orally, QD for up to 290 days.",
+       "id": "OG000",
+       "title": "Placebo"
+      },
+      {
+       "description": "Participants received BIIB122 225 mg tablets, orally, QD for up to 290 days.",
+       "id": "OG001",
+       "title": "BIIB122 225 mg"
+      }
+     ],
+     "populationDescription": "Due to the early termination of the study (before week 48), sufficient data were not collected for the outcome measure analysis.",
+     "reportingStatus": "POSTED",
+     "timeFrame": "Baseline, Week 96",
+     "title": "Change From Baseline in MDS-UPDRS Parts I, II, and III Combined Score at Week 96",
+     "type": "SECONDARY"
+    }
+   ]
+  },
+  "participantFlowModule": {
+   "groups": [
+    {
+     "description": "Participants received BIIB122-matching placebo tablets, orally, once daily (QD) for up to 290 days.",
+     "id": "FG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received BIIB122 225 milligrams (mg) tablets, orally, QD for up to 290 days.",
+     "id": "FG001",
+     "title": "BIIB122 225 mg"
+    }
+   ],
+   "periods": [
+    {
+     "dropWithdraws": [
+      {
+       "reasons": [
+        {
+         "groupId": "FG000",
+         "numSubjects": "2"
+        },
+        {
+         "groupId": "FG001",
+         "numSubjects": "4"
+        }
+       ],
+       "type": "Study Terminated by Sponsor"
+      },
+      {
+       "reasons": [
+        {
+         "groupId": "FG000",
+         "numSubjects": "1"
+        },
+        {
+         "groupId": "FG001",
+         "numSubjects": "0"
+        }
+       ],
+       "type": "Lost to Follow-up"
+      }
+     ],
+     "milestones": [
+      {
+       "achievements": [
+        {
+         "groupId": "FG000",
+         "numSubjects": "3"
+        },
+        {
+         "groupId": "FG001",
+         "numSubjects": "4"
+        }
+       ],
+       "type": "STARTED"
+      },
+      {
+       "achievements": [
+        {
+         "groupId": "FG000",
+         "numSubjects": "0"
+        },
+        {
+         "groupId": "FG001",
+         "numSubjects": "0"
+        }
+       ],
+       "type": "COMPLETED"
+      },
+      {
+       "achievements": [
+        {
+         "groupId": "FG000",
+         "numSubjects": "3"
+        },
+        {
+         "groupId": "FG001",
+         "numSubjects": "4"
+        }
+       ],
+       "type": "NOT COMPLETED"
+      }
+     ],
+     "title": "Overall Study"
+    }
+   ],
+   "preAssignmentDetails": "A total of 7 participants were enrolled and treated in the study, but none of the participants completed it.",
+   "recruitmentDetails": "Participants took part in the study at multiple investigative sites in the United States and the United Kingdom from 26 Aug 2022 to 27 Jul 2023."
+  }
+ }
+}

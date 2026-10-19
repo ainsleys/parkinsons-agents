@@ -1,0 +1,849 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D057165",
+     "term": "Proteostasis Deficiencies"
+    },
+    {
+     "id": "D008659",
+     "term": "Metabolic Diseases"
+    },
+    {
+     "id": "D009750",
+     "term": "Nutritional and Metabolic Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    },
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    }
+   ]
+  },
+  "interventionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D001964",
+     "term": "Bromhexine"
+    },
+    {
+     "id": "D000814",
+     "term": "Aniline Compounds"
+    },
+    {
+     "id": "D000588",
+     "term": "Amines"
+    },
+    {
+     "id": "D009930",
+     "term": "Organic Chemicals"
+    },
+    {
+     "id": "D003514",
+     "term": "Cyclohexylamines"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D000551",
+     "term": "Ambroxol"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Participants will receive ambroxol hydrochloride (tablets) for 104 weeks (blinded treatment period). Participants will receive ambroxol hydrochloride 420mg daily for Days 1-5, then 840mg daily for Days 6-10, then 1260mg for the remainder of the blinded treatment period. Participants will then enter the open-label extension and will receive ambroxol hydrochloride 420mg daily for Days 1-5, then 840mg daily for Days 6-10, then 1260mg for the remainder of the open-label extension phase.\n\nn=165",
+     "interventionNames": [
+      "Drug: Ambroxol Hydrochloride (420mg)"
+     ],
+     "label": "Ambroxol hydrochloride",
+     "type": "ACTIVE_COMPARATOR"
+    },
+    {
+     "description": "Participants will receive ambroxol hydrochloride matching placebo (tablets) for 104 weeks (blinded treatment period). Participants will receive ambroxol hydrochloride matching placebo 420mg daily for Days 1-5, then 840mg daily for Days 6-10, then 1260mg for the remainder of the blinded treatment period. Participants will then enter the open-label extension and will receive ambroxol hydrochloride 420mg daily for Days 1-5, then 840mg daily for Days 6-10, then 1260mg for the remainder of the open-label extension phase.\n\nn=165",
+     "interventionNames": [
+      "Drug: Placebo"
+     ],
+     "label": "Placebo",
+     "type": "PLACEBO_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "Ambroxol hydrochloride"
+     ],
+     "description": "Oral tablet",
+     "name": "Ambroxol Hydrochloride (420mg)",
+     "otherNames": [
+      "Ambroxol"
+     ],
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "Placebo"
+     ],
+     "description": "Oral tablet",
+     "name": "Placebo",
+     "type": "DRUG"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson Disease"
+   ],
+   "keywords": [
+    "Parkinsonian Disorders",
+    "Basal Ganglia Diseases",
+    "Brain Diseases",
+    "Central Nervous System Diseases",
+    "Nervous System Diseases",
+    "Movement Disorders",
+    "Neurodegenerative Diseases",
+    "Ambroxol",
+    "Synucleinopathies"
+   ]
+  },
+  "contactsLocationsModule": {
+   "centralContacts": [
+    {
+     "email": "cctu.aspro-pd@ucl.ac.uk",
+     "name": "ASPro-PD Trial Team",
+     "phone": "02031084908",
+     "role": "CONTACT"
+    },
+    {
+     "email": "f.ikeji@ucl.ac.uk",
+     "name": "Felicia Ikeji",
+     "phone": "02076799506",
+     "role": "CONTACT"
+    }
+   ],
+   "locations": [
+    {
+     "city": "Birmingham",
+     "contacts": [
+      {
+       "name": "Ben Wright",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Ben Wright, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "University Hospitals Birmingham",
+     "geoPoint": {
+      "lat": 52.48142,
+      "lon": -1.89983
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "Bristol",
+     "contacts": [
+      {
+       "name": "Alan Whone",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Alan Whone, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Southmead Hospital Bristol",
+     "geoPoint": {
+      "lat": 51.45523,
+      "lon": -2.59665
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "Cambridge",
+     "contacts": [
+      {
+       "name": "Caroline Williams-Gray",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Caroline Williams-Gray, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Addenbrookes NHS Trust",
+     "geoPoint": {
+      "lat": 52.2,
+      "lon": 0.11667
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "Edinburgh",
+     "contacts": [
+      {
+       "name": "David Breen",
+       "role": "CONTACT"
+      },
+      {
+       "name": "David Breen, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Western General Hospital",
+     "geoPoint": {
+      "lat": 55.95206,
+      "lon": -3.19648
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "London",
+     "contacts": [
+      {
+       "name": "Ray Chaudhuri",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Ray Chaudhuri, Prof.",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Kings College London",
+     "geoPoint": {
+      "lat": 51.50853,
+      "lon": -0.12574
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "London",
+     "contacts": [
+      {
+       "name": "Alastair Noyce",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Alastair Noyce, Prof.",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Royal London Hospital",
+     "geoPoint": {
+      "lat": 51.50853,
+      "lon": -0.12574
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "London",
+     "contacts": [
+      {
+       "name": "Marco Toffoli",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Marco Toffoli, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "University College London Hospital's",
+     "geoPoint": {
+      "lat": 51.50853,
+      "lon": -0.12574
+     },
+     "status": "RECRUITING"
+    },
+    {
+     "city": "Newcastle",
+     "contacts": [
+      {
+       "name": "Nicola Pavese",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Nicola Pavese, Prof.",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Newcastle",
+     "geoPoint": {
+      "lat": 54.21804,
+      "lon": -5.88979
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "Newcastle upon Tyne",
+     "contacts": [
+      {
+       "name": "James Fisher",
+       "role": "CONTACT"
+      },
+      {
+       "name": "James Fisher, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Northumbria",
+     "geoPoint": {
+      "lat": 54.97328,
+      "lon": -1.61396
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "Oxford",
+     "contacts": [
+      {
+       "name": "Michele Hu",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Michele Hu, Prof.",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "The John Radcliffe Hospital",
+     "geoPoint": {
+      "lat": 51.75222,
+      "lon": -1.25596
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "Plymouth",
+     "contacts": [
+      {
+       "name": "Stephen Mullin",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Stephen Mullin, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Derriford Hospital",
+     "geoPoint": {
+      "lat": 50.37153,
+      "lon": -4.14305
+     },
+     "status": "RECRUITING"
+    },
+    {
+     "city": "Salford",
+     "contacts": [
+      {
+       "name": "Robert Irving",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Robert Irving, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Fairfield General Hospital",
+     "geoPoint": {
+      "lat": 53.48771,
+      "lon": -2.29042
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "Salford",
+     "contacts": [
+      {
+       "name": "Monty Silverdale",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Monty Silverdale, Prof.",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Salford Royal Hospital",
+     "geoPoint": {
+      "lat": 53.48771,
+      "lon": -2.29042
+     },
+     "status": "RECRUITING"
+    },
+    {
+     "city": "Southampton",
+     "contacts": [
+      {
+       "name": "Boyd Ghosh",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Boyd Ghosh, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Southampton General Hospital",
+     "geoPoint": {
+      "lat": 50.90395,
+      "lon": -1.40428
+     },
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "city": "Wales",
+     "contacts": [
+      {
+       "name": "Mark Sheehan",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Mark Sheehan, Dr",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "United Kingdom",
+     "facility": "Prince Philip Hospital",
+     "geoPoint": {
+      "lat": 53.34061,
+      "lon": -1.28162
+     },
+     "status": "NOT_YET_RECRUITING"
+    }
+   ],
+   "overallOfficials": [
+    {
+     "affiliation": "University College, London",
+     "name": "Anthony Schapira",
+     "role": "PRINCIPAL_INVESTIGATOR"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "This is a UK only clinical trial in patients with Parkinson's disease (PD) of a drug called ambroxol hydrochloride, which is an already licensed drug for the treatment of respiratory conditions (such as a common cold) in many European countries. The aim of this trial is to find out whether ambroxol hydrochloride can slow down the progression of Parkinson's disease and to evaluate it's safety and tolerability.",
+   "detailedDescription": "This is a 104-week, randomized, double-blind, multi-centre, parallel group, placebo-controlled clinical trial of ambroxol hydrochloride in patients with PD, with a 26-week open-label extension phase. Participants will undergo screening to evaluate their eligibility to participate in the trial. All eligible participants will be randomised to receive either ambroxol hydrochloride (420mg) or it's matching placebo in a 1:1 ratio three times a day for 104 weeks, including a 2-week dose escalation period. Once the end of the blinded treatment has been reached, all participants will enter the open-label extension phase and will receive ambroxol hydrochloride (420mg) three times a day for 26 weeks, including a 2-week dose escalation period. All clinical staff, study investigators, and participants will be blinded to study assignments throughout the entirety of the trial.\n\nThere will be an optional sub-study including 106 participants in which a cerebrospinal fluid (CSF) sample will be taken on two occasions via a Lumbar Puncture procedure to measure ambroxol drug levels, assess whether the glucocerebrosidase enzyme has been stimulated and the levels of other substances thought to be associated with the development of PD and confirm whether the study drug has penetrated the cerebrospinal fluid and Central Nervous System."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "interventionModelDescription": "A randomised, double blind, parallel group, placebo controlled, Phase 3a trial of daily ambroxol hydrochloride (420mg) as a potential disease modifying treatment for Parkinson's disease.",
+    "maskingInfo": {
+     "masking": "QUADRUPLE",
+     "maskingDescription": "Double Blind",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 330,
+    "type": "ESTIMATED"
+   },
+   "phases": [
+    "PHASE3"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\n1. A diagnosis of Parkinson's disease (in accordance with the MDS diagnostic criteria) within 7 years of the screening visit confirmed by year of diagnosis.\n2. Adults aged \u2265 35 and \u2264 75 years.\n3. Hoehn and Yahr stage between 1-2.5, inclusive (in ON stage) at screening visit.\n4. Known glucocerebrosidase gene (GBA1) status, positive or negative (status MUST be confirmed prior to screening).\n5. On stable dopaminergic treatment for at least 3 months before enrolment.\n6. Able and willing to provide informed consent prior to any study related assessments and/or procedures.\n7. Able and willing to attend trial visits and comply with all study procedures for the duration of the trial.\n8. Willing and able to self-administer oral ambroxol medication or placebo.\n\nExclusion Criteria:\n\n1. Participation in another interventional clinical trial of an Investigational Medicinal Product (IMP) and use of an Investigational Medicinal Product (IMP) within 90 days prior to the first dose of trial treatment.\n2. Use of an Investigational Medicinal Product (IMP) within 90 days prior to the first dose of trial treatment.\n3. Participation in another clinical trial of an Investigational New Drug being tested for PD disease modifying potential within 12 months prior to the first dose of trial treatment.\n4. Past surgical history of deep brain stimulation.\n5. Use of ambroxol in the past 12 months.\n6. Exposure to Exenatide within 12 months prior to the first dose in this current trial.\n7. Concomitant medications that in the opinion of the Investigator would preclude participation in the study e.g., exenatide or other GLP1 agonist for diabetes.\n8. Confirmed dysphagia that would preclude self-administration of ambroxol.\n9. History of known sensitivity to the study medication, ambroxol or its excipients (lactose monohydrate, granulated microcrystalline cellulose, copovidone and magnesium stearate) in the opinion of the investigator that contraindicates their participation.\n10. History of known rare hereditary disorders of galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption.\n11. Presence of the LRRK2 G2019S mutation (status to be confirmed prior to screening).\n12. History of drug abuse or alcoholism in the opinion of the Investigator that would preclude participation in the trial.\n13. Pregnant (or planned pregnancy during the trial) and/or breastfeeding.\n14. Women of childbearing potential (WOCBP) and male participants with a partner of childbearing potential not willing to use highly effective contraception or abstinence for the duration of the trial treatment and for 2 weeks following the last dose of the study drug.\n15. Any clinically significant or unstable medical or surgical condition that in the opinion of the Investigator may; put the participant at risk when participating in the study, influence the results of the study or affect the participants ability to take part in the study, as determined by medical history, physical examinations, electrocardiogram (ECG) or laboratory tests. Such conditions may include:\n\n    A. Impaired renal function with creatinine clearance \\<50ml/min at screening visit.\n\n    B. Moderate/Severe hepatic impairment.\n\n    C. A major cardiovascular event (e.g., myocardial infarction, acute coronary syndrome, compensated congestive heart failure, pulmonary embolism, coronary revascularisation) that occurred within 6 months prior to the screening visit.\n16. Severe depression defined by a score \\>20 on the Beck Depression Inventory-II (BDI-II) at screening.\n17. Significant cognitive impairment defined by a score \\<20 on the Montreal Cognitive Assessment (MoCA) at screening.\n18. Use of trihexyphenidyl or benztropine within 30 days prior to the first dose of trial treatment.\n19. Only applicable for those patients consenting to the optional CSF sub-study: Evidence or history of hypersensitivity to lidocaine or its derivatives.\n20. Only applicable for those patients consenting to the optional CSF sub-study: current treatment with anti-coagulants (e.g., warfarin) that might preclude safe completion of the lumbar puncture in the opinion of the Investigator. Aspirin will be permitted.\n21. Only applicable for those patients consenting to the optional CSF sub-study: Significant known lower spinal malformations or other spinal abnormalities that would preclude a lumbar puncture.",
+   "healthyVolunteers": false,
+   "maximumAge": "75 Years",
+   "minimumAge": "35 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "ASPro-PD",
+   "briefTitle": "Ambroxol to Slow Progression in Parkinson Disease",
+   "nctId": "NCT05778617",
+   "officialTitle": "Ambroxol to Slow Progression in Parkinson Disease: A Phase IIIa Multi-centre Randomised Placebo-controlled Trial",
+   "orgStudyIdInfo": {
+    "id": "CCTU/2020/365"
+   },
+   "organization": {
+    "class": "OTHER",
+    "fullName": "University College, London"
+   }
+  },
+  "ipdSharingStatementModule": {
+   "ipdSharing": "UNDECIDED"
+  },
+  "outcomesModule": {
+   "otherOutcomes": [
+    {
+     "description": "There is evidence of a reciprocal relationship between PD development and glucocerebrosidase enzyme activity. Testing levels of glucocerebrosidase enzyme activity in blood and CSF samples is used to assess the ability of ambroxol to modulate glucocerebrosidase enzyme activity.",
+     "measure": "The association between ambroxol, the glucocerebrosidase enzyme and other proteins associated with the development of PD measured by glucocerebrosidase enzyme activity and other protein markers in blood and cerebrospinal fluid (CSF) samples.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Alpha-synuclein is a key protein involved in Parkinson's disease (PD) pathology. Testing levels of Alpha-synuclein in blood and CSF samples is used to access the ability of ambroxol to modulate Alpha-synuclein activity.",
+     "measure": "The association between ambroxol and alpha-synuclein levels in blood and cerebrospinal fluid (CSF) samples from baseline to Week 104.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Testing levels of glycerylceramide, neurofilament light chain and lipid levels in CSF samples is used to access the ability of ambroxol to modulate their activity.",
+     "measure": "The association between ambroxol and glycerylceramide, neurofilament light chain and lipid levels in cerebrospinal fluid (CSF) samples from baseline to Week 104.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Analysis of all outcome data from both treatment arms in comparison to GBA status at screening.",
+     "measure": "Affect of GBA status on all measurement outcomes for both treatment arms from baseline to Week 104.",
+     "timeFrame": "Baseline and Week 104"
+    },
+    {
+     "description": "The MDS-UPDRS is a comprehensive 50 question assessment of both motor and non-motor symptoms associated with Parkinson's. Participants will undergo MDS-UPDRS assessment at baseline, week 20, week 40, week 60, week 80, week 104 and week 130. The MDS-UPDRS measures patient status on a scale 0, which is normal or none, to 4, which is severe or the worst scenario. MDS-UPDRS score = sum of Parts I, II, III and IV. Higher score indicative of worse outcome.",
+     "measure": "Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Parts I- IV score from baseline to Week 130.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104; Week 130"
+    },
+    {
+     "description": "Faecal samples will be collected to analyse the gut microbiome.",
+     "measure": "Comparison of change in the gut microbiome composition from baseline to Week 104.",
+     "timeFrame": "Baseline and Week 104."
+    },
+    {
+     "description": "Smell identification to test the function of an individual's olfactory system.",
+     "measure": "Comparison of The Smell Identification Test [UPSIT] score change from baseline to week 104.",
+     "timeFrame": "Baseline and Week 104."
+    }
+   ],
+   "primaryOutcomes": [
+    {
+     "description": "The MDS-UPDRS is a comprehensive 50 question assessment of both motor and non-motor symptoms associated with Parkinson's. Comparison of MDS-UPDRS Parts I-III total score at 104 weeks between participants according to treatment allocation will be made. Parts I and II are measured in the practically defined ON medication state and Part III is measured in the practically defined OFF medication state. Parts I and II are historical data assessed by an examiner and are designed to rate mentation, behaviour and mood; Part III is done as a motor examination at the time of a visit. Participants will undergo MDS-UPDRS assessment at baseline, week 20, week 40, week 60, week 80, week 104. The MDS-UPDRS measures patient status on a scale 0, which is normal or none, to 4, which is severe or the worst scenario. MDS-UPDRS score = sum of Parts I, II and III (Range: 0 to 236). Higher score indicative of worse outcome.",
+     "measure": "Change in Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Parts I- III score from baseline to Week 104.",
+     "timeFrame": "Baseline; Week 104"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "description": "This component of the MDS-UPDRS scale (Section III) assesses the motor signs of PD and will involve a motor examination at the time of a visit. The score ranges from 0 to 132. Higher score is indicative of worse outcome.",
+     "measure": "Motor signs of PD using the Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) part III score in the OFF medication state from baseline to Week 104.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104."
+    },
+    {
+     "description": "This component of the MDS-UPDRS scale (Section IV) assesses two motor complications, dyskinesias and motor fluctuations using historical and objective information. The score ranges from 0 to 24. Higher score indicative of worse outcome.",
+     "measure": "Motor complications of PD using the Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) part IV score in the ON medication state from baseline to Week 104.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104."
+    },
+    {
+     "description": "This component of the MDS-UPDRS scale (Section I) assesses the non-motor impact of Parkinson's disease (PD) on patients' experiences of daily living. The score ranges from 0 to 24. Higher score indicative of worse outcome.",
+     "measure": "The non-motor impact of PD on patients using the Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) part I score in the ON medication state baseline to Week 104.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104."
+    },
+    {
+     "description": "This component of the MDS-UPDRS scale (Section II) assesses the motor aspect impact of Parkinson's disease (PD) on patients' experiences of daily living. The score ranges from 0 to 52. Higher score indicative of worse outcome.",
+     "measure": "The motor aspect impact of PD of patients experiences on daily living using the Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) part II score in the ON medication state from baseline to Week 104.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104."
+    },
+    {
+     "description": "The tremor components of the MDS-UPDRS scale",
+     "measure": "The Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) tremor score from baseline to Week 104.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104."
+    },
+    {
+     "description": "The non-tremor components of the MDS-UPDRS scale",
+     "measure": "The Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) non-tremor score from baseline to Week 104.",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104."
+    },
+    {
+     "description": "A 30 question test which assesses mild cognitive impairment by checking participant orientation, short-term memory, executive function, language, abstraction, naming of animals, attention and a clock drawing test. Maximum score= 30. Lower scores indicative of worse outcome.",
+     "measure": "Cognitive impairment using the Montreal Cognitive Assessment from baseline to Week 104.",
+     "timeFrame": "At Screening; Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "A questionnaire which assesses how often people affected by Parkinson's experience difficulties across 8 dimensions of daily living. The 39 item questionnaire offers a patient reported measure of health status and quality of life and is the most frequently used disease-specific health status measure. Maximum score = 156. Higher score= worse outcome.",
+     "measure": "Patient reported measure of health status and quality of life using the Parkinson's disease 39 item Quality of Life questionnaire from baseline to Week 104.",
+     "timeFrame": "At Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "A 1 item questionnaire which asks a participant to report their own impression of change in their clinical status. Maximum score = 7. Higher score= worse outcome.",
+     "measure": "Symptom improvement from baseline to Week 104 using the Patient Global Impression of Change from baseline to Week 104.",
+     "timeFrame": "At Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "The EQ-5D-5L is a participant self-reported questionnaire which evaluates the generic quality of life at the time of completion. It comprises of one question for each of the five dimensions ;no problems, slight problems, moderate problems, severe problems and extreme problems. The patient is asked to indicate their health state by ticking the box next to the most appropriate statement in each of the five dimensions. This decision results in a 1-digit number that expresses the level selected for that dimension. The digits for the five dimensions can be combined into a 5-digit number that describes the patient's health state. An Visual Analogue Scale is also used and is a scale measured from 0 -100 scale where patients are asked to indicate their overall health on the day of questionnaire completion. Maximum score = 100. Lower score = worse outcome.",
+     "measure": "Quality-of-Life outcome differences between the two treatment groups from baseline to Week 104, as measured by the descriptive system for health-related quality of life, EQ-5D-5L.",
+     "timeFrame": "At Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "The Non-Motor Symptoms Scale (NMSS) is a 30-item rater-based scale to assess a wide range of non-motor symptoms in patients with Parkinson's disease (PD). The NMSS measures the severity and frequency of non-motor symptoms across nine dimensions. Maximum score = 360. Higher score = worse outcome.",
+     "measure": "Non-motor symptoms of PD from baseline to Week 104 , as measured by the Non-Motor Symptoms Scale.",
+     "timeFrame": "At Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "A composite approach integrating three standard outcome measures PDCORE = (1 \u00d7 change in OFF state motor score) + (2 \u00d7 change in OFF state ADL score) - (10 \u00d7 change in total good-quality ON time per day). Higher score = worse outcome.",
+     "measure": "PD progression measured using Parkinson's Disease Comprehensive Response from baseline to Week 104",
+     "timeFrame": "At Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "A self-reported assessment of falls, near falls, fear of falling, fall-related injuries, and causes of falls for patients with Parkinson's disease. Maximum score = 12. Higher score = worse outcome.",
+     "measure": "Assessment of postural instability and falls from baseline to Week 104 using the Dresden Falls Questionnaire.",
+     "timeFrame": "At Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Research team assessment. The CGI has two components-the CGI-Severity, which rates illness severity, and the CGI-Improvement, which rates change from the initiation (baseline) of treatment. Maximum score = 14. Higher score = worse outcome.",
+     "measure": "Symptom severity, treatment response and the efficacy of treatment from baseline to Week 104 using the Clinical Global Impression of symptom severity and improvement scales.",
+     "timeFrame": "At Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Vital signs",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in pulse (bpm) from baseline to Week 104",
+     "timeFrame": "At Screening; Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Vital signs",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in blood pressure (mmHg) from baseline to Week 104",
+     "timeFrame": "At Screening; Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Vital signs",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in temperature (\u00b0) from baseline to Week 104",
+     "timeFrame": "At Screening; Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Vital signs",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in respiratory rate (breaths per minute)from baseline to Week 104",
+     "timeFrame": "At Screening; Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Vital signs",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Body Mass Index (weight and height will be combined to report BMI in kg/m^2) from baseline to Week 104",
+     "timeFrame": "At Screening; Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Red Blood Cell Count (10^12/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Haemoglobin (g/dL) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Haematocrit (%) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Platelets (10^9/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in White Blood Cell Count (10^9/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Neutrophils (10^9/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Eosinophils (10^9/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Basophils (10^9/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Lymphocytes (10^9/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Full Blood Count)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Monocytes (10^9/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Urea (mmol/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Sodium (mmol/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Potassium (mmol/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Creatinine (\u00b5mol/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Total Bilirubin (\u00b5mol/L)from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Alkaline phosphatase (IU/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Alanine transaminase (IU/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Aspartate Aminotransferase (IU/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Uric Acid (mg/dL) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Bicarbonate (mmol/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Standard diagnostic laboratory test (Biochemistry)",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by changes in Chloride (mmol/L) from baseline to Week 104",
+     "timeFrame": "At Screening; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Number of participants with treatment related adverse events assessed by CTCAE v5.0 from baseline to Week 104.",
+     "measure": "Safety and tolerability of ambroxol hydrochloride as indicated by the occurrence / severity of treatment related Adverse Events assessed by CTCAE v5.0 from baseline to Week 104",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Length of time until initiation of rescue medication from baseline to Week 104.",
+     "measure": "Time to initiation of rescue medication",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    },
+    {
+     "description": "Calculated levodopa equivalent dose from baseline to Week 104.",
+     "measure": "Change in levodopa equivalent dose at 104 weeks",
+     "timeFrame": "Baseline; Week 20; Week 40; Week 60; Week 80; Week 104"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": false,
+   "isUsExport": false,
+   "oversightHasDmc": true
+  },
+  "referencesModule": {
+   "seeAlsoLinks": [
+    {
+     "label": "ASPro-PD Trial Website",
+     "url": "https://www.ucl.ac.uk/comprehensive-clinical-trials-unit/research-projects/2023/mar/aspro-pd"
+    }
+   ]
+  },
+  "sponsorCollaboratorsModule": {
+   "leadSponsor": {
+    "class": "OTHER",
+    "name": "University College, London"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2029-09",
+    "type": "ESTIMATED"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2025-05-01",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2025-04-30",
+   "overallStatus": "RECRUITING",
+   "primaryCompletionDateStruct": {
+    "date": "2029-02",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2025-02-25",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2025-04",
+   "studyFirstPostDateStruct": {
+    "date": "2023-03-21",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2023-02-16",
+   "studyFirstSubmitQcDate": "2023-03-09"
+  }
+ }
+}

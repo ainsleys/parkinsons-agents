@@ -1,0 +1,2485 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Participants will receive Prasinezumab as an IV infusion in the double blind treatment period. Upon completion, eligible participants will enter into the Open Label Extension (OLE) phase.",
+     "interventionNames": [
+      "Drug: Prasinezumab"
+     ],
+     "label": "Prasinezumab",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Participants will receive placebo as an IV Infusion.",
+     "interventionNames": [
+      "Drug: Placebo"
+     ],
+     "label": "Placebo",
+     "type": "EXPERIMENTAL"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "Prasinezumab"
+     ],
+     "description": "Participants will receive Prasinezumab as an IV Infusion as per the schedule mentioned in the protocol.",
+     "name": "Prasinezumab",
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "Placebo"
+     ],
+     "description": "Participants will receive Placebo as an IV Infusion per the schedule mentioned in the protocol",
+     "name": "Placebo",
+     "type": "DRUG"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson's Disease"
+   ]
+  },
+  "contactsLocationsModule": {
+   "centralContacts": [
+    {
+     "email": "global-roche-genentech-trials@gene.com",
+     "name": "Reference Study ID Number: BN44715 https://forpatients.roche.com/ No attachments to email below.",
+     "phone": "888-662-6728 (U.S. and Canada)",
+     "role": "CONTACT"
+    },
+    {
+     "name": "Fastest response: use the inquiry form. https://www.gene.com/contact-us/submit-medical-inquiry",
+     "role": "CONTACT"
+    }
+   ],
+   "locations": [
+    {
+     "city": "Birmingham",
+     "country": "United States",
+     "facility": "University of Alabama at Birmingham",
+     "geoPoint": {
+      "lat": 33.52066,
+      "lon": -86.80249
+     },
+     "state": "Alabama",
+     "status": "RECRUITING",
+     "zip": "35233"
+    },
+    {
+     "city": "Phoenix",
+     "country": "United States",
+     "facility": "Barrow Neurological Institute",
+     "geoPoint": {
+      "lat": 33.44838,
+      "lon": -112.07404
+     },
+     "state": "Arizona",
+     "status": "RECRUITING",
+     "zip": "85013"
+    },
+    {
+     "city": "Fullerton",
+     "country": "United States",
+     "facility": "Neurology Center of North Orange County",
+     "geoPoint": {
+      "lat": 33.87029,
+      "lon": -117.92534
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "92835"
+    },
+    {
+     "city": "La Jolla",
+     "country": "United States",
+     "facility": "UC San Diego",
+     "geoPoint": {
+      "lat": 32.84727,
+      "lon": -117.2742
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "92037"
+    },
+    {
+     "city": "Los Angeles",
+     "country": "United States",
+     "facility": "Keck School of Medicine of USC",
+     "geoPoint": {
+      "lat": 34.05223,
+      "lon": -118.24368
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "900033"
+    },
+    {
+     "city": "Los Angeles",
+     "country": "United States",
+     "facility": "UCLA Neurology Outpatient Clinic",
+     "geoPoint": {
+      "lat": 34.05223,
+      "lon": -118.24368
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "90095"
+    },
+    {
+     "city": "Palo Alto",
+     "country": "United States",
+     "facility": "Parkinson?s Research Centers of America ? Palo Alto",
+     "geoPoint": {
+      "lat": 37.44188,
+      "lon": -122.14302
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "94301"
+    },
+    {
+     "city": "Pasadena",
+     "country": "United States",
+     "facility": "Profound Research LLC at The Neurology Center of Southern California",
+     "geoPoint": {
+      "lat": 34.14778,
+      "lon": -118.14452
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "91105"
+    },
+    {
+     "city": "San Francisco",
+     "country": "United States",
+     "facility": "UCSF Weill Institute for Neurosciences",
+     "geoPoint": {
+      "lat": 37.77493,
+      "lon": -122.41942
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "94158"
+    },
+    {
+     "city": "Stanford",
+     "country": "United States",
+     "facility": "Stanford Neuroscience Health Center (SNHC)",
+     "geoPoint": {
+      "lat": 37.42411,
+      "lon": -122.16608
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "94304"
+    },
+    {
+     "city": "Englewood",
+     "country": "United States",
+     "facility": "Rocky Mountain Movement Disorders",
+     "geoPoint": {
+      "lat": 39.64777,
+      "lon": -104.98776
+     },
+     "state": "Colorado",
+     "status": "RECRUITING",
+     "zip": "80113"
+    },
+    {
+     "city": "New Haven",
+     "country": "United States",
+     "facility": "Institute for Neurodegenerative Disorders",
+     "geoPoint": {
+      "lat": 41.30815,
+      "lon": -72.92816
+     },
+     "state": "Connecticut",
+     "status": "RECRUITING",
+     "zip": "06510"
+    },
+    {
+     "city": "Washington D.C.",
+     "country": "United States",
+     "facility": "Georgetown University",
+     "geoPoint": {
+      "lat": 38.89511,
+      "lon": -77.03637
+     },
+     "state": "District of Columbia",
+     "status": "RECRUITING",
+     "zip": "20007"
+    },
+    {
+     "city": "Atlantis",
+     "country": "United States",
+     "facility": "JEM Research LLC",
+     "geoPoint": {
+      "lat": 26.5909,
+      "lon": -80.10088
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33462"
+    },
+    {
+     "city": "Boca Raton",
+     "country": "United States",
+     "facility": "Parkinson's Disease and Movement Disorders Center of Boca Raton",
+     "geoPoint": {
+      "lat": 26.35869,
+      "lon": -80.0831
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33486"
+    },
+    {
+     "city": "Lady Lake",
+     "country": "United States",
+     "facility": "K2 - Villages",
+     "geoPoint": {
+      "lat": 28.91749,
+      "lon": -81.92286
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "32159"
+    },
+    {
+     "city": "Maitland",
+     "country": "United States",
+     "facility": "K2 Medical Research-Maitland",
+     "geoPoint": {
+      "lat": 28.62778,
+      "lon": -81.36312
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "32751"
+    },
+    {
+     "city": "Miami",
+     "country": "United States",
+     "facility": "Baptist Hospital of Miami",
+     "geoPoint": {
+      "lat": 25.77427,
+      "lon": -80.19366
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33176"
+    },
+    {
+     "city": "Orlando",
+     "country": "United States",
+     "facility": "Charter Research - Winter Park/Orlando",
+     "geoPoint": {
+      "lat": 28.53834,
+      "lon": -81.37924
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "32803"
+    },
+    {
+     "city": "Orlando",
+     "country": "United States",
+     "facility": "Advent Health Orlando",
+     "geoPoint": {
+      "lat": 28.53834,
+      "lon": -81.37924
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "32804"
+    },
+    {
+     "city": "Tampa",
+     "country": "United States",
+     "facility": "USF Parkinsons Disease and Movement Disorders Center",
+     "geoPoint": {
+      "lat": 27.94752,
+      "lon": -82.45843
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33613"
+    },
+    {
+     "city": "Atlanta",
+     "country": "United States",
+     "facility": "Grady Memorial Hospital",
+     "geoPoint": {
+      "lat": 33.749,
+      "lon": -84.38798
+     },
+     "state": "Georgia",
+     "status": "RECRUITING",
+     "zip": "30303"
+    },
+    {
+     "city": "Honolulu",
+     "country": "United States",
+     "facility": "Hawaii Pacific Neuroscience",
+     "geoPoint": {
+      "lat": 21.30694,
+      "lon": -157.85833
+     },
+     "state": "Hawaii",
+     "status": "RECRUITING",
+     "zip": "96817"
+    },
+    {
+     "city": "Chicago",
+     "country": "United States",
+     "facility": "Northwestern University Feinberg School Of Medicine",
+     "geoPoint": {
+      "lat": 41.85003,
+      "lon": -87.65005
+     },
+     "state": "Illinois",
+     "status": "RECRUITING",
+     "zip": "60611"
+    },
+    {
+     "city": "Kansas City",
+     "country": "United States",
+     "facility": "University of Kansas Medical Center",
+     "geoPoint": {
+      "lat": 39.11417,
+      "lon": -94.62746
+     },
+     "state": "Kansas",
+     "status": "RECRUITING",
+     "zip": "66160"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Massachusetts General Hospital",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "status": "RECRUITING",
+     "zip": "02114"
+    },
+    {
+     "city": "Farmington Hills",
+     "country": "United States",
+     "facility": "Quest Research Institute",
+     "geoPoint": {
+      "lat": 42.48531,
+      "lon": -83.37716
+     },
+     "state": "Michigan",
+     "status": "RECRUITING",
+     "zip": "48334"
+    },
+    {
+     "city": "St Louis",
+     "country": "United States",
+     "facility": "Washington Uni School of Medicine",
+     "geoPoint": {
+      "lat": 38.62727,
+      "lon": -90.19789
+     },
+     "state": "Missouri",
+     "status": "RECRUITING",
+     "zip": "63110"
+    },
+    {
+     "city": "Las Vegas",
+     "country": "United States",
+     "facility": "Cleveland Clinic Lou Ruvo",
+     "geoPoint": {
+      "lat": 36.17497,
+      "lon": -115.13722
+     },
+     "state": "Nevada",
+     "status": "RECRUITING",
+     "zip": "89106"
+    },
+    {
+     "city": "Reno",
+     "country": "United States",
+     "facility": "Renown Health",
+     "geoPoint": {
+      "lat": 39.52963,
+      "lon": -119.8138
+     },
+     "state": "Nevada",
+     "status": "RECRUITING",
+     "zip": "89502"
+    },
+    {
+     "city": "Paramus",
+     "country": "United States",
+     "facility": "Hackensack University Medical Center;Department of Neurology, Neuroscience Institute",
+     "geoPoint": {
+      "lat": 40.94454,
+      "lon": -74.07542
+     },
+     "state": "New Jersey",
+     "status": "RECRUITING",
+     "zip": "07652"
+    },
+    {
+     "city": "Albuquerque",
+     "country": "United States",
+     "facility": "University of New Mexico",
+     "geoPoint": {
+      "lat": 35.08449,
+      "lon": -106.65114
+     },
+     "state": "New Mexico",
+     "status": "RECRUITING",
+     "zip": "87106"
+    },
+    {
+     "city": "Amherst",
+     "country": "United States",
+     "facility": "Dent Neurological Institute",
+     "geoPoint": {
+      "lat": 42.97839,
+      "lon": -78.79976
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "14226"
+    },
+    {
+     "city": "Commack",
+     "country": "United States",
+     "facility": "Parkinson's Research Centers of America - Long Island",
+     "geoPoint": {
+      "lat": 40.84288,
+      "lon": -73.29289
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "11725"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Weill Cornell Medical College",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "10021"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Columbia University Medical Center",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "10032"
+    },
+    {
+     "city": "Asheville",
+     "country": "United States",
+     "facility": "Asheville Neurology",
+     "geoPoint": {
+      "lat": 35.60095,
+      "lon": -82.55402
+     },
+     "state": "North Carolina",
+     "status": "RECRUITING",
+     "zip": "28806"
+    },
+    {
+     "city": "Durham",
+     "country": "United States",
+     "facility": "Duke University Medical Center",
+     "geoPoint": {
+      "lat": 35.99403,
+      "lon": -78.89862
+     },
+     "state": "North Carolina",
+     "status": "RECRUITING",
+     "zip": "27705"
+    },
+    {
+     "city": "Canton",
+     "country": "United States",
+     "facility": "NeuroCare Center",
+     "geoPoint": {
+      "lat": 40.79895,
+      "lon": -81.37845
+     },
+     "state": "Ohio",
+     "status": "RECRUITING",
+     "zip": "44718"
+    },
+    {
+     "city": "Cleveland",
+     "country": "United States",
+     "facility": "Cleveland Clinic",
+     "geoPoint": {
+      "lat": 41.4995,
+      "lon": -81.69541
+     },
+     "state": "Ohio",
+     "status": "RECRUITING",
+     "zip": "44195"
+    },
+    {
+     "city": "Tulsa",
+     "country": "United States",
+     "facility": "The Movement Disorder Clinic of Oklahoma",
+     "geoPoint": {
+      "lat": 36.15398,
+      "lon": -95.99277
+     },
+     "state": "Oklahoma",
+     "status": "RECRUITING",
+     "zip": "74136"
+    },
+    {
+     "city": "Portland",
+     "country": "United States",
+     "facility": "Oregon Health and Science University",
+     "geoPoint": {
+      "lat": 45.52345,
+      "lon": -122.67621
+     },
+     "state": "Oregon",
+     "status": "RECRUITING",
+     "zip": "97239"
+    },
+    {
+     "city": "Philadelphia",
+     "country": "United States",
+     "facility": "University Pennsylvania Hospital",
+     "geoPoint": {
+      "lat": 39.95238,
+      "lon": -75.16362
+     },
+     "state": "Pennsylvania",
+     "status": "RECRUITING",
+     "zip": "19107"
+    },
+    {
+     "city": "Pittsburgh",
+     "country": "United States",
+     "facility": "Allegheny General Hospital",
+     "geoPoint": {
+      "lat": 40.44062,
+      "lon": -79.99589
+     },
+     "state": "Pennsylvania",
+     "status": "RECRUITING",
+     "zip": "15212"
+    },
+    {
+     "city": "Sioux Falls",
+     "country": "United States",
+     "facility": "Avera Medical Group",
+     "geoPoint": {
+      "lat": 43.54369,
+      "lon": -96.72796
+     },
+     "state": "South Dakota",
+     "status": "RECRUITING",
+     "zip": "57105"
+    },
+    {
+     "city": "Memphis",
+     "country": "United States",
+     "facility": "Veracity Neuroscience",
+     "geoPoint": {
+      "lat": 35.14953,
+      "lon": -90.04898
+     },
+     "state": "Tennessee",
+     "status": "RECRUITING",
+     "zip": "38157"
+    },
+    {
+     "city": "Nashville",
+     "country": "United States",
+     "facility": "Vanderbilt University Medical Center",
+     "geoPoint": {
+      "lat": 36.16589,
+      "lon": -86.78444
+     },
+     "state": "Tennessee",
+     "status": "RECRUITING",
+     "zip": "37212"
+    },
+    {
+     "city": "Dallas",
+     "country": "United States",
+     "facility": "Texas Neurology PA",
+     "geoPoint": {
+      "lat": 32.78306,
+      "lon": -96.80667
+     },
+     "state": "Texas",
+     "status": "RECRUITING",
+     "zip": "75206"
+    },
+    {
+     "city": "Round Rock",
+     "country": "United States",
+     "facility": "Central Texas Neurology Consultants",
+     "geoPoint": {
+      "lat": 30.50826,
+      "lon": -97.6789
+     },
+     "state": "Texas",
+     "status": "RECRUITING",
+     "zip": "78681"
+    },
+    {
+     "city": "Burlington",
+     "country": "United States",
+     "facility": "University of Vermont Medical Center",
+     "geoPoint": {
+      "lat": 44.47588,
+      "lon": -73.21207
+     },
+     "state": "Vermont",
+     "status": "RECRUITING",
+     "zip": "05401"
+    },
+    {
+     "city": "Charlottesville",
+     "country": "United States",
+     "facility": "University of Virginia Health System",
+     "geoPoint": {
+      "lat": 38.02931,
+      "lon": -78.47668
+     },
+     "state": "Virginia",
+     "status": "RECRUITING",
+     "zip": "22903"
+    },
+    {
+     "city": "Richmond",
+     "country": "United States",
+     "facility": "VCU Health North Hospital",
+     "geoPoint": {
+      "lat": 37.55376,
+      "lon": -77.46026
+     },
+     "state": "Virginia",
+     "status": "RECRUITING",
+     "zip": "23298"
+    },
+    {
+     "city": "Morgantown",
+     "country": "United States",
+     "facility": "West Virginia University",
+     "geoPoint": {
+      "lat": 39.62953,
+      "lon": -79.9559
+     },
+     "state": "West Virginia",
+     "status": "RECRUITING",
+     "zip": "26506"
+    },
+    {
+     "city": "Kogarah",
+     "country": "Australia",
+     "facility": "Southern Neurology",
+     "geoPoint": {
+      "lat": -33.9681,
+      "lon": 151.13564
+     },
+     "state": "New South Wales",
+     "status": "RECRUITING",
+     "zip": "2217"
+    },
+    {
+     "city": "Westmead",
+     "country": "Australia",
+     "facility": "Westmead Hospital",
+     "geoPoint": {
+      "lat": -33.80383,
+      "lon": 150.98768
+     },
+     "state": "New South Wales",
+     "status": "RECRUITING",
+     "zip": "2145"
+    },
+    {
+     "city": "Woolloongabba",
+     "country": "Australia",
+     "facility": "Princess Alexandra Hospital",
+     "geoPoint": {
+      "lat": -27.48855,
+      "lon": 153.03655
+     },
+     "state": "Queensland",
+     "status": "RECRUITING",
+     "zip": "4102"
+    },
+    {
+     "city": "Clayton",
+     "country": "Australia",
+     "facility": "Monash Health",
+     "geoPoint": {
+      "lat": -37.91667,
+      "lon": 145.11667
+     },
+     "state": "Victoria",
+     "status": "RECRUITING",
+     "zip": "3168"
+    },
+    {
+     "city": "Parkville",
+     "country": "Australia",
+     "facility": "Royal Melbourne Hospital",
+     "geoPoint": {
+      "lat": -37.78333,
+      "lon": 144.95
+     },
+     "state": "Victoria",
+     "status": "RECRUITING",
+     "zip": "3050"
+    },
+    {
+     "city": "Prahan",
+     "country": "Australia",
+     "facility": "The Alfred Hospital",
+     "state": "Victoria",
+     "status": "RECRUITING",
+     "zip": "3181"
+    },
+    {
+     "city": "Nedlands",
+     "country": "Australia",
+     "facility": "Perron Institute for Neurological and Translational Science",
+     "geoPoint": {
+      "lat": -31.98184,
+      "lon": 115.8073
+     },
+     "state": "Western Australia",
+     "status": "RECRUITING",
+     "zip": "6009"
+    },
+    {
+     "city": "Graz",
+     "country": "Austria",
+     "facility": "Medizinische Universit\u00e4t Graz",
+     "geoPoint": {
+      "lat": 47.06733,
+      "lon": 15.44197
+     },
+     "status": "RECRUITING",
+     "zip": "8036"
+    },
+    {
+     "city": "Innsbruck",
+     "country": "Austria",
+     "facility": "Uniklinik fuer Neurologie, Medizinische Universitaet Innsbruck",
+     "geoPoint": {
+      "lat": 47.26266,
+      "lon": 11.39454
+     },
+     "status": "RECRUITING",
+     "zip": "6020"
+    },
+    {
+     "city": "Linz",
+     "country": "Austria",
+     "facility": "Kepler Universit\u00e4tsklinikum GmbH - Neuromed Campus",
+     "geoPoint": {
+      "lat": 48.30639,
+      "lon": 14.28611
+     },
+     "status": "RECRUITING",
+     "zip": "4020"
+    },
+    {
+     "city": "Vienna",
+     "country": "Austria",
+     "facility": "Medizinische Universit\u00e4t Wien",
+     "geoPoint": {
+      "lat": 48.20849,
+      "lon": 16.37208
+     },
+     "status": "WITHDRAWN",
+     "zip": "1090"
+    },
+    {
+     "city": "Vienna",
+     "country": "Austria",
+     "facility": "Klinik Ottakring",
+     "geoPoint": {
+      "lat": 48.20849,
+      "lon": 16.37208
+     },
+     "status": "RECRUITING",
+     "zip": "1160"
+    },
+    {
+     "city": "Salvador",
+     "country": "Brazil",
+     "facility": "Santa Casa de Misericordia de Salvador",
+     "geoPoint": {
+      "lat": -12.97563,
+      "lon": -38.49096
+     },
+     "state": "Estado de Bahia",
+     "status": "RECRUITING",
+     "zip": "40050-410"
+    },
+    {
+     "city": "Bras\u00edlia",
+     "country": "Brazil",
+     "facility": "L2 Ip Instituto de Pesquisas Clinicas Ltda ME",
+     "geoPoint": {
+      "lat": -15.77972,
+      "lon": -47.92972
+     },
+     "state": "Federal District",
+     "status": "RECRUITING",
+     "zip": "70200-730"
+    },
+    {
+     "city": "Belo Horizonte",
+     "country": "Brazil",
+     "facility": "Hospital das Clinicas - UFMG",
+     "geoPoint": {
+      "lat": -19.92083,
+      "lon": -43.93778
+     },
+     "state": "Minas Gerais",
+     "status": "RECRUITING",
+     "zip": "31270-901"
+    },
+    {
+     "city": "Curitiba",
+     "country": "Brazil",
+     "facility": "Instituto de Neurologia de Curitiba",
+     "geoPoint": {
+      "lat": -25.42778,
+      "lon": -49.27306
+     },
+     "state": "Paran\u00e1",
+     "status": "RECRUITING",
+     "zip": "81210-310"
+    },
+    {
+     "city": "Porto Alegre",
+     "country": "Brazil",
+     "facility": "N\u00facleo de Pesquisa do Rio Grande do Sul",
+     "geoPoint": {
+      "lat": -30.03283,
+      "lon": -51.23019
+     },
+     "state": "Rio Grande do Sul",
+     "status": "RECRUITING",
+     "zip": "90430-001"
+    },
+    {
+     "city": "Ribeir\u00e3o Preto",
+     "country": "Brazil",
+     "facility": "Faculdade de Medicina de Ribeir\u00e3o Preto - Universidade de Sao Paulo",
+     "geoPoint": {
+      "lat": -21.1775,
+      "lon": -47.81028
+     },
+     "state": "S\u00e3o Paulo",
+     "status": "RECRUITING",
+     "zip": "14051-140"
+    },
+    {
+     "city": "S\u00e3o Jos\u00e9 do Rio Preto",
+     "country": "Brazil",
+     "facility": "Faculdade de Medicina de Sao Jose do Rio Preto - FAMERP*X*",
+     "geoPoint": {
+      "lat": -20.81972,
+      "lon": -49.37944
+     },
+     "state": "S\u00e3o Paulo",
+     "status": "RECRUITING",
+     "zip": "15090-000"
+    },
+    {
+     "city": "S\u00e3o Paulo",
+     "country": "Brazil",
+     "facility": "Centro de Pesquisas Clinicas",
+     "geoPoint": {
+      "lat": -23.5475,
+      "lon": -46.63611
+     },
+     "state": "S\u00e3o Paulo",
+     "status": "RECRUITING",
+     "zip": "01228-200"
+    },
+    {
+     "city": "Toronto",
+     "country": "Canada",
+     "facility": "University Health Network",
+     "geoPoint": {
+      "lat": 43.70643,
+      "lon": -79.39864
+     },
+     "state": "Ontario",
+     "status": "RECRUITING",
+     "zip": "M5G 2C4"
+    },
+    {
+     "city": "Montreal",
+     "country": "Canada",
+     "facility": "CHUM",
+     "geoPoint": {
+      "lat": 45.50884,
+      "lon": -73.58781
+     },
+     "state": "Quebec",
+     "status": "RECRUITING",
+     "zip": "H2X 0A9"
+    },
+    {
+     "city": "Montreal",
+     "country": "Canada",
+     "facility": "Montreal Neurological Institute and Hospital",
+     "geoPoint": {
+      "lat": 45.50884,
+      "lon": -73.58781
+     },
+     "state": "Quebec",
+     "status": "RECRUITING",
+     "zip": "H3A 2B4"
+    },
+    {
+     "city": "Beijing",
+     "country": "China",
+     "facility": "Beijing Friendship Hospital Affiliated of Capital University of Medical Science",
+     "geoPoint": {
+      "lat": 39.9075,
+      "lon": 116.39723
+     },
+     "status": "RECRUITING",
+     "zip": "100050"
+    },
+    {
+     "city": "Beijing",
+     "country": "China",
+     "facility": "Xuanwu Hospital, Capital Medical University",
+     "geoPoint": {
+      "lat": 39.9075,
+      "lon": 116.39723
+     },
+     "status": "RECRUITING",
+     "zip": "100053"
+    },
+    {
+     "city": "Beijing",
+     "country": "China",
+     "facility": "Beijing Tian Tan Hospital,Capital Medical University",
+     "geoPoint": {
+      "lat": 39.9075,
+      "lon": 116.39723
+     },
+     "status": "RECRUITING",
+     "zip": "100071"
+    },
+    {
+     "city": "Beijing",
+     "country": "China",
+     "facility": "Beijing Hospital of Ministry of Health",
+     "geoPoint": {
+      "lat": 39.9075,
+      "lon": 116.39723
+     },
+     "status": "RECRUITING",
+     "zip": "100730"
+    },
+    {
+     "city": "Changchun",
+     "country": "China",
+     "facility": "The First Hospital of Jilin University",
+     "geoPoint": {
+      "lat": 43.88,
+      "lon": 125.32278
+     },
+     "status": "RECRUITING",
+     "zip": "130021"
+    },
+    {
+     "city": "Chengdu",
+     "country": "China",
+     "facility": "West China Hospital of Sichuan University",
+     "geoPoint": {
+      "lat": 30.66667,
+      "lon": 104.06667
+     },
+     "status": "RECRUITING",
+     "zip": "610041"
+    },
+    {
+     "city": "Chongqing",
+     "country": "China",
+     "facility": "The First Affiliated Hospital, Chongqing Medical University",
+     "geoPoint": {
+      "lat": 29.56026,
+      "lon": 106.55771
+     },
+     "status": "RECRUITING",
+     "zip": "400016"
+    },
+    {
+     "city": "Fuzhou",
+     "country": "China",
+     "facility": "Fujian Medical University Union Hospital",
+     "geoPoint": {
+      "lat": 26.06139,
+      "lon": 119.30611
+     },
+     "status": "RECRUITING",
+     "zip": "350001"
+    },
+    {
+     "city": "Guangzhou",
+     "country": "China",
+     "facility": "The First Affiliated Hospital of Sun Yat-sen University",
+     "geoPoint": {
+      "lat": 23.11667,
+      "lon": 113.25
+     },
+     "status": "RECRUITING",
+     "zip": "510080"
+    },
+    {
+     "city": "Guangzhou",
+     "country": "China",
+     "facility": "Guangdong Provincial People's Hospital",
+     "geoPoint": {
+      "lat": 23.11667,
+      "lon": 113.25
+     },
+     "status": "RECRUITING",
+     "zip": "510115"
+    },
+    {
+     "city": "Guangzhou",
+     "country": "China",
+     "facility": "The First Affiliated Hospital of Guangzhou Medical University",
+     "geoPoint": {
+      "lat": 23.11667,
+      "lon": 113.25
+     },
+     "status": "RECRUITING",
+     "zip": "510120"
+    },
+    {
+     "city": "Hangzhou",
+     "country": "China",
+     "facility": "The Second Affiliated Hospital of Zhejiang University School of Medicine",
+     "geoPoint": {
+      "lat": 30.29365,
+      "lon": 120.16142
+     },
+     "status": "RECRUITING",
+     "zip": "310009"
+    },
+    {
+     "city": "Hangzhou",
+     "country": "China",
+     "facility": "Sir Run Run Shaw Hospital, School of Medicine, Zhejiang University",
+     "geoPoint": {
+      "lat": 30.29365,
+      "lon": 120.16142
+     },
+     "status": "RECRUITING"
+    },
+    {
+     "city": "Nanjing",
+     "country": "China",
+     "facility": "Nanjing Brain Hospital",
+     "geoPoint": {
+      "lat": 32.06167,
+      "lon": 118.77778
+     },
+     "status": "RECRUITING",
+     "zip": "210029"
+    },
+    {
+     "city": "Shanghai",
+     "country": "China",
+     "facility": "Ruijin Hospital Shanghai Jiaotong University School of Medicine",
+     "geoPoint": {
+      "lat": 31.22222,
+      "lon": 121.45806
+     },
+     "status": "RECRUITING",
+     "zip": "200025"
+    },
+    {
+     "city": "Shanghai",
+     "country": "China",
+     "facility": "Huashan Hospital, Fudan University",
+     "geoPoint": {
+      "lat": 31.22222,
+      "lon": 121.45806
+     },
+     "status": "RECRUITING",
+     "zip": "200040"
+    },
+    {
+     "city": "Shanghai",
+     "country": "China",
+     "facility": "Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+     "geoPoint": {
+      "lat": 31.22222,
+      "lon": 121.45806
+     },
+     "status": "RECRUITING",
+     "zip": "200127"
+    },
+    {
+     "city": "Suzhou",
+     "country": "China",
+     "facility": "The Second Affiliated Hospital of Soochow University",
+     "geoPoint": {
+      "lat": 31.30408,
+      "lon": 120.59538
+     },
+     "status": "RECRUITING",
+     "zip": "215004"
+    },
+    {
+     "city": "Tianjin",
+     "country": "China",
+     "facility": "Tianjin Medical University General Hospital",
+     "geoPoint": {
+      "lat": 39.14222,
+      "lon": 117.17667
+     },
+     "status": "RECRUITING",
+     "zip": "300052"
+    },
+    {
+     "city": "Xi'an",
+     "country": "China",
+     "facility": "First Affiliated Hospital of Medical College of Xi'an Jiaotong University",
+     "geoPoint": {
+      "lat": 34.25833,
+      "lon": 108.92861
+     },
+     "status": "RECRUITING",
+     "zip": "710061"
+    },
+    {
+     "city": "Xuzhou",
+     "country": "China",
+     "facility": "The Affiliated Hospital of Xuzhou Medical University",
+     "geoPoint": {
+      "lat": 34.20442,
+      "lon": 117.28386
+     },
+     "status": "RECRUITING"
+    },
+    {
+     "city": "Aarhus N",
+     "country": "Denmark",
+     "facility": "Aarhus Universitetshospital Skejby",
+     "geoPoint": {
+      "lat": 56.20367,
+      "lon": 10.17317
+     },
+     "status": "RECRUITING",
+     "zip": "8200"
+    },
+    {
+     "city": "Herning",
+     "country": "Denmark",
+     "facility": "Regionshospitalet G\u00f8dstrup;Neurologisk Afdeling",
+     "geoPoint": {
+      "lat": 56.13615,
+      "lon": 8.97662
+     },
+     "status": "RECRUITING",
+     "zip": "7400"
+    },
+    {
+     "city": "K\u00f8benhavn NV",
+     "country": "Denmark",
+     "facility": "Bispebjerg Hospital;Neurologisk Afdeling",
+     "geoPoint": {
+      "lat": 55.71258,
+      "lon": 12.52343
+     },
+     "status": "RECRUITING",
+     "zip": "2400"
+    },
+    {
+     "city": "Marseille",
+     "country": "France",
+     "facility": "AP-HM- H\u00f4pital de La Timone",
+     "geoPoint": {
+      "lat": 43.29695,
+      "lon": 5.38107
+     },
+     "state": "Bouches-du-Rh\u00f4ne",
+     "status": "RECRUITING",
+     "zip": "13005"
+    },
+    {
+     "city": "Bron",
+     "country": "France",
+     "facility": "Hospices Civils de Lyon - H\u00f4pital Pierre Wertheimer",
+     "geoPoint": {
+      "lat": 45.73865,
+      "lon": 4.91303
+     },
+     "state": "Rh\u00f4ne",
+     "status": "RECRUITING",
+     "zip": "69003"
+    },
+    {
+     "city": "Clermont-Ferrand",
+     "country": "France",
+     "facility": "CHU de Clermont-Ferrand - Site Gabriel-Montpied",
+     "geoPoint": {
+      "lat": 45.77969,
+      "lon": 3.08682
+     },
+     "status": "RECRUITING",
+     "zip": "63000"
+    },
+    {
+     "city": "Cr\u00e9teil",
+     "country": "France",
+     "facility": "APHP - Hopital Henri Mondor",
+     "geoPoint": {
+      "lat": 48.79266,
+      "lon": 2.46569
+     },
+     "status": "RECRUITING",
+     "zip": "94010"
+    },
+    {
+     "city": "La Tronche",
+     "country": "France",
+     "facility": "CHU de Grenoble - H\u00f4pital Andr\u00e9 Michallon",
+     "geoPoint": {
+      "lat": 45.20507,
+      "lon": 5.74629
+     },
+     "status": "RECRUITING",
+     "zip": "38700"
+    },
+    {
+     "city": "Lille",
+     "country": "France",
+     "facility": "Hopital Roger Salengro",
+     "geoPoint": {
+      "lat": 50.63391,
+      "lon": 3.05512
+     },
+     "status": "RECRUITING",
+     "zip": "59037"
+    },
+    {
+     "city": "Limoges",
+     "country": "France",
+     "facility": "CHU de Limoges - H\u00f4pital Dupuytren",
+     "geoPoint": {
+      "lat": 45.83362,
+      "lon": 1.24759
+     },
+     "status": "RECRUITING",
+     "zip": "87042"
+    },
+    {
+     "city": "Montpellier",
+     "country": "France",
+     "facility": "CHU de Montpellier - H\u00f4pital Gui de Chauliac",
+     "geoPoint": {
+      "lat": 43.61093,
+      "lon": 3.87635
+     },
+     "status": "RECRUITING",
+     "zip": "34295"
+    },
+    {
+     "city": "Nice",
+     "country": "France",
+     "facility": "CHU de Nice Hopital Pasteur",
+     "geoPoint": {
+      "lat": 43.70313,
+      "lon": 7.26608
+     },
+     "status": "RECRUITING",
+     "zip": "06002"
+    },
+    {
+     "city": "Paris",
+     "country": "France",
+     "facility": "APHP - Hopital de la Pitie Salpetriere",
+     "geoPoint": {
+      "lat": 48.85341,
+      "lon": 2.3488
+     },
+     "status": "RECRUITING",
+     "zip": "75013"
+    },
+    {
+     "city": "Toulouse",
+     "country": "France",
+     "facility": "CHU de Toulouse - H\u00f4pital Purpan",
+     "geoPoint": {
+      "lat": 43.60426,
+      "lon": 1.44367
+     },
+     "status": "RECRUITING",
+     "zip": "31059"
+    },
+    {
+     "city": "Beelitz",
+     "country": "Germany",
+     "facility": "Kliniken Beelitz GmbH",
+     "geoPoint": {
+      "lat": 52.23812,
+      "lon": 12.9714
+     },
+     "status": "RECRUITING",
+     "zip": "14547"
+    },
+    {
+     "city": "Berlin",
+     "country": "Germany",
+     "facility": "Charite Universit\u00e4tsmed. Berlin",
+     "geoPoint": {
+      "lat": 52.52437,
+      "lon": 13.41053
+     },
+     "status": "RECRUITING",
+     "zip": "10117"
+    },
+    {
+     "city": "Berlin",
+     "country": "Germany",
+     "facility": "Charite Universitaetsmedizin Berlin - Campus Benjamin Franklin",
+     "geoPoint": {
+      "lat": 52.52437,
+      "lon": 13.41053
+     },
+     "status": "RECRUITING",
+     "zip": "12203"
+    },
+    {
+     "city": "Bochum",
+     "country": "Germany",
+     "facility": "St. Josef-Hospital, Klinik f\u00fcr Neurologie",
+     "geoPoint": {
+      "lat": 51.48165,
+      "lon": 7.21648
+     },
+     "status": "RECRUITING",
+     "zip": "44791"
+    },
+    {
+     "city": "Dresden",
+     "country": "Germany",
+     "facility": "Universit\u00e4tsklinikum \"Carl Gustav Carus\"",
+     "geoPoint": {
+      "lat": 51.05089,
+      "lon": 13.73832
+     },
+     "status": "RECRUITING",
+     "zip": "01307"
+    },
+    {
+     "city": "D\u00fcsseldorf",
+     "country": "Germany",
+     "facility": "Heinrich-Heine Universit\u00e4tsklinik D\u00fcsseldorf",
+     "geoPoint": {
+      "lat": 51.22319,
+      "lon": 6.77927
+     },
+     "status": "RECRUITING",
+     "zip": "40225"
+    },
+    {
+     "city": "Erlangen",
+     "country": "Germany",
+     "facility": "Universit\u00e4tsklinikum Erlangen, Abteilung Molekulare Neurologie",
+     "geoPoint": {
+      "lat": 49.59099,
+      "lon": 11.00783
+     },
+     "status": "RECRUITING",
+     "zip": "91054"
+    },
+    {
+     "city": "Freiburg im Breisgau",
+     "country": "Germany",
+     "facility": "Universit\u00e4tsklinikum Freiburg, Klinik f\u00fcr Neurologie und Neurophysiologie",
+     "geoPoint": {
+      "lat": 47.9959,
+      "lon": 7.85222
+     },
+     "status": "RECRUITING",
+     "zip": "79106"
+    },
+    {
+     "city": "Hanover",
+     "country": "Germany",
+     "facility": "Medizinische Hochschule Hannover, Klinik f\u00fcr Neurologie",
+     "geoPoint": {
+      "lat": 52.37052,
+      "lon": 9.73322
+     },
+     "status": "RECRUITING",
+     "zip": "30625"
+    },
+    {
+     "city": "Heidelberg",
+     "country": "Germany",
+     "facility": "Universit\u00e4tsklinikum Heidelberg, Neurologische Klinik, Abteilung f\u00fcr Neuroradiologie",
+     "geoPoint": {
+      "lat": 49.40768,
+      "lon": 8.69079
+     },
+     "status": "RECRUITING",
+     "zip": "69120"
+    },
+    {
+     "city": "Homburg",
+     "country": "Germany",
+     "facility": "Universit\u00e4t Des Saarlandes",
+     "geoPoint": {
+      "lat": 49.32637,
+      "lon": 7.33867
+     },
+     "status": "RECRUITING",
+     "zip": "66421"
+    },
+    {
+     "city": "Kassel",
+     "country": "Germany",
+     "facility": "Paracelsus Elena Klinik Kassel",
+     "geoPoint": {
+      "lat": 51.31667,
+      "lon": 9.5
+     },
+     "status": "RECRUITING",
+     "zip": "34128"
+    },
+    {
+     "city": "Munich",
+     "country": "Germany",
+     "facility": "Klinikum rechts der Isar der TU M\u00fcnchen",
+     "geoPoint": {
+      "lat": 48.13743,
+      "lon": 11.57549
+     },
+     "status": "RECRUITING",
+     "zip": "81675"
+    },
+    {
+     "city": "M\u00fcnchen",
+     "country": "Germany",
+     "facility": "LMU Klinikum, Neurologische Klinik und Poliklinik",
+     "geoPoint": {
+      "lat": 51.60698,
+      "lon": 13.31243
+     },
+     "status": "RECRUITING",
+     "zip": "81377"
+    },
+    {
+     "city": "M\u00fcnster",
+     "country": "Germany",
+     "facility": "Universitatsklinikum Munster",
+     "geoPoint": {
+      "lat": 51.96236,
+      "lon": 7.62571
+     },
+     "status": "RECRUITING",
+     "zip": "48149"
+    },
+    {
+     "city": "T\u00fcbingen",
+     "country": "Germany",
+     "facility": "Universitaettsklinikum T\u00fcbingen",
+     "geoPoint": {
+      "lat": 48.52266,
+      "lon": 9.05222
+     },
+     "status": "RECRUITING",
+     "zip": "72076"
+    },
+    {
+     "city": "W\u00fcrzburg",
+     "country": "Germany",
+     "facility": "Universit\u00e4tsklinikum W\u00fcrzburg, Neurologische Klinik und Poliklinik",
+     "geoPoint": {
+      "lat": 49.79391,
+      "lon": 9.95121
+     },
+     "status": "RECRUITING",
+     "zip": "97080"
+    },
+    {
+     "city": "Naples",
+     "country": "Italy",
+     "facility": "Universit\u00e0 degli studi della Campania Luigi Vanvitelli",
+     "geoPoint": {
+      "lat": 40.85216,
+      "lon": 14.26811
+     },
+     "state": "Campania",
+     "status": "RECRUITING",
+     "zip": "80138"
+    },
+    {
+     "city": "Salerno",
+     "country": "Italy",
+     "facility": "Az. Osp. OO.RR. S. Giovanni di Dio e Ruggi D' Aragona",
+     "geoPoint": {
+      "lat": 40.67545,
+      "lon": 14.79328
+     },
+     "state": "Campania",
+     "status": "RECRUITING",
+     "zip": "84131"
+    },
+    {
+     "city": "Bologna",
+     "country": "Italy",
+     "facility": "Ospedale Bellaria",
+     "geoPoint": {
+      "lat": 44.49381,
+      "lon": 11.33875
+     },
+     "state": "Emilia-Romagna",
+     "status": "RECRUITING",
+     "zip": "40139"
+    },
+    {
+     "city": "Cassino",
+     "country": "Italy",
+     "facility": "San Raffaele Cassino",
+     "geoPoint": {
+      "lat": 41.48581,
+      "lon": 13.82835
+     },
+     "state": "Lazio",
+     "status": "RECRUITING",
+     "zip": "03043"
+    },
+    {
+     "city": "Rome",
+     "country": "Italy",
+     "facility": "IRCCS San Raffaele;Clinical Trial Center",
+     "geoPoint": {
+      "lat": 41.89193,
+      "lon": 12.51133
+     },
+     "state": "Lazio",
+     "status": "RECRUITING",
+     "zip": "00166"
+    },
+    {
+     "city": "Rome",
+     "country": "Italy",
+     "facility": "Policlinico Universitario Agostino Gemelli",
+     "geoPoint": {
+      "lat": 41.89193,
+      "lon": 12.51133
+     },
+     "state": "Lazio",
+     "status": "RECRUITING",
+     "zip": "00168"
+    },
+    {
+     "city": "Genoa",
+     "country": "Italy",
+     "facility": "Irccs A.O.U.San Martino Ist",
+     "geoPoint": {
+      "lat": 44.40478,
+      "lon": 8.94439
+     },
+     "state": "Liguria",
+     "status": "RECRUITING",
+     "zip": "16132"
+    },
+    {
+     "city": "Brescia",
+     "country": "Italy",
+     "facility": "Azienda Ospedaliera Spedali Civili",
+     "geoPoint": {
+      "lat": 45.53558,
+      "lon": 10.21472
+     },
+     "state": "Lombardy",
+     "status": "RECRUITING",
+     "zip": "25100"
+    },
+    {
+     "city": "Milan",
+     "country": "Italy",
+     "facility": "Centro Parkinson e Parkinsonismi",
+     "geoPoint": {
+      "lat": 45.46427,
+      "lon": 9.18951
+     },
+     "state": "Lombardy",
+     "status": "RECRUITING",
+     "zip": "20126"
+    },
+    {
+     "city": "Milan",
+     "country": "Italy",
+     "facility": "IRCCS Ospedale San Raffaele",
+     "geoPoint": {
+      "lat": 45.46427,
+      "lon": 9.18951
+     },
+     "state": "Lombardy",
+     "status": "RECRUITING",
+     "zip": "20132"
+    },
+    {
+     "city": "Milan",
+     "country": "Italy",
+     "facility": "IRCCS Istituto Neurologico Carlo Besta",
+     "geoPoint": {
+      "lat": 45.46427,
+      "lon": 9.18951
+     },
+     "state": "Lombardy",
+     "status": "RECRUITING",
+     "zip": "20133"
+    },
+    {
+     "city": "Pisa",
+     "country": "Italy",
+     "facility": "A.O. Universitaria Pisana",
+     "geoPoint": {
+      "lat": 43.70853,
+      "lon": 10.4036
+     },
+     "state": "Tuscany",
+     "status": "RECRUITING",
+     "zip": "56126"
+    },
+    {
+     "city": "Padova",
+     "country": "Italy",
+     "facility": "Azienda Ospedaliera di Padova",
+     "geoPoint": {
+      "lat": 45.26618,
+      "lon": 11.77208
+     },
+     "state": "Veneto",
+     "status": "RECRUITING",
+     "zip": "35128"
+    },
+    {
+     "city": "Mexico City",
+     "country": "Mexico",
+     "facility": "Instituto Nacional de Neurologia y Neurocirugia",
+     "geoPoint": {
+      "lat": 19.42847,
+      "lon": -99.12766
+     },
+     "state": "Mexico CITY (federal District)",
+     "status": "RECRUITING",
+     "zip": "14390"
+    },
+    {
+     "city": "Mexico City",
+     "country": "Mexico",
+     "facility": "Hospital General de Mexico",
+     "geoPoint": {
+      "lat": 19.42847,
+      "lon": -99.12766
+     },
+     "state": "Mexico CITY (federal District)",
+     "status": "RECRUITING",
+     "zip": "6726"
+    },
+    {
+     "city": "Bia?ystok",
+     "country": "Poland",
+     "facility": "Podlaskie Centrum Psychogeriatrii",
+     "status": "WITHDRAWN",
+     "zip": "15-756"
+    },
+    {
+     "city": "Bydgoszcz",
+     "country": "Poland",
+     "facility": "NZOZ Vitamed",
+     "geoPoint": {
+      "lat": 53.1235,
+      "lon": 18.00762
+     },
+     "status": "RECRUITING",
+     "zip": "85-079"
+    },
+    {
+     "city": "Gda?sk",
+     "country": "Poland",
+     "facility": "Szpital Sw. Wojciecha",
+     "status": "RECRUITING",
+     "zip": "80-462"
+    },
+    {
+     "city": "Katowice",
+     "country": "Poland",
+     "facility": "NEURO-CARE Sp. z o.o. Sp. Komandytowa",
+     "geoPoint": {
+      "lat": 50.2597,
+      "lon": 19.02173
+     },
+     "status": "RECRUITING",
+     "zip": "40-749"
+    },
+    {
+     "city": "Krakow",
+     "country": "Poland",
+     "facility": "Krakowska Akademia Neurologii Sp z o.o. Centrum Neurologii K",
+     "geoPoint": {
+      "lat": 50.06143,
+      "lon": 19.93658
+     },
+     "status": "RECRUITING",
+     "zip": "31-505"
+    },
+    {
+     "city": "Lublin",
+     "country": "Poland",
+     "facility": "Indywidualna Praktyka Lekarska Prof. Dr Hab. N. Med. Konrad Rejdak.",
+     "geoPoint": {
+      "lat": 51.25058,
+      "lon": 22.57009
+     },
+     "status": "RECRUITING",
+     "zip": "20-410"
+    },
+    {
+     "city": "O\u015bwi\u0119cim",
+     "country": "Poland",
+     "facility": "Instytut Zdrowia Dr Boczarska-Jedynak Sp. z o.o. Sp. k.",
+     "geoPoint": {
+      "lat": 50.03437,
+      "lon": 19.21037
+     },
+     "status": "RECRUITING",
+     "zip": "32-600"
+    },
+    {
+     "city": "Rzesz\u00f3w",
+     "country": "Poland",
+     "facility": "Nmedis sp. z o.o.",
+     "geoPoint": {
+      "lat": 50.04132,
+      "lon": 21.99901
+     },
+     "status": "RECRUITING",
+     "zip": "35-232"
+    },
+    {
+     "city": "Warsaw",
+     "country": "Poland",
+     "facility": "NeuroProtect",
+     "geoPoint": {
+      "lat": 52.22977,
+      "lon": 21.01178
+     },
+     "status": "RECRUITING",
+     "zip": "01-684"
+    },
+    {
+     "city": "Warsaw",
+     "country": "Poland",
+     "facility": "Mazowiecki Szpital Br\u00f3dnowski w Warszawie Sp. z o.o.",
+     "geoPoint": {
+      "lat": 52.22977,
+      "lon": 21.01178
+     },
+     "status": "RECRUITING",
+     "zip": "03-242"
+    },
+    {
+     "city": "Braga",
+     "country": "Portugal",
+     "facility": "Hospital de Braga",
+     "geoPoint": {
+      "lat": 41.5514,
+      "lon": -8.42311
+     },
+     "status": "RECRUITING",
+     "zip": "4710-243"
+    },
+    {
+     "city": "Coimbra",
+     "country": "Portugal",
+     "facility": "Hospital da Luz Coimbra",
+     "geoPoint": {
+      "lat": 40.20686,
+      "lon": -8.41996
+     },
+     "status": "RECRUITING",
+     "zip": "3020-479"
+    },
+    {
+     "city": "Funchal",
+     "country": "Portugal",
+     "facility": "Hospital Dr. N\u00e9lio Mendon\u00e7a;Servi\u00e7o de Neurologia",
+     "geoPoint": {
+      "lat": 32.66568,
+      "lon": -16.92547
+     },
+     "status": "RECRUITING",
+     "zip": "9004-514"
+    },
+    {
+     "city": "Guimar\u00e3es",
+     "country": "Portugal",
+     "facility": "Hospital da Senhora da Oliveira-Guimar\u00e3es",
+     "geoPoint": {
+      "lat": 41.44443,
+      "lon": -8.29619
+     },
+     "status": "RECRUITING"
+    },
+    {
+     "city": "Lisbon",
+     "country": "Portugal",
+     "facility": "Hospital de Santa Maria",
+     "geoPoint": {
+      "lat": 38.72509,
+      "lon": -9.1498
+     },
+     "status": "RECRUITING",
+     "zip": "1649-035"
+    },
+    {
+     "city": "Matosinhos Municipality",
+     "country": "Portugal",
+     "facility": "Hospital Pedro Hispano",
+     "geoPoint": {
+      "lat": 41.18207,
+      "lon": -8.68908
+     },
+     "status": "RECRUITING",
+     "zip": "4464-513"
+    },
+    {
+     "city": "Torres Vedras",
+     "country": "Portugal",
+     "facility": "CNS - Campus Neurol\u00f3gico",
+     "geoPoint": {
+      "lat": 39.09109,
+      "lon": -9.2586
+     },
+     "status": "RECRUITING",
+     "zip": "2560-280"
+    },
+    {
+     "city": "Seoul",
+     "country": "South Korea",
+     "facility": "Severance Hospital, Yonsei University Health System",
+     "geoPoint": {
+      "lat": 37.566,
+      "lon": 126.9784
+     },
+     "status": "RECRUITING",
+     "zip": "03722"
+    },
+    {
+     "city": "Seoul",
+     "country": "South Korea",
+     "facility": "Asan Medical Center",
+     "geoPoint": {
+      "lat": 37.566,
+      "lon": 126.9784
+     },
+     "status": "RECRUITING",
+     "zip": "05505"
+    },
+    {
+     "city": "Seoul",
+     "country": "South Korea",
+     "facility": "Samsung Medical Center",
+     "geoPoint": {
+      "lat": 37.566,
+      "lon": 126.9784
+     },
+     "status": "RECRUITING",
+     "zip": "06351"
+    },
+    {
+     "city": "Seoul",
+     "country": "South Korea",
+     "facility": "Boramae Medical Center",
+     "geoPoint": {
+      "lat": 37.566,
+      "lon": 126.9784
+     },
+     "status": "RECRUITING",
+     "zip": "07061"
+    },
+    {
+     "city": "Seoul",
+     "country": "South Korea",
+     "facility": "Korea University Guro Hospital",
+     "geoPoint": {
+      "lat": 37.566,
+      "lon": 126.9784
+     },
+     "status": "RECRUITING",
+     "zip": "08308"
+    },
+    {
+     "city": "Seoul",
+     "country": "South Korea",
+     "facility": "Seoul National University Hospital",
+     "geoPoint": {
+      "lat": 37.566,
+      "lon": 126.9784
+     },
+     "status": "RECRUITING",
+     "zip": "110-744"
+    },
+    {
+     "city": "Elche",
+     "country": "Spain",
+     "facility": "Hospital General Universitario de Elche",
+     "geoPoint": {
+      "lat": 38.26218,
+      "lon": -0.70107
+     },
+     "state": "Alicante",
+     "status": "RECRUITING",
+     "zip": "03203"
+    },
+    {
+     "city": "Sant Cugat del Vall\u00e8s",
+     "country": "Spain",
+     "facility": "Hospital General De Catalunya",
+     "geoPoint": {
+      "lat": 41.47063,
+      "lon": 2.08611
+     },
+     "state": "Barcelona",
+     "status": "RECRUITING",
+     "zip": "08195"
+    },
+    {
+     "city": "Donostia / San Sebastian",
+     "country": "Spain",
+     "facility": "Policlinica Guipuzcoa",
+     "geoPoint": {
+      "lat": 43.31283,
+      "lon": -1.97499
+     },
+     "state": "Guipuzcoa",
+     "status": "RECRUITING",
+     "zip": "20009"
+    },
+    {
+     "city": "A Coru\u00f1a",
+     "country": "Spain",
+     "facility": "Complejo Hospitalario Universitario A Coru\u00f1a",
+     "geoPoint": {
+      "lat": 43.37135,
+      "lon": -8.396
+     },
+     "state": "LA Coruna",
+     "status": "RECRUITING",
+     "zip": "15006"
+    },
+    {
+     "city": "Alcorc\u00f3n",
+     "country": "Spain",
+     "facility": "Hospital Universitario Fundaci\u00f3n Alcorc\u00f3n",
+     "geoPoint": {
+      "lat": 40.34582,
+      "lon": -3.82487
+     },
+     "state": "Madrid",
+     "status": "RECRUITING",
+     "zip": "28922"
+    },
+    {
+     "city": "Pozuelo de Alarc\u00f3n",
+     "country": "Spain",
+     "facility": "Hospital Quiron de Madrid",
+     "geoPoint": {
+      "lat": 40.43293,
+      "lon": -3.81338
+     },
+     "state": "Madrid",
+     "status": "RECRUITING",
+     "zip": "28223"
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Universitari Vall d Hebron",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     },
+     "status": "RECRUITING",
+     "zip": "08035"
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Clinic Barcelona",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     },
+     "status": "RECRUITING",
+     "zip": "08036"
+    },
+    {
+     "city": "Madrid",
+     "country": "Spain",
+     "facility": "Hospital Ruber Juan Bravo",
+     "geoPoint": {
+      "lat": 40.4165,
+      "lon": -3.70256
+     },
+     "status": "RECRUITING",
+     "zip": "28006"
+    },
+    {
+     "city": "Madrid",
+     "country": "Spain",
+     "facility": "Hospital Universitario de La Princesa",
+     "geoPoint": {
+      "lat": 40.4165,
+      "lon": -3.70256
+     },
+     "status": "RECRUITING",
+     "zip": "28006"
+    },
+    {
+     "city": "Madrid",
+     "country": "Spain",
+     "facility": "Hospital Univ 12 de Octubre",
+     "geoPoint": {
+      "lat": 40.4165,
+      "lon": -3.70256
+     },
+     "status": "RECRUITING",
+     "zip": "28041"
+    },
+    {
+     "city": "M\u00e1laga",
+     "country": "Spain",
+     "facility": "Hospital Regional Universitario de Malaga ? Hospital General",
+     "geoPoint": {
+      "lat": 36.72016,
+      "lon": -4.42034
+     },
+     "status": "RECRUITING",
+     "zip": "29009"
+    },
+    {
+     "city": "Seville",
+     "country": "Spain",
+     "facility": "Hospital Universitario Virgen del Rocio",
+     "geoPoint": {
+      "lat": 37.38283,
+      "lon": -5.97317
+     },
+     "status": "RECRUITING",
+     "zip": "41013"
+    },
+    {
+     "city": "Changhua County",
+     "country": "Taiwan",
+     "facility": "Changhua Christian Hospital",
+     "status": "RECRUITING",
+     "zip": "500"
+    },
+    {
+     "city": "North Dist.",
+     "country": "Taiwan",
+     "facility": "China Medical University Hospital",
+     "status": "RECRUITING",
+     "zip": "40447"
+    },
+    {
+     "city": "Tainan",
+     "country": "Taiwan",
+     "facility": "National Cheng Kung University Hospital",
+     "geoPoint": {
+      "lat": 22.99083,
+      "lon": 120.21333
+     },
+     "status": "RECRUITING",
+     "zip": "704"
+    },
+    {
+     "city": "Taipei",
+     "country": "Taiwan",
+     "facility": "National Taiwan University Hospital",
+     "geoPoint": {
+      "lat": 25.05306,
+      "lon": 121.52639
+     },
+     "status": "RECRUITING",
+     "zip": "100"
+    },
+    {
+     "city": "Taipei",
+     "country": "Taiwan",
+     "facility": "Taipei Veterans General Hospital",
+     "geoPoint": {
+      "lat": 25.05306,
+      "lon": 121.52639
+     },
+     "status": "RECRUITING",
+     "zip": "11217"
+    },
+    {
+     "city": "Taoyuan City",
+     "country": "Taiwan",
+     "facility": "Chang Gung Memorial Hospital - Linkou",
+     "geoPoint": {
+      "lat": 24.99368,
+      "lon": 121.29696
+     },
+     "status": "RECRUITING",
+     "zip": "333"
+    },
+    {
+     "city": "Dundee",
+     "country": "United Kingdom",
+     "facility": "Ninewells Hospital, Dundee- Scotland",
+     "geoPoint": {
+      "lat": 56.46913,
+      "lon": -2.97489
+     },
+     "status": "RECRUITING",
+     "zip": "DD2 1SY"
+    },
+    {
+     "city": "Exeter",
+     "country": "United Kingdom",
+     "facility": "Royal Devon and Exeter Hospital (Wonford)",
+     "geoPoint": {
+      "lat": 50.7236,
+      "lon": -3.52751
+     },
+     "status": "RECRUITING",
+     "zip": "EX2 5DW"
+    },
+    {
+     "city": "London",
+     "country": "United Kingdom",
+     "facility": "Royal London Hospital",
+     "geoPoint": {
+      "lat": 51.50853,
+      "lon": -0.12574
+     },
+     "status": "RECRUITING",
+     "zip": "E1 1FR"
+    },
+    {
+     "city": "London",
+     "country": "United Kingdom",
+     "facility": "Charing Cross Hospital",
+     "geoPoint": {
+      "lat": 51.50853,
+      "lon": -0.12574
+     },
+     "status": "RECRUITING",
+     "zip": "W6 8RF"
+    },
+    {
+     "city": "Newcastle",
+     "country": "United Kingdom",
+     "facility": "Campus for Ageing and Vitality",
+     "geoPoint": {
+      "lat": 54.21804,
+      "lon": -5.88979
+     },
+     "status": "RECRUITING",
+     "zip": "NE4 5PL"
+    },
+    {
+     "city": "Oxford",
+     "country": "United Kingdom",
+     "facility": "Oxford University Hospitals NHS Foundation Trust",
+     "geoPoint": {
+      "lat": 51.75222,
+      "lon": -1.25596
+     },
+     "status": "RECRUITING",
+     "zip": "OX3 7LE"
+    },
+    {
+     "city": "Plymouth,Devon",
+     "country": "United Kingdom",
+     "facility": "Plymouth Hospitals NHS Trust - Derriford Hospital",
+     "geoPoint": {
+      "lat": 50.37153,
+      "lon": -4.14305
+     },
+     "status": "RECRUITING",
+     "zip": "PL6 8DH"
+    }
+   ],
+   "overallOfficials": [
+    {
+     "affiliation": "Hoffmann-La Roche",
+     "name": "Clinical Trials",
+     "role": "STUDY_DIRECTOR"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "The purpose of this study is to evaluate the efficacy, safety, and pharmacokinetics (PK) of prasinezumab compared with placebo in participants with early-stage Parkinson's disease (PD) on stable symptomatic monotherapy with levodopa."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "maskingInfo": {
+     "masking": "TRIPLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 900,
+    "type": "ESTIMATED"
+   },
+   "phases": [
+    "PHASE3"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\n* Body weight within 40-110 kilograms (kg) (88-242 pounds \\[lbs\\]) and a body mass index within the range 18-34 kg/m2\n* Diagnosis of idiopathic PD based on Movement Disorder Society (MDS) criteria\n* Has received monotherapy treatment\n* An MDS-UPDRS Part IV score of 0 at screening and prior to randomization\n* Hoehn and Yahr (H\\&Y) Stage 1 or 2 off medication at screening and prior to randomization\n* Agreement to adhere to the contraception requirements\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding, or intention of becoming pregnant during the study or within the time frame in which contraception is required\n* Medical history indicating a parkinsonian syndrome other than idiopathic PD\n* Diagnosis of a significant neurologic disease other than PD\n* Chronic uncontrolled hypertension",
+   "healthyVolunteers": false,
+   "maximumAge": "85 Years",
+   "minimumAge": "50 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "PARAISO",
+   "briefTitle": "A Study to Evaluate the Efficacy and Safety of Intravenous (IV) Prasinezumab in Participants With Early-Stage Parkinson's Disease",
+   "nctId": "NCT07174310",
+   "officialTitle": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy and Safety of Intravenous Prasinezumab in Participants With Early-Stage Parkinson's Disease",
+   "orgStudyIdInfo": {
+    "id": "BN44715"
+   },
+   "organization": {
+    "class": "INDUSTRY",
+    "fullName": "Hoffmann-La Roche"
+   },
+   "secondaryIdInfos": [
+    {
+     "id": "2025-522683-32-00",
+     "type": "CTIS"
+    },
+    {
+     "id": "2025",
+     "link": "https://reporter.nih.gov/quickSearch/2025",
+     "type": "NIH"
+    }
+   ]
+  },
+  "ipdSharingStatementModule": {
+   "description": "For eligible studies, qualified researchers may request access to individual patient level clinical data. See Roche's commitment to transparency of clinical study information here: https://go.roche.com/data\\_sharing",
+   "ipdSharing": "YES"
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "measure": "Time to Confirmed Motor Progression Event on Movement Disorder Society - Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part III Score",
+     "timeFrame": "Up to at least Week 104"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "measure": "Change From Baseline in Motor Function as Measured by the MDS-UPDRS Part III off Medication Score",
+     "timeFrame": "Baseline, Week 104"
+    },
+    {
+     "measure": "Time to Worsening of Participants Motor Function as Reported by the Participant in the Presence of a Confirmed Motor Progression Event",
+     "timeFrame": "Up to at least Week 104"
+    },
+    {
+     "measure": "Time to Meaningful Worsening in Clinician Global Impression of Change (CGI-C), Overall Disease Subscale",
+     "timeFrame": "Up to at least Week 104"
+    },
+    {
+     "measure": "Time to increase in Levodopa Equivalent Daily Dose (LEDD)",
+     "timeFrame": "Up to at least Week 104"
+    },
+    {
+     "measure": "Percentage of Participants With Treatment Emergent Adverse Events (TEAEs)",
+     "timeFrame": "From Baseline up to 70 days after the final study dose (up to at least Week 104)"
+    },
+    {
+     "measure": "Percentage of Participants With Adverse Events of Special Interest (AESI)",
+     "timeFrame": "From Baseline up to 70 days after the final study dose (up to at least Week 104)"
+    },
+    {
+     "measure": "Percentage of Participants With Infusion Related Reactions (IRRs)",
+     "timeFrame": "From Baseline up to 70 days after the final study dose (up to at least Week 104)"
+    },
+    {
+     "measure": "Percentage of Participants With Suicidal Ideation, as Measured by the Columbia-Suicide Severity Rating Scale (C-SSRS)",
+     "timeFrame": "From Baseline up to 70 days after the final study dose (up to at least Week 104)"
+    },
+    {
+     "measure": "Serum Concentration of Prasinezumab",
+     "timeFrame": "Predose and postdose at Baseline, Week 1, 4, 12, 24, 36, 52, 76, and after week 76 every 12 weeks thereafter until end of study (up to at least Week 104)"
+    },
+    {
+     "measure": "Percentage of Participants With Anti-drug Antibodies (ADAs) Against Prasinezumab at Baseline",
+     "timeFrame": "At Baseline"
+    },
+    {
+     "measure": "Percentage of Participants With ADAs Against Prasinezumab During the Study",
+     "timeFrame": "From Baseline up to 70 days after the final study dose (up to at least Week 104)"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": true,
+   "oversightHasDmc": true
+  },
+  "referencesModule": {
+   "references": [
+    {
+     "citation": "Nikolcheva T, Pagano G, Anzures-Cabrera J, Trundell D, Kustermann T, Simuni T, Marek K, Pavese N, Seppi K, Stocchi F, Postuma RB, Pross N, Monnet A, Respondek G, Schlegel V, Boak L, Rutten-Jacobs L, Kerchner GA, Brundin P, Svoboda H, Bonni A; PADOVA Investigators; Prasinezumab Study Group. Efficacy and safety of intravenous prasinezumab in individuals with early-stage Parkinson's disease on stable symptomatic monotherapy (PADOVA): a phase 2b, multicentre, randomised, double-blind, placebo-controlled study. Lancet. 2026 May 30;407(10544):2227-2240. doi: 10.1016/S0140-6736(26)00865-2.",
+     "pmid": "42208564",
+     "type": "DERIVED"
+    }
+   ],
+   "seeAlsoLinks": [
+    {
+     "label": "Please use this form to submit your questions for a faster response: https://www.gene.com/contact-us/submit-medical-inquiry. Do not include or attach any medical records when emailing or completing the form. A nurse will respond within 24 business hours.",
+     "url": "https://www.gene.com/contact-us/submit-medical-inquiry"
+    }
+   ]
+  },
+  "sponsorCollaboratorsModule": {
+   "collaborators": [
+    {
+     "class": "INDUSTRY",
+     "name": "Prothena Biosciences Limited"
+    }
+   ],
+   "leadSponsor": {
+    "class": "INDUSTRY",
+    "name": "Hoffmann-La Roche"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2031-06-30",
+    "type": "ESTIMATED"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2026-10-06",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2026-10-05",
+   "overallStatus": "RECRUITING",
+   "primaryCompletionDateStruct": {
+    "date": "2029-06-30",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2025-11-24",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2026-10",
+   "studyFirstPostDateStruct": {
+    "date": "2025-09-15",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2025-09-12",
+   "studyFirstSubmitQcDate": "2025-09-12"
+  }
+ }
+}

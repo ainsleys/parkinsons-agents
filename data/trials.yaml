@@ -1,6 +1,8 @@
 # Pivotal and notable disease-modifying trials in Parkinson's as of October 2026.
 # Schema: data/SCHEMA.md. Eligibility fields are for local matching by the person's own agent.
-# Confirm on ClinicalTrials.gov before acting; status drifts monthly.
+# Structured fields were populated from the ClinicalTrials.gov v2 API on 2026-10-19
+# (raw records in data/registry/, refreshed by scripts/pull_registry.py).
+# Registries list "key" criteria only; every trial adds protocol-defined criteria at screening.
 
 - id: paraiso
   name: PARAISO
@@ -8,23 +10,24 @@
   sponsor: Hoffmann-La Roche (with Prothena)
   phase: "3"
   intervention: Prasinezumab, anti-alpha-synuclein monoclonal antibody, IV every 4 weeks
-  target_axis: synuclein (early idiopathic PD on stable levodopa)
+  target_axis: synuclein (early idiopathic PD on stable symptomatic monotherapy)
   status: recruiting
   geography: [17 countries including US, UK, Germany]
-  sites: 231
+  sites: 192
   eligibility:
     age_min: 50
     age_max: 85
     disease_duration_min_months: 3
     disease_duration_max_months: 36
     hoehn_yahr: "1 or 2 off medication"
-    medication_state: on stable levodopa
+    medication_state: on stable symptomatic monotherapy (registry says "monotherapy"; site listings say levodopa)
     genetic_requirement: none
     other:
       - Idiopathic PD by MDS criteria
-      - MDS-UPDRS Part IV score 0 at screening and randomization
-      - Weight 40 to 110 kg
-      - BMI 18 to 34
+      - MDS-UPDRS Part IV score 0 at screening and randomization (no motor complications)
+      - Weight 40 to 110 kg; BMI 18 to 34
+      - Excludes other parkinsonian syndromes, significant other neurologic disease, chronic uncontrolled hypertension, pregnancy
+    notes: Disease duration window (3 months to 3 years) comes from site listings, not the registry record
   burden:
     route: IV infusion
     frequency: every 4 weeks
@@ -32,7 +35,9 @@
     open_label_extension: true
     placebo_probability: 0.5
     mri_required: likely
+  enrollment_target: 900
   primary_completion: 2029-06-30
+  registry_last_updated: 2026-10-06
   background: Phase 2b PADOVA missed its primary endpoint (HR 0.84, p 0.066); prespecified levodopa-treated subgroup HR 0.79. The only anti-synuclein agent with a replicated directional signal.
   verified: 2026-10-19
   sources:
@@ -45,19 +50,26 @@
   sponsor: University College London (Cure Parkinson's, Van Andel Institute funding)
   phase: "3"
   intervention: Ambroxol 1,260 mg per day oral, GBA1 chaperone, vs placebo
-  target_axis: genetic (GBA1 status confirmed; carriers and non-carriers both enrolled)
+  target_axis: genetic (GBA1 status must be known; carriers and non-carriers both enrolled)
   status: recruiting
   geography: [UK]
   sites: 15
   eligibility:
-    age_min: null
-    age_max: null
+    age_min: 35
+    age_max: 75
     disease_duration_min_months: null
-    disease_duration_max_months: null
-    hoehn_yahr: unknown
-    medication_state: unknown
-    genetic_requirement: GBA1 status must be confirmed (either result accepted, equal recruitment)
-    other: []
+    disease_duration_max_months: 84
+    hoehn_yahr: "1 to 2.5 on medication"
+    medication_state: on stable dopaminergic treatment for at least 3 months
+    genetic_requirement: GBA1 status confirmed before screening (positive or negative both accepted); LRRK2 G2019S carriers excluded
+    other:
+      - PD by MDS criteria diagnosed within 7 years
+      - Excludes prior deep brain stimulation
+      - Excludes ambroxol in past 12 months and exenatide or other GLP-1 agonist in past 12 months
+      - Excludes another disease-modifying investigational drug within 12 months
+      - Excludes MoCA below 20, BDI-II above 20, dysphagia, creatinine clearance below 50
+      - Excludes trihexyphenidyl or benztropine within 30 days
+      - Optional CSF sub-study with lumbar puncture
   burden:
     route: oral
     frequency: daily
@@ -65,44 +77,54 @@
     open_label_extension: true
     placebo_probability: 0.5
     mri_required: unknown
-  primary_completion: 2029-09
+  enrollment_target: 330
+  primary_completion: 2029-02
+  registry_last_updated: 2025-05-01
   background: Open-label AiM-PD (2020) showed CNS penetration and motor improvement; ambroxol missed primary endpoints in PD dementia (2025). The last large randomized test of GCase enhancement before gene therapy data.
   verified: 2026-10-19
   sources:
+    - https://clinicaltrials.gov/study/NCT05778617
     - https://pubmed.ncbi.nlm.nih.gov/41708985/
     - https://cureparkinsons.org.uk/2025/04/the-aspro-pd-trial-is-now-underway/
 
 - id: great
-  name: GREAT
+  name: GREAT (GRoningen Early-PD Ambroxol Treatment)
   registry_id: NCT05830396
+  eu_ct_number: 2024-514976-41-00
   sponsor: University Medical Center Groningen
   phase: 2/3
-  intervention: Ambroxol 1,800 mg per day oral
-  target_axis: genetic (GBA1 relevance; enrollment criteria not verified)
-  status: recruiting
+  intervention: Ambroxol 1,800 mg per day oral vs placebo
+  target_axis: genetic (GBA1 carriers only)
+  status: recruiting per EU CTIS (started 2024-09-23); the ClinicalTrials.gov record is stale (status UNKNOWN, last updated 2023-05-10)
   geography: [Netherlands]
-  sites: null
+  sites: 1
   eligibility:
-    age_min: null
+    age_min: 18
     age_max: null
     disease_duration_min_months: null
-    disease_duration_max_months: null
+    disease_duration_max_months: 120
     hoehn_yahr: unknown
     medication_state: unknown
-    genetic_requirement: unknown
-    other: []
+    genetic_requirement: GBA1 pathogenic variant required
+    other:
+      - PD by MDS criteria
+      - Excludes deep brain stimulation and MRI-incompatible implants
+      - Excludes dysphagia, significant renal or hepatic impairment
   burden:
     route: oral
     frequency: daily
     blinded_duration_weeks: 60
     open_label_extension: unknown
     placebo_probability: unknown
-    mri_required: unknown
-  primary_completion: unknown
-  background: 80 planned participants; MDS-UPDRS III at 60 weeks.
+    mri_required: true
+  enrollment_target: 80
+  primary_completion: unknown (ClinicalTrials.gov says 2025-07, stale)
+  registry_last_updated: 2023-05-10
+  background: Higher ambroxol dose than ASPro-PD; MDS-UPDRS III OFF at 60 weeks.
   verified: 2026-10-19
   sources:
-    - research_notes/Parkinsons disease research review/06_disease_modifying_therapy_pipeline.md
+    - https://clinicaltrials.gov/study/NCT05830396
+    - https://ctis.eu/trial/2024-514976-41-00
 
 - id: bhv_8000
   name: BHV-8000 phase 2/3
@@ -110,20 +132,23 @@
   sponsor: Biohaven
   phase: 2/3
   intervention: BHV-8000, oral TYK2/JAK1 inhibitor, vs placebo
-  target_axis: none (early idiopathic PD; immune hypothesis)
-  status: recruiting (per corpus, October 2026; confirm)
+  target_axis: none (early, untreated idiopathic PD; immune hypothesis)
+  status: recruiting
   geography: [US]
-  sites: 23
+  sites: 24
   eligibility:
-    age_min: null
-    age_max: null
+    age_min: 40
+    age_max: 80
     disease_duration_min_months: null
-    disease_duration_max_months: null
+    disease_duration_max_months: 24
     hoehn_yahr: unknown
-    medication_state: unknown
+    medication_state: not on any PD medication (treatment-naive)
     genetic_requirement: none
     other:
-      - Infection screening; immune suppression risk
+      - Probable PD by MDS criteria with clinician-documented onset within 2 years
+      - Excludes current smokers of any kind including e-cigarettes
+      - Excludes other parkinsonian syndromes and significant CNS disease
+      - Immune suppression risk; infection screening
   burden:
     route: oral
     frequency: daily
@@ -131,11 +156,13 @@
     open_label_extension: true
     placebo_probability: unknown
     mri_required: unknown
-  primary_completion: 2027
-  background: No prior PD efficacy data; novel anti-inflammatory mechanism.
+  enrollment_target: 550
+  primary_completion: 2027-08
+  registry_last_updated: 2026-09-28
+  background: No prior PD efficacy data; novel anti-inflammatory mechanism. Note the untreated requirement, which conflicts with starting levodopa.
   verified: 2026-10-19
   sources:
-    - research_notes/Parkinsons disease research review/06_disease_modifying_therapy_pipeline.md
+    - https://clinicaltrials.gov/study/NCT06976268
 
 - id: ejs_act_pd
   name: EJS ACT-PD platform trial
@@ -144,7 +171,7 @@
   phase: "3 platform"
   intervention: Telmisartan, terazosin, ursodeoxycholic acid vs shared placebo
   target_axis: none (PD within a few years of diagnosis)
-  status: recruiting (confirm)
+  status: recruiting (confirm; not on ClinicalTrials.gov, look for an ISRCTN number)
   geography: [UK]
   sites: 43
   eligibility:
@@ -164,7 +191,9 @@
     open_label_extension: unknown
     placebo_probability: unknown
     mri_required: unknown
+  enrollment_target: null
   primary_completion: unknown
+  registry_last_updated: null
   background: Shared-placebo multi-arm design; repurposed drugs.
   verified: 2026-10-19
   sources:
@@ -176,17 +205,32 @@
   sponsor: Denali Therapeutics
   phase: 2a
   intervention: BIIB122 (DNL151), LRRK2 kinase inhibitor
-  target_axis: genetic (LRRK2 variant carriers only)
+  target_axis: genetic (LRRK2 pathogenic variant carriers only)
   status: active_not_recruiting
-  geography: [US]
-  sites: null
+  geography: [4 countries including US]
+  sites: 20
   eligibility:
-    genetic_requirement: heterozygous or homozygous LRRK2 pathogenic variant
-    other: []
+    age_min: 30
+    age_max: 80 for heterozygous carriers; none for homozygous
+    disease_duration_min_months: null
+    disease_duration_max_months: null
+    hoehn_yahr: unknown
+    medication_state: unknown
+    genetic_requirement: pathogenic LRRK2 variant confirmed on screening test
+    other:
+      - PD by MDS criteria
+      - Excludes prior LUMA participants, gene therapy participants, prior brain surgery for PD
+      - Excludes abnormal pulmonary function tests or vitals
   burden:
     route: oral
+    frequency: daily
+    blinded_duration_weeks: unknown
+    open_label_extension: unknown
+    placebo_probability: unknown
     mri_required: unknown
+  enrollment_target: 50
   primary_completion: 2027-03
+  registry_last_updated: 2026-05-27
   background: The only remaining clinical test of the LRRK2 hypothesis after LUMA failed in idiopathic PD (May 2026). Data expected first half of 2027.
   verified: 2026-10-19
   sources:
@@ -198,37 +242,57 @@
   registry_id: NCT04127578
   sponsor: Prevail Therapeutics / Eli Lilly
   phase: 1/2a
-  intervention: PR001 / LY3884961, AAV9-GBA1 gene therapy, intracisternal
+  intervention: PR001 / LY3884961, AAV9-GBA1 gene therapy, single intracisternal injection with immunosuppression
   target_axis: genetic (GBA1 PD, moderate to severe)
   status: active_not_recruiting
-  geography: [US]
-  sites: null
+  geography: [US and one other country]
+  sites: 15
   eligibility:
-    genetic_requirement: at least one GBA1 pathogenic variant
-    other: []
+    age_min: 35
+    age_max: 80
+    disease_duration_min_months: null
+    disease_duration_max_months: null
+    hoehn_yahr: "3 to 4 off medication"
+    medication_state: stable background medication for at least 8 weeks
+    genetic_requirement: at least one pathogenic GBA1 variant confirmed by central lab
+    other:
+      - Weight 40 to 110 kg; BMI 18 to 34
+      - Requires a study partner, ambulatory without walker, living in the community, MoCA 14 or above
+      - Excludes prior DBS, focused ultrasound, PD surgery, any gene or cell therapy, ambroxol within 8 weeks
+      - Excludes MRI contraindications, blood thinners, many cardiac, hepatic, infectious and psychiatric conditions
+      - Requires pneumococcal and shingles vaccination and TB screening
   burden:
-    route: intracisternal injection with immunosuppression
-    mri_required: likely
-  primary_completion: 2031-03-31
-  background: Sham arm removed and immunosuppression enhanced after an early immune-related serious adverse event; 32 planned.
+    route: intracisternal injection under anesthesia plus immunosuppression; lumbar punctures; long-term follow-up
+    frequency: single dose
+    blinded_duration_weeks: 0
+    open_label_extension: n/a (open-label)
+    placebo_probability: 0
+    mri_required: true
+  enrollment_target: 32
+  primary_completion: 2031-08-31
+  registry_last_updated: 2026-10-13
+  background: Sham arm removed and immunosuppression enhanced after an early immune-related serious adverse event.
   verified: 2026-10-19
   sources:
     - https://clinicaltrials.gov/study/NCT04127578
 
 - id: luma
   name: LUMA
-  registry_id: NCT05418673
+  registry_id: NCT05348785
   sponsor: Biogen / Denali
   phase: 2b
-  intervention: BIIB122 (DNL151), LRRK2 kinase inhibitor
-  target_axis: none (early idiopathic PD)
+  intervention: BIIB122 (DNL151), LRRK2 kinase inhibitor, oral
+  target_axis: none (early idiopathic PD, ages 30 to 80, within 2 years of diagnosis)
   status: failed
   geography: []
   sites: null
   eligibility: {}
   burden: {}
-  primary_completion: 2026
-  background: Reported May 2026. No efficacy signal on primary or secondary endpoints despite over 90 percent peripheral kinase inhibition; development in idiopathic PD discontinued.
+  enrollment_target: 650
+  primary_completion: 2026-03-09
+  registry_last_updated: 2026-06-04
+  background: Completed March 2026, reported May 2026. No efficacy signal on primary or secondary endpoints despite over 90 percent peripheral kinase inhibition; development in idiopathic PD discontinued. A companion phase 3 in LRRK2 carriers (LIGHTHOUSE, NCT05418673) was terminated in 2023 after enrolling 7.
   verified: 2026-10-19
   sources:
+    - https://clinicaltrials.gov/study/NCT05348785
     - https://www.neurologylive.com/view/lrrk2-inhibitor-biib122-fails-slow-early-stage-parkinson-disease

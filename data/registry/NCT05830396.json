@@ -1,0 +1,292 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Ambroxol 1800mg/day",
+     "interventionNames": [
+      "Drug: Ambroxol Hydrochloride"
+     ],
+     "label": "Ambroxol",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Placebo",
+     "interventionNames": [
+      "Drug: Placebo"
+     ],
+     "label": "Placebo",
+     "type": "PLACEBO_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "Ambroxol"
+     ],
+     "description": "Patients will either receive ambroxol or placebo. ambroxol will be given intially in a dosage of 600mg/day. After 1 week, this will be increased to 1200mg/day. After 2 weeks the maximum dosage of 1800mg/day will be given. In total, ambroxol will be administered for 48 weeks. This is followed by a 12 week washout period, after wich the final outcomes will be measured (week 60).",
+     "name": "Ambroxol Hydrochloride",
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "Placebo"
+     ],
+     "description": "Patients will either receive ambroxol or placebo. ambroxol will be given intially in a dosage of 600mg/day. After 1 week, this will be increased to 1200mg/day. After 2 weeks the maximum dosage of 1800mg/day will be given. In total, ambroxol will be administered for 48 weeks. This is followed by a 12 week washout period, after wich the final outcomes will be measured (week 60).",
+     "name": "Placebo",
+     "type": "DRUG"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson",
+    "Parkinson Disease"
+   ],
+   "keywords": [
+    "Ambroxol",
+    "GBA1",
+    "GBA"
+   ]
+  },
+  "contactsLocationsModule": {
+   "centralContacts": [
+    {
+     "email": "o.siemeling@umcg.nl",
+     "name": "Olav Siemeling",
+     "phone": "0031 (0)50 3615639",
+     "role": "CONTACT"
+    }
+   ],
+   "locations": [
+    {
+     "city": "Groningen",
+     "contacts": [
+      {
+       "email": "o.siemeling@umcg.nl",
+       "name": "Olav Siemeling",
+       "phone": "0031 (0)50 3615639",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Teus van Laar, Prof. dr.",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "country": "Netherlands",
+     "facility": "University Medical Center Groningen",
+     "geoPoint": {
+      "lat": 53.21917,
+      "lon": 6.56667
+     },
+     "status": "RECRUITING"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "The most common genetic risk factor for Parkinson's Disease is a heterozygous mutation of the GBA1 gene, encoding the lysosomal enzyme glucocerebrosidase (GCase). Reduced GCase activity is associated with aggregation of the protein alpha synucleine (aSyn) in the central nervous system, which is related to the pathological cause of PD. Ambroxol is a mucolytic expectorant that appears to facilitate the refolding of the misfolded GBA protein thats acts as a chaperone for GCase.\n\nThis randomized placebo-controlled trial aims to investigate the disease-modifying properties of ambroxol in PD patients with a GBA1-mutation. Patients will undergo motor and cognitive tests, as well as imaging and blood tests."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "maskingInfo": {
+     "masking": "QUADRUPLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 80,
+    "type": "ESTIMATED"
+   },
+   "phases": [
+    "PHASE2",
+    "PHASE3"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of Parkinson's disease, according to Movement Disorders Society (MDS) criteria (27)\n* Disease duration of 10 years or less at time of inclusion\n* PD patients carrying a GBA1 mutation\n* Able to write written informed consent, understanding study protocol and perform protocol related actions\n* Willing and able to self-administer oral ambroxol or placebo medication\n\nExclusion Criteria:\n\n* The refusal to be informed about an unforeseen clinical finding\n* Use of an implanted Deep Brain Stimulation (DBS) system\n* Confirmed dysphagia that would preclude self-administration of ambroxol or placebo tablets\n* History of known sensitivity to the study medication\n* Pregnant or breastfeeding women\n* Participants of childbearing potential that would not use adequate birth control, consisting of a negative pregnancy test at the screening visit and use of accepted contraceptive methods defined as highly effective while participating in the study\n* MRI incompatible implants in the body\n* Any clinically significant or unstable medical or surgical condition that in the opinion of the principal investigator may put the participant at risk when participating in the study or may influence the results of the study or affect the participant's ability to take part in the study, as determined by medical history, physical examinations, electrocardiogram (ECG), or laboratory tests. Such conditions may include:\n\n  1. Impaired renal function (a positive urine dipstick test, and laboratory values below or above: a eGFR \\<45 ml/min 1,73M2, Sodium 135-145 mmol/L, Potassium 3.5-5.0 mmol/L, Urea 2.5-7.5mmol/L).\n  2. Moderate/severe hepatic impairment (laboratory values below or above: ASAT 0- 80U/L, ALAT0-90 U/L, GGT \\> 80 U/L, Alkaline Phosphatase 35-210 U/L).",
+   "healthyVolunteers": false,
+   "minimumAge": "18 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "GREAT",
+   "briefTitle": "GRoningen Early-PD Ambroxol Treatment",
+   "nctId": "NCT05830396",
+   "officialTitle": "GRoningen Early-PD Ambroxol Treatment (GREAT) Trial: A Randomised, Double-blind, Placebo-controlled, Singlecenter Trial With Ambroxol in Parkinson Patients With a GBA Mutation",
+   "orgStudyIdInfo": {
+    "id": "202100266"
+   },
+   "organization": {
+    "class": "OTHER",
+    "fullName": "University Medical Center Groningen"
+   }
+  },
+  "ipdSharingStatementModule": {
+   "ipdSharing": "NO"
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "description": "Motor scale developed for PD patients, 0-132. 0 means good performance, 132 means very bad performance",
+     "measure": "MDS-UPDRS3 motor scale",
+     "timeFrame": "60 weeks"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "description": "AE will be monitored and patients will be questioned about side effects every week during the first 3 weeks and after that, every 3 months during the visits",
+     "measure": "Safety and tolerability measured by incidence of adverse events and possible side effects",
+     "timeFrame": "all throughout the study. specifically at: 1, 2, 3, 12, 24, 36, 48, 60 weeks"
+    },
+    {
+     "description": "Measured by the level of sphingolipids in PBMCs",
+     "measure": "Glucocerebrosidase (GCase) activity in blood mononuclear cells",
+     "timeFrame": "0, 12, 60 weeks"
+    },
+    {
+     "measure": "Striatal F-DOPA uptake as measured by [18] F-DOPA PET scan",
+     "timeFrame": "0, 60 weeks"
+    },
+    {
+     "description": "Fluctuations in the BOLD signal can be used to investigate the functional architecture and connectivity within the brain.",
+     "measure": "fMRI resting state to investigate the functional architecture and structural MRI for PET-scan",
+     "timeFrame": "0, 60 weeks"
+    },
+    {
+     "measure": "Quality of Life (PDQ-39 questionnaire)",
+     "timeFrame": "0, 60 weeks"
+    },
+    {
+     "description": "minimum value is 0, maximum value is 360. 0 indicating a good performance, 360 indicating a very bad performance",
+     "measure": "Non Motor Symptoms (NMSS scale)",
+     "timeFrame": "0, 60 weeks"
+    },
+    {
+     "description": "Range is 0-30, 0 indicating the worst performance, 30 indicating the best performance",
+     "measure": "Cognition, using the Montreal Cognitive Assessment (MoCA)",
+     "timeFrame": "0, 60 weeks"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": false,
+   "oversightHasDmc": true
+  },
+  "referencesModule": {
+   "references": [
+    {
+     "citation": "Moes HR, Buskens E, van Laar T. Continuous subcutaneous levodopa-carbidopa infusion for Parkinson's disease. Lancet Neurol. 2024 Sep;23(9):856-857. doi: 10.1016/S1474-4422(24)00272-2. No abstract available.",
+     "pmid": "39152017",
+     "type": "DERIVED"
+    },
+    {
+     "citation": "Siemeling O, Slingerland S, van der Zee S, van Laar T. Study protocol of the GRoningen early-PD Ambroxol treatment (GREAT) trial: a randomized, double-blind, placebo-controlled, single center trial with ambroxol in Parkinson patients with a GBA mutation. BMC Neurol. 2024 May 1;24(1):146. doi: 10.1186/s12883-024-03629-9.",
+     "pmid": "38693511",
+     "type": "DERIVED"
+    }
+   ]
+  },
+  "sponsorCollaboratorsModule": {
+   "leadSponsor": {
+    "class": "OTHER",
+    "name": "University Medical Center Groningen"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2025-07",
+    "type": "ESTIMATED"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastKnownStatus": "RECRUITING",
+   "lastUpdatePostDateStruct": {
+    "date": "2023-05-10",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2023-05-08",
+   "overallStatus": "UNKNOWN",
+   "primaryCompletionDateStruct": {
+    "date": "2025-07",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2023-05",
+    "type": "ESTIMATED"
+   },
+   "statusVerifiedDate": "2023-05",
+   "studyFirstPostDateStruct": {
+    "date": "2023-04-26",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2023-03-20",
+   "studyFirstSubmitQcDate": "2023-04-13"
+  }
+ }
+}

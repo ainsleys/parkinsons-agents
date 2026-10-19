@@ -1,0 +1,438 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    }
+   ]
+  },
+  "interventionBrowseModule": {
+   "meshes": [
+    {
+     "id": "C000730636",
+     "term": "DNL151"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Oral 225 mg dose, once daily (QD)",
+     "interventionNames": [
+      "Drug: BIIB122 225 mg"
+     ],
+     "label": "BIIB122 225 mg",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Oral BIIB122 matching placebo, once daily (QD)",
+     "interventionNames": [
+      "Other: BIIB122-Matching Placebo"
+     ],
+     "label": "BIIB122 Matching Placebo",
+     "type": "PLACEBO_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "BIIB122 225 mg"
+     ],
+     "description": "Administered as specified in the treatment arm",
+     "name": "BIIB122 225 mg",
+     "otherNames": [
+      "DNL151"
+     ],
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "BIIB122 Matching Placebo"
+     ],
+     "description": "Administered as specified in the treatment arm",
+     "name": "BIIB122-Matching Placebo",
+     "type": "OTHER"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson Disease"
+   ],
+   "keywords": [
+    "LRRK2",
+    "Movement Disorders"
+   ]
+  },
+  "contactsLocationsModule": {
+   "locations": [
+    {
+     "city": "Los Angeles",
+     "country": "United States",
+     "facility": "Cedars-Sinai Department of Neurology",
+     "geoPoint": {
+      "lat": 34.05223,
+      "lon": -118.24368
+     },
+     "state": "California",
+     "zip": "90048"
+    },
+    {
+     "city": "San Francisco",
+     "country": "United States",
+     "facility": "University of California San Francisco",
+     "geoPoint": {
+      "lat": 37.77493,
+      "lon": -122.41942
+     },
+     "state": "California",
+     "zip": "94158"
+    },
+    {
+     "city": "Boca Raton",
+     "country": "United States",
+     "facility": "Parkinson's Disease and Movement Disorders Center",
+     "geoPoint": {
+      "lat": 26.35869,
+      "lon": -80.0831
+     },
+     "state": "Florida",
+     "zip": "33486"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Beth Israel Deaconess Medical Center",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "zip": "02215"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Ichan School of Medicine at Mount Sinai/Beth Israel Downtown-Movement Disorder Center",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "zip": "10003"
+    },
+    {
+     "city": "Kirkland",
+     "country": "United States",
+     "facility": "Evergreen Health Laboratory",
+     "geoPoint": {
+      "lat": 47.68149,
+      "lon": -122.20874
+     },
+     "state": "Washington",
+     "zip": "98034"
+    },
+    {
+     "city": "Spokane",
+     "country": "United States",
+     "facility": "Inland Northwest Research",
+     "geoPoint": {
+      "lat": 47.65966,
+      "lon": -117.42908
+     },
+     "state": "Washington",
+     "zip": "99202"
+    },
+    {
+     "city": "Dresden",
+     "country": "Germany",
+     "facility": "Technische Universit\u00e4t Dresden",
+     "geoPoint": {
+      "lat": 51.05089,
+      "lon": 13.73832
+     }
+    },
+    {
+     "city": "L\u00fcbeck",
+     "country": "Germany",
+     "facility": "University of L\u00fcbeck",
+     "geoPoint": {
+      "lat": 53.86893,
+      "lon": 10.68729
+     }
+    },
+    {
+     "city": "T\u00fcbingen",
+     "country": "Germany",
+     "facility": "University Hospital T\u00fcbingen",
+     "geoPoint": {
+      "lat": 48.52266,
+      "lon": 9.05222
+     }
+    },
+    {
+     "city": "Petah Tikva",
+     "country": "Israel",
+     "facility": "Rabin Medical Center",
+     "geoPoint": {
+      "lat": 32.0888,
+      "lon": 34.88666
+     }
+    },
+    {
+     "city": "Ramat Gan",
+     "country": "Israel",
+     "facility": "Movement Disorders Institute, Sheba Medical Center",
+     "geoPoint": {
+      "lat": 32.08227,
+      "lon": 34.81065
+     }
+    },
+    {
+     "city": "Tel Aviv",
+     "country": "Israel",
+     "facility": "Tel Aviv Medical Center",
+     "geoPoint": {
+      "lat": 32.08088,
+      "lon": 34.78057
+     }
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Clinic de Barcelona",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     }
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Universitari General de Catalunya",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     }
+    },
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "facility": "Hospital Universitari Vall d'Hebron",
+     "geoPoint": {
+      "lat": 41.38879,
+      "lon": 2.15899
+     }
+    },
+    {
+     "city": "Donostia / San Sebastian",
+     "country": "Spain",
+     "facility": "Hospital Universitario Donostia",
+     "geoPoint": {
+      "lat": 43.31283,
+      "lon": -1.97499
+     }
+    },
+    {
+     "city": "Madrid",
+     "country": "Spain",
+     "facility": "Universitary Hospital La Princesa",
+     "geoPoint": {
+      "lat": 40.4165,
+      "lon": -3.70256
+     }
+    },
+    {
+     "city": "Santander",
+     "country": "Spain",
+     "facility": "IDIVAL/University Hospital Marques de Valdecilla",
+     "geoPoint": {
+      "lat": 43.46589,
+      "lon": -3.80493
+     }
+    },
+    {
+     "city": "Seville",
+     "country": "Spain",
+     "facility": "Hospital Universitario Virgen del Rocio",
+     "geoPoint": {
+      "lat": 37.38283,
+      "lon": -5.97317
+     }
+    }
+   ],
+   "overallOfficials": [
+    {
+     "affiliation": "Denali Therapeutics",
+     "name": "Danna Jennings, MD",
+     "role": "STUDY_DIRECTOR"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "This Phase 2a, multicenter, randomized, 12-week double-blind, placebo-controlled, parallel-group study, followed by an OLE, is designed to evaluate the safety, tolerability, and pharmacodynamic effects of BIIB122 in participants with LRRK2-PD. LRRK2-PD is defined as Parkinson's Disease (PD) in individuals who are heterozygous or homozygous carriers of a pathogenic LRRK2 variant that increases LRRK2 kinase activity."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "maskingInfo": {
+     "masking": "DOUBLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "INVESTIGATOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 50,
+    "type": "ESTIMATED"
+   },
+   "phases": [
+    "PHASE2"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\n* For heterozygous pathogenic LRRK2 mutation carriers: \u2265 30 to \u2264 80 years\n* For homozygous pathogenic LRRK2 mutation carriers: \u2265 30 years\n* Have screening genetic test results verifying the presence of a pathogenic LRRK2 variant.\n* Have a clinical diagnosis of PD meeting the Movement Disorder Society Clinical Diagnostic Criteria.\n\nExclusion Criteria:\n\n* Have a history of any clinically significant neurological disorder other than PD, including, but not limited to, stroke and dementia, in the opinion of the investigator, within 5 years of the screening visit.\n* Have clinical evidence of atypical parkinsonism (eg, multiple-system atrophy or progressive supranuclear palsy) or evidence of drug-induced parkinsonism.\n* Have previously participated or are currently participating in the BIIB122 LUMA study (Study 283PD201).\n* Have previously participated or are currently participating in a gene therapy study for PD.\n* Have a history of brain surgical intervention for PD (eg, deep-brain stimulation, pallidotomy).\n* Have any physical condition that may confound the motor assessment (MDS-UPDRS) over time (eg, severe arthritis, severe dyskinesias, traumatic injuries with permanent physical disability).\n* Abnormal vitals including Blood Pressure, Heart Rate, or Body Temperature\n* Have abnormal PFT results at screening\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply",
+   "healthyVolunteers": false,
+   "minimumAge": "30 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "briefTitle": "Safety and Pharmacodynamic Effects of BIIB122 in Participants With LRRK2-Associated Parkinson's Disease (LRRK2-PD)",
+   "nctId": "NCT06602193",
+   "officialTitle": "A Phase 2a, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety and Pharmacodynamic Effects of BIIB122 in Participants With LRRK2-Associated Parkinson's Disease (LRRK2-PD)",
+   "orgStudyIdInfo": {
+    "id": "DNLI-C-0009"
+   },
+   "organization": {
+    "class": "INDUSTRY",
+    "fullName": "Denali Therapeutics Inc."
+   }
+  },
+  "ipdSharingStatementModule": {
+   "ipdSharing": "NO"
+  },
+  "outcomesModule": {
+   "otherOutcomes": [
+    {
+     "measure": "Incidence of TEAEs and SAEs during the OLE period",
+     "timeFrame": "2.5 years"
+    }
+   ],
+   "primaryOutcomes": [
+    {
+     "measure": "Incidence of treatment-emergent adverse events (TEAEs) and serious adverse events (SAEs) with BIIB122 compared with placebo over the 12-week double-blind period",
+     "timeFrame": "12 weeks"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "measure": "Change from baseline in whole-blood pS935 LRRK2 with BIIB122 compared with placebo at Week 12",
+     "timeFrame": "12 weeks"
+    },
+    {
+     "measure": "Change from baseline in urine BMP with BIIB122 compared with placebo at Week 12",
+     "timeFrame": "12 weeks"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": true
+  },
+  "sponsorCollaboratorsModule": {
+   "collaborators": [
+    {
+     "class": "INDUSTRY",
+     "name": "Biogen"
+    }
+   ],
+   "leadSponsor": {
+    "class": "INDUSTRY",
+    "name": "Denali Therapeutics Inc."
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2028-02-28",
+    "type": "ESTIMATED"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2026-05-27",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2026-05-26",
+   "overallStatus": "ACTIVE_NOT_RECRUITING",
+   "primaryCompletionDateStruct": {
+    "date": "2027-03",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2024-10-24",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2026-05",
+   "studyFirstPostDateStruct": {
+    "date": "2024-09-19",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2024-09-16",
+   "studyFirstSubmitQcDate": "2024-09-16"
+  }
+ }
+}

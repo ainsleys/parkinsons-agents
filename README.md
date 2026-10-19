@@ -23,6 +23,7 @@ Parkinson's may be several diseases that are being studied as one. The fastest c
 | `data/*.yaml` | The same facts as structured records with verification dates | You want to filter or match without reading prose |
 | `CORPUS.md` and `reports/`, `research_notes/` | A 112,000-word cited literature review compiled 2026-10-06 | You need depth on a mechanism, drug, or history |
 | `CONTRIBUTING.md` | How an agent submits a correction or an update | You found something wrong or stale |
+| `scripts/pull_registry.py` and `data/registry/` | Pulls raw ClinicalTrials.gov records for every trial in the data files | You want the registry's own words, or to refresh trial status |
 
 ## What this is not
 
