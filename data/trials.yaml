@@ -25,7 +25,7 @@
     duration_reference: diagnosis
     hoehn_yahr_min: 1
     hoehn_yahr_max: 2
-    hoehn_yahr_state: off
+    hoehn_yahr_state: "off"
     medication_state: on_stable_treatment
     medication_min_months: null
     motor_complications_allowed: false
@@ -77,7 +77,7 @@
     duration_reference: diagnosis
     hoehn_yahr_min: 1
     hoehn_yahr_max: 2.5
-    hoehn_yahr_state: on
+    hoehn_yahr_state: "on"
     medication_state: on_stable_treatment
     medication_min_months: 3
     motor_complications_allowed: unknown
@@ -133,7 +133,7 @@
     duration_reference: diagnosis
     hoehn_yahr_min: null
     hoehn_yahr_max: null
-    hoehn_yahr_state: unknown
+    hoehn_yahr_state: "unknown"
     medication_state: unknown
     medication_min_months: null
     motor_complications_allowed: unknown
@@ -183,7 +183,7 @@
     duration_reference: symptom_onset
     hoehn_yahr_min: null
     hoehn_yahr_max: null
-    hoehn_yahr_state: unknown
+    hoehn_yahr_state: "unknown"
     medication_state: untreated
     medication_min_months: null
     motor_complications_allowed: unknown
@@ -233,7 +233,7 @@
     duration_reference: unknown
     hoehn_yahr_min: null
     hoehn_yahr_max: null
-    hoehn_yahr_state: unknown
+    hoehn_yahr_state: "unknown"
     medication_state: on_stable_treatment
     medication_min_months: 2
     motor_complications_allowed: unknown
@@ -287,7 +287,7 @@
     duration_reference: unknown
     hoehn_yahr_min: null
     hoehn_yahr_max: 2
-    hoehn_yahr_state: unknown
+    hoehn_yahr_state: "unknown"
     medication_state: either
     medication_min_months: 3
     motor_complications_allowed: unknown
@@ -311,7 +311,7 @@
     mri_required: unknown
     surgery: false
   enrollment_target: 36
-  primary_completion: 2027
+  primary_completion: "2027"
   registry_last_updated: null
   background: Safety and target-engagement study; primary outcome is adverse events, with PET and fluid inflammation markers secondary.
   verified: 2026-10-19
@@ -339,7 +339,7 @@
     duration_reference: unknown
     hoehn_yahr_min: null
     hoehn_yahr_max: null
-    hoehn_yahr_state: unknown
+    hoehn_yahr_state: "unknown"
     medication_state: unknown
     medication_min_months: null
     motor_complications_allowed: unknown
@@ -390,7 +390,7 @@
     duration_reference: unknown
     hoehn_yahr_min: 3
     hoehn_yahr_max: 4
-    hoehn_yahr_state: off
+    hoehn_yahr_state: "off"
     medication_state: on_stable_treatment
     medication_min_months: 2
     motor_complications_allowed: true
@@ -441,7 +441,7 @@
     duration_reference: diagnosis
     hoehn_yahr_min: null
     hoehn_yahr_max: null
-    hoehn_yahr_state: unknown
+    hoehn_yahr_state: "unknown"
     medication_state: on_stable_treatment
     medication_min_months: 1
     motor_complications_allowed: true
@@ -489,7 +489,7 @@
     duration_reference: diagnosis
     hoehn_yahr_min: null
     hoehn_yahr_max: null
-    hoehn_yahr_state: unknown
+    hoehn_yahr_state: "unknown"
     medication_state: on_stable_treatment
     medication_min_months: null
     motor_complications_allowed: true
@@ -538,7 +538,7 @@
     duration_max_months: 36
     duration_reference: diagnosis
     hoehn_yahr_max: 2
-    hoehn_yahr_state: off
+    hoehn_yahr_state: "off"
     medication_state: either
     genetic_requirement: {required_variant: none, status_must_be_known: false, excluded_variants: []}
     other:
@@ -574,7 +574,7 @@
     duration_min_months: 60
     duration_reference: symptom_onset
     hoehn_yahr_max: 3
-    hoehn_yahr_state: on
+    hoehn_yahr_state: "on"
     medication_state: unknown
     genetic_requirement: {required_variant: GBA1, status_must_be_known: true, excluded_variants: []}
     cognition: no PD dementia
@@ -613,7 +613,7 @@
     duration_reference: diagnosis
     hoehn_yahr_min: 1
     hoehn_yahr_max: 2
-    hoehn_yahr_state: unknown
+    hoehn_yahr_state: "unknown"
     medication_state: on_stable_treatment
     medication_min_months: 1
     motor_complications_allowed: false
@@ -652,7 +652,7 @@
     duration_reference: diagnosis
     hoehn_yahr_min: 1
     hoehn_yahr_max: 2
-    hoehn_yahr_state: off
+    hoehn_yahr_state: "off"
     genetic_requirement: {required_variant: none, status_must_be_known: false, excluded_variants: []}
     other: []
     notes: Closed; fields kept for the record

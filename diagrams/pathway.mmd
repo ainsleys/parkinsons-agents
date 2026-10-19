@@ -1,0 +1,29 @@
+%% From diagnosis to enrolled. Source: guide/get-typed.md, guide/on-ramps.md, data/trials.yaml, verified 2026-10-19.
+%% Navigation, not medical advice. Branch on what the person knows; "ask" boxes are questions for their clinician.
+flowchart TD
+    A([Parkinson's diagnosis]) --> B[Ask neurologist for clinical motor subtype<br/>free, from the exam already done]
+    B --> C{Where do you live?}
+    C -->|US, Canada, PR, DR| D[PD GENEration<br/>free at-home 7-gene kit + counseling]
+    C -->|Chile, Mexico, Israel| D2[PD GENEration<br/>in-person site]
+    C -->|UK| E{Onset before 50 or<br/>relative with onset before 50?}
+    E -->|Yes| E1[NHS clinical genetic test<br/>via neurology or genetics]
+    E -->|No| E2[PD Frontline<br/>free saliva kit by post]
+    C -->|Elsewhere| F[Clinician-ordered gene panel<br/>repo has no local route yet]
+    D --> G
+    D2 --> G
+    E1 --> G
+    E2 --> G
+    F --> G
+    G[Join an observational cohort<br/>PPMI in-clinic or online, Fox Insight<br/>no placebo, blocks nothing] --> H{On Parkinson's medication yet?}
+    H -->|No| I[Untreated window<br/>PPMI in-clinic cohort<br/>BHV-8000 trial, US, onset within 2 yrs<br/>closes when medication starts]
+    H -->|Yes| J{Time since diagnosis?}
+    J -->|3 to 36 months,<br/>no motor complications| K[PARAISO<br/>prasinezumab, 17 countries]
+    J -->|Up to 7 years, UK| L[ASPro-PD if GBA1 status known<br/>EJS ACT-PD, no genetic test needed]
+    J -->|4 to 12 years with<br/>motor fluctuations| M[Surgical trials<br/>exPDite-2 recruiting, US/Canada/Australia<br/>REGENERATE-PD not recruiting]
+    G -.->|GBA1 positive| N[GBA1 trials<br/>ASPro-PD UK, GREAT Netherlands<br/>+ earlier cognitive monitoring]
+    G -.->|LRRK2 positive| O[No LRRK2 trial recruiting<br/>BEACON closed; data 2027<br/>PARAISO still open]
+    K --> P([Confirm with site coordinator:<br/>MRI, placebo odds, off-med stage, travel])
+    L --> P
+    M --> P
+    I --> P
+    N --> P

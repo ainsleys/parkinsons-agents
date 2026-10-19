@@ -4,28 +4,38 @@
 
 Read START_HERE.md first. Then load only the file the task needs. Word counts are given so you can budget; tokens are roughly 1.3 times words. If your fetch tool returns a summary instead of the file, fetch the raw URL directly (for example with curl): https://raw.githubusercontent.com/ainsleys/parkinsons-agents/main/<path>
 
+Provenance in one line: opened October 2026 by one maintainer (GitHub @ainsleys), drafted by Claude with web verification, no clinical reviewer yet, corrections by pull request. Details in README.md.
+
 ## Files (words)
 
-- [START_HERE.md](START_HERE.md) (832): Thesis, state of the field, what to do by role
+- [START_HERE.md](START_HERE.md) (875): Thesis, state of the field, what to do by role
 - [guide/get-typed.md](guide/get-typed.md) (1,974): Every subtype test: route, cost, what it unlocks, what a negative means, choosing between tests
 - [guide/subtypes.md](guide/subtypes.md) (1,409): Five overlapping axes, confirmation, treatment implications, prodromal
-- [guide/on-ramps.md](guide/on-ramps.md) (2,057): Registries, cohorts, every recruiting trial with eligibility and cities, closed trials
-- [data/SCHEMA.md](data/SCHEMA.md) (1,112): Field definitions and the matching rules agents must follow
+- [guide/on-ramps.md](guide/on-ramps.md) (2,061): Registries, cohorts, every recruiting trial with eligibility and cities, closed trials
+- [data/SCHEMA.md](data/SCHEMA.md) (1,164): Field definitions and the matching rules agents must follow
 - [data/tests.yaml](data/tests.yaml) (1,268): One record per test
 - [data/programs.yaml](data/programs.yaml) (705): Registries, cohorts, genetic testing programs
 - [data/trials.yaml](data/trials.yaml) (2,664): Trials with normalized eligibility for local matching
-- [data/sites.yaml](data/sites.yaml) (8,081): Every trial site: facility, city, state, country, status (generated)
-- [README.md](README.md) (694): Why this exists, provenance, license, privacy design
-- [CORPUS.md](CORPUS.md) (537): Index of the literature review with per-file word counts
+- [data/sites.yaml](data/sites.yaml) (8,699): Every trial site: trial name, facility, city, state, country, status (generated; grep, don't read)
+- [diagrams/README.md](diagrams/README.md) (553): Mermaid diagrams to show people, specs for more, rules for derived diagrams
+- [README.md](README.md) (735): Why this exists, provenance, license, privacy design
+- [CORPUS.md](CORPUS.md) (640): Index of the literature review with per-file word counts
 - [CONTRIBUTING.md](CONTRIBUTING.md) (441): How to submit a correction; checks to run
-- [CHANGELOG.md](CHANGELOG.md) (505): What changed, newest first; poll this
-- [benchmarks/README.md](benchmarks/README.md) (426): How the repo is tested and the scores so far
+- [CHANGELOG.md](CHANGELOG.md) (645): What changed, newest first; poll this
+- [benchmarks/README.md](benchmarks/README.md) (646): How the repo is tested and the scores so far
 - [benchmarks/personas.md](benchmarks/personas.md) (1,197): The twenty fixed test personas and prompt template
 - [LICENSE](LICENSE) (82): CC BY 4.0
 
+## Diagrams (Mermaid source)
+
+- [diagrams/gene-test-outcomes.mmd](diagrams/gene-test-outcomes.mmd) (77)
+- [diagrams/pathway.mmd](diagrams/pathway.mmd) (244)
+- [diagrams/recruitment-gap.mmd](diagrams/recruitment-gap.mmd) (92)
+- [diagrams/synuclein-test-paths.mmd](diagrams/synuclein-test-paths.mmd) (151)
+
 ## Deep background (large; fetch selectively)
 
-- [reports/Parkinsons disease research review.md](reports/Parkinsons%20disease%20research%20review.md) (33,654): twelve-section synthesized review; the open-questions section and bibliography are in the final third
+- [reports/Parkinsons disease research review.md](reports/Parkinsons%20disease%20research%20review.md) (33,654): twelve-section synthesized review. The Conclusion and the short 'Open questions and known gaps' section sit just before the bibliography, roughly 65 to 70 percent of the way through; the bibliography fills the rest.
 - [01_pathophysiology_and_mechanisms.md](research_notes/Parkinsons%20disease%20research%20review/01_pathophysiology_and_mechanisms.md) (5,192)
 - [02_genetics_epidemiology_risk_factors.md](research_notes/Parkinsons%20disease%20research%20review/02_genetics_epidemiology_risk_factors.md) (7,873)
 - [03_diagnosis_biomarkers_staging.md](research_notes/Parkinsons%20disease%20research%20review/03_diagnosis_biomarkers_staging.md) (6,184)
@@ -39,5 +49,7 @@ Read START_HERE.md first. Then load only the file the task needs. Word counts ar
 
 ## Scripts
 
+- scripts/match.py profile.yaml [--mermaid]: local trial matching with verdicts, sites by country, and a Sankey
 - scripts/pull_registry.py: pulls ClinicalTrials.gov and ISRCTN records into data/registry/ and writes data/sites.yaml
 - scripts/check_freshness.py: enforces verified dates, registry agreement, data-prose consistency, links
+- .github/workflows/registry.yml: runs both nightly

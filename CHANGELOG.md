@@ -2,6 +2,16 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-19 (second benchmark run, diagrams, matcher)
+
+- Re-ran the 20 personas after the fixes: mean 3.45 to 3.75, 6 improved, 0 worse, external searches 7 to 4. Results in `benchmarks/results/2026-10-19-after-fixes.tsv`.
+- Added `diagrams/`: pathway flowchart, recruitment-gap and gene-test Sankeys, synuclein test paths, a spec for diagrams not yet built, and rules for derived diagrams.
+- Added `scripts/match.py`: local, rule-based matching of a profile against every trial, with sites by country and a Mermaid Sankey of where trials drop out.
+- `data/sites.yaml` now carries each trial's name and parses ISRCTN centres into structured sites.
+- Quoted `hoehn_yahr_state` values so YAML 1.1 parsers do not read on/off as booleans.
+- START_HERE: corrected the sentence about 2026 failures (only ACTIVATE was genetically restricted); listed smaller trials separately from pivotal ones; named BEACON.
+- on-ramps: PARAISO's 3-month minimum added to the timing window.
+
 ## 2026-10-19 (benchmark and fixes)
 
 - Added `benchmarks/`: 20 fixed personas, the prompt template, and the baseline from 35 fresh-agent runs (Fable, Opus, Sonnet, Haiku). Baseline Fable mean 3.45 of 5.

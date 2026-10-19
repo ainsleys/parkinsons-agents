@@ -2,6 +2,8 @@
 # Do not edit by hand; re-run the script. Site status is the registry's per-site status where given.
 
 NCT04127578:
+  name: "PROPEL"
+  registry_id: "NCT04127578"
   registry_status: ACTIVE_NOT_RECRUITING
   registry_last_updated: 2026-10-13
   site_count: 15
@@ -26,6 +28,8 @@ NCT04127578:
     - {facility: "Vanderbilt University Medical Center, 1500 21st Avenue South Suite 2600", city: "Nashville", state: "Tennessee", country: "United States", status: null}
 
 NCT05287503:
+  name: "AMBITIOUS"
+  registry_id: "NCT05287503"
   registry_status: COMPLETED
   registry_last_updated: 2025-08-14
   site_count: 3
@@ -37,6 +41,8 @@ NCT05287503:
     - {facility: "IRCCS National Neurological Institute \"C. Mondino\" Foundation", city: "Pavia", state: null, country: "Italy", status: null}
 
 NCT05348785:
+  name: "LUMA"
+  registry_id: "NCT05348785"
   registry_status: COMPLETED
   registry_last_updated: 2026-06-04
   site_count: 113
@@ -170,6 +176,8 @@ NCT05348785:
     - {facility: "Inland Northwest Research", city: "Spokane", state: "Washington", country: "United States", status: null}
 
 NCT05418673:
+  name: "LIGHTHOUSE (terminated phase 3 in LRRK2 carriers; see LUMA record)"
+  registry_id: "NCT05418673"
   registry_status: TERMINATED
   registry_last_updated: 2024-06-26
   site_count: 27
@@ -210,6 +218,8 @@ NCT05418673:
     - {facility: "Inland Northwest Research", city: "Spokane", state: "Washington", country: "United States", status: null}
 
 NCT05778617:
+  name: "ASPro-PD"
+  registry_id: "NCT05778617"
   registry_status: RECRUITING
   registry_last_updated: 2025-05-01
   site_count: 15
@@ -233,6 +243,8 @@ NCT05778617:
     - {facility: "Prince Philip Hospital", city: "Wales", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
 
 NCT05830396:
+  name: "GREAT (GRoningen Early-PD Ambroxol Treatment)"
+  registry_id: "NCT05830396"
   registry_status: UNKNOWN
   registry_last_updated: 2023-05-10
   site_count: 1
@@ -242,6 +254,8 @@ NCT05830396:
     - {facility: "University Medical Center Groningen", city: "Groningen", state: null, country: "Netherlands", status: "RECRUITING"}
 
 NCT06193421:
+  name: "High-dose ambroxol in GBA1 PD (Agyany)"
+  registry_id: "NCT06193421"
   registry_status: UNKNOWN
   registry_last_updated: 2024-02-08
   site_count: 1
@@ -251,6 +265,8 @@ NCT06193421:
     - {facility: "Shaare Zedek Medical Center", city: "Jerusalem", state: null, country: "Israel", status: "RECRUITING"}
 
 NCT06285643:
+  name: "REGENERATE-PD"
+  registry_id: "NCT06285643"
   registry_status: ACTIVE_NOT_RECRUITING
   registry_last_updated: 2026-10-01
   site_count: 46
@@ -308,6 +324,8 @@ NCT06285643:
     - {facility: "University of Wisconsin (Neurology)", city: "Madison", state: "Wisconsin", country: "United States", status: null}
 
 NCT06602193:
+  name: "BEACON"
+  registry_id: "NCT06602193"
   registry_status: ACTIVE_NOT_RECRUITING
   registry_last_updated: 2026-05-27
   site_count: 20
@@ -339,6 +357,8 @@ NCT06602193:
     - {facility: "Inland Northwest Research", city: "Spokane", state: "Washington", country: "United States", status: null}
 
 NCT06944522:
+  name: "exPDite-2"
+  registry_id: "NCT06944522"
   registry_status: RECRUITING
   registry_last_updated: 2026-08-04
   site_count: 43
@@ -392,6 +412,8 @@ NCT06944522:
     - {facility: "EvergreenHealth - Research Department", city: "Kirkland", state: "Washington", country: "United States", status: "RECRUITING"}
 
 NCT06976268:
+  name: "BHV-8000 phase 2/3"
+  registry_id: "NCT06976268"
   registry_status: RECRUITING
   registry_last_updated: 2026-09-28
   site_count: 24
@@ -424,6 +446,8 @@ NCT06976268:
     - {facility: "Site-019", city: "Seattle", state: "Washington", country: "United States", status: "RECRUITING"}
 
 NCT07174310:
+  name: "PARAISO"
+  registry_id: "NCT07174310"
   registry_status: RECRUITING
   registry_last_updated: 2026-10-06
   site_count: 192
@@ -640,6 +664,8 @@ NCT07174310:
     - {facility: "West Virginia University", city: "Morgantown", state: "West Virginia", country: "United States", status: "RECRUITING"}
 
 NCT07288450:
+  name: "TAME-PD"
+  registry_id: "NCT07288450"
   registry_status: WITHDRAWN
   registry_last_updated: 2026-10-07
   site_count: 0
@@ -647,59 +673,66 @@ NCT07288450:
   sites:
 
 ISRCTN16806940:
+  name: "DAPA-PD"
+  registry_id: "ISRCTN16806940"
   registry_status: "recruiting (derived from recruitment dates)"
   registry_last_updated: null
   recruitment_start: "2025-02-01"
   recruitment_end: "2027-02-28"
   site_count: 1
-  countries: {"unknown": null}
-  sites_note: "Addenbrookes
-	  Addenbrookes Hospital
-Hills Road
-	  Cambridge
-	  
-	  England
-	  CB2 0QQ
-	  NV504@2.16.840.1.113883.2.1.3.2.4.18.48"
+  countries:
+    "United Kingdom": 1
+  sites:
+    - {facility: "Addenbrookes", city: "Cambridge", state: null, country: "United Kingdom", status: null}
 
 ISRCTN17799294:
+  name: "EJS ACT-PD platform trial"
+  registry_id: "ISRCTN17799294"
   registry_status: "recruiting (derived from recruitment dates)"
   registry_last_updated: null
   recruitment_start: "2025-09-01"
   recruitment_end: "2029-06-30"
-  site_count: 42
-  countries: {"unknown": null}
-  sites_note: "Clinical Ageing Research Unit
-	  Campus for Ageing and Vitality
-	  Newcastle upon Tyne
-	  
-	  United Kingdom
-	  NE4 5PL
-	
-	
-	  Royal Hallamshire Hospital
-	  Glossop Road
-	  Sheffield
-	  
-	  United Kingdom
-	  S10 2JF
-	  5EQHH@2.16.840.1.113883.2.1.3.2.4.18.48
-	
-	
-	  Salford Royal Hospital
-	  Stott Lane
-Eccles
-	  Salford
-	  
-	  United Kingdom
-	  M6 8HD
-	  01GAW@2.16.840.1.113883.2.1.3.2.4.18.48
-	
-	
-	  Queen Elizabeth Hospital 
-	  Mindelsohn Way
-Edgbaston
-	  Birmingham
-	  
-	  United Kingdom
-	  B15 "
+  site_count: 40
+  countries:
+    "United Kingdom": 40
+  sites:
+    - {facility: "William Harvey Hospital", city: "Ashford", state: null, country: "United Kingdom", status: null}
+    - {facility: "North West Wales NHS Trust", city: "Bangor", state: null, country: "United Kingdom", status: null}
+    - {facility: "Royal United Hospital", city: "Bath", state: null, country: "United Kingdom", status: null}
+    - {facility: "Belfast City Hospital", city: "Belfast", state: null, country: "United Kingdom", status: null}
+    - {facility: "Queen Elizabeth Hospital", city: "Birmingham", state: null, country: "United Kingdom", status: null}
+    - {facility: "Royal Sussex County Hospital", city: "Brighton", state: null, country: "United Kingdom", status: null}
+    - {facility: "John Van Geest Centre for Brain Repair site", city: "Cambridge", state: null, country: "United Kingdom", status: null}
+    - {facility: "University Hospital of Wales", city: "Cardiff", state: null, country: "United Kingdom", status: null}
+    - {facility: "St Peters Hospital", city: "Chertsey", state: null, country: "United Kingdom", status: null}
+    - {facility: "Christchurch Hospital", city: "Christchurch", state: null, country: "United Kingdom", status: null}
+    - {facility: "University Hospitals Coventry and Warwickshire NHS Trust", city: "Coventry", state: null, country: "United Kingdom", status: null}
+    - {facility: "Ninewells Hospital", city: "Dundee", state: null, country: "United Kingdom", status: null}
+    - {facility: "Royal Devon & Exeter Hospital (wonford)", city: "Exeter", state: null, country: "United Kingdom", status: null}
+    - {facility: "Queen Elizabeth Hospital", city: "Gateshead", state: null, country: "United Kingdom", status: null}
+    - {facility: "Queen Elizabeth University Hospital", city: "Glasgow", state: null, country: "United Kingdom", status: null}
+    - {facility: "Ipswich Hospital", city: "Ipswich", state: null, country: "United Kingdom", status: null}
+    - {facility: "Leeds General Infimary", city: "Leeds", state: null, country: "United Kingdom", status: null}
+    - {facility: "The Walton Centre", city: "Liverpool", state: null, country: "United Kingdom", status: null}
+    - {facility: "University College London Hospital", city: "London", state: null, country: "United Kingdom", status: null}
+    - {facility: "Royal London Hospital", city: "London", state: null, country: "United Kingdom", status: null}
+    - {facility: "St Georges Hospital", city: "London", state: null, country: "United Kingdom", status: null}
+    - {facility: "Charing Cross Hospital", city: "London", state: null, country: "United Kingdom", status: null}
+    - {facility: "King's College Hospital", city: "London", state: null, country: "United Kingdom", status: null}
+    - {facility: "Lewisham Hospital", city: "London", state: null, country: "United Kingdom", status: null}
+    - {facility: "Royal Infirmary of Edinburgh at Little France", city: "Lothian", state: null, country: "United Kingdom", status: null}
+    - {facility: "Clinical Ageing Research Unit", city: "Newcastle upon Tyne", state: null, country: "United Kingdom", status: null}
+    - {facility: "North Tyneside General Hospital", city: "North Shields", state: null, country: "United Kingdom", status: null}
+    - {facility: "Norfolk & Norwich University Hospital", city: "Norwich", state: null, country: "United Kingdom", status: null}
+    - {facility: "John Radcliffe Hospital", city: "Oxford", state: null, country: "United Kingdom", status: null}
+    - {facility: "Derriford Hospital", city: "Plymouth", state: null, country: "United Kingdom", status: null}
+    - {facility: "Poole Hospital", city: "Poole", state: null, country: "United Kingdom", status: null}
+    - {facility: "Queens Hospital", city: "Romford", state: null, country: "United Kingdom", status: null}
+    - {facility: "Salford Royal Hospital", city: "Salford", state: null, country: "United Kingdom", status: null}
+    - {facility: "Scarborough Hospital", city: "Scarborough", state: null, country: "United Kingdom", status: null}
+    - {facility: "Royal Hallamshire Hospital", city: "Sheffield", state: null, country: "United Kingdom", status: null}
+    - {facility: "Royal Shrewsbury Hospital", city: "Shrewsbury", state: null, country: "United Kingdom", status: null}
+    - {facility: "University Hospital Southampton", city: "Southampton", state: null, country: "United Kingdom", status: null}
+    - {facility: "Musgrove Park Hospital", city: "Taunton", state: null, country: "United Kingdom", status: null}
+    - {facility: "Wrexham Maelor Hospital", city: "Wrexham", state: null, country: "United Kingdom", status: null}
+    - {facility: "Yeovil District Hospital", city: "Yeovil", state: null, country: "United Kingdom", status: null}

@@ -1,0 +1,15 @@
+# Example profile for scripts/match.py. Write one locally for the person; never upload it.
+# Leave a field out or set it to null when unknown; the matcher will report "unclear" rather than guess.
+age: 63
+months_since_diagnosis: 18
+months_since_onset: null
+hoehn_yahr: 2
+hoehn_yahr_state: "on"          # "on", "off" or null (how the stage was assessed)
+medication_state: on_treatment  # untreated | on_treatment | null
+medication_months: 6
+motor_complications: false      # dyskinesia or wearing-off
+genetics_tested: false
+variants: []                    # e.g. [GBA1] or [LRRK2 G2019S]
+smoker: false
+moca: null
+country: United States

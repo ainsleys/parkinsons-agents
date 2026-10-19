@@ -15,9 +15,16 @@ Scoring is the agent's own 1 to 5 judgment, so it is noisy. The useful signals a
 
 | Date | Runs | Fable mean | Opus mean | Sonnet mean | Haiku mean | Fable median tokens | Notes |
 |---|---|---|---|---|---|---|---|
-| 2026-10-19 | 35 | 3.45 (n=20) | 3.83 (n=6) | 3.67 (n=6) | 3.67 (n=3) | ~20,000 | Baseline. Scores identical across models on shared tasks. Lowest: India (2), Brazil, Israel, Australia (3). |
+| 2026-10-19 | 35 | 3.45 (n=20) | 3.83 (n=6) | 3.67 (n=6) | 3.67 (n=3) | ~15,000 | Baseline. Scores identical across models on shared tasks. Lowest: India (2), Brazil, Israel, Australia (3). 7 of 20 needed the open web. |
+| 2026-10-19, after fixes | 20 | 3.75 (n=20) | | | | ~12,900 | Same 20 personas, same model. 6 improved, 14 unchanged, 0 worse. First two 5s (Chicago matching, Arizona LRRK2). 4 of 20 needed the open web. India still 2. |
 
-Per-run detail: `results/2026-10-19-baseline.tsv`.
+Per-run detail: `results/2026-10-19-baseline.tsv`, `results/2026-10-19-after-fixes.tsv`.
+
+## What the fixes changed
+
+Site locations moved four personas from "can't say if it's near you" to a named city (Chicago, Cleveland, Phoenix, Salford, Houston, Toronto, São Paulo). Structured eligibility plus the matching rules produced the first 5s. External searches fell from 7 to 4; the remaining four are India (no content), Israel (PD GENEration site unverified), Australia (no prodromal study) and Houston (two cell-therapy programs not yet in the data). Token use fell modestly; the research personas still download the 33,000-word report.
+
+New defects found by the second run: an error introduced in the start page (LUMA described as genetically restricted; fixed), bare `on`/`off` YAML values parsing as booleans (fixed by quoting), ISRCTN site data unparsed (fixed), the site file lacking trial names (fixed), a missing 3-month minimum in the timing prose (fixed). Still open: PPMI's own site list is not reproduced; PD Frontline turnaround unknown; AAV-GAD and Aspen cell therapy not recorded; no researcher data-access page; no caregiver page; no India or Brazil testing routes.
 
 ## Baseline findings, ranked by impact
 

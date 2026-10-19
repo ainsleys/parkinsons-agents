@@ -15,7 +15,9 @@ When comparing a person against `trials.yaml`:
 5. **Genetics has three parts.** `genetic_requirement.required_variant` (a gene name, or `none`), `genetic_requirement.status_must_be_known` (true means tested either way), `genetic_requirement.excluded_variants` (a list). A person with no genetic test fails `status_must_be_known: true` until tested.
 6. **Geography.** `countries` is the list of countries with at least one site in the registry record. `data/sites.yaml` has the per-site city, state and status. A country match is not a travel match; name the nearest cities and let the person judge.
 7. **Status.** Use `status` together with `registry_last_updated`. A record not updated by the registry for over a year is suspect even if `verified` is recent; `scripts/check_freshness.py` flags these.
-8. **Never send the person's data anywhere.** All matching is local.
+8. **Never send the person's data anywhere.** All matching is local. `scripts/match.py profile.yaml` implements rules 1 to 7 and prints verdicts plus a Mermaid diagram.
+
+Parsing notes: `data/sites.yaml` values are quoted strings (grep for `country: "Brazil"`, not `country: Brazil`). Each entry carries `name` and `registry_id` so it can be read without `trials.yaml`.
 
 ## tests.yaml
 
@@ -89,7 +91,7 @@ When comparing a person against `trials.yaml`:
 | duration_min_months, duration_max_months | integer or null | |
 | duration_reference | enum | `diagnosis`, `symptom_onset`, `unknown` |
 | hoehn_yahr_min, hoehn_yahr_max | number or null | Allowed stage range |
-| hoehn_yahr_state | enum | `off`, `on`, `unknown` |
+| hoehn_yahr_state | enum | `"off"`, `"on"`, `"unknown"`, always quoted because YAML 1.1 parsers read bare on/off as booleans |
 | medication_state | enum | `untreated`, `on_stable_treatment`, `either`, `unknown` |
 | medication_min_months | integer or null | Minimum time on stable treatment, if `on_stable_treatment` |
 | motor_complications_allowed | bool or unknown | False means MDS-UPDRS Part IV must be 0, or no fluctuations or dyskinesia |

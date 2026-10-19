@@ -1,0 +1,14 @@
+%% The two synuclein tests and what each result means. Source: guide/get-typed.md, data/tests.yaml, verified 2026-10-19.
+%% Navigation, not medical advice. Accuracy figures come from different cohorts and are not a head-to-head comparison.
+flowchart LR
+    Q([Diagnostic doubt, or a trial<br/>needs synuclein status]) --> T{Which test is<br/>available to you?}
+    T --> C[Spinal fluid assay<br/>SYNTap, lumbar puncture<br/>87.7% sens / 96.3% spec in PPMI<br/>about $1,500 self-pay, unverified 2026]
+    T --> S[Skin biopsy<br/>Syn-One, three 3 mm punches<br/>92.7% positive in PD, 3.3% in controls<br/>price not published, ~3 weeks]
+    C --> R{Result}
+    S --> R
+    R -->|Positive| P[Synuclein disease confirmed<br/>Does not separate PD from MSA or DLB<br/>Population for anti-synuclein trials]
+    R -->|Negative| N[Does not rule out Parkinson's<br/>10 to 15% of clinical PD is negative<br/>more common in LRRK2 or Parkin carriers<br/>and people with normal smell]
+    N --> N1[Ask: genetic testing?]
+    N --> N2[Ask: does this change<br/>your view of the diagnosis?]
+    P --> P1[Levodopa works either way]
+    N --> P1

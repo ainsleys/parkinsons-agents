@@ -9,7 +9,7 @@ About 80 percent of people with Parkinson's say they are at least somewhat likel
 ## Two timing windows worth knowing about
 
 - **Not yet on medication.** PPMI's in-clinic cohort and the BHV-8000 trial both enroll untreated people. That window closes when medication starts. Starting levodopa is a clinical decision for the person and their neurologist; the point here is only that the two choices interact.
-- **Time since diagnosis.** PARAISO takes people up to 3 years from diagnosis, BHV-8000 up to 2 years from symptom onset, ASPro-PD up to 7 years. The surgical trials start at 4 years.
+- **Time since diagnosis.** PARAISO takes people from 3 months to 3 years after diagnosis, BHV-8000 up to 2 years from symptom onset (no minimum), ASPro-PD up to 7 years. The surgical trials start at 4 years.
 
 ## Tier 1: takes almost anyone, no downside, do first
 

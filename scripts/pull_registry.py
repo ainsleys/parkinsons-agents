@@ -40,6 +40,11 @@ def main():
     quiet = "--quiet" in sys.argv
     text = TRIALS.read_text()
     ncts = sorted(set(re.findall(r"\bNCT\d{8}\b", text)))
+    # trial names by registry id, from the records' own name/registry_id pairs
+    names = {}
+    for m in re.finditer(r"^- id: .*?\n  name: (.*?)\n  registry_id: (\S+)", text, re.S | re.M):
+        names[m.group(2)] = m.group(1).strip()
+    names.setdefault("NCT05418673", "LIGHTHOUSE (terminated phase 3 in LRRK2 carriers; see LUMA record)")
     isrctns = sorted(set(re.findall(r"\bISRCTN\d{8}\b", text)))
     OUT.mkdir(exist_ok=True)
     today = datetime.date.today().isoformat()
@@ -65,6 +70,8 @@ def main():
         locs = p.get("contactsLocationsModule", {}).get("locations", [])
         bycountry = collections.Counter(l.get("country", "unknown") for l in locs)
         sites_out.append(f"{nct}:")
+        sites_out.append(f"  name: {yaml_str(names.get(nct))}")
+        sites_out.append(f"  registry_id: {yaml_str(nct)}")
         sites_out.append(f"  registry_status: {st.get('overallStatus')}")
         sites_out.append(f"  registry_last_updated: {st.get('lastUpdatePostDateStruct',{}).get('date')}")
         sites_out.append(f"  site_count: {len(locs)}")
@@ -101,15 +108,38 @@ def main():
         else:
             status = "unknown"
         edited = None  # the public XML does not carry a last-edited date
-        centres = xml_tag(raw, "trialCentres")
+        centres = xml_tag(raw, "trialCentres") or ""
+        # ISRCTN centres are free-text blocks: facility, address lines, city, blank, country, postcode, optional OID.
+        parsed = []
+        for block in re.split(r"\n\s*\n\s*\n", centres):
+            lines = [l.strip() for l in block.split("\n")]
+            lines = [l for l in lines if not re.match(r"^[A-Z0-9]+@[\d.]+$", l)]
+            if not any(lines):
+                continue
+            try:
+                i = lines.index("")
+                city, country = lines[i-1], lines[i+1] if i+1 < len(lines) else None
+            except ValueError:
+                city, country = None, None
+            facility = next((l for l in lines if l), None)
+            if country in ("England", "Scotland", "Wales", "Northern Ireland"):
+                country = "United Kingdom"
+            parsed.append({"facility": facility, "city": city, "country": country})
+        bycountry = collections.Counter(p["country"] or "unknown" for p in parsed)
         sites_out.append(f"{isr}:")
+        sites_out.append(f"  name: {yaml_str(names.get(isr))}")
+        sites_out.append(f"  registry_id: {yaml_str(isr)}")
         sites_out.append(f"  registry_status: {yaml_str(status)}")
         sites_out.append(f"  registry_last_updated: null")
         sites_out.append(f"  recruitment_start: {yaml_str(rs or None)}")
         sites_out.append(f"  recruitment_end: {yaml_str(re_ or None)}")
-        sites_out.append(f"  site_count: {len(re.findall(r'United Kingdom|England|Scotland|Wales|Northern Ireland', centres or ''))}")
-        sites_out.append(f"  countries: {{{yaml_str(xml_tag(raw, 'countries') or 'unknown')}: null}}")
-        sites_out.append(f"  sites_note: {yaml_str((centres or '')[:500])}")
+        sites_out.append(f"  site_count: {len(parsed)}")
+        sites_out.append("  countries:")
+        for c, n in sorted(bycountry.items(), key=lambda x: -x[1]):
+            sites_out.append(f"    {yaml_str(c)}: {n}")
+        sites_out.append("  sites:")
+        for l in sorted(parsed, key=lambda l: (l["country"] or "", l["city"] or "")):
+            sites_out.append(f"    - {{facility: {yaml_str(l['facility'])}, city: {yaml_str(l['city'])}, state: null, country: {yaml_str(l['country'])}, status: null}}")
         sites_out.append("")
         if not quiet:
             print(f"\n=== {isr}  {(xml_tag(raw,'title') or '')[:90]}")
