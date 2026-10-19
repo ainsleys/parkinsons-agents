@@ -6,7 +6,7 @@ An agent-first guide to Parkinson's disease: what the field currently believes, 
 
 ## Why this exists
 
-I have a family member with Parkinson's and a Claude Max subscription. I wanted to see what I could do to streamline contribution to the research, and to make it easier for other people and their agents to do the same.
+Like many people, I know someone with Parkinson's. I also have a Claude Max subscription. I wanted to see what I could do to streamline contribution to the research, and to make it easier for other people and their agents to do the same.
 
 This is an agent-first project. The pages are written for an AI agent to load, reason over and act on. Humans are welcome and everything is plain Markdown, but the design choices (dense pages, dated claims, structured YAML next to prose, explicit confidence flags) are made for agents, not for browsing.
 
