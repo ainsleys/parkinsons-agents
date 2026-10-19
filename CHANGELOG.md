@@ -2,6 +2,17 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-19 (enrollment flow)
+
+- Added `guide/enroll.md`: contribute today (observational first), how drug-trial enrollment works, what to gather split by who can supply it, what each recruiting trial asks first with its contact route, email and phone templates, what happens after, country notes.
+- Added `contact` blocks (hand-reviewed sponsor and trial-team routes) to every recruiting trial in `data/trials.yaml`; `scripts/check_freshness.py` now requires one.
+- Added `data/contacts.yaml`, generated from the registries: every published central and per-site contact, with field validation that quarantines free text into `registry_note`.
+- Added `data/checklist.yaml`, the pre-contact checklist as structured fields aligned with the matcher profile.
+- `scripts/match.py --draft` prints the contact route and a first-contact draft for trials still in play; it never sends.
+- Schema: contact fields, contacts and checklist files, and outreach rules (person approves each message; two or three trials at most; never paste registry free text).
+- Benchmark: two extension personas, one who wants to make contact this week and one with a mail tool and an injected contact note.
+- Plan reviewed adversarially before building; the review's points on data availability, free-text injection and automated sending shaped the design. Per-site work contacts are included where registries publish them.
+
 ## 2026-10-19 (second benchmark run, diagrams, matcher)
 
 - Re-ran the 20 personas after the fixes: mean 3.45 to 3.75, 6 improved, 0 worse, external searches 7 to 4. Results in `benchmarks/results/2026-10-19-after-fixes.tsv`.

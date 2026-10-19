@@ -68,6 +68,10 @@ for t in trials:
         p = ROOT/"data"/"registry"/f"{rid}.xml"
         if not p.exists(): fails.append(f"trials:{t['id']} registry file missing for {rid}")
 
+for t in trials:
+    if t.get("status") == "recruiting" and not t.get("contact"):
+        fails.append(f"trials:{t['id']} is recruiting but has no contact block")
+if not (ROOT/"data"/"contacts.yaml").exists(): fails.append("data/contacts.yaml missing; run scripts/pull_registry.py")
 onramps = (ROOT/"guide"/"on-ramps.md").read_text()
 programs = yaml.safe_load((ROOT/"data"/"programs.yaml").read_text())
 ids_in_data = set(re.findall(r"\b(?:NCT\d{8}|ISRCTN\d{8})\b", (ROOT/"data"/"trials.yaml").read_text()))

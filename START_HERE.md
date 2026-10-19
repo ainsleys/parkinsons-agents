@@ -17,7 +17,7 @@ Parkinson's disease is almost certainly several diseases that share a clinical p
 
 ## What to do, by who the agent is acting for
 
-**A person with Parkinson's or their family.** Read `guide/get-typed.md`. The short version: ask the neurologist for the clinical motor subtype (free, no test), get genetic testing where a free route exists, and consider the synuclein assay only if there is diagnostic doubt or a specific trial needs it. Then read `guide/on-ramps.md`, match the person locally against `data/trials.yaml` using the rules in `data/SCHEMA.md` (or run `scripts/match.py` on a profile file), and look up nearby sites in `data/sites.yaml`, which is keyed by registry ID and carries each trial's name. Do not send the person's data anywhere. If the person is not yet on medication, note that PPMI's in-clinic cohort and the BHV-8000 trial both want untreated people, and that window closes when medication starts.
+**A person with Parkinson's or their family.** Two things can happen today regardless of anything else: free genetic testing where a route exists, and an observational cohort or registry (PPMI, Fox Insight), which block nothing. Then read `guide/get-typed.md`. The short version: ask the neurologist for the clinical motor subtype (free, no test), get genetic testing where a free route exists, and consider the synuclein assay only if there is diagnostic doubt or a specific trial needs it. Then read `guide/on-ramps.md`, match the person locally against `data/trials.yaml` using the rules in `data/SCHEMA.md` (or run `scripts/match.py` on a profile file), and look up nearby sites in `data/sites.yaml`, which is keyed by registry ID and carries each trial's name. When a trial fits, `guide/enroll.md` has the contact route, what to gather first, the draft message, and what happens after. Do not send the person's data anywhere during matching, and never send a message the person has not read and approved. If the person is not yet on medication, note that PPMI's in-clinic cohort and the BHV-8000 trial both want untreated people, and that window closes when medication starts.
 
 **Someone not yet diagnosed** but with dream-enactment sleep behavior or lost sense of smell: see the prodromal section of `guide/subtypes.md` and the smell-test and PPMI entries in `data/programs.yaml`.
 
@@ -34,6 +34,7 @@ Every page states when it was verified. Trial status and test pricing drift fast
 - `guide/get-typed.md` for tests and routes
 - `guide/subtypes.md` for interpreting a result
 - `guide/on-ramps.md` for studies, trials and the cities they run in
+- `guide/enroll.md` for how to join: contribute today, the process, the checklist, contacts, first message
 - `data/` for structured records and `data/sites.yaml` for site locations
 - `CORPUS.md` for the literature review index with word counts
 - `benchmarks/` for how the repo is tested

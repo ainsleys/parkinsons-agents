@@ -48,6 +48,16 @@
     placebo_probability: 0.5
     mri_required: likely
     surgery: false
+  contact:
+    preferred_route: Roche patient inquiry form, or phone
+    portal: https://forpatients.roche.com/
+    inquiry_form: https://www.gene.com/contact-us/submit-medical-inquiry
+    email: global-roche-genentech-trials@gene.com
+    phone: "888-662-6728 (US and Canada)"
+    reference: Study BN44715
+    per_site_contacts: none published; the sponsor routes inquiries centrally and connects you to the nearest site
+    registry_url: https://clinicaltrials.gov/study/NCT07174310
+    notes: Registry says no attachments to the email and that the inquiry form gets the fastest response.
   enrollment_target: 900
   primary_completion: 2029-06-30
   registry_last_updated: 2026-10-06
@@ -103,6 +113,13 @@
     placebo_probability: 0.5
     mri_required: unknown
     surgery: false
+  contact:
+    preferred_route: Email the trial team, or ask your neurologist or Parkinson's nurse for a referral to the nearest site
+    email: cctu.aspro-pd@ucl.ac.uk
+    phone: "020 3108 4908"
+    per_site_contacts: named principal investigators per site in data/contacts.yaml, without direct phone or email
+    registry_url: https://clinicaltrials.gov/study/NCT05778617
+    notes: GBA1 status must be known before screening; ask the trial team whether they can arrange testing or whether PD Frontline results are accepted.
   enrollment_target: 330
   primary_completion: 2029-02
   registry_last_updated: 2025-05-01
@@ -154,6 +171,12 @@
     placebo_probability: unknown
     mri_required: true
     surgery: false
+  contact:
+    preferred_route: Email the study coordinator at UMC Groningen
+    email: o.siemeling@umcg.nl
+    phone: "+31 (0)50 361 5639"
+    registry_url: https://clinicaltrials.gov/study/NCT05830396
+    notes: Single site. Confirm current recruitment status; the ClinicalTrials.gov record is from 2023 and the EU CTIS record shows recruiting.
   enrollment_target: 80
   primary_completion: unknown
   registry_last_updated: 2023-05-10
@@ -205,6 +228,13 @@
     placebo_probability: unknown
     mri_required: unknown
     surgery: false
+  contact:
+    preferred_route: Email or phone the sponsor; sites are not named on the registry and the sponsor connects you
+    email: clinicaltrials@biohavenpharma.com
+    phone: "203-404-0410"
+    per_site_contacts: none published; sites appear as "Site-NNN"
+    registry_url: https://clinicaltrials.gov/study/NCT06976268
+    notes: Requires being untreated, so discuss timing with your neurologist before making contact.
   enrollment_target: 550
   primary_completion: 2027-08
   registry_last_updated: 2026-09-28
@@ -257,6 +287,12 @@
     placebo_probability: unknown (three arms, shared placebo)
     mri_required: unknown
     surgery: false
+  contact:
+    preferred_route: Ask your neurologist or Parkinson's nurse to refer you to the nearest participating NHS site, or email the trial team
+    email: mrcctu.ejsactpd@ucl.ac.uk
+    registry_url: https://www.isrctn.com/ISRCTN17799294
+    sponsor_page: https://www.mrcctu.ucl.ac.uk/studies/all-studies/e/ejs-act-pd/
+    notes: UK NHS trial. Screening is in person; later visits can be remote. Site list in data/sites.yaml.
   enrollment_target: 1200
   primary_completion: 2029-06
   registry_last_updated: null
@@ -310,6 +346,12 @@
     placebo_probability: 0.33
     mri_required: unknown
     surgery: false
+  contact:
+    preferred_route: Email the Cambridge trial team
+    email: cuh.dapa-pd.trial@nhs.net
+    phone: "+44 (0)1223 767069"
+    registry_url: https://www.isrctn.com/ISRCTN16806940
+    notes: Single site in Cambridge, about 10 in-person visits; raised CRP is required so a blood test comes first.
   enrollment_target: 36
   primary_completion: "2027"
   registry_last_updated: null
@@ -511,6 +553,13 @@
     placebo_probability: unknown (sham surgery arm)
     mri_required: true
     surgery: true
+  contact:
+    preferred_route: Sponsor patient engagement line, which routes to the nearest of 43 sites
+    email: clinicaltrials@bluerocktx.com
+    phone: "1-877-380-3967"
+    per_site_contacts: every site lists the same sponsor line; see data/contacts.yaml
+    registry_url: https://clinicaltrials.gov/study/NCT06944522
+    notes: Have daily OFF hours and years since diagnosis ready; both are entry criteria.
   enrollment_target: 102
   primary_completion: 2027-03
   registry_last_updated: 2026-08-04

@@ -67,6 +67,10 @@ LUMA (BIIB122, NCT05348785, failed May 2026; its companion phase 3 in LRRK2 carr
 
 Coverage here is thin and we know it. What the data does show: PARAISO has sites in Brazil (8, including São Paulo), Australia (7), Canada (3), Mexico (2), China, South Korea, Taiwan and ten European countries. exPDite-2 runs in Canada and Australia. BEACON and PROPEL have Israeli sites. Fox Insight is open online from anywhere. PD GENEration covers Chile, Mexico and Israel in person. For India and most of Asia, Africa and the rest of South America, the repo currently has nothing beyond these, and an agent should say so rather than guess. Contributions welcome via `CONTRIBUTING.md`.
 
+## How to make contact
+
+Contact routes per trial are in the `contact` block of each record in `data/trials.yaml`; every published registry contact is in `data/contacts.yaml`. The process, the pre-call checklist and a draft first message are in `guide/enroll.md`.
+
 ## Questions an agent should have the person ask each coordinator
 
 1. Is MRI required, and does the site scan MRI-conditional implanted devices?

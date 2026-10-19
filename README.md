@@ -19,6 +19,7 @@ Parkinson's may be several diseases that are being studied as one. The fastest c
 | `START_HERE.md` | The thesis, the state of the field in one page, and where to go next | Always, first |
 | `guide/get-typed.md` | Every test that places a person on a subtype axis: what it tells you, how to get it, cost, what it unlocks | The person wants to know their type, or whether to bother |
 | `guide/subtypes.md` | The five overlapping subtype axes, how each is confirmed, and what each changes about treatment | You need to interpret a result or a phenotype |
+| `guide/enroll.md` | How joining works: contribute today via observational studies, the six-step process, what to gather, per-trial contact routes, draft first message, what happens after | The person wants to join something |
 | `guide/on-ramps.md` | Studies and registries that take almost anyone, plus the pivotal disease-modifying trials recruiting now | The person is willing to contribute or join a trial |
 | `data/*.yaml` | The same facts as structured records with verification dates | You want to filter or match without reading prose |
 | `CORPUS.md` and `reports/`, `research_notes/` | A 112,000-word cited literature review compiled 2026-10-06 | You need depth on a mechanism, drug, or history |

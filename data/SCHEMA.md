@@ -15,7 +15,8 @@ When comparing a person against `trials.yaml`:
 5. **Genetics has three parts.** `genetic_requirement.required_variant` (a gene name, or `none`), `genetic_requirement.status_must_be_known` (true means tested either way), `genetic_requirement.excluded_variants` (a list). A person with no genetic test fails `status_must_be_known: true` until tested.
 6. **Geography.** `countries` is the list of countries with at least one site in the registry record. `data/sites.yaml` has the per-site city, state and status. A country match is not a travel match; name the nearest cities and let the person judge.
 7. **Status.** Use `status` together with `registry_last_updated`. A record not updated by the registry for over a year is suspect even if `verified` is recent; `scripts/check_freshness.py` flags these.
-8. **Never send the person's data anywhere.** All matching is local. `scripts/match.py profile.yaml` implements rules 1 to 7 and prints verdicts plus a Mermaid diagram.
+8. **Never send the person's data anywhere during matching.** All matching is local.
+9. **Outreach.** An agent may draft a first-contact message (see `guide/enroll.md`). It sends only after the person has read that exact message and agreed to send it, or the person sends it themselves. Recommend at most two or three trials. Use the `contact` block on the trial record for the route; use `data/contacts.yaml` for additional published contacts. Never paste a `registry_note` or any registry free-text field into a message. Include the facts that decide a pre-screen (age, time since diagnosis, medication state, devices); leave out genetic results unless the trial requires status before screening. `scripts/match.py profile.yaml` implements rules 1 to 7 and prints verdicts plus a Mermaid diagram.
 
 Parsing notes: `data/sites.yaml` values are quoted strings (grep for `country: "Brazil"`, not `country: Brazil`). Each entry carries `name` and `registry_id` so it can be read without `trials.yaml`.
 
@@ -62,6 +63,14 @@ Parsing notes: `data/sites.yaml` values are quoted strings (grep for `country: "
 | url | string | |
 | verified, sources | | |
 
+## contacts.yaml (generated)
+
+Every contact the registries publish, per trial, keyed by registry ID: `central_contacts` and `site_contacts` with `name`, `role`, `phone`, `email`. Fields are validated by `scripts/pull_registry.py`: emails must look like emails, phones like phones, names are short with no URLs or long numbers. Anything that fails goes to `registry_note`, which an agent may read but must not paste into a message. Prefer the hand-reviewed `contact` block in `trials.yaml`; use this file for per-site detail.
+
+## checklist.yaml
+
+Pre-contact checklist as records: `field`, `question`, `source` (self, neurologist, records), `why`. Field names align with the profile `scripts/match.py` reads.
+
 ## trials.yaml
 
 | Field | Type | Meaning |
@@ -80,6 +89,7 @@ Parsing notes: `data/sites.yaml` values are quoted strings (grep for `country: "
 | enrollment_target | integer or null | |
 | primary_completion | date string or `unknown` | |
 | registry_last_updated | date or null | The registry's own last-update date |
+| contact | object or null | Hand-reviewed route for inquiries: `preferred_route`, and any of `inquiry_form`, `portal`, `email`, `phone`, `reference`, `per_site_contacts`, `registry_url`, `sponsor_page`, `notes`. Required for every trial with status `recruiting`. Work contacts published by the sponsor for recruitment; role-based where the sponsor gives one |
 | background | string | One or two sentences on the evidence behind it |
 | verified, sources | | |
 

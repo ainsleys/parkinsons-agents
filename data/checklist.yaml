@@ -1,0 +1,72 @@
+# Pre-contact checklist, structured. Mirrors the profile fields scripts/match.py reads, so one
+# local profile serves matching, preparation and the outreach draft. Navigation, not medical advice.
+# "source" says who can supply the fact: self, neurologist, or records.
+
+- field: diagnosis_date
+  question: When were you diagnosed, and by whom (general neurologist, movement disorder specialist, other)?
+  source: self
+  why: Every trial sets a window in months since diagnosis; PARAISO 3 to 36, ASPro-PD up to 84, surgical trials from 48.
+- field: symptom_onset_date
+  question: When did the first motor symptom start?
+  source: self
+  why: BHV-8000 counts from onset, not diagnosis.
+- field: medications
+  question: Which Parkinson's medications, what doses, and since when has the regimen been stable?
+  source: self (bring the list)
+  why: Untreated trials (BHV-8000, PPMI in-clinic) exclude anyone on medication; treated trials need a stable regimen, often 2 to 3 months.
+- field: hoehn_yahr_on
+  question: What is my Hoehn and Yahr stage as assessed in clinic (usually on medication)?
+  source: neurologist
+  why: ASPro-PD uses the on-medication stage (1 to 2.5).
+- field: hoehn_yahr_off
+  question: What is my Hoehn and Yahr stage off medication?
+  source: neurologist
+  why: PARAISO and PROPEL use the off-medication stage. Most people only know their on-medication stage; ask.
+- field: motor_complications
+  question: Do I have dyskinesia or wearing-off (MDS-UPDRS Part IV above 0)?
+  source: neurologist, or self if clear
+  why: PARAISO requires none; exPDite-2 and REGENERATE-PD require fluctuations or OFF time.
+- field: off_hours_per_day
+  question: How many hours a day am I in an OFF state?
+  source: self (diary) or neurologist
+  why: exPDite-2 requires at least 2.5 hours.
+- field: genetic_status
+  question: Have I had genetic testing, which panel, and what did it show?
+  source: records
+  why: ASPro-PD needs a known GBA1 result before screening; GREAT, PROPEL and the Agyany study need a GBA1 variant; BEACON needs LRRK2; ASPro-PD excludes LRRK2 G2019S; EJS ACT-PD excludes known PRKN, PINK1, PARK7 carriers; DAPA-PD excludes any known PD variant. Free testing routes are in guide/get-typed.md.
+- field: implanted_devices
+  question: Do I have a pacemaker, stimulator, metal implant or anything else that affects MRI?
+  source: self and cardiologist (device model and MRI conditions in writing)
+  why: Most trials need MRI; surgical trials cannot proceed without it.
+- field: prior_brain_surgery
+  question: Have I had deep brain stimulation, focused ultrasound or any brain surgery?
+  source: self
+  why: Excluded by nearly every disease-modifying trial.
+- field: weight_height
+  question: Weight and height
+  source: self
+  why: PARAISO and PROPEL require 40 to 110 kg and BMI 18 to 34.
+- field: smoking
+  question: Do I smoke or vape?
+  source: self
+  why: BHV-8000 excludes current smokers.
+- field: cognition
+  question: Have I had a cognitive screen (MoCA) and what was the score?
+  source: neurologist
+  why: ASPro-PD needs 20 or above, EJS ACT-PD 21, PROPEL 14; several trials exclude dementia.
+- field: other_trials
+  question: Have I been in any interventional study in the last 12 months?
+  source: self
+  why: Most trials exclude recent investigational drugs (6 to 12 months); joining one trial usually blocks others for its duration.
+- field: comorbidities
+  question: Significant heart, liver, kidney, autoimmune or psychiatric conditions; recent cancer; infections?
+  source: self and records
+  why: Common exclusions, especially for surgical and immune-modulating trials.
+- field: documents
+  question: Do I have my neurologist's most recent clinic letter and a current medication list?
+  source: records
+  why: Sites ask for both to confirm the diagnosis before screening.
+- field: location_and_travel
+  question: Which cities can I realistically travel to, how often, and do I need visits reimbursed?
+  source: self
+  why: Visit frequency ranges from every 4 weeks (PARAISO infusions) to twice yearly with remote visits (EJS ACT-PD).
