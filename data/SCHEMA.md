@@ -58,6 +58,8 @@ Parsing notes: `data/sites.yaml` values are quoted strings (grep for `country: "
 | gives_participant | list | What the person receives (results, imaging, counseling) |
 | excludes_from_other_studies | bool | |
 | how_to_join | string | Concrete first step, with URL or contact |
+| turnaround | string or null | Time from sign-up to result, with what the clock measures |
+| sites_file | string or null | Where the program's sites are listed |
 | registry_id | string or null | NCT or ISRCTN number if any |
 | status | string | |
 | url | string | |
@@ -66,6 +68,10 @@ Parsing notes: `data/sites.yaml` values are quoted strings (grep for `country: "
 ## contacts.yaml (generated)
 
 Every contact the registries publish, per trial, keyed by registry ID: `central_contacts` and `site_contacts` with `name`, `role`, `phone`, `email`. Fields are validated by `scripts/pull_registry.py`: emails must look like emails, phones like phones, names are short with no URLs or long numbers. Anything that fails goes to `registry_note`, which an agent may read but must not paste into a message. Prefer the hand-reviewed `contact` block in `trials.yaml`; use this file for per-site detail.
+
+## program_sites.yaml (generated)
+
+Sites for observational programs that are not trial registrations. Currently the 50 PPMI in-clinic sites (facility, city, state, country, lead investigator) from the JSON that feeds the table at ppmi-info.org. International coordinator contacts are hand-maintained on the `ppmi_clinic` record in `programs.yaml`.
 
 ## checklist.yaml
 

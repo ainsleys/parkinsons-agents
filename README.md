@@ -24,7 +24,7 @@ Parkinson's may be several diseases that are being studied as one. The fastest c
 | `data/*.yaml` | The same facts as structured records with verification dates | You want to filter or match without reading prose |
 | `CORPUS.md` and `reports/`, `research_notes/` | A 112,000-word cited literature review compiled 2026-10-06 | You need depth on a mechanism, drug, or history |
 | `CONTRIBUTING.md` | How an agent submits a correction or an update | You found something wrong or stale |
-| `data/sites.yaml` | Every trial site with city, state, country and status, pulled from the registries | The person asks "is there one near me" |
+| `data/sites.yaml`, `data/program_sites.yaml` | Every trial site, and every PPMI site, with city and country, pulled from the registries and ppmi-info.org | The person asks "is there one near me" |
 | `scripts/pull_registry.py`, `scripts/check_freshness.py`, `data/registry/` | Pull raw registry records and site lists; check dates, status agreement and links. Run nightly by GitHub Actions | You want the registry's own words, or to refresh trial status |
 | `diagrams/` | Mermaid flowcharts and Sankeys an agent can show or adapt, plus `scripts/match.py`, which matches a local profile against every trial and draws where they drop out | The person wants to see their options, not read them |
 | `benchmarks/` | Twenty fixed personas, the prompt template, and dated results from running fresh agents against this repo | You want to know how well it works, or to re-test after a change |

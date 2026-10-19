@@ -42,7 +42,7 @@
     - Requires confirmed PD diagnosis and age 18+
     - At-home kit only in US, Canada, Puerto Rico, Dominican Republic
     - About 12 to 13 percent positive overall (12.2 percent per the Foundation FAQ; about 13 percent in the 2026 preprint); about 18 percent with early onset, high-risk ancestry or an affected first-degree relative
-    - Turnaround not published
+  turnaround: About 2 months after the sample reaches the lab; lab report typically 4 to 6 weeks, then a counseling call
   verified: 2026-10-19
   sources:
     - https://www.parkinson.org/advancing-research/our-research/pdgeneration/faq
@@ -62,6 +62,7 @@
   availability: clinical
   unlocks:
     - Same as pd_generation
+  turnaround: unknown (NHS genomic turnaround not located)
   caveats:
     - Eligibility is onset before 50, a first-degree relative with onset before 50, or complex features
     - Exact R-code not confirmed; check eligibility document v9.1 (May 2026)
@@ -83,9 +84,11 @@
   availability: research_only
   unlocks:
     - Recontact for UK genetic trials
+  turnaround: Kit in up to 4 weeks, then 6 to 8 months for sequencing; plan on 7 to 9 months
   caveats:
     - Research study, not an NHS service
-    - Prioritising ages 35 to 75 diagnosed within 7 years
+    - Current page gives ages 18 to 90; earlier materials prioritised 35 to 75 diagnosed within 7 years
+    - Slow enough to matter when a trial needs the result; see guide/get-typed.md
   verified: 2026-10-19
   sources:
     - https://www.parkinsons.org.uk/node/1011021

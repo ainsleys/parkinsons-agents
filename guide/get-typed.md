@@ -87,6 +87,20 @@ Research only. The clinical proxy an agent can ask about: did dream-enactment be
 
 PPMI mails a scratch-and-sniff test in the US and Canada to people over 40 without a diagnosis, or over 30 and diagnosed within 7 years (expanded April 2025). Results entered online; some are invited to in-clinic assessment. Isolated REM sleep behavior disorder is the strongest single prodromal marker, converting at about 6 percent per year. Source: [MJFF PPMI page](https://michaeljfox.org/ppmi).
 
+## How long genetic results take
+
+This matters when a trial needs the result before screening. Figures are from program pages and lab listings, verified 2026-10-19.
+
+| Route | Time to result | Source |
+|---|---|---|
+| PD GENEration (free, Americas and Israel) | About 2 months after the sample reaches the lab; the lab report is typically 4 to 6 weeks, then a counseling call | [Foundation page](https://www.parkinson.org/advancing-research/our-research/pdgeneration), [2026 preprint](https://www.medrxiv.org/content/10.64898/2026.05.20.26353696v1.full) |
+| PD Frontline (free, UK research) | Kit in up to 4 weeks, then 6 to 8 months for sequencing. Plan on 7 to 9 months | [Parkinson's UK](https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons) |
+| Clinician-ordered commercial panel (US and Europe; cost or insurance) | 2 to 4 weeks is typical: Invitae 10 to 21 days, Revvity 2 to 3 weeks, Prevention Genetics 3 weeks, GeneDx 4 weeks, Radboud (NL) 4 to 8 weeks | Lab listings |
+| NHS clinical test (UK, if eligible) | Not published here | |
+| Consumer kit (23andMe) | Weeks, but covers two variants only | |
+
+The practical consequence for the UK: ASPro-PD requires GBA1 status before screening and caps age at 75. The free route takes most of a year. Someone near the cap, or who wants to move faster, has two other options: ask the ASPro-PD team whether a site can arrange testing at screening, or pay for a clinician-ordered panel and have the result in a month. Which to do is the person's choice; the repo's job is to make the timing visible.
+
 ## Choosing between the skin biopsy and the spinal fluid test
 
 The repo does not choose for a person. What it can say: the two tests look for the same biology by different methods. The spinal fluid assay amplifies misfolded synuclein seeds; the skin test stains nerve fibers for phosphorylated synuclein. Their published accuracy figures come from different studies and different cohorts, so 87.7 percent and 92.7 percent are not a head-to-head comparison. Neither test separates Parkinson's from multiple system atrophy or Lewy body dementia, which is often the actual question when a picture is "atypical." The practical differences are the lumbar puncture, the roughly three-week turnaround of the skin test, and billing: the spinal fluid test has a published self-pay price and a CPT code, the skin test does not publish a price. The questions to bring to the neurologist: which one their center can order, what they expect it to change, and whether genetic testing or a DaTscan should come first.

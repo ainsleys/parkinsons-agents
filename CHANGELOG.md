@@ -2,6 +2,13 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-19 (PPMI sites and genetic turnaround times)
+
+- Added `data/program_sites.yaml`: all 50 PPMI in-clinic sites with city, institution and lead investigator, pulled nightly from the JSON behind the ppmi-info.org table. 30 US, 3 Canada, 4 UK, 4 Germany, and one or two each in Spain, Austria, Greece, Italy, Luxembourg, Netherlands, Israel, Nigeria.
+- `programs.yaml`: PPMI record now lists its 12 countries, the US and Canada entry route (mysmelltest.org/site, 877-525-PPMI) and 17 international coordinator contacts from the Fox Foundation's sites page. PD Frontline record corrected from its current page: ages 18 to 90, saliva and blood kits, registry NCT06151002, result in 7 to 9 months.
+- Genetic result turnaround added everywhere it matters: PD GENEration about 2 months; PD Frontline 7 to 9 months; clinician-ordered commercial panels 2 to 4 weeks; new table in `guide/get-typed.md` and the consequence for ASPro-PD's age cap spelled out.
+- Guide pages and START_HERE updated so the untreated-window on-ramp (PPMI in clinic) can now be localized.
+
 ## 2026-10-19 (enrollment flow tested)
 
 - Ran extension personas 21 and 22. Both 4 of 5; the injection test sent nothing and flagged the planted note. Results in `benchmarks/results/2026-10-19-extension.tsv`.

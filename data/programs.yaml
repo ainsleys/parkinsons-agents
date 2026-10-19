@@ -20,7 +20,7 @@
   excludes_from_other_studies: false
   how_to_join: Enroll online at https://www.parkinson.org/advancing-research/our-research/pdgeneration, or email Genetics@Parkinson.org for a virtual appointment
   contact_email: genetics@parkinson.org
-  typical_timeline: Online consent in minutes; kit by mail; results and counseling call afterwards (turnaround not published)
+  turnaround: "About 2 months after the sample reaches the lab (Foundation page); the lab report itself is typically 4 to 6 weeks (2026 protocol preprint). Then a counseling call."
   registry_id: NCT04057794
   status: recruiting
   url: https://www.parkinson.org/advancing-research/our-research/pdgeneration
@@ -39,9 +39,10 @@
     - Recently diagnosed PD not yet on medication
     - People with REM sleep behavior disorder
     - Known carriers of PD-linked genetic variants (LRRK2, GBA1, SNCA and others)
-    - Control volunteers
+    - Control volunteers age 40 and older
     - Ashkenazi Jewish participants specifically sought
-  countries: [United States, and about 50 sites in 12 countries; the site list is at https://www.ppmi-info.org/ and is not reproduced here]
+  countries: [United States, Canada, United Kingdom, Germany, Spain, Italy, Austria, Greece, Netherlands, Luxembourg, Israel, Nigeria]
+  sites_file: data/program_sites.yaml (50 sites with city, institution and lead investigator, pulled from ppmi-info.org)
   at_home: false
   cost: Free; study procedures are provided at no cost
   genes: null
@@ -51,7 +52,25 @@
     - Dopaminergic imaging
     - Site coordinators who know which local drug trials are opening
   excludes_from_other_studies: false
-  how_to_join: https://michaeljfox.org/ppmi, then contact the nearest site
+  how_to_join: "US and Canada: start at https://www.mysmelltest.org/site or call 877-525-PPMI (877-525-7764), which routes you to the nearest of 33 North American sites. Elsewhere: contact the site directly; coordinator contacts below."
+  international_site_contacts:
+    - {site: Innsbruck Medical University, country: Austria, contact: "Dora Valent", email: dora.valent@tirol-kliniken.at}
+    - {site: Paracelsus-Elena Klinik Kassel, country: Germany, contact: "Diana Willeke", phone: "+49 561 6009 272", email: diana.willeke@pk-mx.de}
+    - {site: University of Luebeck, country: Germany, contact: "Madita Gruemmer", email: madita.gruemmer@neuro.uni-luebeck.de}
+    - {site: Philipps-Universitaet Marburg, country: Germany, contact: "Elisabeth Sittig", email: sittig@med.uni-marburg.de}
+    - {site: University of Tuebingen, country: Germany, contact: "Ella Hilt", phone: "+49 7071 2985660", email: ella.hilt@med.uni-tuebingen.de}
+    - {site: Academy of Athens Biomedical Research Foundation, country: Greece, contact: "Christos Koros", phone: "+30 210 7289405", email: chkoros@gmail.com}
+    - {site: Tel Aviv Sourasky Medical Center, country: Israel, contact: "Anat Mirelman", email: anatmi@tlvmc.gov.il}
+    - {site: University of Salerno, country: Italy, contact: "Susan Ainscough", phone: "+39 089 672462", email: ricercaparkinson@gmail.com}
+    - {site: Parkinson Research Clinic Luxembourg, country: Luxembourg, contact: "Taina Marques", phone: "+352 26970-229", email: taina.marques@lih.lu}
+    - {site: Radboud University Nijmegen, country: Netherlands, contact: "Onderzoekscentrum Parkinson helpdesk", email: info@onderzoek-parkinson.nl}
+    - {site: University of Lagos College of Medicine, country: Nigeria, contact: "Oluwadamilola Ojo", email: oluojo@unilag.edu.ng}
+    - {site: Hospital Clinic de Barcelona, country: Spain, contact: "Alicia Garrido", phone: "+34 93 227 5785", email: agarridop@clinic.ub.es}
+    - {site: Hospital Donostia San Sebastian, country: Spain, contact: "Ioana Croitoru", phone: "+34 943 00 72 46", email: ioana.croitoru@biodonostia.org}
+    - {site: Imperial College London, country: United Kingdom, contact: "Kinza Emmanuel", phone: "+44 20 3311 1714", email: kinza.emmanuel@nhs.net}
+    - {site: Queen Mary University London, country: United Kingdom, contact: "Cristina Simonet", phone: "+44 20 7882 3379", email: c.simonet@qmul.ac.uk}
+    - {site: Newcastle University, country: United Kingdom, contact: "Victoria Foster", phone: "+44 191 208 1197", email: victoria.foster@ncl.ac.uk}
+    - {site: John Radcliffe Hospital Oxford, country: United Kingdom, contact: "Jamil Razzaque", phone: "+44 1865 223166", email: jamil.razzaque@ouh.nhs.uk}
   registry_id: null
   status: recruiting
   url: https://michaeljfox.org/ppmi
@@ -59,6 +78,8 @@
   verified: 2026-10-19
   sources:
     - https://michaeljfox.org/ppmi
+    - https://www.ppmi-info.org/about-ppmi/ppmi-clinical-sites
+    - https://www.michaeljfox.org/ppmi-recruiting-sites
     - research_notes/Parkinsons disease research review/10_history_and_research_infrastructure.md
 
 - id: ppmi_online
@@ -126,28 +147,30 @@
     - https://foxinsight.michaeljfox.org/
 
 - id: pd_frontline
-  name: PD Frontline
+  name: PD Frontline (part of RAPSODI GD)
   sponsor: UCL / Parkinson's UK
   type: genetic_testing
   eligibility:
-    - Formal Parkinson's diagnosis
-    - Prioritising ages 35 to 75 diagnosed within 7 years
+    - Formal Parkinson's diagnosis, living in the UK, age 18 to 90
+    - Earlier materials said priority for ages 35 to 75 diagnosed within 7 years; the current Parkinson's UK page gives only the 18 to 90 range
   countries: [United Kingdom]
   at_home: true
   cost: Free
   genes: [LRRK2, GBA1, and others; full panel not published]
-  burden: Online questionnaire, saliva kit by post
+  burden: Online questionnaire, then two kits by post for saliva and blood samples, returned in pre-paid packaging
   gives_participant:
-    - Genetic result and recontact for trials
+    - Genetic result (the team contacts you when ready) and recontact for trials, named explicitly as ASPro-PD
   excludes_from_other_studies: false
-  how_to_join: https://www.parkinsons.org.uk/node/1011021
-  registry_id: null
+  how_to_join: https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons
+  registry_id: NCT06151002
   status: recruiting
-  url: https://www.parkinsons.org.uk/node/1011021
-  turnaround: unknown
+  url: https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons
+  turnaround: "Kit arrives in up to 4 weeks; the team allows 6 to 8 months for sequencing. Plan on about 7 to 9 months from sign-up to result."
   verified: 2026-10-19
   sources:
-    - https://www.parkinsons.org.uk/node/1011021
+    - https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons
+    - https://clinicaltrials.gov/study/NCT06151002
+    - https://services.nhslothian.scot/neuroprogressiveanddementianetwork/pd-frontline/
 
 - id: fox_trial_finder
   name: Fox Trial Finder

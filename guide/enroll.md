@@ -11,8 +11,8 @@ Three things take almost anyone with a diagnosis, cost nothing, block nothing, a
 | **PD GENEration** | Any confirmed PD diagnosis, 18+, in the US, Canada, Puerto Rico, Dominican Republic (at home) or Chile, Mexico, Israel (in person) | Online consent, blood kit by mail, counseling call. genetics@parkinson.org | Seven-gene result with counseling; the status several trials require |
 | **PPMI online (myPPMI)** | Anyone 18+ in the US, with or without PD | Sign up at michaeljfox.org/ppmi, questionnaires at home | Nothing clinical; data to the field's reference cohort |
 | **Fox Insight** | People with PD and family members, any country | foxinsight.michaeljfox.org, questionnaires every 90 days | Same |
-| **PPMI in clinic** | Recently diagnosed and not yet on medication, people with REM sleep behavior disorder, known genetic carriers; about 50 sites in 12 countries | Contact the nearest site via ppmi-info.org | Free synuclein assay, DaTscan and MRI; coordinators who know local trials |
-| **PD Frontline** (UK) | Formal diagnosis, prioritising ages 35 to 75 diagnosed within 7 years | Saliva kit by post via Parkinson's UK | LRRK2 and GBA1 status; recontact for UK trials |
+| **PPMI in clinic** | Recently diagnosed and not yet on medication, people with REM sleep behavior disorder, known genetic carriers; 50 sites in 12 countries, listed with cities in `data/program_sites.yaml` | US and Canada: mysmelltest.org/site or 877-525-PPMI; elsewhere, coordinator contacts in `data/programs.yaml` | Free synuclein assay, DaTscan and MRI; coordinators who know local trials |
+| **PD Frontline** (UK) | Formal diagnosis, UK resident, age 18 to 90 | Saliva and blood kits by post via Parkinson's UK; allow 7 to 9 months for results | LRRK2 and GBA1 status; recontact for UK trials including ASPro-PD |
 
 Joining these does not exclude you from any drug trial later. The in-clinic PPMI arm for untreated people is a window that closes once medication starts.
 
@@ -42,7 +42,7 @@ Structured version in `data/checklist.yaml`, aligned with the profile file `scri
 **You can gather yourself:**
 - Diagnosis date and who made it; first symptom date (BHV-8000 counts from onset).
 - Medications, doses, and how long the regimen has been stable.
-- Genetic test status and result, if any. If none and a trial needs it, the free routes are in `get-typed.md`.
+- Genetic test status and result, if any. If none and a trial needs it, the routes and how long each takes are in `get-typed.md`: about 2 months free in the Americas, 7 to 9 months free in the UK, 2 to 4 weeks for a paid clinical panel.
 - Implanted devices, with the model and MRI conditions from your cardiologist in writing.
 - Prior brain surgery; other trials in the last 12 months; major conditions; recent cancer or infections.
 - Weight and height; smoking.
@@ -54,7 +54,7 @@ Structured version in `data/checklist.yaml`, aligned with the profile file `scri
 | Trial | First questions | Route |
 |---|---|---|
 | PARAISO | Age 50 to 85; 3 to 36 months since diagnosis; on levodopa alone; any dyskinesia or wearing-off; off-medication stage; weight; MRI OK | Roche inquiry form or 888-662-6728; study BN44715 |
-| ASPro-PD (UK) | Age 35 to 75; within 7 years; on stable treatment 3 months; **GBA1 result in hand**; not a LRRK2 G2019S carrier; MoCA; prior DBS; ambroxol or GLP-1 in past year | cctu.aspro-pd@ucl.ac.uk, 020 3108 4908, or referral |
+| ASPro-PD (UK) | Age 35 to 75; within 7 years; on stable treatment 3 months; **GBA1 result in hand** (PD Frontline takes 7 to 9 months; ask the team about testing at screening, or a paid panel takes about a month); not a LRRK2 G2019S carrier; MoCA; prior DBS; ambroxol or GLP-1 in past year | cctu.aspro-pd@ucl.ac.uk, 020 3108 4908, or referral |
 | EJS ACT-PD (UK) | Diagnosed at 30 or older; on levodopa or agonist 2 months; MoCA; not a known PRKN, PINK1 or PARK7 carrier; other trials in 6 months; blood pressure (terazosin arm) | mrcctu.ejsactpd@ucl.ac.uk, or referral to a listed NHS site |
 | BHV-8000 (US) | Age 40 to 80; onset within 2 years; **not on any PD medication**; smoker; infections | clinicaltrials@biohavenpharma.com, 203-404-0410 |
 | exPDite-2 | Age 45 to 75; 4 to under 12 years since diagnosis; hours OFF per day; levodopa response; falls; prior surgery; immunosuppression concerns | clinicaltrials@bluerocktx.com, 1-877-380-3967 |
