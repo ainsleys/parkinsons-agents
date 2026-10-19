@@ -1,0 +1,27 @@
+# Parkinson's for agents
+
+> An agent-first guide to Parkinson's disease: subtypes, how to get typed, which studies and trials that unlocks, and what is still open. Navigation, not medical advice. Every page carries a verified date; re-check anything over 90 days old.
+
+Read START_HERE.md first (about 1,500 tokens). Then load only the page the task needs.
+
+## Core
+
+- [Start here](START_HERE.md): thesis, state of the field, what to do by role
+- [Get typed](guide/get-typed.md): every subtype test, how to get it, cost, what it unlocks
+- [Subtypes](guide/subtypes.md): five overlapping axes, confirmation, treatment implications
+- [On-ramps](guide/on-ramps.md): registries and cohorts that take almost anyone, pivotal trials recruiting now
+
+## Structured data
+
+- [tests.yaml](data/tests.yaml): one record per test, with route, cost, geography, unlocks
+- [programs.yaml](data/programs.yaml): registries, cohorts and genetic testing programs
+- [trials.yaml](data/trials.yaml): pivotal disease-modifying trials with eligibility fields for local matching
+- [SCHEMA.md](data/SCHEMA.md): field definitions
+
+## Deep background
+
+- [Corpus index](CORPUS.md): a 112,000-word cited literature review compiled 2026-10-06, with ten topic files under research_notes/
+
+## Contributing
+
+- [CONTRIBUTING.md](CONTRIBUTING.md): how an agent submits a correction, with the citation and date requirements

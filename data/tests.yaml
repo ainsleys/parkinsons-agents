@@ -1,0 +1,251 @@
+# Tests that place a person on a Parkinson's subtype axis.
+# Schema: data/SCHEMA.md. Unknown is written as null or "unknown", never guessed.
+
+- id: clinical_motor_subtype
+  name: Clinical motor subtype (tremor-dominant vs PIGD)
+  axis: motor_phenotype
+  result_type: categorical (tremor-dominant, PIGD, indeterminate)
+  route: Ask the treating neurologist; derived from MDS-UPDRS item ratios
+  ordered_by: clinician
+  invasiveness: none
+  geography: [global]
+  cost: Free
+  coverage: n/a
+  availability: clinical
+  unlocks:
+    - Deep brain stimulation and focused ultrasound candidacy and expected benefit
+    - Prognosis
+    - Exercise prescription priority for gait-dominant
+  caveats:
+    - Subtype can shift over disease course
+  verified: 2026-10-19
+  sources:
+    - research_notes/Parkinsons disease research review/04_motor_treatment_drugs_devices_surgery.md
+
+- id: pd_generation
+  name: PD GENEration genetic panel (Parkinson's Foundation)
+  axis: genetic
+  result_type: 7-gene panel (GBA1, LRRK2, PRKN, SNCA, PINK1, PARK7, VPS35) from whole genome sequencing; some secondary findings
+  route: Online consent and survey, then at-home Tasso+ blood kit or site visit; genetic counseling included
+  ordered_by: self
+  invasiveness: blood
+  geography: [US, Canada, Puerto Rico, Dominican Republic, Chile, Mexico, Israel]
+  cost: Free
+  coverage: n/a
+  availability: clinical
+  unlocks:
+    - GBA1 trials (ASPro-PD UK, GREAT NL)
+    - PPMI genetic cohort eligibility
+    - Cognition monitoring plan if GBA1
+    - Relatives' decision about testing
+  caveats:
+    - Requires confirmed PD diagnosis and age 18+
+    - At-home kit only in US, Canada, Puerto Rico, Dominican Republic
+    - About 13 percent positive overall; about 18 percent with early onset, high-risk ancestry or affected first-degree relative
+  verified: 2026-10-19
+  sources:
+    - https://www.parkinson.org/advancing-research/our-research/pdgeneration/faq
+    - https://www.medrxiv.org/content/10.64898/2026.05.20.26353696v1.full
+    - https://www.neurologylive.com/view/expanding-access-parkinson-disease-research-through-at-home-genetic-testing
+
+- id: nhs_genetic_test
+  name: NHS clinical genetic testing for Parkinson's (UK)
+  axis: genetic
+  result_type: clinical gene panel
+  route: Referral by neurology, clinical genetics or psychiatry under the National Genomic Test Directory
+  ordered_by: clinician
+  invasiveness: blood
+  geography: [England, Wales, Scotland, Northern Ireland]
+  cost: Free at point of care
+  coverage: NHS
+  availability: clinical
+  unlocks:
+    - Same as pd_generation
+  caveats:
+    - Eligibility is onset before 50, a first-degree relative with onset before 50, or complex features
+    - Exact R-code not confirmed; check eligibility document v9.1 (May 2026)
+  verified: 2026-10-19
+  sources:
+    - https://www.parkinsons.org.uk/professionals/resources/referring-people-parkinsons-for-genetic-testing
+    - https://england.nhs.uk/publication/national-genomic-test-directories
+
+- id: pd_frontline
+  name: PD Frontline (UK research genetic study)
+  axis: genetic
+  result_type: LRRK2, GBA1 and other variants
+  route: Online questionnaire then saliva kit by post
+  ordered_by: self
+  invasiveness: sample
+  geography: [UK]
+  cost: Free
+  coverage: n/a
+  availability: research_only
+  unlocks:
+    - Recontact for UK genetic trials
+  caveats:
+    - Research study, not an NHS service
+    - Prioritising ages 35 to 75 diagnosed within 7 years
+  verified: 2026-10-19
+  sources:
+    - https://www.parkinsons.org.uk/node/1011021
+
+- id: consumer_23andme
+  name: 23andMe Parkinson's genetic health risk report
+  axis: genetic
+  result_type: two variants only (LRRK2 G2019S, GBA N370S/N409S)
+  route: Consumer kit, Health + Ancestry service
+  ordered_by: self
+  invasiveness: sample
+  geography: [US, and other markets where the health service is sold]
+  cost: Kit price
+  coverage: none
+  availability: consumer
+  unlocks:
+    - A positive is a lead to confirm with a clinical panel and counseling
+  caveats:
+    - A negative rules out almost nothing; most pathogenic variants are not tested
+    - Best studied in European, Ashkenazi Jewish and North African Berber ancestry
+  verified: 2026-10-19
+  sources:
+    - https://23andme.com/topics/health-predispositions/parkinsons-disease
+
+- id: csf_saa
+  name: CSF alpha-synuclein seed amplification assay (SYNTap / SAAmplify-aSYN, Amprion)
+  axis: synuclein
+  result_type: binary (positive/negative), qualitative
+  route: Clinician orders; lumbar puncture; CPT 0393U
+  ordered_by: clinician
+  invasiveness: lumbar_puncture
+  geography: [US]
+  cost: About USD 1,500 self-pay per a news report; current 2026 price unverified
+  coverage: Medicare requires an Advance Beneficiary Notice; not in network with private insurers per manufacturer FAQ; courtesy billing offered
+  availability: clinical
+  unlocks:
+    - Anchors S+ or S- in biological staging
+    - Negative result prompts diagnostic re-look
+  caveats:
+    - 87.7 percent sensitivity, 96.3 percent specificity in PPMI; much lower positivity in LRRK2 carriers and normosmic PD
+    - Does not separate PD from MSA or DLB
+    - No disease-modifying trial yet enrolls on this alone
+    - FDA Breakthrough Device designation and 2024 Letter of Support; not FDA approved as a diagnostic
+  verified: 2026-10-19
+  sources:
+    - https://www.ampriondx.com/test-faq
+    - https://news.mayocliniclabs.com/2025/03/26/mayo-clinic-laboratories-and-amprion-announce-collaboration-to-advance-neurodegenerative-disease-diagnostics/
+    - research_notes/Parkinsons disease research review/03_diagnosis_biomarkers_staging.md
+
+- id: skin_biopsy_syn_one
+  name: Skin biopsy for phosphorylated alpha-synuclein (Syn-One, CND Life Sciences)
+  axis: synuclein
+  result_type: binary (positive/negative)
+  route: Clinician orders; three 3 mm punch biopsies under local anesthetic; report in about 3 weeks
+  ordered_by: clinician
+  invasiveness: biopsy
+  geography: [US]
+  cost: Not published
+  coverage: Varies by payer; lab-developed test, not FDA cleared
+  availability: clinical
+  unlocks:
+    - Same as csf_saa without the lumbar puncture
+  caveats:
+    - 92.7 percent positive in PD, 3.3 percent in controls (JAMA 2024)
+    - Does not distinguish among synucleinopathies; no prognosis
+  verified: 2026-10-19
+  sources:
+    - https://cndlifesciences.com/syn-one-test/
+    - https://jamanetwork.com/journals/jama/fullarticle/2816441
+
+- id: datscan
+  name: Dopamine transporter SPECT (DaTscan)
+  axis: neurodegeneration
+  result_type: binary-ish (dopaminergic deficit present/absent) with pattern
+  route: Clinician orders; nuclear medicine
+  ordered_by: clinician
+  invasiveness: imaging
+  geography: [US, Europe, widely]
+  cost: unknown
+  coverage: Usually covered when clinically indicated (unverified)
+  availability: clinical
+  unlocks:
+    - Confirms the N axis in biological staging
+  caveats:
+    - Does not subtype; does not separate PD from atypical parkinsonism
+    - Provided free inside PPMI
+  verified: 2026-10-19
+  sources:
+    - research_notes/Parkinsons disease research review/03_diagnosis_biomarkers_staging.md
+
+- id: polysomnography
+  name: Polysomnography for REM sleep behavior disorder
+  axis: origin_site
+  result_type: RBD confirmed or not
+  route: Sleep clinic referral
+  ordered_by: clinician
+  invasiveness: none
+  geography: [global]
+  cost: unknown
+  coverage: Usually covered (unverified)
+  availability: clinical
+  unlocks:
+    - Body-first proxy; prognostic flag for cognition and autonomic decline
+    - Prodromal cohort eligibility if no PD diagnosis yet
+  caveats:
+    - Body-first vs brain-first is a research model, not a clinical diagnosis
+  verified: 2026-10-19
+  sources:
+    - research_notes/Parkinsons disease research review/01_pathophysiology_and_mechanisms.md
+
+- id: ppmi_smell_test
+  name: PPMI smell test (prodromal screen)
+  axis: prodromal
+  result_type: hyposmia yes/no
+  route: Free scratch-and-sniff kit by mail; results entered online
+  ordered_by: self
+  invasiveness: none
+  geography: [US, Canada]
+  cost: Free
+  coverage: n/a
+  availability: research_only
+  unlocks:
+    - Invitation to PPMI in-clinic assessment
+  caveats:
+    - Over 40 without a diagnosis, or over 30 and diagnosed within 7 years (April 2025 expansion)
+  verified: 2026-10-19
+  sources:
+    - https://michaeljfox.org/ppmi
+
+- id: blood_saa
+  name: Blood alpha-synuclein seed amplification assay
+  axis: synuclein
+  result_type: binary, research
+  route: none
+  ordered_by: study
+  invasiveness: blood
+  geography: []
+  cost: n/a
+  coverage: n/a
+  availability: research_only
+  unlocks: []
+  caveats:
+    - 80 to 85 percent sensitivity in research; no commercial product as of October 2026
+  verified: 2026-10-19
+  sources:
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC13438263/
+
+- id: body_first_imaging
+  name: Body-first vs brain-first markers (cardiac MIBG, colon biopsy, autonomic testing)
+  axis: origin_site
+  result_type: research classification
+  route: none as a clinical typing service
+  ordered_by: study
+  invasiveness: imaging
+  geography: []
+  cost: n/a
+  coverage: n/a
+  availability: research_only
+  unlocks: []
+  caveats:
+    - Model supported by molecular imaging and clinical clustering; contradicted by some structural imaging and asymmetry studies
+  verified: 2026-10-19
+  sources:
+    - https://pure.au.dk/portal/en/publications/brain-first-vs-body-first-parkinsons-disease-an-update-on-recent-/

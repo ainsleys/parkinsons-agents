@@ -1,0 +1,234 @@
+# Pivotal and notable disease-modifying trials in Parkinson's as of October 2026.
+# Schema: data/SCHEMA.md. Eligibility fields are for local matching by the person's own agent.
+# Confirm on ClinicalTrials.gov before acting; status drifts monthly.
+
+- id: paraiso
+  name: PARAISO
+  registry_id: NCT07174310
+  sponsor: Hoffmann-La Roche (with Prothena)
+  phase: "3"
+  intervention: Prasinezumab, anti-alpha-synuclein monoclonal antibody, IV every 4 weeks
+  target_axis: synuclein (early idiopathic PD on stable levodopa)
+  status: recruiting
+  geography: [17 countries including US, UK, Germany]
+  sites: 231
+  eligibility:
+    age_min: 50
+    age_max: 85
+    disease_duration_min_months: 3
+    disease_duration_max_months: 36
+    hoehn_yahr: "1 or 2 off medication"
+    medication_state: on stable levodopa
+    genetic_requirement: none
+    other:
+      - Idiopathic PD by MDS criteria
+      - MDS-UPDRS Part IV score 0 at screening and randomization
+      - Weight 40 to 110 kg
+      - BMI 18 to 34
+  burden:
+    route: IV infusion
+    frequency: every 4 weeks
+    blinded_duration_weeks: 104
+    open_label_extension: true
+    placebo_probability: 0.5
+    mri_required: likely
+  primary_completion: 2029-06-30
+  background: Phase 2b PADOVA missed its primary endpoint (HR 0.84, p 0.066); prespecified levodopa-treated subgroup HR 0.79. The only anti-synuclein agent with a replicated directional signal.
+  verified: 2026-10-19
+  sources:
+    - https://clinicaltrials.gov/study/NCT07174310
+    - research_notes/Parkinsons disease research review/06_disease_modifying_therapy_pipeline.md
+
+- id: aspro_pd
+  name: ASPro-PD
+  registry_id: NCT05778617
+  sponsor: University College London (Cure Parkinson's, Van Andel Institute funding)
+  phase: "3"
+  intervention: Ambroxol 1,260 mg per day oral, GBA1 chaperone, vs placebo
+  target_axis: genetic (GBA1 status confirmed; carriers and non-carriers both enrolled)
+  status: recruiting
+  geography: [UK]
+  sites: 15
+  eligibility:
+    age_min: null
+    age_max: null
+    disease_duration_min_months: null
+    disease_duration_max_months: null
+    hoehn_yahr: unknown
+    medication_state: unknown
+    genetic_requirement: GBA1 status must be confirmed (either result accepted, equal recruitment)
+    other: []
+  burden:
+    route: oral
+    frequency: daily
+    blinded_duration_weeks: 104
+    open_label_extension: true
+    placebo_probability: 0.5
+    mri_required: unknown
+  primary_completion: 2029-09
+  background: Open-label AiM-PD (2020) showed CNS penetration and motor improvement; ambroxol missed primary endpoints in PD dementia (2025). The last large randomized test of GCase enhancement before gene therapy data.
+  verified: 2026-10-19
+  sources:
+    - https://pubmed.ncbi.nlm.nih.gov/41708985/
+    - https://cureparkinsons.org.uk/2025/04/the-aspro-pd-trial-is-now-underway/
+
+- id: great
+  name: GREAT
+  registry_id: NCT05830396
+  sponsor: University Medical Center Groningen
+  phase: 2/3
+  intervention: Ambroxol 1,800 mg per day oral
+  target_axis: genetic (GBA1 relevance; enrollment criteria not verified)
+  status: recruiting
+  geography: [Netherlands]
+  sites: null
+  eligibility:
+    age_min: null
+    age_max: null
+    disease_duration_min_months: null
+    disease_duration_max_months: null
+    hoehn_yahr: unknown
+    medication_state: unknown
+    genetic_requirement: unknown
+    other: []
+  burden:
+    route: oral
+    frequency: daily
+    blinded_duration_weeks: 60
+    open_label_extension: unknown
+    placebo_probability: unknown
+    mri_required: unknown
+  primary_completion: unknown
+  background: 80 planned participants; MDS-UPDRS III at 60 weeks.
+  verified: 2026-10-19
+  sources:
+    - research_notes/Parkinsons disease research review/06_disease_modifying_therapy_pipeline.md
+
+- id: bhv_8000
+  name: BHV-8000 phase 2/3
+  registry_id: NCT06976268
+  sponsor: Biohaven
+  phase: 2/3
+  intervention: BHV-8000, oral TYK2/JAK1 inhibitor, vs placebo
+  target_axis: none (early idiopathic PD; immune hypothesis)
+  status: recruiting (per corpus, October 2026; confirm)
+  geography: [US]
+  sites: 23
+  eligibility:
+    age_min: null
+    age_max: null
+    disease_duration_min_months: null
+    disease_duration_max_months: null
+    hoehn_yahr: unknown
+    medication_state: unknown
+    genetic_requirement: none
+    other:
+      - Infection screening; immune suppression risk
+  burden:
+    route: oral
+    frequency: daily
+    blinded_duration_weeks: 48
+    open_label_extension: true
+    placebo_probability: unknown
+    mri_required: unknown
+  primary_completion: 2027
+  background: No prior PD efficacy data; novel anti-inflammatory mechanism.
+  verified: 2026-10-19
+  sources:
+    - research_notes/Parkinsons disease research review/06_disease_modifying_therapy_pipeline.md
+
+- id: ejs_act_pd
+  name: EJS ACT-PD platform trial
+  registry_id: null
+  sponsor: UCL / Cure Parkinson's / Edmond J. Safra Foundation
+  phase: "3 platform"
+  intervention: Telmisartan, terazosin, ursodeoxycholic acid vs shared placebo
+  target_axis: none (PD within a few years of diagnosis)
+  status: recruiting (confirm)
+  geography: [UK]
+  sites: 43
+  eligibility:
+    age_min: null
+    age_max: null
+    disease_duration_min_months: null
+    disease_duration_max_months: null
+    hoehn_yahr: unknown
+    medication_state: unknown
+    genetic_requirement: none
+    other:
+      - Terazosin arm lowers blood pressure; relevant with orthostatic symptoms
+  burden:
+    route: oral
+    frequency: daily
+    blinded_duration_weeks: 156
+    open_label_extension: unknown
+    placebo_probability: unknown
+    mri_required: unknown
+  primary_completion: unknown
+  background: Shared-placebo multi-arm design; repurposed drugs.
+  verified: 2026-10-19
+  sources:
+    - https://cureparkinsons.org.uk/research/research-projects/ejs-act-pd/
+
+- id: beacon
+  name: BEACON
+  registry_id: NCT06602193
+  sponsor: Denali Therapeutics
+  phase: 2a
+  intervention: BIIB122 (DNL151), LRRK2 kinase inhibitor
+  target_axis: genetic (LRRK2 variant carriers only)
+  status: active_not_recruiting
+  geography: [US]
+  sites: null
+  eligibility:
+    genetic_requirement: heterozygous or homozygous LRRK2 pathogenic variant
+    other: []
+  burden:
+    route: oral
+    mri_required: unknown
+  primary_completion: 2027-03
+  background: The only remaining clinical test of the LRRK2 hypothesis after LUMA failed in idiopathic PD (May 2026). Data expected first half of 2027.
+  verified: 2026-10-19
+  sources:
+    - https://clinicaltrials.gov/study/NCT06602193
+    - https://www.globenewswire.com/news-release/2026/05/21/3299820/0/en/Biogen-and-Denali-Therapeutics-Provide-Update-on-Phase-2b-LUMA-Study-of-BIIB122-DNL151-in-Early-Stage-Parkinson-s-Disease.html
+
+- id: propel
+  name: PROPEL
+  registry_id: NCT04127578
+  sponsor: Prevail Therapeutics / Eli Lilly
+  phase: 1/2a
+  intervention: PR001 / LY3884961, AAV9-GBA1 gene therapy, intracisternal
+  target_axis: genetic (GBA1 PD, moderate to severe)
+  status: active_not_recruiting
+  geography: [US]
+  sites: null
+  eligibility:
+    genetic_requirement: at least one GBA1 pathogenic variant
+    other: []
+  burden:
+    route: intracisternal injection with immunosuppression
+    mri_required: likely
+  primary_completion: 2031-03-31
+  background: Sham arm removed and immunosuppression enhanced after an early immune-related serious adverse event; 32 planned.
+  verified: 2026-10-19
+  sources:
+    - https://clinicaltrials.gov/study/NCT04127578
+
+- id: luma
+  name: LUMA
+  registry_id: NCT05418673
+  sponsor: Biogen / Denali
+  phase: 2b
+  intervention: BIIB122 (DNL151), LRRK2 kinase inhibitor
+  target_axis: none (early idiopathic PD)
+  status: failed
+  geography: []
+  sites: null
+  eligibility: {}
+  burden: {}
+  primary_completion: 2026
+  background: Reported May 2026. No efficacy signal on primary or secondary endpoints despite over 90 percent peripheral kinase inhibition; development in idiopathic PD discontinued.
+  verified: 2026-10-19
+  sources:
+    - https://www.neurologylive.com/view/lrrk2-inhibitor-biib122-fails-slow-early-stage-parkinson-disease
