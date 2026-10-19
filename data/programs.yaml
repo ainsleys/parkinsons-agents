@@ -52,7 +52,7 @@
     - Dopaminergic imaging
     - Site coordinators who know which local drug trials are opening
   excludes_from_other_studies: false
-  how_to_join: "US and Canada: start at https://www.mysmelltest.org/site or call 877-525-PPMI (877-525-7764), which routes you to the nearest of 33 North American sites. Elsewhere: contact the site directly; coordinator contacts below."
+  how_to_join: "US and Canada: https://www.mysmelltest.org/site is PPMI's online intake, run with Indiana University. It asks two questions (US or Canada resident; diagnosed with Parkinson's), takes under five minutes, mails a smell test, and notes that people with Parkinson's may also qualify for free genetic screening; from there the study team routes you to the nearest of the 33 North American sites. Phone 877-525-PPMI (877-525-7764). Elsewhere: contact the site directly; coordinator contacts below."
   international_site_contacts:
     - {site: Innsbruck Medical University, country: Austria, contact: "Dora Valent", email: dora.valent@tirol-kliniken.at}
     - {site: Paracelsus-Elena Klinik Kassel, country: Germany, contact: "Diana Willeke", phone: "+49 561 6009 272", email: diana.willeke@pk-mx.de}
