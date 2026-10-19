@@ -13,19 +13,19 @@ Provenance in one line: opened October 2026 by one maintainer (GitHub @ainsleys)
 - [guide/subtypes.md](guide/subtypes.md) (1,409): Five overlapping axes, confirmation, treatment implications, prodromal
 - [guide/enroll.md](guide/enroll.md) (1,684): How to join: contribute today, the process, checklist, per-trial contact routes, draft message, after you send
 - [guide/on-ramps.md](guide/on-ramps.md) (2,100): Registries, cohorts, every recruiting trial with eligibility and cities, closed trials
-- [data/SCHEMA.md](data/SCHEMA.md) (1,402): Field definitions and the matching rules agents must follow
+- [data/SCHEMA.md](data/SCHEMA.md) (1,459): Field definitions and the matching rules agents must follow
 - [data/tests.yaml](data/tests.yaml) (1,268): One record per test
 - [data/programs.yaml](data/programs.yaml) (723): Registries, cohorts, genetic testing programs
-- [data/trials.yaml](data/trials.yaml) (2,991): Trials with normalized eligibility for local matching
+- [data/trials.yaml](data/trials.yaml) (3,072): Trials with normalized eligibility for local matching
 - [data/contacts.yaml](data/contacts.yaml) (2,200): Every published registry contact per trial, validated (generated; prefer the contact block in trials.yaml)
-- [data/checklist.yaml](data/checklist.yaml) (599): Pre-contact checklist as fields, aligned with the matcher profile
+- [data/checklist.yaml](data/checklist.yaml) (612): Pre-contact checklist as fields, aligned with the matcher profile
 - [data/sites.yaml](data/sites.yaml) (8,699): Every trial site: trial name, facility, city, state, country, status (generated; grep, don't read)
 - [diagrams/README.md](diagrams/README.md) (553): Mermaid diagrams to show people, specs for more, rules for derived diagrams
 - [README.md](README.md) (769): Why this exists, provenance, license, privacy design
 - [CORPUS.md](CORPUS.md) (640): Index of the literature review with per-file word counts
 - [CONTRIBUTING.md](CONTRIBUTING.md) (441): How to submit a correction; checks to run
-- [CHANGELOG.md](CHANGELOG.md) (841): What changed, newest first; poll this
-- [benchmarks/README.md](benchmarks/README.md) (646): How the repo is tested and the scores so far
+- [CHANGELOG.md](CHANGELOG.md) (1,005): What changed, newest first; poll this
+- [benchmarks/README.md](benchmarks/README.md) (744): How the repo is tested and the scores so far
 - [benchmarks/personas.md](benchmarks/personas.md) (1,393): The twenty fixed test personas and prompt template
 - [LICENSE](LICENSE) (82): CC BY 4.0
 

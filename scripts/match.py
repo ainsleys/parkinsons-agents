@@ -14,7 +14,10 @@ Nothing leaves the machine.
 Needs pyyaml.
 """
 import sys, pathlib, collections
-import yaml
+try:
+    import yaml
+except ImportError:
+    sys.exit("This script needs PyYAML: python3 -m pip install --user pyyaml")
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -49,7 +52,7 @@ def check(trial, p):
             if e.get("duration_max_months") is not None and dur > e["duration_max_months"]: return "no", f"{dur} months since {ref.replace('_',' ')} is over the {e['duration_max_months']}-month maximum"
     # medication state
     ms = e.get("medication_state")
-    pm = p.get("medication_state")
+    pm = {"on_stable_treatment": "on_treatment"}.get(p.get("medication_state"), p.get("medication_state"))
     if ms == "untreated":
         if pm == "on_treatment": return "no", "requires people not on Parkinson's medication"
         if pm is None: unclear.append("medication state")
@@ -77,6 +80,18 @@ def check(trial, p):
     if e.get("motor_complications_allowed") is False and p.get("motor_complications") is True: return "no", "requires no motor complications (dyskinesia or wearing-off)"
     if e.get("motor_complications_required") is True and p.get("motor_complications") is False: return "no", "requires motor fluctuations or OFF time"
     if e.get("motor_complications_allowed") is False and p.get("motor_complications") is None: unclear.append("motor complications (MDS-UPDRS Part IV)")
+    # body size
+    if e.get("weight_kg_min") is not None or e.get("bmi_min") is not None:
+        w, h = p.get("weight_kg"), p.get("height_cm")
+        if w is None: unclear.append("weight")
+        else:
+            if e.get("weight_kg_min") is not None and w < e["weight_kg_min"]: return "no", f"weight {w} kg below {e['weight_kg_min']}"
+            if e.get("weight_kg_max") is not None and w > e["weight_kg_max"]: return "no", f"weight {w} kg above {e['weight_kg_max']}"
+            if e.get("bmi_min") is not None:
+                if h is None: unclear.append("height (for BMI)")
+                else:
+                    bmi = w / ((h/100)**2)
+                    if bmi < e["bmi_min"] or bmi > e.get("bmi_max", 99): return "no", f"BMI {bmi:.1f} outside {e['bmi_min']} to {e.get('bmi_max')}"
     # genetics
     g = e.get("genetic_requirement") or {}
     req = g.get("required_variant"); known = g.get("status_must_be_known"); excl = g.get("excluded_variants") or []
@@ -107,8 +122,12 @@ def main():
         print(f"{v.upper():<10} {t['name']} ({t['registry_id']}): {why}")
         if v != "no" and p.get("country"):
             s = sites.get(t["registry_id"], {})
-            cities = sorted({f"{x.get('city')}{', ' + x['state'] if x.get('state') else ''}" for x in s.get("sites", []) if x.get("country") == p["country"]})
-            if cities: print(f"           sites in {p['country']}: {', '.join(cities[:12])}{' ...' if len(cities) > 12 else ''}")
+            allc = [x for x in s.get("sites", []) if x.get("country") == p["country"]]
+            local = [x for x in allc if (p.get("state") and x.get("state") == p["state"]) or (p.get("city") and x.get("city") == p["city"])]
+            fmt = lambda xs: sorted({f"{x.get('facility')} ({x.get('city')}{', ' + x['state'] if x.get('state') else ''}; {x.get('status') or 'status not listed'})" for x in xs})
+            if local: print(f"           sites in your state or city: {'; '.join(fmt(local))}")
+            cities = sorted({f"{x.get('city')}{', ' + x['state'] if x.get('state') else ''}" for x in allc})
+            if cities: print(f"           all sites in {p['country']} ({len(cities)}): {', '.join(cities)}")
     if "--draft" in sys.argv:
         checklist = load(ROOT/"data"/"checklist.yaml")
         print("\n=== Contact routes and DRAFT first messages (not sent; the person reviews and sends) ===")
@@ -124,15 +143,28 @@ def main():
             missing = [m for m in why.split("; ")] if v == "unclear" else []
             if missing: print("Before contacting, resolve:", "; ".join(missing))
             dx = p.get("months_since_diagnosis")
-            med = {"untreated": "am not yet taking Parkinson's medication", "on_treatment": f"have been on a stable dose of Parkinson's medication for {p.get('medication_months') or '[n]'} months"}.get(p.get("medication_state"), "[medication status]")
+            medname = p.get("medication_name") or "Parkinson's medication"
+            pm2 = {"on_stable_treatment": "on_treatment"}.get(p.get("medication_state"), p.get("medication_state"))
+            med = {"untreated": "am not yet taking Parkinson's medication", "on_treatment": f"have been on a stable dose of {medname}{' alone' if medname != 'Parkinson' + chr(39) + 's medication' else ''} for {p.get('medication_months') or '[n]'} months{', with no dyskinesia or wearing-off' if p.get('motor_complications') is False else ''}"}.get(pm2, "[medication status]")
+            city = p.get("city") or "[city]"
+            s_ = sites.get(t["registry_id"], {})
+            near = [x for x in s_.get("sites", []) if x.get("country") == p.get("country") and ((p.get("state") and x.get("state") == p["state"]) or (p.get("city") and x.get("city") == p["city"]))]
+            nearest = near[0].get("facility") if near and near[0].get("facility") and not str(near[0].get("facility")).lower().startswith("site") else "[nearest listed site]"
+            devices = p.get("implanted_devices")
+            dev_line = " I have no implanted devices." if str(devices).lower() in ("none", "no", "false") else (f" I have an implanted device: {devices}." if devices else " [Implanted devices: none / pacemaker model X, MRI-conditional.]")
+            who = p.get("diagnosed_by") or "[neurologist / movement disorder specialist]"
+            pname = p.get("name") or "[name]"
             gen = ("have had genetic testing" if p.get("genetics_tested") else "have not had genetic testing")
             e = t.get("eligibility") or {}
             g = e.get("genetic_requirement") or {}
             gen_line = f" I {gen}." if (g.get("status_must_be_known") or (g.get("required_variant") and g.get("required_variant") != "none")) else ""
-            print("\nDRAFT (not sent):")
-            print(f"Subject: Inquiry about {t['name']} ({t['registry_id']}), prospective participant in [city]")
-            print(f"\nHello,\n\nI am asking about eligibility for {t['name']}. I was diagnosed with Parkinson's disease about {dx if dx is not None else '[n]'} months ago by a [neurologist / movement disorder specialist] and {med}. I am {p.get('age', '[age]')}, live in [city], and could attend [nearest listed site].{gen_line} [Implanted devices: none / pacemaker model X, MRI-conditional.]")
-            print("\nCould you tell me whether I appear to meet the key criteria and, if so, arrange a pre-screening call? My neurologist is aware and can provide records. I consent to being contacted at this address or by phone at [number].\n\nThank you,\n[name]")
+            form = c.get("inquiry_form") or c.get("portal")
+            if form and "form" in str(c.get("preferred_route", "")).lower():
+                print(f"\nThe sponsor prefers its form ({form}). Paste the text below into it; the email address is a fallback.")
+            print("\nDRAFT (not sent; the person reviews, fills the bracketed items, and sends):")
+            print(f"Subject: Inquiry about {t['name']} ({t['registry_id']}{', ' + c['reference'] if c.get('reference') else ''}), prospective participant in {city}")
+            print(f"\nHello,\n\nI am asking about eligibility for {t['name']}. I was diagnosed with Parkinson's disease about {dx if dx is not None else '[n]'} months ago by a {who} and {med}. I am {p.get('age', '[age]')}, live in {city}, and could attend {nearest}.{gen_line}{dev_line}")
+            print("\nCould you tell me whether I appear to meet the key criteria and, if so, arrange a pre-screening call? [Confirm before sending: My neurologist is aware and can provide records.] I consent to being contacted at this address or by phone at [number].\n\nThank you,\n" + pname)
     if "--mermaid" in sys.argv:
         print("\n%% Where the trials drop out for this profile. Generated by scripts/match.py from data/trials.yaml; verified dates inside that file.")
         print("sankey-beta\n")

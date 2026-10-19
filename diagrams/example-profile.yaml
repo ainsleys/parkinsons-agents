@@ -1,15 +1,26 @@
 # Example profile for scripts/match.py. Write one locally for the person; never upload it.
-# Leave a field out or set it to null when unknown; the matcher will report "unclear" rather than guess.
+# Leave a field out or set it to null when unknown; the matcher reports "unclear" rather than guess.
+name: James                      # first name only is enough for a draft
 age: 63
 months_since_diagnosis: 18
 months_since_onset: null
+diagnosed_by: general neurologist
 hoehn_yahr: 2
-hoehn_yahr_state: "on"          # "on", "off" or null (how the stage was assessed)
-medication_state: on_treatment  # untreated | on_treatment | null
+hoehn_yahr_state: "on"           # "on", "off" or null (how the stage was assessed)
+medication_state: on_treatment   # untreated | on_treatment | null
+medication_name: levodopa
 medication_months: 6
-motor_complications: false      # dyskinesia or wearing-off
+motor_complications: false       # dyskinesia or wearing-off
+off_hours_per_day: 0
 genetics_tested: false
-variants: []                    # e.g. [GBA1] or [LRRK2 G2019S]
+variants: []                     # e.g. [GBA1] or [LRRK2 G2019S]
+implanted_devices: none          # or e.g. "pacemaker, model X, MRI-conditional"
+prior_brain_surgery: false
+weight_kg: 82
+height_cm: 178
 smoker: false
 moca: null
+other_trials_12_months: false
+city: Chicago
+state: Illinois
 country: United States

@@ -32,6 +32,10 @@
     motor_complications_required: false
     genetic_requirement: {required_variant: none, status_must_be_known: false, excluded_variants: []}
     smoking_allowed: unknown
+    weight_kg_min: 40
+    weight_kg_max: 110
+    bmi_min: 18
+    bmi_max: 34
     cognition: null
     other:
       - Idiopathic PD by MDS criteria
@@ -49,15 +53,15 @@
     mri_required: likely
     surgery: false
   contact:
-    preferred_route: Roche patient inquiry form, or phone
-    portal: https://forpatients.roche.com/
+    preferred_route: US residents, Genentech "Submit a Medical or Clinical Trial Inquiry" form or the Clinical Trial Information line; outside the US, the study page on forpatients.roche.com has contact-the-study and request-a-callback forms
     inquiry_form: https://www.gene.com/contact-us/submit-medical-inquiry
+    portal: https://forpatients.roche.com/
     email: global-roche-genentech-trials@gene.com
-    phone: "888-662-6728 (US and Canada)"
+    phone: "888-662-6728 (US and Canada; Monday to Friday, 5am to 5pm Pacific)"
     reference: Study BN44715
     per_site_contacts: none published; the sponsor routes inquiries centrally and connects you to the nearest site
     registry_url: https://clinicaltrials.gov/study/NCT07174310
-    notes: Registry says no attachments to the email and that the inquiry form gets the fastest response.
+    notes: Verified 2026-10-19 by reading both pages. The Genentech form is for US residents and asks patients to consult their physician or submit a question; the registry says no attachments to the email and that the form gets the fastest response. ForPatients asks for initials only and no addresses or birthdays.
   enrollment_target: 900
   primary_completion: 2029-06-30
   registry_last_updated: 2026-10-06
@@ -439,6 +443,10 @@
     motor_complications_required: false
     genetic_requirement: {required_variant: GBA1, status_must_be_known: true, excluded_variants: []}
     smoking_allowed: unknown
+    weight_kg_min: 40
+    weight_kg_max: 110
+    bmi_min: 18
+    bmi_max: 34
     cognition: MoCA 14 or above
     other:
       - Weight 40 to 110 kg; BMI 18 to 34
