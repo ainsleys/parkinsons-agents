@@ -209,9 +209,10 @@
     - research_notes/Parkinsons disease research review/01_pathophysiology_and_mechanisms.md
 
 - id: ppmi_smell_test
-  name: PPMI smell test (prodromal screen)
+  name: PPMI smell test (UPSIT, prodromal screen)
   axis: prodromal
-  result_type: hyposmia yes/no
+  what_it_is: University of Pennsylvania Smell Identification Test, a 40-item scratch-and-sniff booklet; one scented strip per page, four written choices, score out of 40, interpreted against age and sex norms
+  result_type: hyposmia yes/no (roughly the bottom 10 to 15 percent for age and sex; standard bands 31 to 40 normal, 28 to 30 mild, 24 to 27 moderate, 17 to 23 severe, 16 and below anosmia)
   route: Free scratch-and-sniff kit by mail; results entered online
   ordered_by: self
   invasiveness: none
@@ -223,6 +224,8 @@
     - Invitation to PPMI in-clinic assessment
   caveats:
     - Over 40 without a diagnosis, or over 30 and diagnosed within 7 years (April 2025 expansion)
+    - Smell loss alone is a weak signal; colds, COVID, sinus disease, smoking, head injury and ageing lower scores, and most hyposmic people never develop PD
+    - A normal score rules nothing out; about a fifth of people with PD smell normally, and those are exactly the people the synuclein assay misses more often
   verified: 2026-10-19
   sources:
     - https://michaeljfox.org/ppmi

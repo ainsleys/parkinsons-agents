@@ -85,7 +85,13 @@ Research only. The clinical proxy an agent can ask about: did dream-enactment be
 
 ### Prodromal screening
 
-PPMI mails a scratch-and-sniff test in the US and Canada to people over 40 without a diagnosis, or over 30 and diagnosed within 7 years (expanded April 2025). Results entered online; some are invited to in-clinic assessment. Isolated REM sleep behavior disorder is the strongest single prodromal marker, converting at about 6 percent per year. Source: [MJFF PPMI page](https://michaeljfox.org/ppmi).
+**What the smell test is.** PPMI's mailed test is the University of Pennsylvania Smell Identification Test (UPSIT), a 40-item scratch-and-sniff booklet. Each page has one scented strip; you scratch it, sniff, and pick one of four written answers (for example "pizza, bubble gum, lilac, motor oil"). Score is out of 40. Standard bands: 31 to 40 normal, 28 to 30 mild loss, 24 to 27 moderate, 17 to 23 severe, 16 and below anosmia, though smell declines with age so PPMI interprets the score against age and sex norms and treats a result in roughly the bottom 10 to 15 percent as hyposmia.
+
+**Why smell.** Loss of smell is one of the earliest changes in most Parkinson's, often years before motor symptoms; about 90 percent of people with typical Parkinson's have measurable olfactory loss, and in the Honolulu-Asia cohort men in the lowest odor-identification quartile had about five times the risk of a diagnosis within four years. It is also tied to the biology: in PPMI the synuclein assay was positive in 98.6 percent of sporadic PD with smell loss but only 78.3 percent without it.
+
+**What it is not.** Smell loss on its own is a weak signal. Colds, COVID, sinus disease, smoking, head injury and plain ageing all reduce UPSIT scores, and most people with hyposmia never develop Parkinson's. PPMI uses the test as a cheap first filter: a low score earns an invitation to the next step (often a DaTscan or the synuclein assay at a site), not a diagnosis. A normal score does not rule anything out, and about a fifth of people with Parkinson's smell normally. The intake also asks a diagnosed person's agent to note that PPMI may offer that person free genetic screening.
+
+PPMI mails this test in the US and Canada to people over 40 without a diagnosis, or over 30 and diagnosed within 7 years (expanded April 2025). Results entered online; some are invited to in-clinic assessment. Isolated REM sleep behavior disorder is the strongest single prodromal marker, converting at about 6 percent per year. Source: [MJFF PPMI page](https://michaeljfox.org/ppmi).
 
 ## How long genetic results take
 
