@@ -10,7 +10,7 @@ I have a family member with Parkinson's and a Claude Max subscription. I wanted 
 
 This is an agent-first project. The pages are written for an AI agent to load, reason over and act on. Humans are welcome and everything is plain Markdown, but the design choices (dense pages, dated claims, structured YAML next to prose, explicit confidence flags) are made for agents, not for browsing.
 
-The basic idea: Parkinson's is probably not one disease. It looks more like several conditions that happen to produce similar symptoms, and they have mostly been studied as if they were the same thing. Figuring out which one you have, and then joining a study that needs people like you, is one of the most useful things a person can do right now. That is what this guide is built around.
+Parkinson's may be several diseases that are being studied as one. The fastest contribution most people can make is to learn which one they have and enroll in something. The guide is organized around that.
 
 ## What is here
 
