@@ -1,0 +1,720 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "interventionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D045424",
+     "term": "Complex Mixtures"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D001688",
+     "term": "Biological Products"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "interventionNames": [
+      "Drug: AAV2-GDNF gene therapy"
+     ],
+     "label": "AAV2-GDNF",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "interventionNames": [
+      "Procedure: control surgery"
+     ],
+     "label": "Control Surgery",
+     "type": "SHAM_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "AAV2-GDNF"
+     ],
+     "description": "Bilateral image-guided infusion of AAV2-GDNF into putamen, single dose",
+     "name": "AAV2-GDNF gene therapy",
+     "otherNames": [
+      "Biological"
+     ],
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "Control Surgery"
+     ],
+     "description": "Bilateral partial burr/twist holes without dural penetration",
+     "name": "control surgery",
+     "type": "PROCEDURE"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson Disease"
+   ],
+   "keywords": [
+    "Gene therapy"
+   ]
+  },
+  "contactsLocationsModule": {
+   "locations": [
+    {
+     "city": "Phoenix",
+     "country": "United States",
+     "facility": "Mayo Clinic",
+     "geoPoint": {
+      "lat": 33.44838,
+      "lon": -112.07404
+     },
+     "state": "Arizona",
+     "zip": "85054"
+    },
+    {
+     "city": "Irvine",
+     "country": "United States",
+     "facility": "UCI Alpha Clinic (Neurology)",
+     "geoPoint": {
+      "lat": 33.66946,
+      "lon": -117.82311
+     },
+     "state": "California",
+     "zip": "92697"
+    },
+    {
+     "city": "Loma Linda",
+     "country": "United States",
+     "facility": "Loma Linda University (Neurology)",
+     "geoPoint": {
+      "lat": 34.04835,
+      "lon": -117.26115
+     },
+     "state": "California",
+     "zip": "92354"
+    },
+    {
+     "city": "Loma Linda",
+     "country": "United States",
+     "facility": "Loma Linda University (Surgical)",
+     "geoPoint": {
+      "lat": 34.04835,
+      "lon": -117.26115
+     },
+     "state": "California",
+     "zip": "92354"
+    },
+    {
+     "city": "San Francisco",
+     "country": "United States",
+     "facility": "University of California San Francisco (Neurology)",
+     "geoPoint": {
+      "lat": 37.77493,
+      "lon": -122.41942
+     },
+     "state": "California",
+     "zip": "94143"
+    },
+    {
+     "city": "San Francisco",
+     "country": "United States",
+     "facility": "University of San Francisco (Surgical)",
+     "geoPoint": {
+      "lat": 37.77493,
+      "lon": -122.41942
+     },
+     "state": "California",
+     "zip": "94143"
+    },
+    {
+     "city": "Englewood",
+     "country": "United States",
+     "facility": "CenExel Rocky Mountain Clinical Research (Neurology)",
+     "geoPoint": {
+      "lat": 39.64777,
+      "lon": -104.98776
+     },
+     "state": "Colorado",
+     "zip": "80113"
+    },
+    {
+     "city": "Washington D.C.",
+     "country": "United States",
+     "facility": "Georgetown University (Neurology)",
+     "geoPoint": {
+      "lat": 38.89511,
+      "lon": -77.03637
+     },
+     "state": "District of Columbia",
+     "zip": "20057"
+    },
+    {
+     "city": "Boca Raton",
+     "country": "United States",
+     "facility": "Parkinson's Disease and Movement Disorders Center of Boca Raton (Neurology)",
+     "geoPoint": {
+      "lat": 26.35869,
+      "lon": -80.0831
+     },
+     "state": "Florida",
+     "zip": "33486"
+    },
+    {
+     "city": "Gainesville",
+     "country": "United States",
+     "facility": "University of Florida",
+     "geoPoint": {
+      "lat": 29.65163,
+      "lon": -82.32483
+     },
+     "state": "Florida",
+     "zip": "32608"
+    },
+    {
+     "city": "Miami",
+     "country": "United States",
+     "facility": "University of Miami",
+     "geoPoint": {
+      "lat": 25.77427,
+      "lon": -80.19366
+     },
+     "state": "Florida",
+     "zip": "33125"
+    },
+    {
+     "city": "Orlando",
+     "country": "United States",
+     "facility": "Orlando Health Neuroscience Institute",
+     "geoPoint": {
+      "lat": 28.53834,
+      "lon": -81.37924
+     },
+     "state": "Florida",
+     "zip": "32806"
+    },
+    {
+     "city": "Port Charlotte",
+     "country": "United States",
+     "facility": "Parkinson's Disease Treatment Center of Southwest Florida (Neurology)",
+     "geoPoint": {
+      "lat": 26.97617,
+      "lon": -82.09064
+     },
+     "state": "Florida",
+     "zip": "33980"
+    },
+    {
+     "city": "Atlanta",
+     "country": "United States",
+     "facility": "Emory University (Surgical)",
+     "geoPoint": {
+      "lat": 33.749,
+      "lon": -84.38798
+     },
+     "state": "Georgia",
+     "zip": "30322"
+    },
+    {
+     "city": "Chicago",
+     "country": "United States",
+     "facility": "Rush University Medical Center (Neurology)",
+     "geoPoint": {
+      "lat": 41.85003,
+      "lon": -87.65005
+     },
+     "state": "Illinois",
+     "zip": "60612"
+    },
+    {
+     "city": "Kansas City",
+     "country": "United States",
+     "facility": "University of Kansas Medical Center (Neurology)",
+     "geoPoint": {
+      "lat": 39.11417,
+      "lon": -94.62746
+     },
+     "state": "Kansas",
+     "zip": "66103"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Massachusetts General Hospital (Neurology)",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "zip": "02114"
+    },
+    {
+     "city": "Boston",
+     "country": "United States",
+     "facility": "Massachusetts General Hospital (Surgical)",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "zip": "02114"
+    },
+    {
+     "city": "East Lansing",
+     "country": "United States",
+     "facility": "Michigan State University (Neurology)",
+     "geoPoint": {
+      "lat": 42.73698,
+      "lon": -84.48387
+     },
+     "state": "Michigan",
+     "zip": "48824"
+    },
+    {
+     "city": "Farmington Hills",
+     "country": "United States",
+     "facility": "Quest Research Institute (Neurology)",
+     "geoPoint": {
+      "lat": 42.48531,
+      "lon": -83.37716
+     },
+     "state": "Michigan",
+     "zip": "48334"
+    },
+    {
+     "city": "Las Vegas",
+     "country": "United States",
+     "facility": "Cleveland Clinic Lou Ruvo (Neurology)",
+     "geoPoint": {
+      "lat": 36.17497,
+      "lon": -115.13722
+     },
+     "state": "Nevada",
+     "zip": "89106"
+    },
+    {
+     "city": "New York",
+     "country": "United States",
+     "facility": "Columbia University",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "zip": "10032"
+    },
+    {
+     "city": "Chapel Hill",
+     "country": "United States",
+     "facility": "University of North Carolina (Neurology)",
+     "geoPoint": {
+      "lat": 35.9132,
+      "lon": -79.05584
+     },
+     "state": "North Carolina",
+     "zip": "27514"
+    },
+    {
+     "city": "Durham",
+     "country": "United States",
+     "facility": "Duke Neurosurgery (Surgical)",
+     "geoPoint": {
+      "lat": 35.99403,
+      "lon": -78.89862
+     },
+     "state": "North Carolina",
+     "zip": "27705"
+    },
+    {
+     "city": "Durham",
+     "country": "United States",
+     "facility": "Duke University (Neurology)",
+     "geoPoint": {
+      "lat": 35.99403,
+      "lon": -78.89862
+     },
+     "state": "North Carolina",
+     "zip": "27710"
+    },
+    {
+     "city": "Columbus",
+     "country": "United States",
+     "facility": "Ohio State University (Surgical)",
+     "geoPoint": {
+      "lat": 39.96118,
+      "lon": -82.99879
+     },
+     "state": "Ohio",
+     "zip": "43210"
+    },
+    {
+     "city": "Philadelphia",
+     "country": "United States",
+     "facility": "University of Pennsylvania (Neurology)",
+     "geoPoint": {
+      "lat": 39.95238,
+      "lon": -75.16362
+     },
+     "state": "Pennsylvania",
+     "zip": "19104"
+    },
+    {
+     "city": "Nashville",
+     "country": "United States",
+     "facility": "Vanderbilt University (Neurology)",
+     "geoPoint": {
+      "lat": 36.16589,
+      "lon": -86.78444
+     },
+     "state": "Tennessee",
+     "zip": "37232"
+    },
+    {
+     "city": "Georgetown",
+     "country": "United States",
+     "facility": "Texas Movement Disorder Specialists",
+     "geoPoint": {
+      "lat": 30.63269,
+      "lon": -97.67723
+     },
+     "state": "Texas",
+     "zip": "78628"
+    },
+    {
+     "city": "Houston",
+     "country": "United States",
+     "facility": "Houston Methodist (Neurology)",
+     "geoPoint": {
+      "lat": 29.76328,
+      "lon": -95.36327
+     },
+     "state": "Texas",
+     "zip": "77030"
+    },
+    {
+     "city": "Houston",
+     "country": "United States",
+     "facility": "Houston Methodist (Surgical)",
+     "geoPoint": {
+      "lat": 29.76328,
+      "lon": -95.36327
+     },
+     "state": "Texas",
+     "zip": "77030"
+    },
+    {
+     "city": "Salt Lake City",
+     "country": "United States",
+     "facility": "University of Utah",
+     "geoPoint": {
+      "lat": 40.76078,
+      "lon": -111.89105
+     },
+     "state": "Utah",
+     "zip": "84132"
+    },
+    {
+     "city": "Kirkland",
+     "country": "United States",
+     "facility": "EvergreenHealth Research Department (Neurology)",
+     "geoPoint": {
+      "lat": 47.68149,
+      "lon": -122.20874
+     },
+     "state": "Washington",
+     "zip": "98034"
+    },
+    {
+     "city": "Madison",
+     "country": "United States",
+     "facility": "University of Wisconsin (Neurology)",
+     "geoPoint": {
+      "lat": 43.07305,
+      "lon": -89.40123
+     },
+     "state": "Wisconsin",
+     "zip": "53705"
+    },
+    {
+     "city": "Berlin",
+     "country": "Germany",
+     "facility": "Charit\u00e9 - Universit\u00e4tsmedizin Berlin (Surgical)",
+     "geoPoint": {
+      "lat": 52.52437,
+      "lon": 13.41053
+     }
+    },
+    {
+     "city": "Marburg",
+     "country": "Germany",
+     "facility": "Philipps-Universit\u00e4t Marburg (Neurology)",
+     "geoPoint": {
+      "lat": 50.80904,
+      "lon": 8.77069
+     }
+    },
+    {
+     "city": "T\u00fcbingen",
+     "country": "Germany",
+     "facility": "Universit\u00e4tsklinikum T\u00fcbingen (Neurology)",
+     "geoPoint": {
+      "lat": 48.52266,
+      "lon": 9.05222
+     }
+    },
+    {
+     "city": "T\u00fcbingen",
+     "country": "Germany",
+     "facility": "Universit\u00e4tsklinikum T\u00fcbingen (Surgical)",
+     "geoPoint": {
+      "lat": 48.52266,
+      "lon": 9.05222
+     }
+    },
+    {
+     "city": "W\u00fcrzburg",
+     "country": "Germany",
+     "facility": "Universit\u00e4tsklinikum W\u00fcrzburg (Neurology)",
+     "geoPoint": {
+      "lat": 49.79391,
+      "lon": 9.95121
+     }
+    },
+    {
+     "city": "Gdansk",
+     "country": "Poland",
+     "facility": "Copernicus Podmiot Leczniczy, Szpital \u015bw. Wojciecha (Neurology)",
+     "geoPoint": {
+      "lat": 54.35227,
+      "lon": 18.64912
+     }
+    },
+    {
+     "city": "Katowice",
+     "country": "Poland",
+     "facility": "Specjalistyczna Praktyka Lekarska Prof. Grzegorz Opala (Neurology)",
+     "geoPoint": {
+      "lat": 50.2597,
+      "lon": 19.02173
+     }
+    },
+    {
+     "city": "Warsaw",
+     "country": "Poland",
+     "facility": "Mazowiecki Szpital Br\u00f3dnowski (Neurology)",
+     "geoPoint": {
+      "lat": 52.22977,
+      "lon": 21.01178
+     }
+    },
+    {
+     "city": "Warsaw",
+     "country": "Poland",
+     "facility": "Mazowiecki Szpital Br\u00f3dnowski (Surgical)",
+     "geoPoint": {
+      "lat": 52.22977,
+      "lon": 21.01178
+     }
+    },
+    {
+     "city": "Warsaw",
+     "country": "Poland",
+     "facility": "Samodzielny Publiczny Szpital Kliniczny im. Prof. W. Or\u0142owskiego CMKP (Neurology)",
+     "geoPoint": {
+      "lat": 52.22977,
+      "lon": 21.01178
+     }
+    },
+    {
+     "city": "Bristol",
+     "country": "United Kingdom",
+     "facility": "North Bristol NHS Trust - Southmead Hospital (Neurology)",
+     "geoPoint": {
+      "lat": 51.45523,
+      "lon": -2.59665
+     }
+    },
+    {
+     "city": "Cardiff",
+     "country": "United Kingdom",
+     "facility": "University Hospital of Wales (Surgical)",
+     "geoPoint": {
+      "lat": 51.48,
+      "lon": -3.18
+     }
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "The objective of this randomized, surgically controlled, double-blinded, Phase 2 study is to evaluate the safety and efficacy of AAV2-GDNF delivered to the putamen in subjects with moderate Parkinson's Disease."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "maskingInfo": {
+     "masking": "QUADRUPLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 127,
+    "type": "ESTIMATED"
+   },
+   "phases": [
+    "PHASE2"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\nAge\n\n1. Male and female adults 45-75 years of age inclusive, at the time of signing of informed consent Type of Subject and Disease Characteristics\n2. Diagnosed with Parkinson's disease in the past 4-10 years (inclusive) as defined by the following:\n\n   1. Presence of bradykinesia PLUS any of the following:\n\n      * Rigidity\n      * Rest tremor\n      * Postural instability\n   2. Presence of motor fluctuations as measured by the PD Motor Diary\n   3. Stable anti-parkinsonian medication regimen for \\>/= 4 weeks prior to screening\n   4. Must demonstrate responsiveness to levodopa therapy\n\nExclusion Criteria:\n\n* Known history or current evidence of medical, genetic, or neurological conditions that may provide an alternative to idiopathic PD diagnosis\n* Presence or history of significant vascular and/or cardiovascular disease\n* Presence of significant cognitive impairment, poorly controlled depression/anxiety\n* Presence or history of psychosis or impulse control disorder\n* History of malignancy other than treated cutaneous squamous or basal cell carcinomas\n* Presence of clinically relevant conditions that could compromise surgical suitability and/or subject safety\n* Contraindication to magnetic resonance imaging and/or use gadolinium-based contrast agents\n* Prior history of brain surgery including, but no limited: DBS, pallidotomy focused ultrasound thalamotomy, or other experimental neurosurgical procedure\n* Chronic immunosuppressive therapy",
+   "healthyVolunteers": false,
+   "maximumAge": "75 Years",
+   "minimumAge": "45 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "REGENERATE-PD",
+   "briefTitle": "A Study of AAV2-GDNF in Adults With Moderate Parkinson's Disease (REGENERATE-PD)",
+   "nctId": "NCT06285643",
+   "officialTitle": "A Phase 2, Randomized, Double-blind, Sham Surgery-controlled Study of the Efficacy and Safety of Intraputaminal AAV2-GDNF in the Treatment of Adults With Moderate Stage Parkinson's Disease",
+   "orgStudyIdInfo": {
+    "id": "ASK-PD5-CS201"
+   },
+   "organization": {
+    "class": "INDUSTRY",
+    "fullName": "AskBio Inc"
+   }
+  },
+  "ipdSharingStatementModule": {
+   "ipdSharing": "UNDECIDED"
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "description": "Normalized Good ON time per Hauser Diary",
+     "measure": "Change from baseline to Month 18 on PD Motor Diary",
+     "timeFrame": "18 months"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": true,
+   "oversightHasDmc": true
+  },
+  "referencesModule": {
+   "seeAlsoLinks": [
+    {
+     "label": "Nurse Navigator Service for Potential Participants",
+     "url": "https://mytomorrows.com/ask-bio/regenerate-pd/en-us/"
+    }
+   ]
+  },
+  "sponsorCollaboratorsModule": {
+   "collaborators": [
+    {
+     "class": "INDUSTRY",
+     "name": "Bayer"
+    }
+   ],
+   "leadSponsor": {
+    "class": "INDUSTRY",
+    "name": "AskBio Inc"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2028-08-31",
+    "type": "ESTIMATED"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2026-10-01",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2026-09-30",
+   "overallStatus": "ACTIVE_NOT_RECRUITING",
+   "primaryCompletionDateStruct": {
+    "date": "2028-08-31",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2024-06-11",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2026-09",
+   "studyFirstPostDateStruct": {
+    "date": "2024-02-29",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2024-02-14",
+   "studyFirstSubmitQcDate": "2024-02-23"
+  }
+ }
+}

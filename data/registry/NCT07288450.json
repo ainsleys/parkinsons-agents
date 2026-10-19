@@ -1,0 +1,253 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "interventionBrowseModule": {
+   "meshes": [
+    {
+     "id": "C041226",
+     "term": "Terazosin"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Terazosin hydrochloride",
+     "interventionNames": [
+      "Drug: Terazosin Hydrochloride"
+     ],
+     "label": "Active arm",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Placebo control",
+     "interventionNames": [
+      "Other: Placebo"
+     ],
+     "label": "Placebo",
+     "type": "PLACEBO_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "Active arm"
+     ],
+     "description": "TZ is an a1-adrenergic receptor antagonist that is FDA-approved to treat benign prostatic hyperplasia (BPH) and hypertension.",
+     "name": "Terazosin Hydrochloride",
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "Placebo"
+     ],
+     "description": "Placebo control for Terazosin",
+     "name": "Placebo",
+     "type": "OTHER"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson's Disease"
+   ]
+  },
+  "contactsLocationsModule": {
+   "overallOfficials": [
+    {
+     "affiliation": "University of Iowa",
+     "name": "Nandakumar Narayanan",
+     "role": "PRINCIPAL_INVESTIGATOR"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "To assess target engagement of terazosin (TZ) at multiple doses (1 mg/day, 3 mg/day, and 5 mg/day) and to assess sustained target engagement over 6 months relative to placebo in patients with Parkinson's Disease (PD). Target engagement will be measured using a whole blood luminescence assay to quantify Adenosine Triphosphate (ATP) and a plasma metabolomics assay. A subset of randomized participants will also undergo imaging studies to quantify cerebral ATP using 31P-magnetic resonance spectroscopy (31P-MRS) and 18F-fluurodeoxyglucosed positron emission tomography (18F-FDG PET) to assess changes in glucose uptake in response to TZ. The investigators will compare the mean change from baseline in these assays between the TZ and placebo groups. The null hypothesis to be tested is that TZ does not engage its target (phosphoglycerate kinase 1, or PGK1) and does not lead to increases in the outcome variables of interest. A total of 100 patients with early PD will be recruited. Participants will be randomized to TZ or placebo in a 60:40 fashion to account for predicted dropouts in the TZ group. Study treatment will be administered for 26 weeks, followed by a four-week washout period.",
+   "detailedDescription": "Terazosin (TZ) has the potential to be repurposed for use as the first disease-modifying treatment of Parkinson's disease (PD). This would have substantial implications for patients with PD and for society. TZ may provide a safe and low-cost treatment option for individuals with PD. If TZ proves beneficial for the treatment of PD, the proposed study design will efficiently facilitate the availability of a much-needed medication by reducing the time and costs typically associated with drug discovery. For these reasons, the study should be given high priority given the extremely favorable cost-to-benefit ratio.\n\nConsistent with prior studies, subjects who have received a diagnosis of PD within the preceding three years and who are taking no more than two dopaminergic medications at the time of screening will be enrolled. This criterion ensures that the pharmacodynamics of TZ are assessed in a population most representative of the largest number of patients with PD.\n\nFollowing randomization, patients will remain on therapy for 26 weeks. The extended duration of the study is intended to assess sustained target engagement of TZ in patients with PD.\n\nRisk/Benefit Assessment TZ is associated with an increased risk of orthostatic hypotension. This risk is particularly relevant in PD, where the prevalence of orthostatic hypotension is significantly higher compared to healthy controls. Patients with PD are also more susceptible to falls, which could be exacerbated by orthostatic hypotension. Data from the Truven database demonstrated that patients with PD who were using TZ did not have a significantly increased prevalence of ICD-9 codes related to falls compared to PD patients not using TZ. These findings suggest that the risk of orthostatic hypotension is not elevated significantly at a population level, though it remains a concern for individual participants. Importantly, no serious adverse events were reported in a pilot study. Mild side effects such as dizziness and lightheadedness were more common in participants taking TZ, and dropout rates were higher in this group due to these side effects. Therefore, accounting for the potential for higher dropout rates is imperative. This provides the rationale for enrolling more subjects into the TZ group to ensure adequate statistical power even if dropout rates are elevated.\n\nTZ is also associated with additional adverse effects, including peripheral edema, palpitations, nausea, asthenia, dizziness, headache, and somnolence. Despite these risks, the potential benefit of TZ is significant given the absence of currently available treatments that slow the progression of PD. The proposed study will provide critical insights into both short-term and sustained target engagement of TZ in patients with PD."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "interventionModelDescription": "The primary goal of this study is to assess target engagement of TZ at varying doses of TZ. Specifically, we wish to identify a dose of TZ that provides optimal pharmacodynamic effect in patients with PD and to determine if this effect can be sustained for 6 months. By incorporating multiple assays of target engagement during a slow titration of TZ, we will be able to efficiently study target engagement at multiple doses using a multi-modal approach. We will also be able to assess the relationship between target engagement in the brain and the blood assays.",
+    "maskingInfo": {
+     "masking": "QUADRUPLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "BASIC_SCIENCE"
+   },
+   "enrollmentInfo": {
+    "count": 0,
+    "type": "ACTUAL"
+   },
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\n* 50-80 years old at the time of enrollment with a diagnosis of idiopathic PD per the Movement Disorder Society's Diagnostic Criteria.\n* Subjects must NOT be taking more than 2 dopaminergic treatments for their PD at the time of enrollment.\n* Practically defined OFF Hoehn and Yahr score of 0-2.\n* Diagnosis of PD made within the preceding 3 years.\n\nExclusion Criteria:\n\n* \u2022 Orthostatic hypotension at screening is defined as decrease in BP \\> 20 mmHg systolic or \\> 10 mmHg diastolic and HR increase \\<20 bpm on transition from supine to sitting or standing.\n\n  * Known allergy or previous adverse reaction to TZ or related compounds.\n  * Current use of TZ or concurrent use of DZ, AZ, prazosin, or tamsulosin.\n  * History of hepatic dysfunction.\n  * History of clinically relevant anemia.\n  * Secondary parkinsonism, drug-induced parkinsonism, Parkinson's-plus syndromes, or non-idiopathic PD.\n  * PD including use of more than two dopaminergic medications at screening.\n  * History of deep brain stimulation.\n  * Dementia per Movement Disorder Society Level 1 criteria.\n  * Traumatic brain injury or post-traumatic stress disorder.\n  * Presence of a confounding acute or unstable medical, psychiatric, or orthopedic condition.\n  * Unstable use of medications that modulate the central nervous system.\n  * Uncontrolled major depression or bipolar affective disorder, or other mental health disorders that are, in the opinion of the site investigator, sufficiently severe to increase risk of experiencing an Adverse Drug Reaction (ADR).\n  * Current suicidal ideation as measured by questions 4 or 5 of the Columbia-Suicide Severity Rating Scale.\n  * Participants with insufficient decisional capacity to provide written informed consent determined by the site investigator.\n  * Unstable use of antihypertensive medications.",
+   "healthyVolunteers": false,
+   "maximumAge": "90 Years",
+   "minimumAge": "40 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "TAME-PD",
+   "briefTitle": "Terazosin And Metabolic Engagement in Parkinson's Disease",
+   "nctId": "NCT07288450",
+   "officialTitle": "Terazosin And Metabolic Engagement in Parkinson's Disease",
+   "orgStudyIdInfo": {
+    "id": "TAMEPD"
+   },
+   "organization": {
+    "class": "OTHER",
+    "fullName": "University of Iowa"
+   }
+  },
+  "ipdSharingStatementModule": {
+   "accessCriteria": "IPD will be available to the general public via OpenNeuro.org",
+   "description": "We will share demographic details, details on Parkinson's disease, and then details on whole-blood ATP and Terazosin.",
+   "infoTypes": [
+    "STUDY_PROTOCOL",
+    "SAP",
+    "ICF",
+    "CSR",
+    "ANALYTIC_CODE"
+   ],
+   "ipdSharing": "YES",
+   "timeFrame": "IPD will be available on publication.",
+   "url": "http://narayanan.lab.uiowa.edu/datasets"
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "description": "Changes in the amount of ATP in the blood for patients taking Terazosin vs. Placebo.",
+     "measure": "Whole-blood ATP",
+     "timeFrame": "1 year"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": true,
+   "oversightHasDmc": false
+  },
+  "referencesModule": {
+   "references": [
+    {
+     "citation": "Schultz JL, Gander PE, Workman CD, Ponto LL, Cross S, Nance CS, Groth CL, Taylor EB, Ernst SE, Xu J, Uc EY, Magnotta VA, Welsh MJ, Narayanan NS. A pilot dose-finding study of Terazosin in humans. medRxiv [Preprint]. 2024 May 22:2024.05.22.24307622. doi: 10.1101/2024.05.22.24307622.",
+     "pmid": "38826433",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Hart A, Aldridge G, Zhang Q, Narayanan NS, Simmering JE. Association of Terazosin, Doxazosin, or Alfuzosin Use and Risk of Dementia With Lewy Bodies in Men. Neurology. 2024 Jul 23;103(2):e209570. doi: 10.1212/WNL.0000000000209570. Epub 2024 Jun 19.",
+     "pmid": "38896813",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Schultz JL, Gander PE, Workman CD, Boles Ponto LL, Cross S, Nance CS, Groth CL, Taylor EB, Ernst SE, Xu J, Uc EY, Magnotta VA, Welsh MJ, Narayanan NS. A dose-finding study shows terazosin enhanced energy metabolism in neurologically healthy adults. J Parkinsons Dis. 2025 Nov;15(7):1253-1263. doi: 10.1177/1877718X251356503. Epub 2025 Aug 10.",
+     "pmid": "40785306",
+     "type": "BACKGROUND"
+    }
+   ]
+  },
+  "sponsorCollaboratorsModule": {
+   "leadSponsor": {
+    "class": "OTHER",
+    "name": "Nandakumar Narayanan"
+   },
+   "responsibleParty": {
+    "investigatorAffiliation": "University of Iowa",
+    "investigatorFullName": "Nandakumar Narayanan",
+    "investigatorTitle": "Professor of Neurology",
+    "type": "SPONSOR_INVESTIGATOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2031-09-01",
+    "type": "ESTIMATED"
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2026-10-07",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2026-10-02",
+   "overallStatus": "WITHDRAWN",
+   "primaryCompletionDateStruct": {
+    "date": "2030-09-01",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2026-09-01",
+    "type": "ESTIMATED"
+   },
+   "statusVerifiedDate": "2026-10",
+   "studyFirstPostDateStruct": {
+    "date": "2025-12-17",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2025-12-15",
+   "studyFirstSubmitQcDate": "2025-12-15",
+   "whyStopped": "Not Funded"
+  }
+ }
+}

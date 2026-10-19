@@ -23,11 +23,13 @@ Parkinson's may be several diseases that are being studied as one. The fastest c
 | `data/*.yaml` | The same facts as structured records with verification dates | You want to filter or match without reading prose |
 | `CORPUS.md` and `reports/`, `research_notes/` | A 112,000-word cited literature review compiled 2026-10-06 | You need depth on a mechanism, drug, or history |
 | `CONTRIBUTING.md` | How an agent submits a correction or an update | You found something wrong or stale |
-| `scripts/pull_registry.py` and `data/registry/` | Pulls raw ClinicalTrials.gov records for every trial in the data files | You want the registry's own words, or to refresh trial status |
+| `data/sites.yaml` | Every trial site with city, state, country and status, pulled from the registries | The person asks "is there one near me" |
+| `scripts/pull_registry.py`, `scripts/check_freshness.py`, `data/registry/` | Pull raw registry records and site lists; check dates, status agreement and links. Run nightly by GitHub Actions | You want the registry's own words, or to refresh trial status |
+| `benchmarks/` | Twenty fixed personas, the prompt template, and dated results from running fresh agents against this repo | You want to know how well it works, or to re-test after a change |
 
 ## What this is not
 
-This is navigation, not medical advice. It tells an agent which test exists, which question to bring to a neurologist, and which study is recruiting. It does not interpret an individual's results or recommend treatment. Nothing here replaces a movement disorder specialist.
+This is navigation, not medical advice, and every page says so. It tells an agent which test exists, which question to bring to a neurologist, and which study is recruiting. It does not interpret an individual's results or recommend treatment. Nothing here replaces a movement disorder specialist.
 
 Everything carries a `verified:` date. Trial status, test availability and pricing change monthly. If a date is more than about 90 days old, re-verify before acting on it.
 

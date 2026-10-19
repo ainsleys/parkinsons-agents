@@ -1,0 +1,384 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Daily administration of Ambroxol in newly diagnosed GBA1 PD.",
+     "interventionNames": [
+      "Drug: Ambroxol Hydrochloride"
+     ],
+     "label": "Ambroxol hydrochloride",
+     "type": "EXPERIMENTAL"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "Ambroxol hydrochloride"
+     ],
+     "description": "75mg slow release (SR), X16/day or 300mg X4/day oral capsules.",
+     "name": "Ambroxol Hydrochloride",
+     "type": "DRUG"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson Disease",
+    "GBA Gene Mutation"
+   ],
+   "keywords": [
+    "GBA1-related Parkinson Disease",
+    "Parkinson Disease",
+    "Glucocerebrosidase",
+    "Ambroxol"
+   ]
+  },
+  "contactsLocationsModule": {
+   "centralContacts": [
+    {
+     "email": "joleen.istaiti@agyany-pharmaceuticals.com",
+     "name": "Majdolen Istaiti, MBA",
+     "phone": "+972526659995",
+     "role": "CONTACT"
+    }
+   ],
+   "locations": [
+    {
+     "city": "Jerusalem",
+     "contacts": [
+      {
+       "email": "michalbc@szmc.org.il",
+       "name": "Michal Becker-Cohen, MSc",
+       "phone": "+972504606310",
+       "role": "CONTACT"
+      },
+      {
+       "name": "Shoshana Revel-Vilk, MD",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      },
+      {
+       "name": "Gilad Yahalom, MD",
+       "role": "SUB_INVESTIGATOR"
+      },
+      {
+       "name": "Mikhal Cohen, MD",
+       "role": "SUB_INVESTIGATOR"
+      }
+     ],
+     "country": "Israel",
+     "facility": "Shaare Zedek Medical Center",
+     "geoPoint": {
+      "lat": 31.76904,
+      "lon": 35.21633
+     },
+     "status": "RECRUITING",
+     "zip": "9103102"
+    }
+   ],
+   "overallOfficials": [
+    {
+     "affiliation": "Agyany Pharma LTD",
+     "name": "Ari Zimran, MD",
+     "role": "STUDY_CHAIR"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "Parkinson's disease (PD), affecting 10 million people globally, lacks a cure, and current therapies only manage symptoms. A link between Gaucher disease (GD) and PD, particularly in carriers of glucocerebrosidase (GBA1) mutations, has sparked interest in developing new drugs. Despite pharmaceutical companies focusing on formulations, progress is slow. Agyany, with decades of experience in GD research, plans clinical trials using existing generic drugs for GBA-related PD and idiopathic PD. Their approach targets the misfolded enzyme glucocerebrosidase with pharmacological chaperons, inspired by success in GD using ambroxol. The strategy aims to provide a quicker path to novel therapeutic options for PD.",
+   "detailedDescription": "Parkinson disease (PD) is the second most common neurodegenerative disease affecting around 10 million people worldwide. It is a debilitating disorder that despite many years and billions of dollars research - there is still no cure and none of the therapeutic options truly reverse its manifestations. The realization that the relationship between Gaucher disease (GD) - the rare lysosomal storage disease - and PD, also exists in carriers of the disease (with a mono-allele mutation in glucocerebrosidase (GBA1)) has led to several attempts to develop new drugs not just for GBA-related PD, but also for PD at large. However, heretofore all pharmaceutical companies have focused on finding new formulations, mostly based on what Agyany believe is not targeting the underlying pathology, but in any case, will require several years before new drugs will reach the market. With the background of three decades working at the world's largest center for GD at Shaare Zedek Medical Center in Jerusalem, and with a different understanding of the pathological processes leading to PD among a significant number of GD patients and carriers, Agyany plans to begin clinical trials in newly diagnosed PD patients using existing generic drugs that would enable a short path for introducing novel therapeutic approach to GBA-related PD and potentially also for so called idiopathic PD (when no genetic cause is known).\n\nBased on our understanding of the underlying mechanism of GBA1-related PD, on research done in animal models and on our own anecdotal experience, Agyany believe that pharmacological chaperons are the most reasonable therapeutic modality to achieve success. Since the misfolding of the mutant enzyme, glucocerebrosidase, is the same both in GBA1-related PD and GD, and that the ambroxol impact is the same as well, Agyany can extrapolate from the success of ambroxol to achieve reversibility of neuronopathic features (that heretofore were considered irreversible, and the best expectation was lack of deterioration), in neuronopathic GD (nGD), to potential success in GBA-related PD.\n\nThe plan is to first use generic formulations with a confirmed safety profile and repurpose their indication to PD."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "NA",
+    "interventionModel": "SINGLE_GROUP",
+    "interventionModelDescription": "Open label single arm study using ambroxol in newly diagnosed patients with motor Parkinson's disease.",
+    "maskingInfo": {
+     "masking": "NONE"
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 40,
+    "type": "ESTIMATED"
+   },
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\nFor inclusion into the trial, subjects are required to fulfill all of the following criteria:\n\nNewly diagnosed PD patients:\n\n1. Individuals who exclusively carry at least one single GBA1 variant without any additional genetic variants.\n2. Confirmed diagnosis of PD, by a movement disorder specialist, according to MDS PD criteria, within a maximum of three years from the date of diagnosis, coupled with the following conditions:\n\n   iii. Hoehn and Yahr staged between I-II, inclusive.\n\n   iv. No motor fluctuations or L-dopa induced dyskinesia.\n3. Stable anti-PD medications for \u2265 4 weeks:\n\n   Subjects can take PD medications including NMDA glutamate antagonists, monoamine oxidase B (MAO-B) inhibitors, dopamine agonists, and L-Dopa.\n4. Male or female, age 30-70 years; however, if female:\n\n   * must be using contraception measures if of childbearing potential.\n   * must not be lactating.\n5. Complying with study protocol.\n\nExclusion Criteria:\n\nEligible subjects may not have any of the following exclusion criteria:\n\n1. Presence of any medical, emotional, behavioral, or psychological condition that in the judgment of the Investigator would interfere with the subject's compliance with the requirements of the study (such as clinical depression).\n2. Any other disorder that may interfere with the results of the efficacy endpoints.\n3. Currently taking another investigational drug for any condition.\n4. Use of dopaminergic treatment under these conditions:\n\n   * L-Dopa equivalent daily dose \\> 400mg\n   * L-Dopa daily dose \\> 300mg\n   * L-Dopa equivalent and L-Dopa daily dose has been changed in the past 4 weeks prior to screening visit.\n5. Medical history of psychosis.\n6. Exposure to ambroxol in the last 24 months prior to screening and/or history of adverse events to ambroxol.\n7. Exposure to dopamine receptor blocking agents, lithium, cinnarizine, amiodarone or valproic acid in the last 12 months prior to screening.\n8. Pregnancy or lactation; female subjects of a childbearing age who are unwilling to use contraceptive measures.",
+   "healthyVolunteers": false,
+   "maximumAge": "70 Years",
+   "minimumAge": "30 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "briefTitle": "High-Dose Ambroxol in GBA1-Related Parkinson",
+   "nctId": "NCT06193421",
+   "officialTitle": "An Open-Label Pilot Study for Assessing the Safety and Efficacy of High-Dose Ambroxol (HDA) in Newly Diagnosed GBA1 Parkinson Disease (PD)",
+   "orgStudyIdInfo": {
+    "id": "AGPI"
+   },
+   "organization": {
+    "class": "INDUSTRY",
+    "fullName": "Agyany Pharma LTD"
+   }
+  },
+  "ipdSharingStatementModule": {
+   "description": "There is no plan to share such data.",
+   "ipdSharing": "NO"
+  },
+  "outcomesModule": {
+   "otherOutcomes": [
+    {
+     "description": "Using: (Video-recorded unified Parkinson's disease rating scale (MDS-UPDRS) Part II and III.",
+     "measure": "Changes in motor evaluations",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Perdue pegboard",
+     "measure": "Changes in motor evaluations",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Trail Making Test (TMT)",
+     "measure": "Changes in motor evaluations",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Montreal Cognitive Assessment (MoCa)",
+     "measure": "Change in cognitive and mental impairment",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "NeuroTrax",
+     "measure": "Change in cognitive and mental impairment",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Clinical Global Impression Scale (CGI)",
+     "measure": "Change in cognitive and mental impairment",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Hooper Visual Organization Test (VOT)",
+     "measure": "Change in cognitive and mental impairment",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Beck Depression inventory (BDI)",
+     "measure": "Change in cognitive and mental impairment",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "REM sleep behavior disorder (RBD)",
+     "measure": "Change in sleep behavior",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Epworth sleepiness scale (ESS)",
+     "measure": "Change in sleep behavior",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Using the following tests: the BIT University of Pennsylvania brief Smell Identification Test (UPSIT)",
+     "measure": "Changes in sensory and autonomic assessments",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Constipation questionnaire",
+     "measure": "Changes in sensory and autonomic assessments",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Orthostatic hypotension (OH)",
+     "measure": "Changes in sensory and autonomic assessments",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Color discrimination.",
+     "measure": "Changes in sensory and autonomic assessments",
+     "timeFrame": "12 months"
+    }
+   ],
+   "primaryOutcomes": [
+    {
+     "description": "The outcome measure involves the assessment of adverse events (AEs) experienced by study participants throughout the duration of the trial. Adverse events will be documented, and their severity will be graded according to the Common Terminology Criteria for Adverse Events (CTCAE) version 5. This comprehensive evaluation aims to provide a clear understanding of the safety profile of the intervention by specifically measuring and reporting the incidence and severity of treatment-emergent adverse events.",
+     "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs), and Treatment-Emergent Serious Adverse Events (TESAEs)",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Criteria for potentially clinically significant abnormalities (PCSA): Hemoglobin: less than or equal to (\\<=) 115 grams per liter (g/L) (Male\\[M\\]) or \\<=95 g/L (Female\\[F\\]), greater than or equal to (\\>=) 185 g/L (M) or \\>=165 g/L (F), Decrease from baseline (DFB) \\>=20 g/L; Hematocrit: \\<=0.37 volume/volume (v/v) (M) or \\<=0.32 v/v (F), \\>=0.55 v/v (M) or \\>=0.5 v/v (F); Red blood cells (RBC): \\>=6 Tera/L; Platelets: less than (\\<) 100 Giga/L, \\>=700 Giga/L; White blood cells (WBC): \\<3.0 Giga/L (Non-Black \\[NB\\]) or \\<2.0 Giga/L (Black \\[B\\]), \\>=16.0 Giga/L; Neutrophils: \\<1.5 Giga/L (NB) or \\<1.0 Giga/L (B); Lymphocytes: \\<lower limit of normal (LLN), greater than (\\>) 4.0 Giga/L; Monocytes: \\<LLN, \\>0.7 Giga/L; Basophils: \\>0.1 Giga/L; Eosinophils: \\>0.5 Giga/L or \\>upper limit of normal (ULN) (if ULN \\>=0.5 Giga/L).",
+     "measure": "Number of Participants With Potentially Clinically Significant Laboratory Abnormalities: Hematology",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Criteria for PCSA: Alanine Aminotransferase (ALT): \\>3 ULN, \\>5 ULN; Aspartate aminotransferase (AST): \\>3 ULN; Alkaline phosphatase: \\>1.5 ULN; Total Bilirubin: \\>1.5 ULN; ALT and Bilirubin: \\>3 ULN and \\>2 ULN; Direct Bilirubin and Bilirubin: \\>35% and \\>1.5 ULN.\n\nCriteria for PCSA: Creatinine: \\>=150 micromoles per liter (mcmol/L) (adults), \\>=30% change from baseline, \\>=100% change from baseline; Blood urea nitrogen: \\>=17 millimoles (mmol)/L.\n\nCriteria for PCSA: Glucose: \\<=3.9 mmol/L and \\<LLN; \\>=11.1 mmol/L (unfasted \\[unfas\\]) or \\>=7 mmol/L (fasted \\[fas\\]); Albumin: \\<=25 g/L.\n\nCriteria for PCSA: Sodium: \\<=129 mmol/L, \\>=160 mmol/L; Potassium: \\<3 mmol/L, \\>=5.5 mmol/L and Chloride: \\<80 mmol/L, \\>115 mmol/L.",
+     "measure": "Number of Participants With Potentially Clinically Significant Laboratory Abnormalities: Biochemistry (Metabolic, Electrolytes, Renal and Liver Function)",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Criteria for PCSA: Systolic blood pressure (SBP) supine: \\<=95 millimeters of mercury (mmHg) and DFB \\>=20 mmHg; \\>=160 mmHg and increase from baseline (IFB) \\>=20 mmHg; Diastolic blood pressure (DBP) supine: \\<=45 mmHg and DFB \\>=10 mmHg; \\>=110 mmHg and IFB \\>=10 mmHg; SBP (Orthostatic): \\<=-20 mmHg; DBP (Orthostatic): \\<=-10 mmHg; Heart rate (HR) supine: \\<=50 beats per minute (bpm) and DFB \\>=20 bpm; \\>=120 bpm and IFB \\>=20 bpm; Weight: \\>=5% DFB; \\>=5% IFB.",
+     "measure": "Number of Participants With Potentially Clinically Significant Vital Signs Abnormalities",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Routine physical examinations will be conducted to assess participants for any physical manifestations of adverse effects or safety concerns.\n\nIn the final report the number of participants with new abnormal physical examination findings will be reported.",
+     "measure": "Number of Participants With Abnormal Physical Examination Findings",
+     "timeFrame": "12 months"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "description": "Transcranial Ultrasonography detects the area of hyper-echogenicity in the region of substantia nigra (values greater than 0.2 cm square are considered abnormal.\n\nImprovement from baseline will be assessed and considered significant if greater than 15% from baseline.",
+     "measure": "Number of Participants With Significant Change in Transcranial Ultrasonography (TCS) of Substantia Nigra Region",
+     "timeFrame": "12 months"
+    },
+    {
+     "description": "Change from baseline to end of study (EOS) in F-DOPA imaging will be qualitative as assessed by independent expert in nuclear medicine in a central imaging center.",
+     "measure": "Difference of dopamine turnover rate measured by Fluoro-Dopa-PET in the putamen between baseline and after 12 months of treatment.",
+     "timeFrame": "12 months"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": false,
+   "oversightHasDmc": false
+  },
+  "referencesModule": {
+   "references": [
+    {
+     "citation": "Zimran A, Altarescu G, Elstein D. Pilot study using ambroxol as a pharmacological chaperone in type 1 Gaucher disease. Blood Cells Mol Dis. 2013 Feb;50(2):134-7. doi: 10.1016/j.bcmd.2012.09.006. Epub 2012 Oct 22.",
+     "pmid": "23085429",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Mullin S, Smith L, Lee K, D'Souza G, Woodgate P, Elflein J, Hallqvist J, Toffoli M, Streeter A, Hosking J, Heywood WE, Khengar R, Campbell P, Hehir J, Cable S, Mills K, Zetterberg H, Limousin P, Libri V, Foltynie T, Schapira AHV. Ambroxol for the Treatment of Patients With Parkinson Disease With and Without Glucocerebrosidase Gene Mutations: A Nonrandomized, Noncontrolled Trial. JAMA Neurol. 2020 Apr 1;77(4):427-434. doi: 10.1001/jamaneurol.2019.4611.",
+     "pmid": "31930374",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Silveira CRA, MacKinley J, Coleman K, Li Z, Finger E, Bartha R, Morrow SA, Wells J, Borrie M, Tirona RG, Rupar CA, Zou G, Hegele RA, Mahuran D, MacDonald P, Jenkins ME, Jog M, Pasternak SH. Ambroxol as a novel disease-modifying treatment for Parkinson's disease dementia: protocol for a single-centre, randomized, double-blind, placebo-controlled trial. BMC Neurol. 2019 Feb 9;19(1):20. doi: 10.1186/s12883-019-1252-3.",
+     "pmid": "30738426",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Becker-Cohen M, Zimran A, Dinur T, Tiomkin M, Cozma C, Rolfs A, Arkadir D, Shulman E, Manor O, Paltiel O, Yahalom G, Berg D, Revel-Vilk S. A Comprehensive Assessment of Qualitative and Quantitative Prodromal Parkinsonian Features in Carriers of Gaucher Disease-Identifying Those at the Greatest Risk. Int J Mol Sci. 2022 Oct 13;23(20):12211. doi: 10.3390/ijms232012211.",
+     "pmid": "36293067",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Hannaway N, Zarkali A, Leyland LA, Bremner F, Nicholas JM, Wagner SK, Roig M, Keane PA, Toosy A, Chataway J, Weil RS. Visual dysfunction is a better predictor than retinal thickness for dementia in Parkinson's disease. J Neurol Neurosurg Psychiatry. 2023 Sep;94(9):742-750. doi: 10.1136/jnnp-2023-331083. Epub 2023 Apr 20.",
+     "pmid": "37080759",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Giladi N, Alcalay RN, Cutter G, Gasser T, Gurevich T, Hoglinger GU, Marek K, Pacchetti C, Schapira AHV, Scherzer CR, Simuni T, Minini P, Sardi SP, Peterschmitt MJ. Safety and efficacy of venglustat in GBA1-associated Parkinson's disease: an international, multicentre, double-blind, randomised, placebo-controlled, phase 2 trial. Lancet Neurol. 2023 Aug;22(8):661-671. doi: 10.1016/S1474-4422(23)00205-3.",
+     "pmid": "37479372",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Julien C, Hache G, Dulac M, Dubrou C, Castelnovo G, Giordana C, Azulay JP, Fluchere F. The clinical meaning of levodopa equivalent daily dose in Parkinson's disease. Fundam Clin Pharmacol. 2021 Jun;35(3):620-630. doi: 10.1111/fcp.12646. Epub 2021 Feb 23.",
+     "pmid": "33458868",
+     "type": "BACKGROUND"
+    }
+   ]
+  },
+  "sponsorCollaboratorsModule": {
+   "leadSponsor": {
+    "class": "INDUSTRY",
+    "name": "Agyany Pharma LTD"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2025-04-30",
+    "type": "ESTIMATED"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastKnownStatus": "RECRUITING",
+   "lastUpdatePostDateStruct": {
+    "date": "2024-02-08",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2024-02-07",
+   "overallStatus": "UNKNOWN",
+   "primaryCompletionDateStruct": {
+    "date": "2025-02-27",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2023-10-24",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2024-02",
+   "studyFirstPostDateStruct": {
+    "date": "2024-01-05",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2023-11-07",
+   "studyFirstSubmitQcDate": "2024-01-04"
+  }
+ }
+}

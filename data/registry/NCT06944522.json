@@ -1,0 +1,1110 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Bemdaneprocel will be administered on Day 0",
+     "interventionNames": [
+      "Biological: bemdaneprocel"
+     ],
+     "label": "Group A",
+     "type": "ACTIVE_COMPARATOR"
+    },
+    {
+     "description": "Sham surgery will be performed on Day 0",
+     "interventionNames": [
+      "Procedure: Sham surgery"
+     ],
+     "label": "Group B",
+     "type": "SHAM_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "Group A"
+     ],
+     "description": "Investigational cell therapy comprising midbrain dopaminergic neuron progenitors derived from human embryonic stem cells",
+     "name": "bemdaneprocel",
+     "otherNames": [
+      "MSK-DA01",
+      "BRT-DA01"
+     ],
+     "type": "BIOLOGICAL"
+    },
+    {
+     "armGroupLabels": [
+      "Group B"
+     ],
+     "description": "Sham surgery will be performed on Day 0",
+     "name": "Sham surgery",
+     "type": "PROCEDURE"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinsons Disease (PD)"
+   ],
+   "keywords": [
+    "exPDite-2",
+    "Cell Therapy",
+    "Cellular Therapy",
+    "Dopaminergic Neuronal Cell Therapy",
+    "Parkinsons Disease"
+   ]
+  },
+  "contactsLocationsModule": {
+   "centralContacts": [
+    {
+     "email": "clinicaltrials@bluerocktx.com",
+     "name": "Patient Engagement",
+     "phone": "1-877-380-3967",
+     "role": "CONTACT"
+    }
+   ],
+   "locations": [
+    {
+     "city": "Scottsdale",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Mayo Clinic Scottsdale - Neurology",
+     "geoPoint": {
+      "lat": 33.50921,
+      "lon": -111.89903
+     },
+     "state": "Arizona",
+     "status": "RECRUITING",
+     "zip": "85259"
+    },
+    {
+     "city": "Sun City",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Banner Sun Health Research Institute",
+     "geoPoint": {
+      "lat": 33.59754,
+      "lon": -112.27182
+     },
+     "state": "Arizona",
+     "status": "RECRUITING",
+     "zip": "85351"
+    },
+    {
+     "city": "Little Rock",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "University of Arkansas for Medical Sciences",
+     "geoPoint": {
+      "lat": 34.74648,
+      "lon": -92.28959
+     },
+     "state": "Arkansas",
+     "status": "RECRUITING",
+     "zip": "72205"
+    },
+    {
+     "city": "Los Angeles",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "UCLA NeuroTranslational Research Center",
+     "geoPoint": {
+      "lat": 34.05223,
+      "lon": -118.24368
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "90095"
+    },
+    {
+     "city": "Orange",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "UCI Medical Center - Neurology",
+     "geoPoint": {
+      "lat": 33.78779,
+      "lon": -117.85311
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "92868"
+    },
+    {
+     "city": "Palo Alto",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Stanford Neuroscience Health Center",
+     "geoPoint": {
+      "lat": 37.44188,
+      "lon": -122.14302
+     },
+     "state": "California",
+     "status": "RECRUITING",
+     "zip": "94304"
+    },
+    {
+     "city": "Aurora",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "University of Colorado Hospital - Neurology Clinic",
+     "geoPoint": {
+      "lat": 39.72943,
+      "lon": -104.83192
+     },
+     "state": "Colorado",
+     "status": "RECRUITING",
+     "zip": "80045"
+    },
+    {
+     "city": "Washington D.C.",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "MedStar Georgetown University Hospital",
+     "geoPoint": {
+      "lat": 38.89511,
+      "lon": -77.03637
+     },
+     "state": "District of Columbia",
+     "status": "RECRUITING",
+     "zip": "20007"
+    },
+    {
+     "city": "Jacksonville",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Mayo Clinic Jacksonville - Neurology",
+     "geoPoint": {
+      "lat": 30.33218,
+      "lon": -81.65565
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "32224"
+    },
+    {
+     "city": "Miami",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "University of Miami Health System - Neurology",
+     "geoPoint": {
+      "lat": 25.77427,
+      "lon": -80.19366
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33136"
+    },
+    {
+     "city": "Tampa",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "USF Parkinson's Disease and Movement Disorders Center",
+     "geoPoint": {
+      "lat": 27.94752,
+      "lon": -82.45843
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33613"
+    },
+    {
+     "city": "Chicago",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Parkinson's Disease and Movement Disorders Center at Northwestern Memorial Hospital",
+     "geoPoint": {
+      "lat": 41.85003,
+      "lon": -87.65005
+     },
+     "state": "Illinois",
+     "status": "RECRUITING",
+     "zip": "60611"
+    },
+    {
+     "city": "Chicago",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Rush University Medical Center - Neurology",
+     "geoPoint": {
+      "lat": 41.85003,
+      "lon": -87.65005
+     },
+     "state": "Illinois",
+     "status": "RECRUITING",
+     "zip": "60612"
+    },
+    {
+     "city": "Kansas City",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "University of Kansas Medical Center",
+     "geoPoint": {
+      "lat": 39.11417,
+      "lon": -94.62746
+     },
+     "state": "Kansas",
+     "status": "RECRUITING",
+     "zip": "66160-8500"
+    },
+    {
+     "city": "Louisville",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "University of Louisville Hospital",
+     "geoPoint": {
+      "lat": 38.25424,
+      "lon": -85.75941
+     },
+     "state": "Kentucky",
+     "status": "RECRUITING",
+     "zip": "40202"
+    },
+    {
+     "city": "Baltimore",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Johns Hopkins Hospital - Neurology",
+     "geoPoint": {
+      "lat": 39.29038,
+      "lon": -76.61219
+     },
+     "state": "Maryland",
+     "status": "RECRUITING",
+     "zip": "21287"
+    },
+    {
+     "city": "Boston",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Tufts Medical Center - Neurology",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "status": "RECRUITING",
+     "zip": "02111"
+    },
+    {
+     "city": "Boston",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Beth Israel Deaconess Medical Center",
+     "geoPoint": {
+      "lat": 42.35843,
+      "lon": -71.05977
+     },
+     "state": "Massachusetts",
+     "status": "RECRUITING",
+     "zip": "02215"
+    },
+    {
+     "city": "Ann Arbor",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Michigan Clinical Research Unit - Neurology",
+     "geoPoint": {
+      "lat": 42.27756,
+      "lon": -83.74088
+     },
+     "state": "Michigan",
+     "status": "RECRUITING",
+     "zip": "48109"
+    },
+    {
+     "city": "Ann Arbor",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "University of Michigan Clinical Research Unit - Neurology",
+     "geoPoint": {
+      "lat": 42.27756,
+      "lon": -83.74088
+     },
+     "state": "Michigan",
+     "status": "RECRUITING",
+     "zip": "48109"
+    },
+    {
+     "city": "Farmington Hills",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Quest Research Institute",
+     "geoPoint": {
+      "lat": 42.48531,
+      "lon": -83.37716
+     },
+     "state": "Michigan",
+     "status": "RECRUITING",
+     "zip": "48334"
+    },
+    {
+     "city": "Buffalo",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "UBMD Neurology",
+     "geoPoint": {
+      "lat": 42.88645,
+      "lon": -78.87837
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "14221"
+    },
+    {
+     "city": "New York",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Mount Sinai West - Neurology",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "10019"
+    },
+    {
+     "city": "New York",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "New York Presbyterian/Weill Cornell Medical Center",
+     "geoPoint": {
+      "lat": 40.71427,
+      "lon": -74.00597
+     },
+     "state": "New York",
+     "status": "RECRUITING",
+     "zip": "10065"
+    },
+    {
+     "city": "Durham",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Duke Neurological Disorders Clinic",
+     "geoPoint": {
+      "lat": 35.99403,
+      "lon": -78.89862
+     },
+     "state": "North Carolina",
+     "status": "RECRUITING",
+     "zip": "27710"
+    },
+    {
+     "city": "Toledo",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "University of Toledo Medical Center",
+     "geoPoint": {
+      "lat": 41.66394,
+      "lon": -83.55521
+     },
+     "state": "Ohio",
+     "status": "RECRUITING",
+     "zip": "43614"
+    },
+    {
+     "city": "Portland",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "OHSU Neurology Clinic, South Waterfront",
+     "geoPoint": {
+      "lat": 45.52345,
+      "lon": -122.67621
+     },
+     "state": "Oregon",
+     "status": "RECRUITING",
+     "zip": "97239"
+    },
+    {
+     "city": "Providence",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Rhode Island Hospital - Neurology",
+     "geoPoint": {
+      "lat": 41.82399,
+      "lon": -71.41283
+     },
+     "state": "Rhode Island",
+     "status": "RECRUITING",
+     "zip": "02903"
+    },
+    {
+     "city": "Charleston",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Medical University of South Carolina, Movement Disorders Dept.",
+     "geoPoint": {
+      "lat": 32.77632,
+      "lon": -79.93275
+     },
+     "state": "South Carolina",
+     "status": "RECRUITING",
+     "zip": "29425"
+    },
+    {
+     "city": "Nashville",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Vanderbilt University Medical Center",
+     "geoPoint": {
+      "lat": 36.16589,
+      "lon": -86.78444
+     },
+     "state": "Tennessee",
+     "status": "RECRUITING",
+     "zip": "37232"
+    },
+    {
+     "city": "Houston",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "UTHealth Houston Neurosciences - Texas Medical Center",
+     "geoPoint": {
+      "lat": 29.76328,
+      "lon": -95.36327
+     },
+     "state": "Texas",
+     "status": "RECRUITING",
+     "zip": "77030"
+    },
+    {
+     "city": "Burlington",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "University of Vermont Medical Center",
+     "geoPoint": {
+      "lat": 44.47588,
+      "lon": -73.21207
+     },
+     "state": "Vermont",
+     "status": "RECRUITING",
+     "zip": "05401"
+    },
+    {
+     "city": "Richmond",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "Virginia Commonwealth University",
+     "geoPoint": {
+      "lat": 37.55376,
+      "lon": -77.46026
+     },
+     "state": "Virginia",
+     "status": "RECRUITING",
+     "zip": "23284"
+    },
+    {
+     "city": "Kirkland",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "United States",
+     "facility": "EvergreenHealth - Research Department",
+     "geoPoint": {
+      "lat": 47.68149,
+      "lon": -122.20874
+     },
+     "state": "Washington",
+     "status": "RECRUITING",
+     "zip": "98034"
+    },
+    {
+     "city": "Randwick",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Australia",
+     "facility": "NeuRA (Neuroscience Research Australia)",
+     "geoPoint": {
+      "lat": -33.91439,
+      "lon": 151.24895
+     },
+     "state": "New South Wales",
+     "status": "RECRUITING",
+     "zip": "2031"
+    },
+    {
+     "city": "Southport",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Australia",
+     "facility": "Gold Coast Hospital & Health Service",
+     "geoPoint": {
+      "lat": -27.96724,
+      "lon": 153.39796
+     },
+     "state": "Queensland",
+     "status": "RECRUITING",
+     "zip": "4215"
+    },
+    {
+     "city": "Woolloongabba",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Australia",
+     "facility": "Princess Alexandra Hospital",
+     "geoPoint": {
+      "lat": -27.48855,
+      "lon": 153.03655
+     },
+     "state": "Queensland",
+     "status": "RECRUITING",
+     "zip": "4102"
+    },
+    {
+     "city": "Clayton",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Australia",
+     "facility": "Monash Medical Centre",
+     "geoPoint": {
+      "lat": -37.91667,
+      "lon": 145.11667
+     },
+     "state": "Victoria",
+     "status": "RECRUITING",
+     "zip": "3168"
+    },
+    {
+     "city": "Melbourne",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Australia",
+     "facility": "The Alfred Hospital",
+     "geoPoint": {
+      "lat": -37.814,
+      "lon": 144.96332
+     },
+     "state": "Victoria",
+     "status": "RECRUITING",
+     "zip": "3004"
+    },
+    {
+     "city": "Parkville",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Australia",
+     "facility": "The Royal Melbourne Hospital",
+     "geoPoint": {
+      "lat": -37.78333,
+      "lon": 144.95
+     },
+     "state": "Victoria",
+     "status": "RECRUITING",
+     "zip": "3050"
+    },
+    {
+     "city": "Vancouver",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Canada",
+     "facility": "The University of British Columbia",
+     "geoPoint": {
+      "lat": 49.24966,
+      "lon": -123.11934
+     },
+     "state": "British Columbia",
+     "status": "RECRUITING",
+     "zip": "V6T 1Z3"
+    },
+    {
+     "city": "Toronto",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Canada",
+     "facility": "University Health Network - Toronto Western Hospital",
+     "geoPoint": {
+      "lat": 43.70643,
+      "lon": -79.39864
+     },
+     "state": "Ontario",
+     "status": "RECRUITING",
+     "zip": "M5T 2S8"
+    },
+    {
+     "city": "Montreal",
+     "contacts": [
+      {
+       "email": "clinicaltrials@bluerocktx.com",
+       "name": "Patient Engagement",
+       "phone": "1-877-380-3967",
+       "role": "CONTACT"
+      }
+     ],
+     "country": "Canada",
+     "facility": "CHUM - Centre hospitalier de l'Universit\u00e9 de Montr\u00e9al",
+     "geoPoint": {
+      "lat": 45.50884,
+      "lon": -73.58781
+     },
+     "state": "Quebec",
+     "status": "RECRUITING",
+     "zip": "H2X 0C1"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "Study BRT-DA01-301 is a Phase 3 multicenter, randomized, sham surgery-controlled, double-blind study to assess efficacy and safety of bemdaneprocel in approximately 102 adults with Parkinson's Disease (PD).",
+   "detailedDescription": "The BRT-DA01-301 study is a Phase 3, multicenter, randomized, sham surgery-controlled, double-blind study involving approximately 102 participants with Parkinson's Disease (PD). Participants will be randomized in a 2:1 ratio to either receive bemdaneprocel or undergo sham surgery. The study includes an immunosuppression regimen and placebo equivalents to maintain blinding. The primary objective is to evaluate the efficacy of bemdaneprocel on motor symptoms in participants with PD. The secondary objective is to evaluate the effects of bemdaneprocel on Motor function, Quality of life, Non-motor symptoms of PD, Disease severity, and Use of PD medications or therapies compared with participants who undergo sham surgery. Participants will be followed for at least 18 months in the double-blind period and up to five years if they receive bemdaneprocel."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "interventionModelDescription": "In the double-blind period, participants will be randomized at a 2:1 ratio to either receive bemdaneprocel or undergo sham surgery. Participants will receive immunosuppression or placebo equivalents for approximately 12 months. Approximately 18 months after the last participant is enrolled and based on the results of the primary analysis and review by the independent data monitoring committee (DMC), eligible participants who underwent sham surgery and remain actively enrolled in the study will have the opportunity to receive bemdaneprocel in the open-label period.",
+    "maskingInfo": {
+     "masking": "TRIPLE",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 102,
+    "type": "ESTIMATED"
+   },
+   "phases": [
+    "PHASE3"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of clinically established PD as defined by the International Parkinson and Movement Disorders Society\n* Individual of any sex \u226545 to \u226475 years of age at informed consent\n* Robust and clear response to DA therapy as defined by MDS-UPDRS Part III\n* \u22654 and \\<12 years from time of PD diagnosis at informed consent\n* Must demonstrate responsiveness to levodopa therapy\n* Receiving medical therapy for the treatment of PD symptoms\n* \u22652.5 hours of daily OFF-time\n* Vaccinated per current national guidelines or local practice for patients with altered immunocompetence\n\nExclusion Criteria:\n\n* PD presenting with recurrent falls\n* Diagnosis of primary mitochondrial disorder, epilepsy, stroke, multiple sclerosis, or clinical features suggestive of a neurodegenerative disease other than PD, including multiple system atrophy, progressive supranuclear palsy, corticobasal degeneration, or Lewy body dementia\n* Any current or relevant previous history of serious, severe, or unstable physical, neurological, or psychiatric illness that may interfere with study participation, participant's safety, or assessment of endpoints per investigator's judgment\n* History of gene therapy or cell therapy\n* Prior treatment with intrajejunal or subcutaneous infusion therapies for PD\n* Prior surgical or radiation therapy to the brain, including deep brain stimulation (DBS) and lesion therapy, or prior history of intradural spinal cord surgery\n* Contraindication to surgery, general anesthesia, cell therapy, immunosuppression, or other required drugs, or anything that prevents use of PET or MRI\n* Any active infection (including but not limited to HIV, HCV, HBV, CMV, syphilis, or tuberculosis) or condition that, in the opinion of the investigator could put the participant at significant risk from immunosuppression or impact the participant's ability to perform study assessments\n* Current or previously active malignant disease within the past 5 years\n* Chronic immunosuppressive therapy\n* Receipt of another investigational therapy within 5 half-lives of the active treatment\n* Pregnancy or breastfeeding",
+   "healthyVolunteers": false,
+   "maximumAge": "75 Years",
+   "minimumAge": "45 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "exPDite-2",
+   "briefTitle": "A Study to Investigate the Efficacy and Safety of Bemdaneprocel in Adults Who Have Parkinson's Disease",
+   "nctId": "NCT06944522",
+   "officialTitle": "exPDite-2: A Phase 3 Study to Assess the Efficacy and Safety of Midbrain Dopaminergic Neuronal Cell Therapy (Bemdaneprocel) for Participants With Parkinson's Disease",
+   "orgStudyIdInfo": {
+    "id": "BRT-DA01-301"
+   },
+   "organization": {
+    "class": "INDUSTRY",
+    "fullName": "BlueRock Therapeutics"
+   }
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "measure": "Change from baseline in PD diary measure of ON-time without troublesome dyskinesia, adjusted for a 16-hour waking day",
+     "timeFrame": "From baseline to Week 78"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "measure": "Change from baseline in PD diary measure of OFF-time, adjusted for a 16-hour waking day",
+     "timeFrame": "From baseline to Week 78"
+    },
+    {
+     "measure": "Change from baseline in Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part III score in the off-medication state. Part III score can range from 0 to 132, with lower scores being better.",
+     "timeFrame": "From baseline to Week 78"
+    },
+    {
+     "measure": "Change from baseline in Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part II score. Part II score can range from 0 to 52, with lower scores being better.",
+     "timeFrame": "From baseline to Week 78"
+    },
+    {
+     "measure": "Change from baseline in Parkinson's Disease Questionnaire-39 (PDQ-39) summary index. Summary index score can range from 0 to 100, with lower scores being better.",
+     "timeFrame": "From baseline to Week 78"
+    },
+    {
+     "measure": "Incidence and severity of treatment-emergent adverse events",
+     "timeFrame": "From baseline to month 60"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": true,
+   "oversightHasDmc": true
+  },
+  "sponsorCollaboratorsModule": {
+   "collaborators": [
+    {
+     "class": "INDUSTRY",
+     "name": "Bayer"
+    }
+   ],
+   "leadSponsor": {
+    "class": "INDUSTRY",
+    "name": "BlueRock Therapeutics"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2032-03",
+    "type": "ESTIMATED"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2026-08-04",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2026-08-03",
+   "overallStatus": "RECRUITING",
+   "primaryCompletionDateStruct": {
+    "date": "2027-03",
+    "type": "ESTIMATED"
+   },
+   "startDateStruct": {
+    "date": "2025-06-17",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2026-07",
+   "studyFirstPostDateStruct": {
+    "date": "2025-04-25",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2025-04-07",
+   "studyFirstSubmitQcDate": "2025-04-17"
+  }
+ }
+}

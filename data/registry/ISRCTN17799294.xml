@@ -1,0 +1,686 @@
+<allTrials totalCount="1" xmlns="http://www.67bricks.com/isrctn"><fullTrial>
+  <trial lastUpdated="2025-09-04T13:07:48.986382227Z" version="70" isPublished="true" publicIdentifierType="isrctn" publicIdentifierCanonical="ISRCTN17799294" publicIdentifierDateAssigned="2025-02-24T13:33:07.420873Z">
+    <isrctn dateAssigned="2025-02-24T13:33:07.420873Z">17799294</isrctn>
+    <trialDescription thirdPartyFilesAcknowledgement="false">
+      <acknowledgment>true</acknowledgment>
+      <title>A trial of treatments to slow progression of Parkinson's disease</title>
+      <scientificTitle>Edmond J Safra, Accelerating Clinical Trials in Parkinson’s Disease (EJS ACT-PD) - a multi-arm multi-stage platform trial for potential disease-modifying approaches</scientificTitle>
+      <acronym>EJS ACT-PD</acronym>
+      <studyHypothesis>The primary objective of the EJS ACT-PD Trial is to determine whether the active trial treatments result in a ≥30% reduction in the rate of disease progression between the active treatment and placebo arms as measured by the MDS-UPDRS Parts I and II combined.
+
+Secondary objectives:
+1. The safety and tolerability of the active treatments for people with PD when taken for up to 3 years
+2. The effects of the treatments on quality of life and patient-reported efficacy outcomes in people with PD
+3. The effects of the treatments on objective assessments of the motor severity of PD
+4. The effects of the treatments on cognitive function in people with PD
+5. The effects of the treatments on the quality of life of partners of people with PD
+6. The cost-effectiveness of the treatments for people with PD compared to the current standard of care
+7. The success of our recruitment and retention strategies on recruiting a participant sample that is representative of the population of people with Parkinson’s in the UK via various evaluation options (to be further defined via a future EDI sub-study)</studyHypothesis>
+      <plainEnglishSummary>Background and study aims
+Parkinson's disease (PD) is currently the fastest-growing neurological condition globally. It is projected to affect 172,000 people in the UK by 2030, with the current annual cost to the country being about £3.6 billion. The disease progressively impairs physical abilities, leading to increased disability, falls, and difficulties with speech, swallowing, mood, thinking, and memory. While existing treatments can alleviate some symptoms, their effectiveness diminishes over time, and they can cause severe side effects.
+This trial uses a Multi-Arm, Multi-Stage (MAMS) design where multiple treatments are tested simultaneously in separate groups, called "arms". Each treatment is compared against a placebo, a dummy treatment with no active ingredients, to evaluate its effectiveness and safety.
+
+Who can participate?
+Patients with Parkinson’s disease 
+
+What does the study involve?
+Throughout the trial, each treatment undergoes periodic reviews, known as interim analyses, to assess its safety and potential benefits. If a treatment shows promise, it continues in the trial until a final assessment determines its overall effectiveness. Treatments that do not show positive results are discontinued and replaced with new candidates. This approach reduces the number of participants needed to obtain reliable results and is more cost-effective and faster than conducting separate trials for each treatment.
+The treatments selected for this trial were chosen based on careful consideration of existing evidence regarding their safety and effectiveness. The initial treatments include telmisartan and terazosin.
+Participants will be followed up for up to 36 months. After an in-person screening visit, all remaining visits at 3 months, 6 months and then every 6 months after, for a total of up to 36 months can be completed remotely. The visits will include questionnaires, assessment of Parkinson’s symptoms and discussions about any side effects.  Participants will informed of trial progress. Results will be shared via the trial website and published in a medical journal.
+Following the screening and baseline appointments, participants will be contacted twice yearly for follow-up visits with additional telephone calls during the titration period, at 3 months and 9 months during their first year of participant compared to once per year or less in standard of care. To minimise the burden to participants, only the screening visit is mandated as an in-person visit. The remaining follow-up visits can be conducted fully remotely, either by video call or telephone. However, the visits can be conducted in-person, if the participant wishes. Where a participant attends clinic, travel expenses will be reimbursed of up to £40 per visit. Prior to entering the study, the participant will be asked to have a blood test and ECG for safety tests.  An additional blood sample for translational work will also be requested at the screening and final study visits. 
+The partner sub-study involves the participant’s partner completing quality of life questionnaires regarding their informal care responsibilities. To minimise the risk of the participant not being comfortable with their partner's involvement, the partner can only be recruited if the participant consents to this. The participant and partner information sheets will be available to the participant and they will be encouraged to discuss them both with their partner. The participant will be able to withdraw their consent for their partner’s participation in the sub-study at any point during the study.  
+
+What are the possible benefits and risks of participating?
+The trial treatments, telmisartan and terazosin, are repurposed drugs and therefore have a well-known safety profile. The most common side effect expected is orthostatic hypotension. To assist with monitoring this, participants will be supplied with a blood pressure monitor and clear instructions as to how to use at the screening visit, for use at their home. If the participant experiences symptoms of low blood pressure, such as feeling faint or dizzy, they can check their blood pressure and contact the site study team for further clinical management. If any low blood pressure symptoms are reported to site staff during a remote trial visit, the site staff can request that the participant takes their blood pressure at home to inform whether this needs clinical follow-up.
+As the effects of the trial treatment are unknown on pregnancy and fertility, participants or their partners (if a woman of childbearing potential) must agree to use contraception throughout the trial treatment period and for 70 days after the final dose of trial treatment. Participants will be reminded at follow-up visits of the importance of using appropriate contraception. Additionally, for WOCP participants, before entering the study, a urine pregnancy test will be required and will be repeated before starting IMP if this occurs more than 14 days after. 
+The above information has been included in the patient information sheets and will be discussed prior to enrolment. Training will be provided to sites to highlight the risks and the mitigation strategies.
+
+Where is the study run from?
+University College London (UK)
+
+When is the study starting and how long is it expected to run for?
+December 2024 to July 2031
+
+Who is funding the study?
+National Institute for Health and Care Research (UK)
+
+Who is the main contact?
+EJS ACT-PD Trial Team at MRC CTU, mrcctu.ejsactpd@ucl.ac.uk</plainEnglishSummary>
+      <primaryOutcomes/>
+      <primaryOutcome>The rate of Parkinson’s disease progression between the active treatment and placebo arms is measured by the MDS-UPDRS Parts I and II combined with equal weighting at baseline, week 13, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination and week 165</primaryOutcome>
+      <secondaryOutcomes/>
+      <secondaryOutcome>Clinician reported measures:
+1. Parkinson’s disease stage is measured using the Hoehn and Yahr Scale (H&amp;Y) at screening, week 0, week 13, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination and week 165.
+2. Cognitive impairment is measured using the Montreal Cognitive Assessment (MoCA) at screening, week 0, week 26, week 52, week 104, week 156 or early termination.
+3. Parkinson’s disease medication use is measured by levodopa-equivalent daily dose (LEDD) at all study visits.
+4. Part III of the MDS-UPDRS in the ON medication state (remote elements only) at screening, week 0, week 13, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination and week 165.
+5. Part IV of the MDS-UPDRS in the ON medication state at screening, week 0, week 13, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination and week 165.
+6. The severity of depression is assessed by the Patient Health Questionnaire (PHQ-9) at screening, week 0, week 13, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination.
+7. Quality of life is assessed by the Parkinson’s Disease Questionnaire (PDQ-8) at week 0, week 13, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination.
+8. Carers' quality-of-life is assessed by the questionnaire for parkinsonism (PQoL Carers) at week 0, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination.
+9. Ability to enjoy life is assessed by the ICEpop CAPability measure for Older people (ICECAP-O) at week 0, week 13, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination.
+10. Health-related quality of life is assessed by the EuroQol five-dimension scale questionnaire (EQ-5D-5L) at week 0, week 13, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination.
+11. Use of health and social care resources is assessed by the resource use questionnaire (which includes modified Client Service Receipt Inventory [CSRI] and modified iMTA Valuation of Informal Care Questionnaire [iVICQ]) at week 0, week 26, week 52, week 78, week 104, week 130 and week 156.
+12. Carer health-related quality of life is assessed by the EuroQol five-dimension scale questionnaire (EQ-5D-5L) at week 0, week 26, week 52, week 78, week 104, week 130, week 156 (end of study visit) or early termination.
+13. Suicidal ideation is assessed by the Columbia-Suicide Severity Rating Scale (C-SSRS) at screening, week 156 (end of study visit) or early termination.
+14. Other safety and tolerability measures are assessed through the collection of adverse events/serious adverse events, treatment compliance and trial withdrawal and treatment discontinuation rates at all study visits.
+15. Participant experience before, during and after trial participation is assessed by an amended Study Participant Feedback Questionnaire (SPFQ) at week 0, week 78, week 156 (end of study visit) or early termination.
+16. Participant feedback collected at the end of trial participation via exit interview with an individual external to their study site.</secondaryOutcome>
+      <ethicsApprovalRequired>Ethics approval required</ethicsApprovalRequired>
+      <ethicsCommittees>
+	<ethicsCommittee id="9f42ebdf-9129-4acb-a381-823321b55cd7" approvalStatus="approved" statusDate="2025-02-22T00:00:00.000Z">
+	  <committeeName>-</committeeName>
+	  <contactDetails>
+	    <address>-</address>
+	    <city>-</city>
+	    <state/>
+	    <country>United Kingdom</country>
+	    <zip>-</zip>
+	    <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions"/>
+	    <email xmlns:ssb="http://www.67bricks.com/isrctn/functions"/>
+	  </contactDetails>
+	  <committeeReference>25/LO/0039</committeeReference>
+	</ethicsCommittee>
+      </ethicsCommittees>
+    </trialDescription>
+    <externalRefs>
+      <doi>10.1186/ISRCTN17799294</doi>
+      <eudraCTNumber/>
+      <irasNumber>1009921</irasNumber>
+      <clinicalTrialsGovNumber/>
+      <protocolSerialNumber>CPMS: 56062, ND002</protocolSerialNumber>
+      <secondaryNumbers>
+	<secondaryNumber id="a62c38a3-4d54-4282-81c1-9fb5057d75f2" numberType="iras" canonicalSecondaryNumber="IRAS1009921">1009921</secondaryNumber>
+	<secondaryNumber id="54e8628d-67e9-4cdb-93d4-9f8d914dd006" numberType="cpms" canonicalSecondaryNumber="CPMS56062">56062</secondaryNumber>
+	<secondaryNumber id="9fac8700-748c-46e8-8afb-a013a7429561" numberType="Protocol serial number">ND002</secondaryNumber>
+      </secondaryNumbers>
+    </externalRefs>
+    <trialDesign>
+      <studyDesign>Randomized controlled-placebo double-blind parallel-group multi-arm multi-stage (MAMS) trial</studyDesign>
+      <primaryStudyDesign>Interventional</primaryStudyDesign>
+      <secondaryStudyDesign>Randomised controlled trial</secondaryStudyDesign>
+      <trialTypes>
+	<trialType>Safety</trialType>
+	<trialType>Efficacy</trialType>
+      </trialTypes>
+      <overallEndDate>2031-07-31T00:00:00.000Z</overallEndDate>
+    </trialDesign>
+    <participants>
+      <recruitmentCountries>
+	<country>United Kingdom</country>
+	<country>England</country>
+	<country>Wales</country>
+      </recruitmentCountries>
+      <trialCentres>
+	<trialCentre id="044bad3a-8433-4756-9c03-589ac9e51b68">
+	  <name>Clinical Ageing Research Unit</name>
+	  <address>Campus for Ageing and Vitality</address>
+	  <city>Newcastle upon Tyne</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>NE4 5PL</zip>
+	</trialCentre>
+	<trialCentre id="aae3f1e0-db4d-4f44-8acb-4adf7dbf2f69">
+	  <name>Royal Hallamshire Hospital</name>
+	  <address>Glossop Road</address>
+	  <city>Sheffield</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>S10 2JF</zip>
+	  <rtsId>5EQHH@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="7d7a3d56-abaa-4209-89ad-19efbbbb6b64">
+	  <name>Salford Royal Hospital</name>
+	  <address>Stott Lane
+Eccles</address>
+	  <city>Salford</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>M6 8HD</zip>
+	  <rtsId>01GAW@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="3754a034-7efd-4bd4-8af9-dbb40d3c8fb8">
+	  <name>Queen Elizabeth Hospital </name>
+	  <address>Mindelsohn Way
+Edgbaston</address>
+	  <city>Birmingham</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>B15 2GW</zip>
+	</trialCentre>
+	<trialCentre id="228a4d5b-75b3-4b09-80ea-0bd7c92b0fd8">
+	  <name>John Van Geest Centre for Brain Repair site</name>
+	  <address>Robinson Way</address>
+	  <city>Cambridge</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>CB2 0PY</zip>
+	</trialCentre>
+	<trialCentre id="1e8b448e-411a-4fb6-ab29-47712de21e06">
+	  <name>University College London Hospital</name>
+	  <address>250 Euston Road</address>
+	  <city>London</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>NW1 2PG</zip>
+	</trialCentre>
+	<trialCentre id="0a994f22-4a3d-4da2-923e-8680837067b0">
+	  <name>Royal London Hospital</name>
+	  <address>Whitechapel Rd</address>
+	  <city>London</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>E1 1FR</zip>
+	</trialCentre>
+	<trialCentre id="6c01edd0-a5ba-4096-9f9a-ac026c7cf55b">
+	  <name>St Georges Hospital </name>
+	  <address>Blackshaw Rd</address>
+	  <city>London</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>SW17 0QT</zip>
+	</trialCentre>
+	<trialCentre id="3fecc633-5d78-42fa-ab1c-8b9ebe77dd8f">
+	  <name>John Radcliffe Hospital</name>
+	  <address>Headley Way
+Headington</address>
+	  <city>Oxford	</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>OX3 9DU</zip>
+	</trialCentre>
+	<trialCentre id="68a1699c-cfc0-422c-9ba4-a6eef6787ec7">
+	  <name>Royal Sussex County Hospital</name>
+	  <address>Eastern Rd, Brighton and Hove</address>
+	  <city>Brighton</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>BN2 5BE</zip>
+	</trialCentre>
+	<trialCentre id="dbabbe65-7a6e-4227-9fc5-682dbe3b329d">
+	  <name>Royal United Hospital</name>
+	  <address>Combe Park</address>
+	  <city>Bath</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>BA1 3NG</zip>
+	  <rtsId>RNZ71@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="c19402ea-932a-4642-a4b3-32ee7b682f28">
+	  <name>Derriford Hospital</name>
+	  <address>Derriford Road
+Crownhill</address>
+	  <city>Plymouth</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>PL6 8DH</zip>
+	  <rtsId>RK950@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="b7e58109-02eb-4b26-8fa9-2d3c62bece88">
+	  <name>Ninewells Hospital</name>
+	  <address>Ninewells Avenue</address>
+	  <city>Dundee</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>DD1 9SY</zip>
+	  <rtsId>T101H@2.16.840.1.113883.2.1.3.8.2.16.2</rtsId>
+	</trialCentre>
+	<trialCentre id="c41e21c4-4cb0-4193-820a-1e79457038eb">
+	  <name>University Hospital of Wales</name>
+	  <address>Heath Park</address>
+	  <city>Cardiff</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>CF14 4XW</zip>
+	  <rtsId>RWMBV@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="d16d1411-969a-4c6d-990e-4bd4af76c159">
+	  <name>Belfast City Hospital</name>
+	  <address>51 Lisburn Rd</address>
+	  <city>Belfast</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>BT9 7AB</zip>
+	  <rtsId>ZT00104@2.16.840.1.113883.2.1.3.10.2</rtsId>
+	</trialCentre>
+	<trialCentre id="4f97fe35-b6f7-45aa-a9e7-41be22a51f0d">
+	  <name>The Walton Centre</name>
+	  <address>Lower Ln
+Fazakerley</address>
+	  <city>Liverpool</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>L9 7LJ</zip>
+	</trialCentre>
+	<trialCentre id="b39b7bdc-d89f-4488-9455-f2d1f9c53c0d">
+	  <name>Charing Cross Hospital</name>
+	  <address>Fulham Palace Road</address>
+	  <city>London</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>W6 8RF</zip>
+	  <rtsId>RDU92@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="892e2270-a291-44a6-8b8d-95131a99a989">
+	  <name>University Hospital Southampton</name>
+	  <address>Tremona Road</address>
+	  <city>Southampton</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>SO16 6YD</zip>
+	</trialCentre>
+	<trialCentre id="ade313b8-f1e5-4643-bb4d-07e3aa13b6f4">
+	  <name>Royal Infirmary of Edinburgh at Little France</name>
+	  <address>51 Little France Crescent
+Old Dalkeith Road
+Edinburgh</address>
+	  <city>Lothian</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>EH16 4SA</zip>
+	  <rtsId>S314H@2.16.840.1.113883.2.1.3.8.2.16.2</rtsId>
+	</trialCentre>
+	<trialCentre id="f2d5f3ac-e756-4880-9a4c-77fb9d937723">
+	  <name>King's College Hospital</name>
+	  <address>Denmark Hill</address>
+	  <city>London</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>SE5 9RS</zip>
+	  <rtsId>5LD98@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="be88d6a1-bafa-4fe2-8eb4-5dfb29153081">
+	  <name>Lewisham Hospital</name>
+	  <address>Lewisham High Street</address>
+	  <city>London</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>SE13 6LH</zip>
+	  <rtsId>RAV04@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="7d8416ad-13d7-4bc1-a6c5-b94e0d8bc202">
+	  <name>Queen Elizabeth University Hospital</name>
+	  <address>1345 Govan Road</address>
+	  <city>Glasgow</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>G51 4TF</zip>
+	  <rtsId>G405H@2.16.840.1.113883.2.1.3.8.2.16.2</rtsId>
+	</trialCentre>
+	<trialCentre id="4fbb9cc3-b1b0-4a3e-b168-c309032a92fc">
+	  <name>Queens Hospital</name>
+	  <address>Rom Valley Way</address>
+	  <city>Romford</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>RM7 0AG</zip>
+	  <rtsId>V43559@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="342e6ef3-c2cd-4bcc-b405-e631e81e1dba">
+	  <name>Leeds General Infimary</name>
+	  <address>Great George Street</address>
+	  <city>Leeds</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>LS1 3EX</zip>
+	  <rtsId>D6A2L@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="e5fab218-6128-4872-ac93-e4c140df7511">
+	  <name>Royal Devon &amp; Exeter Hospital (wonford)</name>
+	  <address>Barrack Road</address>
+	  <city>Exeter</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>EX2 5DW</zip>
+	  <rtsId>RH801@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="950af7cd-d83f-43b6-a508-b895c7e91659">
+	  <name>North Tyneside General Hospital</name>
+	  <address>Rake Lane</address>
+	  <city>North Shields</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>NE29 8NH</zip>
+	  <rtsId>RTDAL@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="e2437ffe-591a-4918-96bb-4a050207cb2a">
+	  <name>Christchurch Hospital</name>
+	  <address>Fairmile Road</address>
+	  <city>Christchurch</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>BH23 2JX</zip>
+	  <rtsId>RNZ15@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="9d8e5c7f-b2db-4f2e-b9a1-0fe0f982e2a5">
+	  <name>Poole Hospital</name>
+	  <address>Longfleet Road</address>
+	  <city>Poole</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>BH15 2JB</zip>
+	  <rtsId>5QN33@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="8350c1ed-47c6-4c04-92b7-52254c3cb862">
+	  <name>Queen Elizabeth Hospital</name>
+	  <address>Sheriff Hill</address>
+	  <city>Gateshead</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>NE9 6SX</zip>
+	  <rtsId>RR7EN@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="4a8891d3-dd9f-479f-87fc-f915fabeab85">
+	  <name>Ipswich Hospital</name>
+	  <address>Heath Road</address>
+	  <city>Ipswich</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>IP4 5PD</zip>
+	  <rtsId>RWN59@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="38e42093-40cf-4a57-94cf-8f60048a8b38">
+	  <name>Wrexham Maelor Hospital</name>
+	  <address>Croesnewydd Road
+Wrexham Technology Park</address>
+	  <city>Wrexham</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>LL13 7TD</zip>
+	  <rtsId>7A1A4@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="e27c6915-99f4-48b9-a288-693febc3919e">
+	  <name>North West Wales NHS Trust</name>
+	  <address>Ysbyty Gwynedd
+Penrhosgarnedd</address>
+	  <city>Bangor</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>LL57 2PW</zip>
+	  <rtsId>RT7@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="f6381e1e-1c1a-43ca-be72-18e0ec1803dd">
+	  <name>Scarborough Hospital</name>
+	  <address>Woodlands Drive</address>
+	  <city>Scarborough</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>YO12 6QL</zip>
+	  <rtsId>RR854@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="29c5b7b8-5328-4c6b-b99e-7935de41481c">
+	  <name>Royal Shrewsbury Hospital</name>
+	  <address>Mytton Oak Road</address>
+	  <city>Shrewsbury</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>SY3 8XQ</zip>
+	  <rtsId>RXWAS@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="c4718950-95bc-4f11-961e-7dff354e9001">
+	  <name>St Peters Hospital</name>
+	  <address>Guildford Road</address>
+	  <city>Chertsey</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>KT16 0PZ</zip>
+	  <rtsId>RVRA3@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="bc2b7fa8-a0c5-4a66-9ca9-b3698be8f04b">
+	  <name>University Hospitals Coventry and Warwickshire NHS Trust</name>
+	  <address>Walsgrave General Hospital
+Clifford Bridge Road</address>
+	  <city>Coventry</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>CV2 2DX</zip>
+	  <rtsId>RKB@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="f26781ce-f7c0-48b9-af8c-06c0ad4d3d6b">
+	  <name>William Harvey Hospital</name>
+	  <address>Kennington Road
+Willesborough</address>
+	  <city>Ashford</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>TN24 0LZ</zip>
+	  <rtsId>RWF37@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="72b0023e-bd41-44dd-aab5-705c38878616">
+	  <name>Yeovil District Hospital</name>
+	  <address>Higher Kingston</address>
+	  <city>Yeovil</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>BA21 4AT</zip>
+	</trialCentre>
+	<trialCentre id="462a888c-4972-49e8-8d8d-1852a2f0cd34">
+	  <name>Musgrove Park Hospital</name>
+	  <address>Musgrove Park Hospital</address>
+	  <city>Taunton</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>TA1 5DA</zip>
+	  <rtsId>NT489@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+	<trialCentre id="2092c1f1-2cfe-47f4-baf3-f3a62628d3d5">
+	  <name>Norfolk &amp; Norwich University Hospital</name>
+	  <address>Colney Lane
+Colney</address>
+	  <city>Norwich</city>
+	  <state/>
+	  <country>United Kingdom</country>
+	  <zip>NR4 7UY</zip>
+	  <rtsId>RM102@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
+	</trialCentre>
+      </trialCentres>
+      <participantTypes>
+	<participantType>Patient</participantType>
+      </participantTypes>
+      <inclusion>1. Diagnosis by neurologist, movement disorders specialist or appropriately experienced clinician of clinically established or clinically probable PD in the clinician’s opinion. In the presence of any diagnostic doubt, the Movement Disorder Society diagnostic criteria will be applied.
+2. Diagnosed with Parkinson’s disease at age 30 years or older, no upper age limit.
+3. Currently on Parkinson’s medication (levodopa-containing preparations or dopamine agonists, used either as single agents or in combination) for at least 2 months prior to the screening visit.
+4. Female participants who are women of child-bearing potential (WOCP) must have confirmation of a negative pregnancy test at the screening visit. See Protocol Table 1 and Section 6.6.4 for details on pregnancy testing.
+5. Female participants who are WOCP and male participants with partners who are WOCP must be taking appropriate contraceptive treatment(s). See Protocol Section 6.6.4 for details on pregnancy and Appendix 1 for details on acceptable contraception.
+6. Documented informed consent.
+7. Eligible for at least one of the active treatment arms (see treatment-specific exclusions). 
+8. Randomisation should ideally take place within 3 weeks of the screening visit but no later than 4 weeks after the screening visit.
+9. If a participant is being re-randomised into the trial, additional timing of entry requirements must also be met:
+9.1. For participants re-randomised after completing 36 months’ follow-up and the arm was not closed due to lack of activity, a 26-week washout period from the last dose of IMP must be completed before their screening visit. If the primary analysis indicates that the IMP was ineffective then this washout period can be reduced to 6 weeks. 
+9.2. For participants being re-randomised following treatment arm termination due to lack of activity, a 6-week washout period from their last dose of IMP must be completed prior to screening assessment.</inclusion>
+      <ageRange>Adult</ageRange>
+      <lowerAgeLimit unit="years" value="30.0">30 Years</lowerAgeLimit>
+      <gender>All</gender>
+      <targetEnrolment>1200</targetEnrolment>
+      <totalFinalEnrolment/>
+      <exclusion>1. Diagnosis or suspicion of other cause for parkinsonism such as atypical parkinsonism, dystonic tremor, essential tremor, or drug-induced parkinsonism.
+2. Known carriers of recessive PD gene mutations PRKN, PINK1 or DJ1 (based on previous medical tests/notes).
+3. Clinical diagnosis of dementia or MoCA &lt;21 at screening visit.
+4. Currently in another ongoing interventional trial or exposure to any IMP within an experimental interventional trial within 6 months prior to screening visit (exception for EJS ACT-PD participants that are being re-randomised due to treatment arm termination following lack of activity as only a 6-week washout period is required.)
+5. Unable or unwilling to comply with study requirements.
+6. Diagnosis of clinically significant depression or &gt;14 on PHQ-9 at screening visit.
+7. Current suicidal ideation within one year prior to the screening visit as evidenced by answering "yes" to Questions 4 or 5 on the suicidal ideation portion of the Columbia-Suicide Severity Rating Scale (C-SSRS).
+8. Previous brain surgery or on a waiting list for brain surgery including deep brain stimulation and/or currently taking or on a waiting list for advanced therapies for Parkinson’s disease (such as any infusion therapy).
+9.  Monotherapy with monoamine oxidase-B inhibitor (MAO-BI).
+10. Previous exposure to any of the currently recruiting IMPs within 6 months prior to the screening visit or previous intolerance of any of the IMPs. 
+11. Participant has any concurrent medical condition, abnormal laboratory tests, progressive neurological disorder or uncontrolled, clinically significant systemic disease that, in the opinion of the Investigator, could cause study participation to be detrimental to the participant (e.g., end-stage renal failure, severe heart failure, unstable angina, uncontrolled hypertension or uncontrolled orthostatic hypotension, severe liver disease, uncontrolled diabetes, or severe anaemia).
+12.	Pregnant or breastfeeding or intending to become pregnant during the study or within 70 days after the final dose of the study drug.
+13. Confirmed diagnosis of cancer and is requiring active management of that cancer and/or in the view of the local team, the diagnosis and/ or its treatment may compromise their ability to remain participating in the trial for 36 months or tolerate any of the active treatments.
+14. Participants with hepatobiliary disorders or abnormal liver function tests (ALT or AST &gt;2x the upper limit of normal) at the screening visit. 
+15.	Participants with a history of alcohol/drug abuse/dependence within the 3 years prior to the screening visit.
+16. Participants with either of the following:  
+16.1. Sitting systolic blood pressure (SBP) less than 100 mmHg or sitting diastolic blood pressure (DBP) less than 50 mmHg, irrespective of symptoms
+16.2.1. Orthostatic hypotension defined as any of the following:
+16.2.2. Decrease in BP &gt;20 mmHg systolic or &gt;10 mmHg diastolic on supine to standing, associated with clinical symptoms
+16.2.3. Decrease in BP &gt;30 mmHg systolic and/or BP &gt;15 mmHg diastolic on supine to standing regardless of symptoms 
+16.2.4. If the lowest BP on standing is less than 100 mmHg or lowest diastolic on standing is less than 50 mmHg
+If, in the assessing clinician’s opinion, the postural BP drop is attributable to transient/reversible factors (e.g. related to the use of antihypertensives, dehydration, elevated room temperature, postprandial state), one repeated orthostatic BP assessment is allowed once those factors are addressed; additional re-screening will be allowed if the participant has their hypotension/orthostatic hypotension treated.
+
+TREATMENT SPECIFIC EXCLUSION CRITERIA
+TELMISARTAN
+1. Participants currently taking sartans (AT1 angiotensin receptor antagonists), aliskiren, ACE inhibitors or potassium-sparing diuretics.
+2. Participants with a known hypersensitivity or intolerance to sartans (AT1RAs)
+3. Participants with a history of angioedema.
+4. Participants with known aortic or mitral stenosis that the investigator judges to make telmisartan use potentially unsafe.
+5. Participants with known renal artery stenosis.
+6. Participants with hyperkalaemia (serum potassium (K+) level of ≥ 5.5 mmol/l). If hyperkalaemia is identified, one re-screening will be allowed, either within 4 weeks or after the identification and treatment of precipitants.
+7. Participants currently taking lithium or taken within the previous 6 months.
+
+TERAZOSIN
+1. Participants currently using alpha blockers other than tamsulosin (alfuzosin, silodosin, prazosin, terazosin, and doxazosin), including natural supplements with this action (e.g. yohimbine).
+2. Participants with rare hereditary problems of galactose intolerance, total lactase deficiency or glucose-galactose malabsorption.
+3. Participants with a known sensitivity to quinazolines e.g. alfuzosin, silodosin, prazosin, terazosin, doxazosin, erlotinib, gefitinib, afatinib, lapatinib, and vandetanib.</exclusion>
+      <recruitmentStart>2025-09-01T00:00:00.000Z</recruitmentStart>
+      <recruitmentEnd>2029-06-30T00:00:00.000Z</recruitmentEnd>
+      <recruitmentStartStatusOverride/>
+      <recruitmentStatusOverride/>
+    </participants>
+    <conditions>
+      <condition>
+	<description>Parkinson’s disease (PD)</description>
+	<diseaseClass1>Nervous System Diseases</diseaseClass1>
+	<diseaseClass2/>
+      </condition>
+    </conditions>
+    <interventions>
+      <intervention>
+	<description>The EJS ACT-PD trial has three treatment arms: placebo, telmisartan and terazosin. All treatment arms are in addition to Standard of Care.
+
+As EJS ACT-PD is a blinded trial, all participants will receive the same dosing regime and assessment schedule. Following randomisation, participants will complete a 5-week titration phase which involves taking one capsule a day. During the titration phase (weeks 1 to 5) participants will be dispensed one bottle per week during the titration phase labelled 1, 2, 3 etc to correspond with the week. The bottles will contain the following IMP doses:
+Placebo – Week 1-5: one capsule per day 
+Telmisartan – Week 1-3: one 20 mg capsule per day; Week 4-5: one 40 mg capsule per day
+Terazosin – Week 1: one 1 mg capsule per day; Week 2: one 2 mg capsule per day; Week 3: one 3 mg capsule per day; Week 4: one 4 mg capsule per day; Week 5: one 5 mg capsule per day
+
+If the participant tolerates the IMP dose during the titration phase, they will continue onto the treatment phase, if they are happy to do so. The treatment phase also involves taking one capsule per day for up to 36 months at the following doses: 
+Placebo – one capsule per day
+Telmisartan – one 40 mg capsule per day
+Terazosin – one 5 mg capsule per day
+The screening visit will be conducted in person with all remaining visits being completed remotely, if the participant wishes. Following the remote baseline appointment, participants will be contacted twice yearly for follow-up visits with additional telephone calls during the titration phase, at 3 months and 9 months during the first year of participation. The study visits will include questionnaires, an assessment of Parkinson’s symptoms and a discussion of any side effects.
+
+The EJS ACT-PD Trial will use randomised double-blind, placebo-controlled comparisons. Participants will be randomly assigned equally to each of the actively recruiting treatment arms for which they are eligible. Randomisation will use minimisation. For participants eligible for both active treatment arms, the ratio between the three arms will be 1:1:1. If participants are ineligible for a specific active treatment arm, they can be assessed for eligibility and randomised to other arms for which they are eligible. For participants eligible for only one active treatment arm, the ratio between that arm and the placebo arm will be 1:1. 
+
+Participants will be randomised at each site via the EJS ACT-PD eDC System, a centrally managed system hosted by MRC CTU, accessible to authorised members of the research teams at recruiting site using a web-based interface. Eligibility and consent will be verified before each participant is randomised and is then confirmed within the system at the time of randomisation.</description>
+	<interventionType>Drug</interventionType>
+	<phase>Phase III</phase>
+	<drugNames>Telmisartan, terazosin</drugNames>
+      </intervention>
+    </interventions>
+    <results>
+      <ipdSharingStatement>Research teams may approach the MRC CTU with a formal data-sharing request detailing the specific requirement, proposed research, qualification of researchers and publication plan if they are interested in using EJS ACT-PD data. The request will be reviewed by the trial committees. 
+
+Data and/or samples will be available for sharing following the end of a trial arm and the unblinding of participants. Researchers wishing to access the EJS ACT-PD Trial data should contact the Trial Management Group in the first instance. Following trial completion, requests for data and/ or sample sharing will be reviewed by an EJS ACT-PD access committee which will include the trial’s Chief Investigators.
+
+Data and/ or samples will be shared during the trial according to the CTU’s controlled access approach, based on the following principles: 
+1. No data and/or samples should be released that would compromise an ongoing trial or study. 
+2. There must be a strong scientific or other legitimate rationale for the data and /or samples to be used for the requested purpose. 
+3. Investigators who have invested time and effort into developing a trial or study should have a period of exclusivity in which to pursue their aims with the data and /or samples before key trial data are made available to other researchers. 
+4. The resources required to process requests should not be underestimated, particularly successful requests which lead to preparing data for release. Therefore, adequate resources must be available in order to comply in a timely manner or at all, and the scientific aims of the study must justify the use of such resources. 
+5. Data and/ or sample exchange complies with Information Governance and Data Security Policies in all of the relevant countries. 
+6. Data and/ or sample exchange is only provided following the execution of a valid material transfer agreement (MTA). 
+Anonymised study data will be made available on appropriate data-sharing platforms. </ipdSharingStatement>
+      <dataPolicies>
+	<dataPolicy>Available on request</dataPolicy>
+      </dataPolicies>
+      <publicationDetails/>
+      <publicationStage/>
+      <basicReport/>
+      <plainEnglishReport/>
+    </results>
+    <outputs>
+      <output id="0e4c6605-a6a3-4bb9-ae97-b01b03337b27" outputType="trialwebsite" artefactType="ExternalLink" dateCreated="" dateUploaded="2025-09-04T00:00:00.000Z" peerReviewed="false" patientFacing="false" createdBy="">
+	<externalLink url="https://www.ejsactpd.com/"/>
+	<description/>
+	<productionNotes/>
+      </output>
+      <output id="96873449-ca16-4ad2-af1b-d547b8c1293a" outputType="trialwebsite" artefactType="ExternalLink" dateCreated="2025-11-11T00:00:00.000Z" dateUploaded="2025-11-11T00:00:00.000Z" peerReviewed="false" patientFacing="true" createdBy="Migration">
+	<externalLink url="https://www.ejsactpd.com/"/>
+	<description>Study website</description>
+	<productionNotes>Migrated from study website field</productionNotes>
+      </output>
+    </outputs>
+    <parties xmlns:ssb="http://www.67bricks.com/isrctn/functions">
+      <funderId>0f23bcb9-b43b-4bf8-85fe-0efe0166949e</funderId>
+      <contactId>88feb389-7af8-4735-8112-81d48a2f6321</contactId>
+      <contactId>0b619218-0bd9-42a7-874d-ca87da442278</contactId>
+      <contactId>5255e23d-4e3f-4f9b-8895-6144fa0b74c0</contactId>
+      <sponsorId>aeeca261-0f97-452a-8090-b1c7c6be885e</sponsorId>
+    </parties>
+    <miscellaneous xmlns:ssb="http://www.67bricks.com/isrctn/functions">
+      <ipdSharingPlan>Yes</ipdSharingPlan>
+    </miscellaneous>
+    <attachedFiles/>
+  </trial>
+  <contact id="88feb389-7af8-4735-8112-81d48a2f6321">
+    <title>Dr</title>
+    <forename>EJS ACT-PD Trial Team</forename>
+    <surname> at MRC CTU </surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Public</contactType>
+      <contactType>Scientific</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>MRC CTU at UCL ICTM 2nd Floor
+90 High Holborn</address>
+      <city>London</city>
+      <state/>
+      <country>United Kingdom</country>
+      <zip>WC1V 6LJ</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">-</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">mrcctu.ejsactpd@ucl.ac.uk</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <contact id="0b619218-0bd9-42a7-874d-ca87da442278">
+    <title>Prof</title>
+    <forename>Thomas</forename>
+    <surname>Foltynie</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Principal investigator</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>250 Euston Road</address>
+      <city>London</city>
+      <state/>
+      <country>United Kingdom</country>
+      <zip>NW1 2PG</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">+44 (0)203 4488726</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">t.foltynie@ucl.ac.uk</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <contact id="5255e23d-4e3f-4f9b-8895-6144fa0b74c0">
+    <title>Prof</title>
+    <forename>Camille </forename>
+    <surname>Carroll</surname>
+    <orcid/>
+    <contactTypes>
+      <contactType>Principal investigator</contactType>
+    </contactTypes>
+    <contactDetails>
+      <address>Translational and Clinical Research Institute
+Faculty of Medical Sciences
+Newcastle University
+Clinical Ageing Research Unit
+Campus for Ageing and Vitality</address>
+      <city>Newcastle upon Tyne</city>
+      <state/>
+      <country>United Kingdom</country>
+      <zip>NE4 5PL</zip>
+      <telephone xmlns:ssb="http://www.67bricks.com/isrctn/functions">-</telephone>
+      <email xmlns:ssb="http://www.67bricks.com/isrctn/functions">camille.carroll@newcastle.ac.uk</email>
+    </contactDetails>
+    <privacy>Public</privacy>
+  </contact>
+  <sponsor id="aeeca261-0f97-452a-8090-b1c7c6be885e">
+    <organisation>University College London</organisation>
+    <sponsorType>University/education</sponsorType>
+    <rorId>https://ror.org/02jx3x895</rorId>
+    <commercialStatus>Non-commercial</commercialStatus>
+  </sponsor>
+  <funder id="0f23bcb9-b43b-4bf8-85fe-0efe0166949e">
+    <name>National Institute for Health and Care Research</name>
+    <fundRef>http://dx.doi.org/10.13039/501100000272</fundRef>
+  </funder>
+</fullTrial></allTrials>

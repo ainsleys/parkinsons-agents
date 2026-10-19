@@ -1,5 +1,5 @@
 # Registries, cohorts and testing programs that onboard people into Parkinson's research.
-# Schema: data/SCHEMA.md
+# Schema: data/SCHEMA.md. Navigation, not medical advice. Unknown is null or "unknown", never guessed.
 
 - id: pd_generation
   name: PD GENEration
@@ -9,19 +9,25 @@
     - Confirmed Parkinson's diagnosis
     - Age 18 or older
     - Prior genetic testing elsewhere does not exclude
-  geography: [US, Canada, Puerto Rico, Dominican Republic, Chile, Mexico, Israel]
-  burden: One blood sample (at home or at a site), one survey, one genetic counseling session
+  countries: [United States, Canada, Puerto Rico, Dominican Republic, Chile, Mexico, Israel]
+  at_home: true (United States, Canada, Puerto Rico, Dominican Republic only; in-person sites elsewhere)
+  cost: Free, including genetic counseling
+  genes: [GBA1, LRRK2, PRKN, SNCA, PINK1, PARK7, VPS35]
+  burden: One blood sample (at-home Tasso+ kit or site visit), one short survey, one genetic counseling session
   gives_participant:
-    - 7-gene panel result
+    - Seven-gene panel result from whole genome sequencing
     - Genetic counseling
   excludes_from_other_studies: false
+  how_to_join: Enroll online at https://www.parkinson.org/advancing-research/our-research/pdgeneration, or email Genetics@Parkinson.org for a virtual appointment
   registry_id: NCT04057794
   status: recruiting
   url: https://www.parkinson.org/advancing-research/our-research/pdgeneration
+  yield_note: About 12 to 13 percent of participants carry a reportable variant (12.2 percent per the Foundation FAQ; about 13 percent in the 2026 preprint); about 18 percent with early onset, high-risk ancestry or an affected first-degree relative
   verified: 2026-10-19
   sources:
     - https://www.parkinson.org/advancing-research/our-research/pdgeneration/faq
     - https://www.medrxiv.org/content/10.64898/2026.05.20.26353696v1.full
+    - https://www.neurologylive.com/view/expanding-access-parkinson-disease-research-through-at-home-genetic-testing
 
 - id: ppmi_clinic
   name: PPMI in-clinic cohort (Parkinson's Precision Medicine Initiative, formerly Progression Markers Initiative)
@@ -30,19 +36,24 @@
   eligibility:
     - Recently diagnosed PD not yet on medication
     - People with REM sleep behavior disorder
-    - Known carriers of PD-linked genetic variants
+    - Known carriers of PD-linked genetic variants (LRRK2, GBA1, SNCA and others)
     - Control volunteers
     - Ashkenazi Jewish participants specifically sought
-  geography: [US, and about 50 sites in 12 countries]
-  burden: Visits every 6 to 12 months; lumbar puncture, DaTscan, MRI, blood
+  countries: [United States, and about 50 sites in 12 countries; the site list is at https://www.ppmi-info.org/ and is not reproduced here]
+  at_home: false
+  cost: Free; study procedures are provided at no cost
+  genes: null
+  burden: Visits every 6 to 12 months; lumbar puncture, DaTscan, MRI, blood. MRI matters for anyone with an implanted device.
   gives_participant:
     - CSF alpha-synuclein seed amplification result
     - Dopaminergic imaging
-    - Access to site coordinators who know local trial openings
+    - Site coordinators who know which local drug trials are opening
   excludes_from_other_studies: false
+  how_to_join: https://michaeljfox.org/ppmi, then contact the nearest site
   registry_id: null
   status: recruiting
   url: https://michaeljfox.org/ppmi
+  timing_note: The untreated-at-enrollment arm is a window that closes once medication starts
   verified: 2026-10-19
   sources:
     - https://michaeljfox.org/ppmi
@@ -53,11 +64,15 @@
   sponsor: Michael J. Fox Foundation
   type: online_registry
   eligibility:
-    - Age 18 or older in the US, with or without Parkinson's
-  geography: [US]
+    - Age 18 or older in the United States, with or without Parkinson's
+  countries: [United States]
+  at_home: true
+  cost: Free
+  genes: null
   burden: Online questionnaires
   gives_participant: []
   excludes_from_other_studies: false
+  how_to_join: https://michaeljfox.org/ppmi (myPPMI platform)
   registry_id: NCT05065060
   status: recruiting (estimated primary completion December 2041)
   url: https://michaeljfox.org/ppmi
@@ -71,11 +86,15 @@
   type: observational_cohort
   eligibility:
     - Over 40 without a Parkinson's diagnosis, or over 30 and diagnosed within the past 7 years
-  geography: [US, Canada]
+  countries: [United States, Canada]
+  at_home: true
+  cost: Free
+  genes: null
   burden: One mailed scratch-and-sniff test, results entered online
   gives_participant:
     - Possible invitation to in-clinic assessment
   excludes_from_other_studies: false
+  how_to_join: Request a kit via https://michaeljfox.org/ppmi (mysmelltest.org)
   registry_id: null
   status: recruiting
   url: https://michaeljfox.org/ppmi
@@ -88,11 +107,15 @@
   sponsor: Michael J. Fox Foundation
   type: online_registry
   eligibility:
-    - People with Parkinson's and family members
-  geography: [global, online]
+    - People with Parkinson's and family members, any country
+  countries: [online]
+  at_home: true
+  cost: Free
+  genes: null
   burden: Online questionnaires every 90 days plus one-time topic surveys
   gives_participant: []
   excludes_from_other_studies: false
+  how_to_join: https://foxinsight.michaeljfox.org/
   registry_id: null
   status: active (about 56,000 participants, October 2026); relationship to myPPMI not confirmed
   url: https://foxinsight.michaeljfox.org/
@@ -107,14 +130,19 @@
   eligibility:
     - Formal Parkinson's diagnosis
     - Prioritising ages 35 to 75 diagnosed within 7 years
-  geography: [UK]
+  countries: [United Kingdom]
+  at_home: true
+  cost: Free
+  genes: [LRRK2, GBA1, and others; full panel not published]
   burden: Online questionnaire, saliva kit by post
   gives_participant:
     - Genetic result and recontact for trials
   excludes_from_other_studies: false
+  how_to_join: https://www.parkinsons.org.uk/node/1011021
   registry_id: null
   status: recruiting
   url: https://www.parkinsons.org.uk/node/1011021
+  turnaround: unknown
   verified: 2026-10-19
   sources:
     - https://www.parkinsons.org.uk/node/1011021
@@ -125,11 +153,15 @@
   type: matching_service
   eligibility:
     - Anyone, with or without Parkinson's
-  geography: [US primarily]
+  countries: [United States primarily]
+  at_home: true
+  cost: Free
+  genes: null
   burden: Build a profile online
   gives_participant:
     - Trial matches by location and history
   excludes_from_other_studies: false
+  how_to_join: https://www.michaeljfox.org/trial-finder
   registry_id: null
   status: active
   url: https://www.michaeljfox.org/trial-finder

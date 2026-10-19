@@ -1,0 +1,705 @@
+# Trial site locations pulled from registries on 2026-10-19 by scripts/pull_registry.py.
+# Do not edit by hand; re-run the script. Site status is the registry's per-site status where given.
+
+NCT04127578:
+  registry_status: ACTIVE_NOT_RECRUITING
+  registry_last_updated: 2026-10-13
+  site_count: 15
+  countries:
+    "United States": 11
+    "Israel": 4
+  sites:
+    - {facility: "Shaare Zedek Medical Center, 12 Shmuel Biet Street", city: "Jerusalem", state: null, country: "Israel", status: null}
+    - {facility: "Hadassah Medical Center, Hadassah Ein Kerem, Dept. of Neurology, P.O. Box 12000", city: "Jerusalem", state: null, country: "Israel", status: null}
+    - {facility: "Sheba Medical Center, Tel Hashomer", city: "Ramat Gan", state: null, country: "Israel", status: null}
+    - {facility: "Tel Aviv Sourasky Medical Center, 6 Weizmann St.", city: "Tel Aviv", state: null, country: "Israel", status: null}
+    - {facility: "Mayo Clinic, 13400 E. Shea Boulevard", city: "Scottsdale", state: "Arizona", country: "United States", status: null}
+    - {facility: "Esperanza Clinical, 25220 Hancock Avenue", city: "Murrieta", state: "California", country: "United States", status: null}
+    - {facility: "Rocky Mountain Clinical Research - CenExel - PPDS, 701 East Hampden Avenue Suite 510", city: "Englewood", state: "Colorado", country: "United States", status: null}
+    - {facility: "K2 Medical Research, 101 Southhall Lane, Suite 150", city: "Maitland", state: "Florida", country: "United States", status: null}
+    - {facility: "PPD, 100 West Gore Street, Suite 202", city: "Orlando", state: "Florida", country: "United States", status: null}
+    - {facility: "Northwestern University Feinberg School of Medicine, Dept. of Neurology, Parkinson's Disease & Movement Disorders Center, 710 N. Lake Shore Drive, 11th Floor", city: "Chicago", state: "Illinois", country: "United States", status: null}
+    - {facility: "Mayo Clinic, 200 First Street SW", city: "Rochester", state: "Minnesota", country: "United States", status: null}
+    - {facility: "Mount Sinai Beth Israel, 10 Union Square East, Suite 5H", city: "New York", state: "New York", country: "United States", status: null}
+    - {facility: "Joan and Sanford I. Weill Department of Medicine, 525 E 68th Street", city: "New York", state: "New York", country: "United States", status: null}
+    - {facility: "Hospital of the University of Pennsylvania, 330 S. 9th Street", city: "Philadelphia", state: "Pennsylvania", country: "United States", status: null}
+    - {facility: "Vanderbilt University Medical Center, 1500 21st Avenue South Suite 2600", city: "Nashville", state: "Tennessee", country: "United States", status: null}
+
+NCT05287503:
+  registry_status: COMPLETED
+  registry_last_updated: 2025-08-14
+  site_count: 3
+  countries:
+    "Italy": 3
+  sites:
+    - {facility: "Fondazione IRCCS Istituto Neurologico Carlo Besta", city: "Milan", state: null, country: "Italy", status: null}
+    - {facility: "University of Campania \"Luigi Vanvitelli\"", city: "Naples", state: null, country: "Italy", status: null}
+    - {facility: "IRCCS National Neurological Institute \"C. Mondino\" Foundation", city: "Pavia", state: null, country: "Italy", status: null}
+
+NCT05348785:
+  registry_status: COMPLETED
+  registry_last_updated: 2026-06-04
+  site_count: 113
+  countries:
+    "United States": 33
+    "Germany": 12
+    "Spain": 11
+    "Italy": 10
+    "France": 9
+    "United Kingdom": 9
+    "Japan": 6
+    "Poland": 6
+    "Canada": 5
+    "China": 4
+    "Israel": 3
+    "Netherlands": 3
+    "Austria": 2
+  sites:
+    - {facility: "Klinik Ottakring", city: "Vienna", state: null, country: "Austria", status: null}
+    - {facility: "Medizinische Universität", city: "Innsbruck", state: "Tyrol", country: "Austria", status: null}
+    - {facility: "University of Calgary", city: "Calgary", state: "Alberta", country: "Canada", status: null}
+    - {facility: "True North Clinical Research", city: "Halifax", state: "Nova Scotia", country: "Canada", status: null}
+    - {facility: "Toronto Western Hospital", city: "Toronto", state: "Ontario", country: "Canada", status: null}
+    - {facility: "CHUM Centre de Recherche", city: "Montreal", state: "Quebec", country: "Canada", status: null}
+    - {facility: "Montreal Neurological Institute", city: "Montreal", state: "Quebec", country: "Canada", status: null}
+    - {facility: "Xuanwu Hospital Capital Medical University", city: "Beijing", state: "Beijing Municipality", country: "China", status: null}
+    - {facility: "Beijing Hospital", city: "Beijing", state: "Beijing Municipality", country: "China", status: null}
+    - {facility: "The Second Affiliated Hospital of Soochow University", city: "Suzhou", state: "Jiangsu", country: "China", status: null}
+    - {facility: "West China Hospital, Sichuan University", city: "Chengdu", state: "Sichuan", country: "China", status: null}
+    - {facility: "Groupe Hospitalier Pitie-Salpetriere", city: "Paris", state: null, country: "France", status: null}
+    - {facility: "Hopital Henri Mondor", city: "Paris", state: null, country: "France", status: null}
+    - {facility: "Hôpital de la Timone", city: "Marseille", state: "Bouches-du-Rhône", country: "France", status: null}
+    - {facility: "Hopital Purpan", city: "Toulouse", state: "Haute Garonne", country: "France", status: null}
+    - {facility: "Hopital Gui de Chauliac", city: "Montpellier", state: "Herault", country: "France", status: null}
+    - {facility: "CHU Rennes - Hopital Pontchaillou", city: "Rennes", state: "Ille Et Vilaine", country: "France", status: null}
+    - {facility: "CHU Nantes - Hopital Nord Laën", city: "Loire-Atlantique", state: "Loire-Atlantique", country: "France", status: null}
+    - {facility: "CHU Clermont Ferrand - Hopital Gabriel Montpied", city: "Clermont-Ferrand", state: "Puy De Dome", country: "France", status: null}
+    - {facility: "Centre Hospitalier Universitaire de Lyon-Hospices Civils de Lyon-Hopital Pierre Wertheimer", city: "Bron", state: "Rhone", country: "France", status: null}
+    - {facility: "Universitaetsklinikum Tuebingen", city: "Tübingen", state: "Baden-Wurttemberg", country: "Germany", status: null}
+    - {facility: "Universitaetsklinikum Ulm", city: "Ulm", state: "Baden-Wurttemberg", country: "Germany", status: null}
+    - {facility: "Klinikum der Universität München", city: "Munich", state: "Bavaria", country: "Germany", status: null}
+    - {facility: "Klinikum rechts der Isar der TU Muenchen", city: "Munich", state: "Bavaria", country: "Germany", status: null}
+    - {facility: "Universitaetsklinikum Wuerzburg", city: "Würzburg", state: "Bavaria", country: "Germany", status: null}
+    - {facility: "Paracelsus-Elena-Klinik Kassel", city: "Kassel", state: "Hesse", country: "Germany", status: null}
+    - {facility: "Philipps University of Marburg", city: "Marburg", state: "Hesse", country: "Germany", status: null}
+    - {facility: "Medizinische Hochschule Hannover", city: "Hanover", state: "Lower Saxony", country: "Germany", status: null}
+    - {facility: "Katholisches Klinikum Bochum gGmbH", city: "Bochum", state: "North Rhine-Westphalia", country: "Germany", status: null}
+    - {facility: "Universitaetsklinikum Duesseldorf AoeR", city: "Düsseldorf", state: "North Rhine-Westphalia", country: "Germany", status: null}
+    - {facility: "Universitaetsklinikum Carl Gustav Carus TU Dresden", city: "Dresden", state: "Saxony", country: "Germany", status: null}
+    - {facility: "Universitaetsklinikum Schleswig-Holstein - Campus Luebeck", city: "Lübeck", state: "Schleswig-Holstein", country: "Germany", status: null}
+    - {facility: "Rabin Medical Center", city: "Petah Tikva", state: null, country: "Israel", status: null}
+    - {facility: "Center Chaim Sheba Medical Center", city: "Ramat Gan", state: null, country: "Israel", status: null}
+    - {facility: "Tel Aviv Sourasky Medical Center", city: "Tel Aviv", state: null, country: "Israel", status: null}
+    - {facility: "IRCCS-Institute of Neurological Sciences of Bologna", city: "Bologna", state: null, country: "Italy", status: null}
+    - {facility: "Azienda Ospedaliera Spedali", city: "Brescia", state: null, country: "Italy", status: null}
+    - {facility: "Azienda Ospedaliero Universitaria Policlinico 'Gaspare Rodolico - San Marco' (Presidio G. Rodolico)", city: "Catania", state: null, country: "Italy", status: null}
+    - {facility: "Ospedale Clinicizzato SS. Annu", city: "Chieti", state: null, country: "Italy", status: null}
+    - {facility: "Fondazione", city: "Milan", state: null, country: "Italy", status: null}
+    - {facility: "Ospedale San Raffaele", city: "Milan", state: null, country: "Italy", status: null}
+    - {facility: "AOU Luigi Vanvitelli", city: "Naples", state: null, country: "Italy", status: null}
+    - {facility: "AO Universitaria Pisana", city: "Pisa", state: null, country: "Italy", status: null}
+    - {facility: "IRCCS San Raffaele Pisana", city: "Roma", state: null, country: "Italy", status: null}
+    - {facility: "I.R.C.C.S. Neuromed", city: "Diego", state: "Centonze", country: "Italy", status: null}
+    - {facility: "NHO Asahikawa Medical Center", city: "Asahikawa-shi", state: null, country: "Japan", status: null}
+    - {facility: "Himeji Central", city: "Himeji-shi", state: null, country: "Japan", status: null}
+    - {facility: "Sendai Nishitaga National Hospital", city: "Sendai", state: null, country: "Japan", status: null}
+    - {facility: "Juntendo University", city: "Tokyo", state: null, country: "Japan", status: null}
+    - {facility: "Okinawa Prefectural Nanbu", city: "Haeburu", state: "Okinawa", country: "Japan", status: null}
+    - {facility: "Tazuke-kofukai Medical Research Institute Kitano Hospital", city: "Osaka", state: "Osaka", country: "Japan", status: null}
+    - {facility: "Brain Research Center Amsterdam", city: "Amsterdam", state: null, country: "Netherlands", status: null}
+    - {facility: "Radboudumc", city: "Nijmegen", state: null, country: "Netherlands", status: null}
+    - {facility: "Brain Research Center Zwolle B.V.", city: "Zwolle", state: null, country: "Netherlands", status: null}
+    - {facility: "Centrum Medyczne Neuromed", city: "Bydgoszcz", state: null, country: "Poland", status: null}
+    - {facility: "Nzoz Novo-Med", city: "Katowice", state: null, country: "Poland", status: null}
+    - {facility: "INSULA Centrum Badan Klinicznych", city: "Warsaw", state: null, country: "Poland", status: null}
+    - {facility: "MD Clinic Praga", city: "Warsaw", state: null, country: "Poland", status: null}
+    - {facility: "Instytut Zdrowia dr Boczarska-Jedynak sp.z.o.o, Sp.K", city: "Oświęcim", state: "Katowice", country: "Poland", status: null}
+    - {facility: "NeuroProtect Sp. z o.o.", city: "Warsaw", state: "Masovian Voivodeship", country: "Poland", status: null}
+    - {facility: "Complejo Hospitalario Universitario A Coruña", city: "A Coruña", state: null, country: "Spain", status: null}
+    - {facility: "Hospital de Cruces", city: "Barakaldo", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Universitari Vall d'Hebron", city: "Barcelona", state: null, country: "Spain", status: null}
+    - {facility: "Hospital de la Santa Creu i Sant Pau", city: "Barcelona", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Clinic de Barcelona", city: "Barcelona", state: null, country: "Spain", status: null}
+    - {facility: "Policlinica Gipuzkoa", city: "Donostia / San Sebastian", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Universitario de La Princesa", city: "Madrid", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Universitario Virgen del Rocio", city: "Seville", state: null, country: "Spain", status: null}
+    - {facility: "Hospital General de Catalunya", city: "Sant Cugat del Vallès", state: "Barcelona", country: "Spain", status: null}
+    - {facility: "Clinica Universidad de Navarra", city: "Pamplona", state: "Navarre", country: "Spain", status: null}
+    - {facility: "Hospital Universitario Marques", city: "Santanda", state: "Santanda", country: "Spain", status: null}
+    - {facility: "Ninewells Hospital", city: "Dundee", state: null, country: "United Kingdom", status: null}
+    - {facility: "University Hospitals Plymouth", city: "Plymouth", state: "Devon", country: "United Kingdom", status: null}
+    - {facility: "Re:Cognition Health Ltd (London)", city: "London", state: "Greater London", country: "United Kingdom", status: null}
+    - {facility: "Charing Cross Hospital", city: "London", state: "Greater London", country: "United Kingdom", status: null}
+    - {facility: "The National Hospital for Neurology & Neurosurgery", city: "London", state: "Greater London", country: "United Kingdom", status: null}
+    - {facility: "Salford Royal NHS Foundation Trust", city: "Salford", state: "Greater Manchester", country: "United Kingdom", status: null}
+    - {facility: "NeuroClin Limited", city: "Motherwell", state: "Strathclyde", country: "United Kingdom", status: null}
+    - {facility: "Newcastle University", city: "Newcastle upon Tyne", state: "Tyne and Wear", country: "United Kingdom", status: null}
+    - {facility: "Re:Cognition Health - Birmingham", city: "Birmingham", state: "West Midlands", country: "United Kingdom", status: null}
+    - {facility: "Mayo Clinic Arizona", city: "Phoenix", state: "Arizona", country: "United States", status: null}
+    - {facility: "Banner Sun Health Research Institute", city: "Sun City", state: "Arizona", country: "United States", status: null}
+    - {facility: "University of Southern California", city: "Los Angeles", state: "California", country: "United States", status: null}
+    - {facility: "Cedars Sinai", city: "Los Angeles", state: "California", country: "United States", status: null}
+    - {facility: "SC3 Research Group Inc.", city: "Pasadena", state: "California", country: "United States", status: null}
+    - {facility: "University of California San Francisco (UCSF)", city: "San Francisco", state: "California", country: "United States", status: null}
+    - {facility: "University of Colorado", city: "Aurora", state: "Colorado", country: "United States", status: null}
+    - {facility: "CenExel Rocky Mountain Clinical Research", city: "Englewood", state: "Colorado", country: "United States", status: null}
+    - {facility: "Invicro", city: "New Haven", state: "Connecticut", country: "United States", status: null}
+    - {facility: "Parkinson's Disease and Movement Disorders Center of Boca Raton", city: "Boca Raton", state: "Florida", country: "United States", status: null}
+    - {facility: "University of Miami", city: "Miami", state: "Florida", country: "United States", status: null}
+    - {facility: "Adventist Health System/Sunbelt, Inc.", city: "Orlando", state: "Florida", country: "United States", status: null}
+    - {facility: "USF Health Byrd Institute", city: "Tampa", state: "Florida", country: "United States", status: null}
+    - {facility: "Hawaii Pacific Neuroscience, LLC", city: "Honolulu", state: "Hawaii", country: "United States", status: null}
+    - {facility: "Northwestern University", city: "Chicago", state: "Illinois", country: "United States", status: null}
+    - {facility: "Rush University Medical Center", city: "Chicago", state: "Illinois", country: "United States", status: null}
+    - {facility: "University of Kansas Medical Center Research Institute, Inc.", city: "Kansas City", state: "Kansas", country: "United States", status: null}
+    - {facility: "Boston University Medical Center", city: "Boston", state: "Massachusetts", country: "United States", status: null}
+    - {facility: "Beth Israel Deaconess Medical Center", city: "Boston", state: "Massachusetts", country: "United States", status: null}
+    - {facility: "Massachusetts General Hospital", city: "Boston", state: "Massachusetts", country: "United States", status: null}
+    - {facility: "Quest Research Institute", city: "Farmington Hills", state: "Michigan", country: "United States", status: null}
+    - {facility: "Mount Sinai Beth Israel", city: "New York", state: "New York", country: "United States", status: null}
+    - {facility: "Weill Medical College of Cornell University", city: "New York", state: "New York", country: "United States", status: null}
+    - {facility: "Duke Movement Disorders Clinic", city: "Durham", state: "North Carolina", country: "United States", status: null}
+    - {facility: "The Cleveland Clinic Foundation", city: "Cleveland", state: "Ohio", country: "United States", status: null}
+    - {facility: "UPHS", city: "Philadelphia", state: "Pennsylvania", country: "United States", status: null}
+    - {facility: "Medical University of South Carolina", city: "Charleston", state: "South Carolina", country: "United States", status: null}
+    - {facility: "Neurology Clinic, PC", city: "Cordova", state: "Tennessee", country: "United States", status: null}
+    - {facility: "The Methodist Hospital Research Institute", city: "Houston", state: "Texas", country: "United States", status: null}
+    - {facility: "Central Texas Neurology Consultants", city: "Round Rock", state: "Texas", country: "United States", status: null}
+    - {facility: "Virginia Commonwealth University Department of Neurology", city: "Richmond", state: "Virginia", country: "United States", status: null}
+    - {facility: "Evergreen Hospital Medical Center", city: "Kirkland", state: "Washington", country: "United States", status: null}
+    - {facility: "Inland Northwest Research", city: "Spokane", state: "Washington", country: "United States", status: null}
+
+NCT05418673:
+  registry_status: TERMINATED
+  registry_last_updated: 2024-06-26
+  site_count: 27
+  countries:
+    "United States": 12
+    "Spain": 6
+    "France": 5
+    "Germany": 2
+    "Italy": 1
+    "United Kingdom": 1
+  sites:
+    - {facility: "Groupe Hospitalier Pitie-Salpetriere", city: "Paris", state: null, country: "France", status: null}
+    - {facility: "Hôpital de la Timone", city: "Marseille", state: "Bouches-du-Rhône", country: "France", status: null}
+    - {facility: "Hopital Purpan", city: "Toulouse", state: "Haute Garonne", country: "France", status: null}
+    - {facility: "CHU Rennes - Hopital Pontchaillou", city: "Rennes", state: "Ille Et Vilaine", country: "France", status: null}
+    - {facility: "Centre Hospitalier Universitaire de Lyon-Hospices Civils de Lyon-Hopital Pierre Wertheimer", city: "Bron", state: "Rhone", country: "France", status: null}
+    - {facility: "Universitaetsklinikum Carl Gustav Carus TU Dresden", city: "Dresden", state: null, country: "Germany", status: null}
+    - {facility: "Universitaetsklinikum Tuebingen", city: "Tübingen", state: "Baden-Wurttemberg", country: "Germany", status: null}
+    - {facility: "Fondazione IRCCS Istituto Neurologico Carlo Besta", city: "Milan", state: null, country: "Italy", status: null}
+    - {facility: "Hospital Universitari Vall d'Hebron", city: "Barcelona", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Clinic de Barcelona", city: "Barcelona", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Universitario Virgen del Rocio", city: "Seville", state: null, country: "Spain", status: null}
+    - {facility: "Hospital General de Catalunya", city: "Sant Cugat del Vallès", state: "Barcelona", country: "Spain", status: null}
+    - {facility: "Hospital Universitario Marques de Valdecilla", city: "Santander", state: "Cantabria", country: "Spain", status: null}
+    - {facility: "Hospital Universitario Donostia", city: "Donostia / San Sebastian", state: "Guipuzcoa", country: "Spain", status: null}
+    - {facility: "Ninewells Hospital", city: "Dundee", state: "Tayside Region", country: "United Kingdom", status: null}
+    - {facility: "University of California San Francisco (UCSF)", city: "San Francisco", state: "California", country: "United States", status: null}
+    - {facility: "University of Colorado", city: "Aurora", state: "Colorado", country: "United States", status: null}
+    - {facility: "Rocky Mountain Movement Disorders Center, PC", city: "Englewood", state: "Colorado", country: "United States", status: null}
+    - {facility: "Parkinson's Disease and Movement Disorders Center", city: "Boca Raton", state: "Florida", country: "United States", status: null}
+    - {facility: "USF Health Byrd Institute", city: "Tampa", state: "Florida", country: "United States", status: null}
+    - {facility: "University of Kansas Medical Center Research Institute, Inc.", city: "Kansas City", state: "Kansas", country: "United States", status: null}
+    - {facility: "Massachusetts General Hospital", city: "Boston", state: "Massachusetts", country: "United States", status: null}
+    - {facility: "Mount Sinai Beth Israel", city: "New York", state: "New York", country: "United States", status: null}
+    - {facility: "Weill Medical College of Cornell University", city: "New York", state: "New York", country: "United States", status: null}
+    - {facility: "Pennsylvania Hospital", city: "Philadelphia", state: "Pennsylvania", country: "United States", status: null}
+    - {facility: "Evergreen Hospital Medical Center", city: "Kirkland", state: "Washington", country: "United States", status: null}
+    - {facility: "Inland Northwest Research", city: "Spokane", state: "Washington", country: "United States", status: null}
+
+NCT05778617:
+  registry_status: RECRUITING
+  registry_last_updated: 2025-05-01
+  site_count: 15
+  countries:
+    "United Kingdom": 15
+  sites:
+    - {facility: "University Hospitals Birmingham", city: "Birmingham", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Southmead Hospital Bristol", city: "Bristol", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Addenbrookes NHS Trust", city: "Cambridge", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Western General Hospital", city: "Edinburgh", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Kings College London", city: "London", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Royal London Hospital", city: "London", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "University College London Hospital's", city: "London", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Newcastle", city: "Newcastle", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Northumbria", city: "Newcastle upon Tyne", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "The John Radcliffe Hospital", city: "Oxford", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Derriford Hospital", city: "Plymouth", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Fairfield General Hospital", city: "Salford", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Salford Royal Hospital", city: "Salford", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Southampton General Hospital", city: "Southampton", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+    - {facility: "Prince Philip Hospital", city: "Wales", state: null, country: "United Kingdom", status: "NOT_YET_RECRUITING"}
+
+NCT05830396:
+  registry_status: UNKNOWN
+  registry_last_updated: 2023-05-10
+  site_count: 1
+  countries:
+    "Netherlands": 1
+  sites:
+    - {facility: "University Medical Center Groningen", city: "Groningen", state: null, country: "Netherlands", status: "RECRUITING"}
+
+NCT06193421:
+  registry_status: UNKNOWN
+  registry_last_updated: 2024-02-08
+  site_count: 1
+  countries:
+    "Israel": 1
+  sites:
+    - {facility: "Shaare Zedek Medical Center", city: "Jerusalem", state: null, country: "Israel", status: "RECRUITING"}
+
+NCT06285643:
+  registry_status: ACTIVE_NOT_RECRUITING
+  registry_last_updated: 2026-10-01
+  site_count: 46
+  countries:
+    "United States": 34
+    "Germany": 5
+    "Poland": 5
+    "United Kingdom": 2
+  sites:
+    - {facility: "Charité - Universitätsmedizin Berlin (Surgical)", city: "Berlin", state: null, country: "Germany", status: null}
+    - {facility: "Philipps-Universität Marburg (Neurology)", city: "Marburg", state: null, country: "Germany", status: null}
+    - {facility: "Universitätsklinikum Tübingen (Neurology)", city: "Tübingen", state: null, country: "Germany", status: null}
+    - {facility: "Universitätsklinikum Tübingen (Surgical)", city: "Tübingen", state: null, country: "Germany", status: null}
+    - {facility: "Universitätsklinikum Würzburg (Neurology)", city: "Würzburg", state: null, country: "Germany", status: null}
+    - {facility: "Copernicus Podmiot Leczniczy, Szpital św. Wojciecha (Neurology)", city: "Gdansk", state: null, country: "Poland", status: null}
+    - {facility: "Specjalistyczna Praktyka Lekarska Prof. Grzegorz Opala (Neurology)", city: "Katowice", state: null, country: "Poland", status: null}
+    - {facility: "Mazowiecki Szpital Bródnowski (Neurology)", city: "Warsaw", state: null, country: "Poland", status: null}
+    - {facility: "Mazowiecki Szpital Bródnowski (Surgical)", city: "Warsaw", state: null, country: "Poland", status: null}
+    - {facility: "Samodzielny Publiczny Szpital Kliniczny im. Prof. W. Orłowskiego CMKP (Neurology)", city: "Warsaw", state: null, country: "Poland", status: null}
+    - {facility: "North Bristol NHS Trust - Southmead Hospital (Neurology)", city: "Bristol", state: null, country: "United Kingdom", status: null}
+    - {facility: "University Hospital of Wales (Surgical)", city: "Cardiff", state: null, country: "United Kingdom", status: null}
+    - {facility: "Mayo Clinic", city: "Phoenix", state: "Arizona", country: "United States", status: null}
+    - {facility: "UCI Alpha Clinic (Neurology)", city: "Irvine", state: "California", country: "United States", status: null}
+    - {facility: "Loma Linda University (Neurology)", city: "Loma Linda", state: "California", country: "United States", status: null}
+    - {facility: "Loma Linda University (Surgical)", city: "Loma Linda", state: "California", country: "United States", status: null}
+    - {facility: "University of California San Francisco (Neurology)", city: "San Francisco", state: "California", country: "United States", status: null}
+    - {facility: "University of San Francisco (Surgical)", city: "San Francisco", state: "California", country: "United States", status: null}
+    - {facility: "CenExel Rocky Mountain Clinical Research (Neurology)", city: "Englewood", state: "Colorado", country: "United States", status: null}
+    - {facility: "Georgetown University (Neurology)", city: "Washington D.C.", state: "District of Columbia", country: "United States", status: null}
+    - {facility: "Parkinson's Disease and Movement Disorders Center of Boca Raton (Neurology)", city: "Boca Raton", state: "Florida", country: "United States", status: null}
+    - {facility: "University of Florida", city: "Gainesville", state: "Florida", country: "United States", status: null}
+    - {facility: "University of Miami", city: "Miami", state: "Florida", country: "United States", status: null}
+    - {facility: "Orlando Health Neuroscience Institute", city: "Orlando", state: "Florida", country: "United States", status: null}
+    - {facility: "Parkinson's Disease Treatment Center of Southwest Florida (Neurology)", city: "Port Charlotte", state: "Florida", country: "United States", status: null}
+    - {facility: "Emory University (Surgical)", city: "Atlanta", state: "Georgia", country: "United States", status: null}
+    - {facility: "Rush University Medical Center (Neurology)", city: "Chicago", state: "Illinois", country: "United States", status: null}
+    - {facility: "University of Kansas Medical Center (Neurology)", city: "Kansas City", state: "Kansas", country: "United States", status: null}
+    - {facility: "Massachusetts General Hospital (Neurology)", city: "Boston", state: "Massachusetts", country: "United States", status: null}
+    - {facility: "Massachusetts General Hospital (Surgical)", city: "Boston", state: "Massachusetts", country: "United States", status: null}
+    - {facility: "Michigan State University (Neurology)", city: "East Lansing", state: "Michigan", country: "United States", status: null}
+    - {facility: "Quest Research Institute (Neurology)", city: "Farmington Hills", state: "Michigan", country: "United States", status: null}
+    - {facility: "Cleveland Clinic Lou Ruvo (Neurology)", city: "Las Vegas", state: "Nevada", country: "United States", status: null}
+    - {facility: "Columbia University", city: "New York", state: "New York", country: "United States", status: null}
+    - {facility: "University of North Carolina (Neurology)", city: "Chapel Hill", state: "North Carolina", country: "United States", status: null}
+    - {facility: "Duke Neurosurgery (Surgical)", city: "Durham", state: "North Carolina", country: "United States", status: null}
+    - {facility: "Duke University (Neurology)", city: "Durham", state: "North Carolina", country: "United States", status: null}
+    - {facility: "Ohio State University (Surgical)", city: "Columbus", state: "Ohio", country: "United States", status: null}
+    - {facility: "University of Pennsylvania (Neurology)", city: "Philadelphia", state: "Pennsylvania", country: "United States", status: null}
+    - {facility: "Vanderbilt University (Neurology)", city: "Nashville", state: "Tennessee", country: "United States", status: null}
+    - {facility: "Texas Movement Disorder Specialists", city: "Georgetown", state: "Texas", country: "United States", status: null}
+    - {facility: "Houston Methodist (Neurology)", city: "Houston", state: "Texas", country: "United States", status: null}
+    - {facility: "Houston Methodist (Surgical)", city: "Houston", state: "Texas", country: "United States", status: null}
+    - {facility: "University of Utah", city: "Salt Lake City", state: "Utah", country: "United States", status: null}
+    - {facility: "EvergreenHealth Research Department (Neurology)", city: "Kirkland", state: "Washington", country: "United States", status: null}
+    - {facility: "University of Wisconsin (Neurology)", city: "Madison", state: "Wisconsin", country: "United States", status: null}
+
+NCT06602193:
+  registry_status: ACTIVE_NOT_RECRUITING
+  registry_last_updated: 2026-05-27
+  site_count: 20
+  countries:
+    "United States": 7
+    "Spain": 7
+    "Germany": 3
+    "Israel": 3
+  sites:
+    - {facility: "Technische Universität Dresden", city: "Dresden", state: null, country: "Germany", status: null}
+    - {facility: "University of Lübeck", city: "Lübeck", state: null, country: "Germany", status: null}
+    - {facility: "University Hospital Tübingen", city: "Tübingen", state: null, country: "Germany", status: null}
+    - {facility: "Rabin Medical Center", city: "Petah Tikva", state: null, country: "Israel", status: null}
+    - {facility: "Movement Disorders Institute, Sheba Medical Center", city: "Ramat Gan", state: null, country: "Israel", status: null}
+    - {facility: "Tel Aviv Medical Center", city: "Tel Aviv", state: null, country: "Israel", status: null}
+    - {facility: "Hospital Clinic de Barcelona", city: "Barcelona", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Universitari General de Catalunya", city: "Barcelona", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Universitari Vall d'Hebron", city: "Barcelona", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Universitario Donostia", city: "Donostia / San Sebastian", state: null, country: "Spain", status: null}
+    - {facility: "Universitary Hospital La Princesa", city: "Madrid", state: null, country: "Spain", status: null}
+    - {facility: "IDIVAL/University Hospital Marques de Valdecilla", city: "Santander", state: null, country: "Spain", status: null}
+    - {facility: "Hospital Universitario Virgen del Rocio", city: "Seville", state: null, country: "Spain", status: null}
+    - {facility: "Cedars-Sinai Department of Neurology", city: "Los Angeles", state: "California", country: "United States", status: null}
+    - {facility: "University of California San Francisco", city: "San Francisco", state: "California", country: "United States", status: null}
+    - {facility: "Parkinson's Disease and Movement Disorders Center", city: "Boca Raton", state: "Florida", country: "United States", status: null}
+    - {facility: "Beth Israel Deaconess Medical Center", city: "Boston", state: "Massachusetts", country: "United States", status: null}
+    - {facility: "Ichan School of Medicine at Mount Sinai/Beth Israel Downtown-Movement Disorder Center", city: "New York", state: "New York", country: "United States", status: null}
+    - {facility: "Evergreen Health Laboratory", city: "Kirkland", state: "Washington", country: "United States", status: null}
+    - {facility: "Inland Northwest Research", city: "Spokane", state: "Washington", country: "United States", status: null}
+
+NCT06944522:
+  registry_status: RECRUITING
+  registry_last_updated: 2026-08-04
+  site_count: 43
+  countries:
+    "United States": 34
+    "Australia": 6
+    "Canada": 3
+  sites:
+    - {facility: "NeuRA (Neuroscience Research Australia)", city: "Randwick", state: "New South Wales", country: "Australia", status: "RECRUITING"}
+    - {facility: "Gold Coast Hospital & Health Service", city: "Southport", state: "Queensland", country: "Australia", status: "RECRUITING"}
+    - {facility: "Princess Alexandra Hospital", city: "Woolloongabba", state: "Queensland", country: "Australia", status: "RECRUITING"}
+    - {facility: "Monash Medical Centre", city: "Clayton", state: "Victoria", country: "Australia", status: "RECRUITING"}
+    - {facility: "The Alfred Hospital", city: "Melbourne", state: "Victoria", country: "Australia", status: "RECRUITING"}
+    - {facility: "The Royal Melbourne Hospital", city: "Parkville", state: "Victoria", country: "Australia", status: "RECRUITING"}
+    - {facility: "The University of British Columbia", city: "Vancouver", state: "British Columbia", country: "Canada", status: "RECRUITING"}
+    - {facility: "University Health Network - Toronto Western Hospital", city: "Toronto", state: "Ontario", country: "Canada", status: "RECRUITING"}
+    - {facility: "CHUM - Centre hospitalier de l'Université de Montréal", city: "Montreal", state: "Quebec", country: "Canada", status: "RECRUITING"}
+    - {facility: "Mayo Clinic Scottsdale - Neurology", city: "Scottsdale", state: "Arizona", country: "United States", status: "RECRUITING"}
+    - {facility: "Banner Sun Health Research Institute", city: "Sun City", state: "Arizona", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Arkansas for Medical Sciences", city: "Little Rock", state: "Arkansas", country: "United States", status: "RECRUITING"}
+    - {facility: "UCLA NeuroTranslational Research Center", city: "Los Angeles", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "UCI Medical Center - Neurology", city: "Orange", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "Stanford Neuroscience Health Center", city: "Palo Alto", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Colorado Hospital - Neurology Clinic", city: "Aurora", state: "Colorado", country: "United States", status: "RECRUITING"}
+    - {facility: "MedStar Georgetown University Hospital", city: "Washington D.C.", state: "District of Columbia", country: "United States", status: "RECRUITING"}
+    - {facility: "Mayo Clinic Jacksonville - Neurology", city: "Jacksonville", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Miami Health System - Neurology", city: "Miami", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "USF Parkinson's Disease and Movement Disorders Center", city: "Tampa", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Parkinson's Disease and Movement Disorders Center at Northwestern Memorial Hospital", city: "Chicago", state: "Illinois", country: "United States", status: "RECRUITING"}
+    - {facility: "Rush University Medical Center - Neurology", city: "Chicago", state: "Illinois", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Kansas Medical Center", city: "Kansas City", state: "Kansas", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Louisville Hospital", city: "Louisville", state: "Kentucky", country: "United States", status: "RECRUITING"}
+    - {facility: "Johns Hopkins Hospital - Neurology", city: "Baltimore", state: "Maryland", country: "United States", status: "RECRUITING"}
+    - {facility: "Tufts Medical Center - Neurology", city: "Boston", state: "Massachusetts", country: "United States", status: "RECRUITING"}
+    - {facility: "Beth Israel Deaconess Medical Center", city: "Boston", state: "Massachusetts", country: "United States", status: "RECRUITING"}
+    - {facility: "Michigan Clinical Research Unit - Neurology", city: "Ann Arbor", state: "Michigan", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Michigan Clinical Research Unit - Neurology", city: "Ann Arbor", state: "Michigan", country: "United States", status: "RECRUITING"}
+    - {facility: "Quest Research Institute", city: "Farmington Hills", state: "Michigan", country: "United States", status: "RECRUITING"}
+    - {facility: "UBMD Neurology", city: "Buffalo", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "Mount Sinai West - Neurology", city: "New York", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "New York Presbyterian/Weill Cornell Medical Center", city: "New York", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "Duke Neurological Disorders Clinic", city: "Durham", state: "North Carolina", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Toledo Medical Center", city: "Toledo", state: "Ohio", country: "United States", status: "RECRUITING"}
+    - {facility: "OHSU Neurology Clinic, South Waterfront", city: "Portland", state: "Oregon", country: "United States", status: "RECRUITING"}
+    - {facility: "Rhode Island Hospital - Neurology", city: "Providence", state: "Rhode Island", country: "United States", status: "RECRUITING"}
+    - {facility: "Medical University of South Carolina, Movement Disorders Dept.", city: "Charleston", state: "South Carolina", country: "United States", status: "RECRUITING"}
+    - {facility: "Vanderbilt University Medical Center", city: "Nashville", state: "Tennessee", country: "United States", status: "RECRUITING"}
+    - {facility: "UTHealth Houston Neurosciences - Texas Medical Center", city: "Houston", state: "Texas", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Vermont Medical Center", city: "Burlington", state: "Vermont", country: "United States", status: "RECRUITING"}
+    - {facility: "Virginia Commonwealth University", city: "Richmond", state: "Virginia", country: "United States", status: "RECRUITING"}
+    - {facility: "EvergreenHealth - Research Department", city: "Kirkland", state: "Washington", country: "United States", status: "RECRUITING"}
+
+NCT06976268:
+  registry_status: RECRUITING
+  registry_last_updated: 2026-09-28
+  site_count: 24
+  countries:
+    "United States": 24
+  sites:
+    - {facility: "Site-049", city: "Birmingham", state: "Alabama", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-003", city: "Irvine", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-041", city: "Los Angeles", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-025", city: "Aurora", state: "Colorado", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-031", city: "Farmington", state: "Connecticut", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-028", city: "New Haven", state: "Connecticut", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-038", city: "Atlantis", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-017", city: "Boca Raton", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-051", city: "Maitland", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-027", city: "Chicago", state: "Illinois", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-029", city: "Kansas City", state: "Kansas", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-071", city: "Boston", state: "Massachusetts", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-004", city: "Foxborough", state: "Massachusetts", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-015", city: "Farmington Hills", state: "Michigan", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-044", city: "Chesterfield", state: "Missouri", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-006", city: "Albany", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-005", city: "New York", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-082", city: "Cleveland", state: "Ohio", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-091", city: "Portland", state: "Oregon", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-043", city: "Round Rock", state: "Texas", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-009", city: "Henrico", state: "Virginia", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-074", city: "Newport News", state: "Virginia", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-007", city: "Bellevue", state: "Washington", country: "United States", status: "RECRUITING"}
+    - {facility: "Site-019", city: "Seattle", state: "Washington", country: "United States", status: "RECRUITING"}
+
+NCT07174310:
+  registry_status: RECRUITING
+  registry_last_updated: 2026-10-06
+  site_count: 192
+  countries:
+    "United States": 53
+    "China": 21
+    "Germany": 17
+    "Italy": 13
+    "Spain": 13
+    "France": 11
+    "Poland": 10
+    "Brazil": 8
+    "Australia": 7
+    "Portugal": 7
+    "United Kingdom": 7
+    "South Korea": 6
+    "Taiwan": 6
+    "Austria": 5
+    "Canada": 3
+    "Denmark": 3
+    "Mexico": 2
+  sites:
+    - {facility: "Southern Neurology", city: "Kogarah", state: "New South Wales", country: "Australia", status: "RECRUITING"}
+    - {facility: "Westmead Hospital", city: "Westmead", state: "New South Wales", country: "Australia", status: "RECRUITING"}
+    - {facility: "Princess Alexandra Hospital", city: "Woolloongabba", state: "Queensland", country: "Australia", status: "RECRUITING"}
+    - {facility: "Monash Health", city: "Clayton", state: "Victoria", country: "Australia", status: "RECRUITING"}
+    - {facility: "Royal Melbourne Hospital", city: "Parkville", state: "Victoria", country: "Australia", status: "RECRUITING"}
+    - {facility: "The Alfred Hospital", city: "Prahan", state: "Victoria", country: "Australia", status: "RECRUITING"}
+    - {facility: "Perron Institute for Neurological and Translational Science", city: "Nedlands", state: "Western Australia", country: "Australia", status: "RECRUITING"}
+    - {facility: "Medizinische Universität Graz", city: "Graz", state: null, country: "Austria", status: "RECRUITING"}
+    - {facility: "Uniklinik fuer Neurologie, Medizinische Universitaet Innsbruck", city: "Innsbruck", state: null, country: "Austria", status: "RECRUITING"}
+    - {facility: "Kepler Universitätsklinikum GmbH - Neuromed Campus", city: "Linz", state: null, country: "Austria", status: "RECRUITING"}
+    - {facility: "Medizinische Universität Wien", city: "Vienna", state: null, country: "Austria", status: "WITHDRAWN"}
+    - {facility: "Klinik Ottakring", city: "Vienna", state: null, country: "Austria", status: "RECRUITING"}
+    - {facility: "Santa Casa de Misericordia de Salvador", city: "Salvador", state: "Estado de Bahia", country: "Brazil", status: "RECRUITING"}
+    - {facility: "L2 Ip Instituto de Pesquisas Clinicas Ltda ME", city: "Brasília", state: "Federal District", country: "Brazil", status: "RECRUITING"}
+    - {facility: "Hospital das Clinicas - UFMG", city: "Belo Horizonte", state: "Minas Gerais", country: "Brazil", status: "RECRUITING"}
+    - {facility: "Instituto de Neurologia de Curitiba", city: "Curitiba", state: "Paraná", country: "Brazil", status: "RECRUITING"}
+    - {facility: "Núcleo de Pesquisa do Rio Grande do Sul", city: "Porto Alegre", state: "Rio Grande do Sul", country: "Brazil", status: "RECRUITING"}
+    - {facility: "Faculdade de Medicina de Ribeirão Preto - Universidade de Sao Paulo", city: "Ribeirão Preto", state: "São Paulo", country: "Brazil", status: "RECRUITING"}
+    - {facility: "Faculdade de Medicina de Sao Jose do Rio Preto - FAMERP*X*", city: "São José do Rio Preto", state: "São Paulo", country: "Brazil", status: "RECRUITING"}
+    - {facility: "Centro de Pesquisas Clinicas", city: "São Paulo", state: "São Paulo", country: "Brazil", status: "RECRUITING"}
+    - {facility: "University Health Network", city: "Toronto", state: "Ontario", country: "Canada", status: "RECRUITING"}
+    - {facility: "CHUM", city: "Montreal", state: "Quebec", country: "Canada", status: "RECRUITING"}
+    - {facility: "Montreal Neurological Institute and Hospital", city: "Montreal", state: "Quebec", country: "Canada", status: "RECRUITING"}
+    - {facility: "Beijing Friendship Hospital Affiliated of Capital University of Medical Science", city: "Beijing", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Xuanwu Hospital, Capital Medical University", city: "Beijing", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Beijing Tian Tan Hospital,Capital Medical University", city: "Beijing", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Beijing Hospital of Ministry of Health", city: "Beijing", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "The First Hospital of Jilin University", city: "Changchun", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "West China Hospital of Sichuan University", city: "Chengdu", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "The First Affiliated Hospital, Chongqing Medical University", city: "Chongqing", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Fujian Medical University Union Hospital", city: "Fuzhou", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "The First Affiliated Hospital of Sun Yat-sen University", city: "Guangzhou", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Guangdong Provincial People's Hospital", city: "Guangzhou", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "The First Affiliated Hospital of Guangzhou Medical University", city: "Guangzhou", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "The Second Affiliated Hospital of Zhejiang University School of Medicine", city: "Hangzhou", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Sir Run Run Shaw Hospital, School of Medicine, Zhejiang University", city: "Hangzhou", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Nanjing Brain Hospital", city: "Nanjing", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Ruijin Hospital Shanghai Jiaotong University School of Medicine", city: "Shanghai", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Huashan Hospital, Fudan University", city: "Shanghai", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine", city: "Shanghai", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "The Second Affiliated Hospital of Soochow University", city: "Suzhou", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Tianjin Medical University General Hospital", city: "Tianjin", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "First Affiliated Hospital of Medical College of Xi'an Jiaotong University", city: "Xi'an", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "The Affiliated Hospital of Xuzhou Medical University", city: "Xuzhou", state: null, country: "China", status: "RECRUITING"}
+    - {facility: "Aarhus Universitetshospital Skejby", city: "Aarhus N", state: null, country: "Denmark", status: "RECRUITING"}
+    - {facility: "Regionshospitalet Gødstrup;Neurologisk Afdeling", city: "Herning", state: null, country: "Denmark", status: "RECRUITING"}
+    - {facility: "Bispebjerg Hospital;Neurologisk Afdeling", city: "København NV", state: null, country: "Denmark", status: "RECRUITING"}
+    - {facility: "CHU de Clermont-Ferrand - Site Gabriel-Montpied", city: "Clermont-Ferrand", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "APHP - Hopital Henri Mondor", city: "Créteil", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "CHU de Grenoble - Hôpital André Michallon", city: "La Tronche", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "Hopital Roger Salengro", city: "Lille", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "CHU de Limoges - Hôpital Dupuytren", city: "Limoges", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "CHU de Montpellier - Hôpital Gui de Chauliac", city: "Montpellier", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "CHU de Nice Hopital Pasteur", city: "Nice", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "APHP - Hopital de la Pitie Salpetriere", city: "Paris", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "CHU de Toulouse - Hôpital Purpan", city: "Toulouse", state: null, country: "France", status: "RECRUITING"}
+    - {facility: "AP-HM- Hôpital de La Timone", city: "Marseille", state: "Bouches-du-Rhône", country: "France", status: "RECRUITING"}
+    - {facility: "Hospices Civils de Lyon - Hôpital Pierre Wertheimer", city: "Bron", state: "Rhône", country: "France", status: "RECRUITING"}
+    - {facility: "Kliniken Beelitz GmbH", city: "Beelitz", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Charite Universitätsmed. Berlin", city: "Berlin", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Charite Universitaetsmedizin Berlin - Campus Benjamin Franklin", city: "Berlin", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "St. Josef-Hospital, Klinik für Neurologie", city: "Bochum", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Universitätsklinikum \"Carl Gustav Carus\"", city: "Dresden", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Heinrich-Heine Universitätsklinik Düsseldorf", city: "Düsseldorf", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Universitätsklinikum Erlangen, Abteilung Molekulare Neurologie", city: "Erlangen", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Universitätsklinikum Freiburg, Klinik für Neurologie und Neurophysiologie", city: "Freiburg im Breisgau", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Medizinische Hochschule Hannover, Klinik für Neurologie", city: "Hanover", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Universitätsklinikum Heidelberg, Neurologische Klinik, Abteilung für Neuroradiologie", city: "Heidelberg", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Universität Des Saarlandes", city: "Homburg", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Paracelsus Elena Klinik Kassel", city: "Kassel", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Klinikum rechts der Isar der TU München", city: "Munich", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "LMU Klinikum, Neurologische Klinik und Poliklinik", city: "München", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Universitatsklinikum Munster", city: "Münster", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Universitaettsklinikum Tübingen", city: "Tübingen", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Universitätsklinikum Würzburg, Neurologische Klinik und Poliklinik", city: "Würzburg", state: null, country: "Germany", status: "RECRUITING"}
+    - {facility: "Università degli studi della Campania Luigi Vanvitelli", city: "Naples", state: "Campania", country: "Italy", status: "RECRUITING"}
+    - {facility: "Az. Osp. OO.RR. S. Giovanni di Dio e Ruggi D' Aragona", city: "Salerno", state: "Campania", country: "Italy", status: "RECRUITING"}
+    - {facility: "Ospedale Bellaria", city: "Bologna", state: "Emilia-Romagna", country: "Italy", status: "RECRUITING"}
+    - {facility: "San Raffaele Cassino", city: "Cassino", state: "Lazio", country: "Italy", status: "RECRUITING"}
+    - {facility: "IRCCS San Raffaele;Clinical Trial Center", city: "Rome", state: "Lazio", country: "Italy", status: "RECRUITING"}
+    - {facility: "Policlinico Universitario Agostino Gemelli", city: "Rome", state: "Lazio", country: "Italy", status: "RECRUITING"}
+    - {facility: "Irccs A.O.U.San Martino Ist", city: "Genoa", state: "Liguria", country: "Italy", status: "RECRUITING"}
+    - {facility: "Azienda Ospedaliera Spedali Civili", city: "Brescia", state: "Lombardy", country: "Italy", status: "RECRUITING"}
+    - {facility: "Centro Parkinson e Parkinsonismi", city: "Milan", state: "Lombardy", country: "Italy", status: "RECRUITING"}
+    - {facility: "IRCCS Ospedale San Raffaele", city: "Milan", state: "Lombardy", country: "Italy", status: "RECRUITING"}
+    - {facility: "IRCCS Istituto Neurologico Carlo Besta", city: "Milan", state: "Lombardy", country: "Italy", status: "RECRUITING"}
+    - {facility: "A.O. Universitaria Pisana", city: "Pisa", state: "Tuscany", country: "Italy", status: "RECRUITING"}
+    - {facility: "Azienda Ospedaliera di Padova", city: "Padova", state: "Veneto", country: "Italy", status: "RECRUITING"}
+    - {facility: "Instituto Nacional de Neurologia y Neurocirugia", city: "Mexico City", state: "Mexico CITY (federal District)", country: "Mexico", status: "RECRUITING"}
+    - {facility: "Hospital General de Mexico", city: "Mexico City", state: "Mexico CITY (federal District)", country: "Mexico", status: "RECRUITING"}
+    - {facility: "Podlaskie Centrum Psychogeriatrii", city: "Bia?ystok", state: null, country: "Poland", status: "WITHDRAWN"}
+    - {facility: "NZOZ Vitamed", city: "Bydgoszcz", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "Szpital Sw. Wojciecha", city: "Gda?sk", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "NEURO-CARE Sp. z o.o. Sp. Komandytowa", city: "Katowice", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "Krakowska Akademia Neurologii Sp z o.o. Centrum Neurologii K", city: "Krakow", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "Indywidualna Praktyka Lekarska Prof. Dr Hab. N. Med. Konrad Rejdak.", city: "Lublin", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "Instytut Zdrowia Dr Boczarska-Jedynak Sp. z o.o. Sp. k.", city: "Oświęcim", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "Nmedis sp. z o.o.", city: "Rzeszów", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "NeuroProtect", city: "Warsaw", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "Mazowiecki Szpital Bródnowski w Warszawie Sp. z o.o.", city: "Warsaw", state: null, country: "Poland", status: "RECRUITING"}
+    - {facility: "Hospital de Braga", city: "Braga", state: null, country: "Portugal", status: "RECRUITING"}
+    - {facility: "Hospital da Luz Coimbra", city: "Coimbra", state: null, country: "Portugal", status: "RECRUITING"}
+    - {facility: "Hospital Dr. Nélio Mendonça;Serviço de Neurologia", city: "Funchal", state: null, country: "Portugal", status: "RECRUITING"}
+    - {facility: "Hospital da Senhora da Oliveira-Guimarães", city: "Guimarães", state: null, country: "Portugal", status: "RECRUITING"}
+    - {facility: "Hospital de Santa Maria", city: "Lisbon", state: null, country: "Portugal", status: "RECRUITING"}
+    - {facility: "Hospital Pedro Hispano", city: "Matosinhos Municipality", state: null, country: "Portugal", status: "RECRUITING"}
+    - {facility: "CNS - Campus Neurológico", city: "Torres Vedras", state: null, country: "Portugal", status: "RECRUITING"}
+    - {facility: "Severance Hospital, Yonsei University Health System", city: "Seoul", state: null, country: "South Korea", status: "RECRUITING"}
+    - {facility: "Asan Medical Center", city: "Seoul", state: null, country: "South Korea", status: "RECRUITING"}
+    - {facility: "Samsung Medical Center", city: "Seoul", state: null, country: "South Korea", status: "RECRUITING"}
+    - {facility: "Boramae Medical Center", city: "Seoul", state: null, country: "South Korea", status: "RECRUITING"}
+    - {facility: "Korea University Guro Hospital", city: "Seoul", state: null, country: "South Korea", status: "RECRUITING"}
+    - {facility: "Seoul National University Hospital", city: "Seoul", state: null, country: "South Korea", status: "RECRUITING"}
+    - {facility: "Hospital Universitari Vall d Hebron", city: "Barcelona", state: null, country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital Clinic Barcelona", city: "Barcelona", state: null, country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital Ruber Juan Bravo", city: "Madrid", state: null, country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital Universitario de La Princesa", city: "Madrid", state: null, country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital Univ 12 de Octubre", city: "Madrid", state: null, country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital Regional Universitario de Malaga ? Hospital General", city: "Málaga", state: null, country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital Universitario Virgen del Rocio", city: "Seville", state: null, country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital General Universitario de Elche", city: "Elche", state: "Alicante", country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital General De Catalunya", city: "Sant Cugat del Vallès", state: "Barcelona", country: "Spain", status: "RECRUITING"}
+    - {facility: "Policlinica Guipuzcoa", city: "Donostia / San Sebastian", state: "Guipuzcoa", country: "Spain", status: "RECRUITING"}
+    - {facility: "Complejo Hospitalario Universitario A Coruña", city: "A Coruña", state: "LA Coruna", country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital Universitario Fundación Alcorcón", city: "Alcorcón", state: "Madrid", country: "Spain", status: "RECRUITING"}
+    - {facility: "Hospital Quiron de Madrid", city: "Pozuelo de Alarcón", state: "Madrid", country: "Spain", status: "RECRUITING"}
+    - {facility: "Changhua Christian Hospital", city: "Changhua County", state: null, country: "Taiwan", status: "RECRUITING"}
+    - {facility: "China Medical University Hospital", city: "North Dist.", state: null, country: "Taiwan", status: "RECRUITING"}
+    - {facility: "National Cheng Kung University Hospital", city: "Tainan", state: null, country: "Taiwan", status: "RECRUITING"}
+    - {facility: "National Taiwan University Hospital", city: "Taipei", state: null, country: "Taiwan", status: "RECRUITING"}
+    - {facility: "Taipei Veterans General Hospital", city: "Taipei", state: null, country: "Taiwan", status: "RECRUITING"}
+    - {facility: "Chang Gung Memorial Hospital - Linkou", city: "Taoyuan City", state: null, country: "Taiwan", status: "RECRUITING"}
+    - {facility: "Ninewells Hospital, Dundee- Scotland", city: "Dundee", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Royal Devon and Exeter Hospital (Wonford)", city: "Exeter", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Royal London Hospital", city: "London", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Charing Cross Hospital", city: "London", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Campus for Ageing and Vitality", city: "Newcastle", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Oxford University Hospitals NHS Foundation Trust", city: "Oxford", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Plymouth Hospitals NHS Trust - Derriford Hospital", city: "Plymouth,Devon", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "University of Alabama at Birmingham", city: "Birmingham", state: "Alabama", country: "United States", status: "RECRUITING"}
+    - {facility: "Barrow Neurological Institute", city: "Phoenix", state: "Arizona", country: "United States", status: "RECRUITING"}
+    - {facility: "Neurology Center of North Orange County", city: "Fullerton", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "UC San Diego", city: "La Jolla", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "Keck School of Medicine of USC", city: "Los Angeles", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "UCLA Neurology Outpatient Clinic", city: "Los Angeles", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "Parkinson?s Research Centers of America ? Palo Alto", city: "Palo Alto", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "Profound Research LLC at The Neurology Center of Southern California", city: "Pasadena", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "UCSF Weill Institute for Neurosciences", city: "San Francisco", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "Stanford Neuroscience Health Center (SNHC)", city: "Stanford", state: "California", country: "United States", status: "RECRUITING"}
+    - {facility: "Rocky Mountain Movement Disorders", city: "Englewood", state: "Colorado", country: "United States", status: "RECRUITING"}
+    - {facility: "Institute for Neurodegenerative Disorders", city: "New Haven", state: "Connecticut", country: "United States", status: "RECRUITING"}
+    - {facility: "Georgetown University", city: "Washington D.C.", state: "District of Columbia", country: "United States", status: "RECRUITING"}
+    - {facility: "JEM Research LLC", city: "Atlantis", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Parkinson's Disease and Movement Disorders Center of Boca Raton", city: "Boca Raton", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "K2 - Villages", city: "Lady Lake", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "K2 Medical Research-Maitland", city: "Maitland", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Baptist Hospital of Miami", city: "Miami", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Charter Research - Winter Park/Orlando", city: "Orlando", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Advent Health Orlando", city: "Orlando", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "USF Parkinsons Disease and Movement Disorders Center", city: "Tampa", state: "Florida", country: "United States", status: "RECRUITING"}
+    - {facility: "Grady Memorial Hospital", city: "Atlanta", state: "Georgia", country: "United States", status: "RECRUITING"}
+    - {facility: "Hawaii Pacific Neuroscience", city: "Honolulu", state: "Hawaii", country: "United States", status: "RECRUITING"}
+    - {facility: "Northwestern University Feinberg School Of Medicine", city: "Chicago", state: "Illinois", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Kansas Medical Center", city: "Kansas City", state: "Kansas", country: "United States", status: "RECRUITING"}
+    - {facility: "Massachusetts General Hospital", city: "Boston", state: "Massachusetts", country: "United States", status: "RECRUITING"}
+    - {facility: "Quest Research Institute", city: "Farmington Hills", state: "Michigan", country: "United States", status: "RECRUITING"}
+    - {facility: "Washington Uni School of Medicine", city: "St Louis", state: "Missouri", country: "United States", status: "RECRUITING"}
+    - {facility: "Cleveland Clinic Lou Ruvo", city: "Las Vegas", state: "Nevada", country: "United States", status: "RECRUITING"}
+    - {facility: "Renown Health", city: "Reno", state: "Nevada", country: "United States", status: "RECRUITING"}
+    - {facility: "Hackensack University Medical Center;Department of Neurology, Neuroscience Institute", city: "Paramus", state: "New Jersey", country: "United States", status: "RECRUITING"}
+    - {facility: "University of New Mexico", city: "Albuquerque", state: "New Mexico", country: "United States", status: "RECRUITING"}
+    - {facility: "Dent Neurological Institute", city: "Amherst", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "Parkinson's Research Centers of America - Long Island", city: "Commack", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "Weill Cornell Medical College", city: "New York", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "Columbia University Medical Center", city: "New York", state: "New York", country: "United States", status: "RECRUITING"}
+    - {facility: "Asheville Neurology", city: "Asheville", state: "North Carolina", country: "United States", status: "RECRUITING"}
+    - {facility: "Duke University Medical Center", city: "Durham", state: "North Carolina", country: "United States", status: "RECRUITING"}
+    - {facility: "NeuroCare Center", city: "Canton", state: "Ohio", country: "United States", status: "RECRUITING"}
+    - {facility: "Cleveland Clinic", city: "Cleveland", state: "Ohio", country: "United States", status: "RECRUITING"}
+    - {facility: "The Movement Disorder Clinic of Oklahoma", city: "Tulsa", state: "Oklahoma", country: "United States", status: "RECRUITING"}
+    - {facility: "Oregon Health and Science University", city: "Portland", state: "Oregon", country: "United States", status: "RECRUITING"}
+    - {facility: "University Pennsylvania Hospital", city: "Philadelphia", state: "Pennsylvania", country: "United States", status: "RECRUITING"}
+    - {facility: "Allegheny General Hospital", city: "Pittsburgh", state: "Pennsylvania", country: "United States", status: "RECRUITING"}
+    - {facility: "Avera Medical Group", city: "Sioux Falls", state: "South Dakota", country: "United States", status: "RECRUITING"}
+    - {facility: "Veracity Neuroscience", city: "Memphis", state: "Tennessee", country: "United States", status: "RECRUITING"}
+    - {facility: "Vanderbilt University Medical Center", city: "Nashville", state: "Tennessee", country: "United States", status: "RECRUITING"}
+    - {facility: "Texas Neurology PA", city: "Dallas", state: "Texas", country: "United States", status: "RECRUITING"}
+    - {facility: "Central Texas Neurology Consultants", city: "Round Rock", state: "Texas", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Vermont Medical Center", city: "Burlington", state: "Vermont", country: "United States", status: "RECRUITING"}
+    - {facility: "University of Virginia Health System", city: "Charlottesville", state: "Virginia", country: "United States", status: "RECRUITING"}
+    - {facility: "VCU Health North Hospital", city: "Richmond", state: "Virginia", country: "United States", status: "RECRUITING"}
+    - {facility: "West Virginia University", city: "Morgantown", state: "West Virginia", country: "United States", status: "RECRUITING"}
+
+NCT07288450:
+  registry_status: WITHDRAWN
+  registry_last_updated: 2026-10-07
+  site_count: 0
+  countries:
+  sites:
+
+ISRCTN16806940:
+  registry_status: "recruiting (derived from recruitment dates)"
+  registry_last_updated: null
+  recruitment_start: "2025-02-01"
+  recruitment_end: "2027-02-28"
+  site_count: 1
+  countries: {"unknown": null}
+  sites_note: "Addenbrookes
+	  Addenbrookes Hospital
+Hills Road
+	  Cambridge
+	  
+	  England
+	  CB2 0QQ
+	  NV504@2.16.840.1.113883.2.1.3.2.4.18.48"
+
+ISRCTN17799294:
+  registry_status: "recruiting (derived from recruitment dates)"
+  registry_last_updated: null
+  recruitment_start: "2025-09-01"
+  recruitment_end: "2029-06-30"
+  site_count: 42
+  countries: {"unknown": null}
+  sites_note: "Clinical Ageing Research Unit
+	  Campus for Ageing and Vitality
+	  Newcastle upon Tyne
+	  
+	  United Kingdom
+	  NE4 5PL
+	
+	
+	  Royal Hallamshire Hospital
+	  Glossop Road
+	  Sheffield
+	  
+	  United Kingdom
+	  S10 2JF
+	  5EQHH@2.16.840.1.113883.2.1.3.2.4.18.48
+	
+	
+	  Salford Royal Hospital
+	  Stott Lane
+Eccles
+	  Salford
+	  
+	  United Kingdom
+	  M6 8HD
+	  01GAW@2.16.840.1.113883.2.1.3.2.4.18.48
+	
+	
+	  Queen Elizabeth Hospital 
+	  Mindelsohn Way
+Edgbaston
+	  Birmingham
+	  
+	  United Kingdom
+	  B15 "

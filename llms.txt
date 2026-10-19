@@ -1,27 +1,43 @@
 # Parkinson's for agents
 
-> An agent-first guide to Parkinson's disease: subtypes, how to get typed, which studies and trials that unlocks, and what is still open. Navigation, not medical advice. Every page carries a verified date; re-check anything over 90 days old.
+> An agent-first guide to Parkinson's disease: subtypes, how to get typed, which studies and trials that unlocks, where they run, and what is still open. Navigation, not medical advice. Every page carries a verified date; re-check anything over 90 days old.
 
-Read START_HERE.md first (about 1,500 tokens). Then load only the page the task needs.
+Read START_HERE.md first. Then load only the file the task needs. Word counts are given so you can budget; tokens are roughly 1.3 times words. If your fetch tool returns a summary instead of the file, fetch the raw URL directly (for example with curl): https://raw.githubusercontent.com/ainsleys/parkinsons-agents/main/<path>
 
-## Core
+## Files (words)
 
-- [Start here](START_HERE.md): thesis, state of the field, what to do by role
-- [Get typed](guide/get-typed.md): every subtype test, how to get it, cost, what it unlocks
-- [Subtypes](guide/subtypes.md): five overlapping axes, confirmation, treatment implications
-- [On-ramps](guide/on-ramps.md): registries and cohorts that take almost anyone, pivotal trials recruiting now
+- [START_HERE.md](START_HERE.md) (832): Thesis, state of the field, what to do by role
+- [guide/get-typed.md](guide/get-typed.md) (1,974): Every subtype test: route, cost, what it unlocks, what a negative means, choosing between tests
+- [guide/subtypes.md](guide/subtypes.md) (1,409): Five overlapping axes, confirmation, treatment implications, prodromal
+- [guide/on-ramps.md](guide/on-ramps.md) (2,057): Registries, cohorts, every recruiting trial with eligibility and cities, closed trials
+- [data/SCHEMA.md](data/SCHEMA.md) (1,112): Field definitions and the matching rules agents must follow
+- [data/tests.yaml](data/tests.yaml) (1,268): One record per test
+- [data/programs.yaml](data/programs.yaml) (705): Registries, cohorts, genetic testing programs
+- [data/trials.yaml](data/trials.yaml) (2,664): Trials with normalized eligibility for local matching
+- [data/sites.yaml](data/sites.yaml) (8,081): Every trial site: facility, city, state, country, status (generated)
+- [README.md](README.md) (694): Why this exists, provenance, license, privacy design
+- [CORPUS.md](CORPUS.md) (537): Index of the literature review with per-file word counts
+- [CONTRIBUTING.md](CONTRIBUTING.md) (441): How to submit a correction; checks to run
+- [CHANGELOG.md](CHANGELOG.md) (505): What changed, newest first; poll this
+- [benchmarks/README.md](benchmarks/README.md) (426): How the repo is tested and the scores so far
+- [benchmarks/personas.md](benchmarks/personas.md) (1,197): The twenty fixed test personas and prompt template
+- [LICENSE](LICENSE) (82): CC BY 4.0
 
-## Structured data
+## Deep background (large; fetch selectively)
 
-- [tests.yaml](data/tests.yaml): one record per test, with route, cost, geography, unlocks
-- [programs.yaml](data/programs.yaml): registries, cohorts and genetic testing programs
-- [trials.yaml](data/trials.yaml): pivotal disease-modifying trials with eligibility fields for local matching
-- [SCHEMA.md](data/SCHEMA.md): field definitions
+- [reports/Parkinsons disease research review.md](reports/Parkinsons%20disease%20research%20review.md) (33,654): twelve-section synthesized review; the open-questions section and bibliography are in the final third
+- [01_pathophysiology_and_mechanisms.md](research_notes/Parkinsons%20disease%20research%20review/01_pathophysiology_and_mechanisms.md) (5,192)
+- [02_genetics_epidemiology_risk_factors.md](research_notes/Parkinsons%20disease%20research%20review/02_genetics_epidemiology_risk_factors.md) (7,873)
+- [03_diagnosis_biomarkers_staging.md](research_notes/Parkinsons%20disease%20research%20review/03_diagnosis_biomarkers_staging.md) (6,184)
+- [04_motor_treatment_drugs_devices_surgery.md](research_notes/Parkinsons%20disease%20research%20review/04_motor_treatment_drugs_devices_surgery.md) (9,531)
+- [05_nonmotor_symptoms_and_management.md](research_notes/Parkinsons%20disease%20research%20review/05_nonmotor_symptoms_and_management.md) (8,880)
+- [06_disease_modifying_therapy_pipeline.md](research_notes/Parkinsons%20disease%20research%20review/06_disease_modifying_therapy_pipeline.md) (7,895)
+- [07_cell_gene_therapy_and_emerging_tech.md](research_notes/Parkinsons%20disease%20research%20review/07_cell_gene_therapy_and_emerging_tech.md) (9,292)
+- [08_exercise_lifestyle_care_models_outcomes.md](research_notes/Parkinsons%20disease%20research%20review/08_exercise_lifestyle_care_models_outcomes.md) (5,602)
+- [09_basal_ganglia_circuits_iron_gut_origin.md](research_notes/Parkinsons%20disease%20research%20review/09_basal_ganglia_circuits_iron_gut_origin.md) (7,739)
+- [10_history_and_research_infrastructure.md](research_notes/Parkinsons%20disease%20research%20review/10_history_and_research_infrastructure.md) (8,981)
 
-## Deep background
+## Scripts
 
-- [Corpus index](CORPUS.md): a 112,000-word cited literature review compiled 2026-10-06, with ten topic files under research_notes/
-
-## Contributing
-
-- [CONTRIBUTING.md](CONTRIBUTING.md): how an agent submits a correction, with the citation and date requirements
+- scripts/pull_registry.py: pulls ClinicalTrials.gov and ISRCTN records into data/registry/ and writes data/sites.yaml
+- scripts/check_freshness.py: enforces verified dates, registry agreement, data-prose consistency, links

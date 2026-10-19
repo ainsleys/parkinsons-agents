@@ -1,0 +1,429 @@
+{
+ "derivedSection": {
+  "conditionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D020734",
+     "term": "Parkinsonian Disorders"
+    },
+    {
+     "id": "D001480",
+     "term": "Basal Ganglia Diseases"
+    },
+    {
+     "id": "D001927",
+     "term": "Brain Diseases"
+    },
+    {
+     "id": "D002493",
+     "term": "Central Nervous System Diseases"
+    },
+    {
+     "id": "D009422",
+     "term": "Nervous System Diseases"
+    },
+    {
+     "id": "D009069",
+     "term": "Movement Disorders"
+    },
+    {
+     "id": "D000080874",
+     "term": "Synucleinopathies"
+    },
+    {
+     "id": "D019636",
+     "term": "Neurodegenerative Diseases"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D010300",
+     "term": "Parkinson Disease"
+    }
+   ]
+  },
+  "interventionBrowseModule": {
+   "ancestors": [
+    {
+     "id": "D001964",
+     "term": "Bromhexine"
+    },
+    {
+     "id": "D000814",
+     "term": "Aniline Compounds"
+    },
+    {
+     "id": "D000588",
+     "term": "Amines"
+    },
+    {
+     "id": "D009930",
+     "term": "Organic Chemicals"
+    },
+    {
+     "id": "D003514",
+     "term": "Cyclohexylamines"
+    }
+   ],
+   "meshes": [
+    {
+     "id": "D000551",
+     "term": "Ambroxol"
+    }
+   ]
+  },
+  "miscInfoModule": {
+   "versionHolder": "2026-10-19"
+  }
+ },
+ "hasResults": false,
+ "protocolSection": {
+  "armsInterventionsModule": {
+   "armGroups": [
+    {
+     "description": "Ambroxol hydrochloride 200 mg tablets Dose: 1.2 g daily\n\nEscalation scheme:\n\nDay 1 - 5 200 mg 200 mg once a day Day 6 - 10 400 mg 200 mg twice a day Day 11 - 15 600 mg 200 mg three times a day Day 16 - 20 800 mg 400 mg twice a day Day 21 - 25 1000 mg 400 mg + 200 mg + 400 mg a day Day 26 - 365 1200 mg 400 mg three times a day",
+     "interventionNames": [
+      "Drug: Ambroxol Hydrochloride"
+     ],
+     "label": "Ambroxol",
+     "type": "EXPERIMENTAL"
+    },
+    {
+     "description": "Excipients",
+     "interventionNames": [
+      "Drug: Placebo"
+     ],
+     "label": "Placebo",
+     "type": "PLACEBO_COMPARATOR"
+    }
+   ],
+   "interventions": [
+    {
+     "armGroupLabels": [
+      "Ambroxol"
+     ],
+     "description": "Drug Ambroxol hydrochloride 200 mg plus excipients. The manufacturing process of the 200 mg Ambroxol hydrochloride tablets will be performed by wet granulation, drying, mixing and compression to the target final weight.",
+     "name": "Ambroxol Hydrochloride",
+     "otherNames": [
+      "Ambroxol"
+     ],
+     "type": "DRUG"
+    },
+    {
+     "armGroupLabels": [
+      "Placebo"
+     ],
+     "description": "Excipients",
+     "name": "Placebo",
+     "type": "DRUG"
+    }
+   ]
+  },
+  "conditionsModule": {
+   "conditions": [
+    "Parkinson Disease",
+    "GBA Gene Mutation"
+   ],
+   "keywords": [
+    "Parkinson disease",
+    "glucocerebrosidase",
+    "GBA",
+    "ambroxol",
+    "placebo",
+    "disease-modifying",
+    "randomized clinical trial"
+   ]
+  },
+  "contactsLocationsModule": {
+   "locations": [
+    {
+     "city": "Milan",
+     "country": "Italy",
+     "facility": "Fondazione IRCCS Istituto Neurologico Carlo Besta",
+     "geoPoint": {
+      "lat": 45.46427,
+      "lon": 9.18951
+     },
+     "zip": "20133"
+    },
+    {
+     "city": "Naples",
+     "country": "Italy",
+     "facility": "University of Campania \"Luigi Vanvitelli\"",
+     "geoPoint": {
+      "lat": 40.85216,
+      "lon": 14.26811
+     }
+    },
+    {
+     "city": "Pavia",
+     "country": "Italy",
+     "facility": "IRCCS National Neurological Institute \"C. Mondino\" Foundation",
+     "geoPoint": {
+      "lat": 45.19205,
+      "lon": 9.15917
+     },
+     "zip": "27100"
+    }
+   ],
+   "overallOfficials": [
+    {
+     "affiliation": "Fondazione IRCCS Istituto Neurologico Carlo Besta",
+     "name": "Roberto Cilia",
+     "role": "PRINCIPAL_INVESTIGATOR"
+    }
+   ]
+  },
+  "descriptionModule": {
+   "briefSummary": "The present multicenter, randomized, double-blind, placebo-controlled clinical trial will investigate whether the prolonged administration of high-dose oral Ambroxol over 52 weeks is safe, tolerable, able to change Glucocerebrosidase enzyme activity and alpha-synuclein levels in the central nervous system and, ultimately, to reduce the progression of cognitive decline and motor disability in 60 individuals with Parkinson's disease with mutations of the glucocerebrosidase gene (GBA1; OMIM 606463).\n\nParticipants will undergo clinical, biomarker blood and cerebrospinal fluid analysis, neuropsychological, neuroimaging assessment throughout the course of the study.",
+   "detailedDescription": "Glucocerebrosidase (GCase) is a lysosomal enzyme encoded by the GBA1 beta-glucosylceramidase gene (GBA). Heterozygous GBA mutations are recognized as the most frequent genetic risk factor for Parkinson's disease (PD),with an overall carrier frequency of about 10% in PD. Heterozygous carriers of GBA mutations are at increased odds for developing PD and even higher for PD Dementia and Dementia with Lewy Bodies. In GBA carriers, PD usually occurs at earlier age at onset, higher risk for dementia, visual hallucinations, autonomic dysfunction and faster progression of motor symptoms than noncarriers, culminating in an overall reduced survival.\n\nGBA1 mutations reduce the enzymatic function of GCase, ultimately promoting the toxic accumulation of alpha-synuclein (alpha-syn) fibrils throughout the central nervous system. The toxic conversion of physiological alpha-syn conformers by glycosphingolipids should be reversible at a stage prior to incorporation into fibrils. Therefore, the use of agents able to enhance GCase activity might hold a therapeutic potential. Ambroxol is a metabolite of bromhexine which has been used for over 30 years as an over-the-counter mucolytic, with an excellent safety profile with few side effects. The brain penetrance of Ambroxol in vivo and its ability to increase GCase activity and reduce alpha-syn levels has been consistently confirmed in several in vitro and in vivo studies, but only at a higher dose (1.2 g/day in humans).\n\nThe investigators hypothesize that the greatest impact of Ambroxol as a disease-modifying agent will be on cognitive performance, because it is the clinical feature that showed the greatest difference between PD carriers vs. non-carriers.\n\nSixty patients diagnosed with PD and carriers of GBA mutations will be recruited and randomly allocated to either Ambroxol 1.2 g/day or Placebo. Galenic formulation of Ambroxol 200 mg per tablet and similar Placebo tablets have been manufactured ad hoc and their use in this study has been authorized by the Italian Medicines Agency (AIFA; Provvedimento 2021-004565-13 SC23119).\n\nThe investigators will administer clinical and cognitive assessments to determine if there is any difference in the progression of cognitive dysfunction (primary endpoint) as well as other motor and non-motor features between the two treatment arms.\n\nPharmacokinetics (Ambroxol drug levels) and pharmacodynamics (GCase enzyme activity) of the experimental drug in blood and cerebrospinal fluid samples will be measured as well as neurodegeneration biomarkers in the cerebrospinal fluid (alpha-synuclein, Tau, phospho-Tau and beta amyloid-42) at baseline and after the intake of oral Ambroxol for 12 months."
+  },
+  "designModule": {
+   "designInfo": {
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "interventionModelDescription": "Multicenter, Randomized, Double-blind, Placebo controlled, Parallel-group trial",
+    "maskingInfo": {
+     "masking": "QUADRUPLE",
+     "maskingDescription": "Double Blind",
+     "whoMasked": [
+      "PARTICIPANT",
+      "CARE_PROVIDER",
+      "INVESTIGATOR",
+      "OUTCOMES_ASSESSOR"
+     ]
+    },
+    "primaryPurpose": "TREATMENT"
+   },
+   "enrollmentInfo": {
+    "count": 65,
+    "type": "ACTUAL"
+   },
+   "phases": [
+    "PHASE2"
+   ],
+   "studyType": "INTERVENTIONAL"
+  },
+  "eligibilityModule": {
+   "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 21-80 years\n2. Diagnosis of idiopathic PD\n3. Duration of motor symptoms \\>5 years\n4. Heterozygous carrier of a GBA1 mutation.\n5. Capable of complying with all study procedures, including fasting lumbar puncture\n6. All male and female participants of childbearing age must agree with their partners to use double barrier birth control or total abstinence during study participation and for 2 weeks after the last dose of study drug.\n\nMale participants who have received bilateral vasectomy are permanently sterile.\n\nA woman can participate if she is of:\n\n1. Non-childbearing potential\n2. Women of childbearing potential must have a negative pregnancy test at the screening visit and use accepted contraceptive methods defined as highly effective.\n\nExclusion Criteria:\n\n1. Secondary and primary atypical parkinsonism\n2. Diagnosis of Parkinson-Dementia (MDS Level II criteria) or other conditions that result in inability to understand and sign the informed consent\n3. Hoehn \\& Yahr stage \u2265 4/5 in the medication-ON condition\n4. Deep Brain Stimulation\n5. Any clinically significant or unstable medical condition, which, in the opinion of the principal investigator or the clinician delegated by the principal investigator, may put the participant at risk when participating in the study (e.g. previous gastric/duodenal peptic ulcer, chronic obstructive pulmonary disease, severe liver or kidney changes, major cardiovascular event (e.g. myocardial infarction, decompensated congestive heart failure, pulmonary embolism occurring within 6 months prior to the screening visit), neoplastic diseases).\n6. Bronchial asthma\n7. Abnormalities that could preclude safe completion of the spinal cord in the investigator's opinion, including: treatment with anticoagulants; severe abnormalities or malformations of the lower spine or other spinal disorders; bleeding diathesis (e.g. clinically significant coagulopathies or thrombocytopenia); hypersensitivity to lidocaine.\n8. Pregnant or breastfeeding women.\n9. All participants of childbearing age who disagree to use double barrier or abstinence birth control while participating in the study and for 2 weeks after the last dose of study drug;\n10. Known hypersensitivity to the active substance Ambroxol or to any of its excipients.",
+   "healthyVolunteers": false,
+   "maximumAge": "80 Years",
+   "minimumAge": "21 Years",
+   "sex": "ALL",
+   "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+   ]
+  },
+  "identificationModule": {
+   "acronym": "AMBITIOUS",
+   "briefTitle": "Ambroxol as a Disease-modifying Treatment in GBA-PD",
+   "nctId": "NCT05287503",
+   "officialTitle": "Ambroxol as a Disease-modifying Treatment to Reduce the Risk of Cognitive Impairment in GBA-associated Parkinson's Disease. A Multicenter, Randomized, Double-blind, Placebo-controlled, Phase 2 Trial",
+   "orgStudyIdInfo": {
+    "id": "GR-2018-12366771"
+   },
+   "organization": {
+    "class": "OTHER",
+    "fullName": "Fondazione I.R.C.C.S. Istituto Neurologico Carlo Besta"
+   },
+   "secondaryIdInfos": [
+    {
+     "id": "2021-004565-13",
+     "type": "EUDRACT_NUMBER"
+    }
+   ]
+  },
+  "ipdSharingStatementModule": {
+   "accessCriteria": "Access to trial individual participant data can be requested by qualified researchers engaging in independent scientific research, and will be provided following review and approval of a research proposal and Statistical Analysis Plan and execution of a Data Sharing Agreement. For more information or to submit a request, please contact the P.I. of the study (roberto.cilia@istituto-besta.it)",
+   "description": "Data obtained through this study may be provided to qualified researchers with academic interest in GBA-associated Parkinson's disease. Data or samples shared will be coded, with no protected health information included. Approval of the request and execution of all applicable agreements (i.e. a material transfer agreement) are prerequisites to the sharing of data with the requesting party.",
+   "ipdSharing": "YES",
+   "timeFrame": "Data requests can be submitted starting 9 months after article publication and the data will be made accessible for up to 24 months. Extensions will be considered on a case-by-case basis."
+  },
+  "outcomesModule": {
+   "primaryOutcomes": [
+    {
+     "description": "This 30-point test investigates global cognitive functions and it has been recommended for the assessment of Parkinson's dementia. The lower the score the worse the cognitive functions.",
+     "measure": "Change from baseline in Montreal Cognitive Assessment score",
+     "timeFrame": "baseline and week 52"
+    },
+    {
+     "description": "Rate of conversion from normal cognitive status to MCI or from MCI to overt dementia over the 52-week treatment period",
+     "measure": "Change from baseline in conversion rate from normal cognitive function (PD-N) to mild cognitive impairment (PD-MCI) and from PD-N or PD-MCI to Parkinson-Dementia (PD-D)",
+     "timeFrame": "baseline and week 52"
+    }
+   ],
+   "secondaryOutcomes": [
+    {
+     "description": "Assessment of any treatment-related adverse events and drop-outs throughout the whole study period",
+     "measure": "Incidence of treatment-related adverse events and drop-outs",
+     "timeFrame": "Day 1-372"
+    },
+    {
+     "description": "The PD-CFRS is a short questionnaire addressed to explore a wide range of functional aspects sensible to detect cognitive impairment in PD, minimizing the motor impact of the disease. The scale is administered to a knowledgeable informant in interview form by 12 items selected to cover the spectrum of instrumental cognitive changes seen in PD over the last two weeks before the evaluation (exploring for example whether or not the patient has had trouble in handling money, domestic economy, controlling drug treatment schedule, organizing daily activities, handling home electrical appliances, understanding how to use public transport, solving unforeseen events, explaining things he/she want to say, and handling the cell phone).\n\nThe score ranges from 0 to 24; the higher the score the worse the disability.",
+     "measure": "Change from baseline in Parkinson Disease Cognitive Functional Rating Scale (PD-CFRS)",
+     "timeFrame": "baseline and week 52"
+    },
+    {
+     "description": "MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part II assesses motor experiences of daily living (Range 0-52). It contains 13 questions completed by the participant. For each question a numeric score was assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe.",
+     "measure": "Change from baseline in Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) part II",
+     "timeFrame": "baseline, week 26 and week 52"
+    },
+    {
+     "description": "Changes on a validated scale used to assess motor performance. MDS-UPDRS is a multimodal scale assessing impairment and disability consisting of 4 parts. Part III assesses the motor signs of PD and is administered by the rater (Range 0-132). Part III contains 33 scores based on 18 items. For each question a numeric score was assigned between 0-4, where 0 = Normal, 1 = Slight, 2 = Mild, 3 = Moderate, 4 = Severe.",
+     "measure": "Change from baseline in Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) part III",
+     "timeFrame": "baseline, week 26 and week 52"
+    },
+    {
+     "description": "This is a 5-points staging of Parkinson's disease. The higher the stage the worse the motor disability",
+     "measure": "Change from baseline in Hoehn and Yahr stage",
+     "timeFrame": "baseline, week 26 and week 52"
+    },
+    {
+     "description": "Pharmacodynamic effects of Ambroxol will be measured through the change from baseline in glucocerebrosidase enzyme activity in blood leucocytes (nmol/mg/h) and cerebrospinal fluid (nmol/mL/h), using the substrate 4-methylumbelliferyl-\u03b2-D-glucopyranoside.\n\nThis outcome measure aims to investigate whether ambroxol oral administration is able to target the glucocerebrosidase pathway in PD and increase GCase enzyme activity in peripheral blood mononuclear cells and in the central nervous system.",
+     "measure": "Change from baseline in glucocerebrosidase enzyme activity in blood leucocytes and cerebrospinal fluid",
+     "timeFrame": "baseline and week 52"
+    },
+    {
+     "description": "Assess ambroxol cerebrospinal fluid penetration by measuring the ratio (expressed in %) between Ambroxol levels in blood serum (ng/mL) and in the cerebrospinal fluid (ng/ml)",
+     "measure": "Penetration of Ambroxol into the cerebrospinal fluid",
+     "timeFrame": "week 26 and week 52"
+    },
+    {
+     "description": "Quantify the effects of Ambroxol on biomarkers of neurodegeneration",
+     "measure": "Changes in Cerebrospinal Fluid biomarkers of neurodegeneration",
+     "timeFrame": "baseline and week 52"
+    },
+    {
+     "description": "Imaging biomarker of neurodegeneration",
+     "measure": "Changes in functional connectivity at rest using brain magnetic resonance imaging",
+     "timeFrame": "baseline and week 52"
+    }
+   ]
+  },
+  "oversightModule": {
+   "isFdaRegulatedDevice": false,
+   "isFdaRegulatedDrug": false,
+   "isUsExport": false,
+   "oversightHasDmc": true
+  },
+  "referencesModule": {
+   "references": [
+    {
+     "citation": "Mullin S, Smith L, Lee K, D'Souza G, Woodgate P, Elflein J, Hallqvist J, Toffoli M, Streeter A, Hosking J, Heywood WE, Khengar R, Campbell P, Hehir J, Cable S, Mills K, Zetterberg H, Limousin P, Libri V, Foltynie T, Schapira AHV. Ambroxol for the Treatment of Patients With Parkinson Disease With and Without Glucocerebrosidase Gene Mutations: A Nonrandomized, Noncontrolled Trial. JAMA Neurol. 2020 Apr 1;77(4):427-434. doi: 10.1001/jamaneurol.2019.4611.",
+     "pmid": "31930374",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Cilia R, Tunesi S, Marotta G, Cereda E, Siri C, Tesei S, Zecchinelli AL, Canesi M, Mariani CB, Meucci N, Sacilotto G, Zini M, Barichella M, Magnani C, Duga S, Asselta R, Solda G, Seresini A, Seia M, Pezzoli G, Goldwurm S. Survival and dementia in GBA-associated Parkinson's disease: The mutation matters. Ann Neurol. 2016 Nov;80(5):662-673. doi: 10.1002/ana.24777. Epub 2016 Oct 3.",
+     "pmid": "27632223",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Blandini F, Cilia R, Cerri S, Pezzoli G, Schapira AHV, Mullin S, Lanciego JL. Glucocerebrosidase mutations and synucleinopathies: Toward a model of precision medicine. Mov Disord. 2019 Jan;34(1):9-21. doi: 10.1002/mds.27583. Epub 2018 Dec 27.",
+     "pmid": "30589955",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "McNeill A, Magalhaes J, Shen C, Chau KY, Hughes D, Mehta A, Foltynie T, Cooper JM, Abramov AY, Gegg M, Schapira AH. Ambroxol improves lysosomal biochemistry in glucocerebrosidase mutation-linked Parkinson disease cells. Brain. 2014 May;137(Pt 5):1481-95. doi: 10.1093/brain/awu020. Epub 2014 Feb 25.",
+     "pmid": "24574503",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Migdalska-Richards A, Ko WKD, Li Q, Bezard E, Schapira AHV. Oral ambroxol increases brain glucocerebrosidase activity in a nonhuman primate. Synapse. 2017 Jul;71(7):e21967. doi: 10.1002/syn.21967. Epub 2017 Mar 17.",
+     "pmid": "28295625",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Narita A, Shirai K, Itamura S, Matsuda A, Ishihara A, Matsushita K, Fukuda C, Kubota N, Takayama R, Shigematsu H, Hayashi A, Kumada T, Yuge K, Watanabe Y, Kosugi S, Nishida H, Kimura Y, Endo Y, Higaki K, Nanba E, Nishimura Y, Tamasaki A, Togawa M, Saito Y, Maegaki Y, Ohno K, Suzuki Y. Ambroxol chaperone therapy for neuronopathic Gaucher disease: A pilot study. Ann Clin Transl Neurol. 2016 Feb 2;3(3):200-15. doi: 10.1002/acn3.292. eCollection 2016 Mar.",
+     "pmid": "27042680",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Silveira CRA, MacKinley J, Coleman K, Li Z, Finger E, Bartha R, Morrow SA, Wells J, Borrie M, Tirona RG, Rupar CA, Zou G, Hegele RA, Mahuran D, MacDonald P, Jenkins ME, Jog M, Pasternak SH. Ambroxol as a novel disease-modifying treatment for Parkinson's disease dementia: protocol for a single-centre, randomized, double-blind, placebo-controlled trial. BMC Neurol. 2019 Feb 9;19(1):20. doi: 10.1186/s12883-019-1252-3.",
+     "pmid": "30738426",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Winder-Rhodes SE, Evans JR, Ban M, Mason SL, Williams-Gray CH, Foltynie T, Duran R, Mencacci NE, Sawcer SJ, Barker RA. Glucocerebrosidase mutations influence the natural history of Parkinson's disease in a community-based incident cohort. Brain. 2013 Feb;136(Pt 2):392-9. doi: 10.1093/brain/aws318.",
+     "pmid": "23413260",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Zunke F, Moise AC, Belur NR, Gelyana E, Stojkovska I, Dzaferbegovic H, Toker NJ, Jeon S, Fredriksen K, Mazzulli JR. Reversible Conformational Conversion of alpha-Synuclein into Toxic Assemblies by Glucosylceramide. Neuron. 2018 Jan 3;97(1):92-107.e10. doi: 10.1016/j.neuron.2017.12.012. Epub 2017 Dec 28.",
+     "pmid": "29290548",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Shinotoh H, Tessitore A. Resting-state fMRI sheds light on neural substrates of cognitive decline in Parkinson disease. Neurology. 2014 Nov 25;83(22):2000-1. doi: 10.1212/WNL.0000000000001037. Epub 2014 Oct 29. No abstract available.",
+     "pmid": "25355820",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Kulisevsky J, Fernandez de Bobadilla R, Pagonabarraga J, Martinez-Horta S, Campolongo A, Garcia-Sanchez C, Pascual-Sedano B, Ribosa-Nogue R, Villa-Bonomo C. Measuring functional impact of cognitive impairment: validation of the Parkinson's disease cognitive functional rating scale. Parkinsonism Relat Disord. 2013 Sep;19(9):812-7. doi: 10.1016/j.parkreldis.2013.05.007. Epub 2013 Jun 15.",
+     "pmid": "23773412",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Parnetti L, Balducci C, Pierguidi L, De Carlo C, Peducci M, D'Amore C, Padiglioni C, Mastrocola S, Persichetti E, Paciotti S, Bellomo G, Tambasco N, Rossi A, Beccari T, Calabresi P. Cerebrospinal fluid beta-glucocerebrosidase activity is reduced in Dementia with Lewy Bodies. Neurobiol Dis. 2009 Jun;34(3):484-6. doi: 10.1016/j.nbd.2009.03.002. Epub 2009 Mar 20.",
+     "pmid": "19303930",
+     "type": "BACKGROUND"
+    },
+    {
+     "citation": "Colucci F, Avenali M, De Micco R, Fusar Poli M, Cerri S, Stanziano M, Bacila A, Cuconato G, Franco V, Franciotta D, Ghezzi C, Gastaldi M, Elia AE, Romito L, Devigili G, Leta V, Garavaglia B, Golfre Andreasi N, Cazzaniga F, Reale C, Galandra C, Germani G, Mitrotti P, Ongari G, Palmieri I, Picascia M, Pichiecchio A, Verri M, Esposito F, Cirillo M, Di Nardo F, Aloisio S, Siciliano M, Prioni S, Amami P, Piacentini S, Bruzzone MG, Grisoli M, Moda F, Eleopra R, Tessitore A, Valente EM, Cilia R. Ambroxol as a disease-modifying treatment to reduce the risk of cognitive impairment in GBA-associated Parkinson's disease: a multicentre, randomised, double-blind, placebo-controlled, phase II trial. The AMBITIOUS study protocol. BMJ Neurol Open. 2023 Nov 24;5(2):e000535. doi: 10.1136/bmjno-2023-000535. eCollection 2023.",
+     "pmid": "38027469",
+     "type": "DERIVED"
+    }
+   ]
+  },
+  "sponsorCollaboratorsModule": {
+   "collaborators": [
+    {
+     "class": "OTHER",
+     "name": "IRCCS National Neurological Institute \"C. Mondino\" Foundation"
+    },
+    {
+     "class": "OTHER",
+     "name": "University of Campania Luigi Vanvitelli"
+    }
+   ],
+   "leadSponsor": {
+    "class": "OTHER",
+    "name": "Fondazione I.R.C.C.S. Istituto Neurologico Carlo Besta"
+   },
+   "responsibleParty": {
+    "type": "SPONSOR"
+   }
+  },
+  "statusModule": {
+   "completionDateStruct": {
+    "date": "2024-12-20",
+    "type": "ACTUAL"
+   },
+   "expandedAccessInfo": {
+    "hasExpandedAccess": false
+   },
+   "lastUpdatePostDateStruct": {
+    "date": "2025-08-14",
+    "type": "ACTUAL"
+   },
+   "lastUpdateSubmitDate": "2025-08-11",
+   "overallStatus": "COMPLETED",
+   "primaryCompletionDateStruct": {
+    "date": "2024-12-15",
+    "type": "ACTUAL"
+   },
+   "startDateStruct": {
+    "date": "2022-03-09",
+    "type": "ACTUAL"
+   },
+   "statusVerifiedDate": "2025-08",
+   "studyFirstPostDateStruct": {
+    "date": "2022-03-18",
+    "type": "ACTUAL"
+   },
+   "studyFirstSubmitDate": "2022-01-28",
+   "studyFirstSubmitQcDate": "2022-03-10"
+  }
+ }
+}

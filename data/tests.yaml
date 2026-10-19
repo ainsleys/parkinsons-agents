@@ -1,5 +1,5 @@
 # Tests that place a person on a Parkinson's subtype axis.
-# Schema: data/SCHEMA.md. Unknown is written as null or "unknown", never guessed.
+# Schema: data/SCHEMA.md. Navigation, not medical advice. Unknown is written as null or "unknown", never guessed.
 
 - id: clinical_motor_subtype
   name: Clinical motor subtype (tremor-dominant vs PIGD)
@@ -41,7 +41,8 @@
   caveats:
     - Requires confirmed PD diagnosis and age 18+
     - At-home kit only in US, Canada, Puerto Rico, Dominican Republic
-    - About 13 percent positive overall; about 18 percent with early onset, high-risk ancestry or affected first-degree relative
+    - About 12 to 13 percent positive overall (12.2 percent per the Foundation FAQ; about 13 percent in the 2026 preprint); about 18 percent with early onset, high-risk ancestry or an affected first-degree relative
+    - Turnaround not published
   verified: 2026-10-19
   sources:
     - https://www.parkinson.org/advancing-research/our-research/pdgeneration/faq
@@ -107,7 +108,8 @@
     - Best studied in European, Ashkenazi Jewish and North African Berber ancestry
   verified: 2026-10-19
   sources:
-    - https://23andme.com/topics/health-predispositions/parkinsons-disease
+    - https://www.23andme.com/topics/health-predispositions/parkinsons-disease/
+    - https://medical.23andme.com/wp-content/uploads/2023/02/Jamie-Parkinsons-Disease-one-variant-LRRK2-detected-sample-report-1.pdf
 
 - id: csf_saa
   name: CSF alpha-synuclein seed amplification assay (SYNTap / SAAmplify-aSYN, Amprion)
@@ -120,19 +122,23 @@
   cost: About USD 1,500 self-pay per a news report; current 2026 price unverified
   coverage: Medicare requires an Advance Beneficiary Notice; not in network with private insurers per manufacturer FAQ; courtesy billing offered
   availability: clinical
+  turnaround: unknown
   unlocks:
     - Anchors S+ or S- in biological staging
     - Negative result prompts diagnostic re-look
+  negative_means: Does not rule out Parkinson's. About 10 to 15 percent of people with a confident clinical diagnosis test negative; they are disproportionately LRRK2 or Parkin carriers and people with normal smell, plus some with look-alike conditions such as PSP. Standard treatment still works. The useful next questions are genetic testing and a second look at the diagnosis with the neurologist.
   caveats:
-    - 87.7 percent sensitivity, 96.3 percent specificity in PPMI; much lower positivity in LRRK2 carriers and normosmic PD
+    - 87.7 percent sensitivity, 96.3 percent specificity for clinical PD in PPMI (Siderowf 2023); positivity about 68 percent in LRRK2 carriers and about 78 percent in people with normal smell (figures from secondary summaries, unverified against the paper)
+    - CPT code 0393U per payer policy documents
     - Does not separate PD from MSA or DLB
     - No disease-modifying trial yet enrolls on this alone
     - FDA Breakthrough Device designation and 2024 Letter of Support; not FDA approved as a diagnostic
   verified: 2026-10-19
   sources:
     - https://www.ampriondx.com/test-faq
+    - https://doi.org/10.1016/S1474-4422(23)00109-6
+    - https://www.premera.com/medicalpolicies/2.04.521.pdf
     - https://news.mayocliniclabs.com/2025/03/26/mayo-clinic-laboratories-and-amprion-announce-collaboration-to-advance-neurodegenerative-disease-diagnostics/
-    - research_notes/Parkinsons disease research review/03_diagnosis_biomarkers_staging.md
 
 - id: skin_biopsy_syn_one
   name: Skin biopsy for phosphorylated alpha-synuclein (Syn-One, CND Life Sciences)
@@ -145,10 +151,13 @@
   cost: Not published
   coverage: Varies by payer; lab-developed test, not FDA cleared
   availability: clinical
+  turnaround: About 3 weeks
   unlocks:
     - Same as csf_saa without the lumbar puncture
+  negative_means: Same interpretation as a negative CSF assay. The skin test and the CSF test measure the same biology by different methods, and a negative on one is not a reason to assume a positive on the other.
   caveats:
-    - 92.7 percent positive in PD, 3.3 percent in controls (JAMA 2024)
+    - 92.7 percent positive in PD, 3.3 percent in controls (JAMA 2024). This is a positivity rate in a clinically confirmed cohort, not the same study as the CSF figures, so the two tests are not directly compared
+    - Different method from the seed amplification assay: immunostaining for phosphorylated synuclein in skin nerve fibers, not amplification
     - Does not distinguish among synucleinopathies; no prognosis
   verified: 2026-10-19
   sources:
@@ -164,8 +173,9 @@
   invasiveness: imaging
   geography: [US, Europe, widely]
   cost: unknown
-  coverage: Usually covered when clinically indicated (unverified)
+  coverage: Usually covered when clinically indicated in the US (unverified)
   availability: clinical
+  turnaround: Same day imaging; report within days
   unlocks:
     - Confirms the N axis in biological staging
   caveats:

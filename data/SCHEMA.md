@@ -1,6 +1,21 @@
 # Data schema
 
-Every record in `data/*.yaml` carries `verified` (ISO date the facts were last checked against a source) and `sources` (URLs). An agent should treat a record older than about 90 days as a lead, not a fact.
+Every record in `data/*.yaml` carries `verified` (ISO date the facts were last checked against a source) and `sources` (URLs). Treat a record older than about 90 days as a lead, not a fact. Unknown values are written as `null` or `unknown`, never omitted silently and never guessed.
+
+These files are navigation, not medical advice. Eligibility fields come from registry listings, which give "key" criteria only. Every trial applies further protocol-defined criteria at screening.
+
+## Matching rules for agents
+
+When comparing a person against `trials.yaml`:
+
+1. **Treat `null` and `unknown` as "cannot assess", never as "passes."** Report the trial as unclear and name the missing field.
+2. **Hoehn and Yahr stage is state-dependent.** `hoehn_yahr_state` says whether the trial measures it `off` medication, `on` medication, or `unknown`. A person's clinic-reported stage is usually measured on medication. If the trial wants `off` and you only have an on-medication stage, the answer is unclear, and the question to ask the neurologist is "what is my off-medication stage."
+3. **Disease duration has a reference point.** `duration_reference` is `diagnosis` or `symptom_onset`. Onset is typically one to two years before diagnosis. If the person's dates straddle a limit under one reference but not the other, say so.
+4. **`medication_state` is an enum:** `untreated` (must not be on PD medication), `on_stable_treatment` (must be on PD medication, see `medication_min_months`), `either`, `unknown`. Joining an `untreated` trial means delaying levodopa, which is a clinical decision for the person and their neurologist.
+5. **Genetics has three parts.** `genetic_requirement.required_variant` (a gene name, or `none`), `genetic_requirement.status_must_be_known` (true means tested either way), `genetic_requirement.excluded_variants` (a list). A person with no genetic test fails `status_must_be_known: true` until tested.
+6. **Geography.** `countries` is the list of countries with at least one site in the registry record. `data/sites.yaml` has the per-site city, state and status. A country match is not a travel match; name the nearest cities and let the person judge.
+7. **Status.** Use `status` together with `registry_last_updated`. A record not updated by the registry for over a year is suspect even if `verified` is recent; `scripts/check_freshness.py` flags these.
+8. **Never send the person's data anywhere.** All matching is local.
 
 ## tests.yaml
 
@@ -17,7 +32,9 @@ Every record in `data/*.yaml` carries `verified` (ISO date the facts were last c
 | cost | string | Free text; include currency and date context |
 | coverage | string | Insurance or health-system coverage notes |
 | availability | enum | `clinical`, `research_only`, `consumer` |
+| turnaround | string or null | Time to result |
 | unlocks | list | What a result changes today |
+| negative_means | string or null | Plain-language interpretation of a negative result |
 | caveats | list | Known limits |
 | verified | date | |
 | sources | list of URLs | |
@@ -30,11 +47,15 @@ Every record in `data/*.yaml` carries `verified` (ISO date the facts were last c
 | sponsor | string | |
 | type | enum | `genetic_testing`, `observational_cohort`, `online_registry`, `matching_service` |
 | eligibility | list | Plain-language criteria |
-| geography | list | |
+| countries | list | Countries served; `online` for anywhere |
+| at_home | bool or null | Whether participation needs no site visit |
+| cost | string | What the participant pays |
+| genes | list or null | For genetic testing programs, the genes reported |
 | burden | string | Visits, procedures, time |
 | gives_participant | list | What the person receives (results, imaging, counseling) |
 | excludes_from_other_studies | bool | |
-| registry_id | string | NCT number if any |
+| how_to_join | string | Concrete first step, with URL or contact |
+| registry_id | string or null | NCT or ISRCTN number if any |
 | status | string | |
 | url | string | |
 | verified, sources | | |
@@ -43,17 +64,38 @@ Every record in `data/*.yaml` carries `verified` (ISO date the facts were last c
 
 | Field | Type | Meaning |
 |---|---|---|
-| id, name, registry_id | string | |
+| id, name, registry_id | string | `registry_id` is an NCT or ISRCTN number |
+| other_ids | list or null | EU CT numbers and similar |
 | sponsor, phase | string | |
 | intervention | string | |
-| target_axis | string | Which subtype axis or population it is restricted to |
-| status | enum | `recruiting`, `active_not_recruiting`, `completed`, `failed`, `planned` |
-| geography | list | |
-| sites | integer or null | |
-| eligibility | object | Structured where known: `age_min`, `age_max`, `disease_duration_min_months`, `disease_duration_max_months`, `hoehn_yahr`, `medication_state`, `genetic_requirement`, `other` (list) |
-| burden | object | `route`, `frequency`, `blinded_duration_weeks`, `open_label_extension` (bool), `placebo_probability`, `mri_required` (bool or `likely`/`unknown`) |
-| primary_completion | date or string | |
+| target_axis | string | Which subtype axis or population it is restricted to; `none` if open to idiopathic PD |
+| status | enum | `recruiting`, `active_not_recruiting`, `completed`, `failed`, `withdrawn`, `planned`, `unknown` |
+| status_note | string or null | Conflicts between registries, or a reason |
+| countries | list | Countries with at least one site, from the registry |
+| sites | integer or null | Site count from the registry |
+| eligibility | object | See below |
+| burden | object | `route`, `frequency`, `blinded_duration_weeks`, `open_label_extension` (bool or unknown), `placebo_probability` (0 to 1 or unknown), `mri_required` (true, false, likely, unknown), `surgery` (bool) |
+| enrollment_target | integer or null | |
+| primary_completion | date string or `unknown` | |
+| registry_last_updated | date or null | The registry's own last-update date |
 | background | string | One or two sentences on the evidence behind it |
 | verified, sources | | |
 
-Unknown values are written as `null` or `unknown`, never omitted silently and never guessed.
+### eligibility object
+
+| Field | Type | Meaning |
+|---|---|---|
+| age_min, age_max | integer or null | |
+| duration_min_months, duration_max_months | integer or null | |
+| duration_reference | enum | `diagnosis`, `symptom_onset`, `unknown` |
+| hoehn_yahr_min, hoehn_yahr_max | number or null | Allowed stage range |
+| hoehn_yahr_state | enum | `off`, `on`, `unknown` |
+| medication_state | enum | `untreated`, `on_stable_treatment`, `either`, `unknown` |
+| medication_min_months | integer or null | Minimum time on stable treatment, if `on_stable_treatment` |
+| motor_complications_allowed | bool or unknown | False means MDS-UPDRS Part IV must be 0, or no fluctuations or dyskinesia |
+| motor_complications_required | bool or unknown | True for advanced-disease trials that need fluctuations or OFF time |
+| genetic_requirement | object | `required_variant` (gene or `none`), `status_must_be_known` (bool), `excluded_variants` (list) |
+| smoking_allowed | bool or unknown | |
+| cognition | string or null | MoCA or other cognitive threshold |
+| other | list | Further key criteria in plain language |
+| notes | string or null | Provenance caveats, for example "duration window from site listings, not registry" |

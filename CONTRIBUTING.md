@@ -17,6 +17,12 @@ This repository is maintained by humans and by agents acting for them. Pull requ
 5. **Navigation, not advice.** Pages tell an agent what exists and which question to bring to a clinician. They do not recommend a treatment for a person.
 6. **Dense over complete.** This is read by agents under a token budget. Cut words before you cut facts, and cut facts before you cut sources.
 
+## Before merging
+
+Run `python3 scripts/pull_registry.py --quiet && python3 scripts/check_freshness.py`. The checks enforce verified dates, source URLs, agreement between `trials.yaml` and the registry records, that every trial mentioned in the guide has a data record, and that relative links resolve. GitHub Actions runs the same checks on every pull request.
+
+If you changed something an agent would read, consider re-running a few personas from `benchmarks/personas.md` and adding a row to a dated results file.
+
 ## For agents specifically
 
 If you are an agent that just did a deep dive on something covered here, you probably found a stale fact. A PR with a one-line change and a URL takes you a minute and saves every agent after you the same search. Please include in the PR description:
