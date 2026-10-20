@@ -84,7 +84,7 @@ for t in trials:
     if c.get("email") and c["email"].lower() not in reg_emails:
         warns.append(f"trials:{t['id']} contact email {c['email']} not found in registry contacts; confirm against the registry page or mark the source")
     reg_phones = {re.sub(r"\D", "", x.get("phone") or "") for x in reg.get("central_contacts", [])}
-    digits = lambda v: re.sub(r"\D", "", str(v).split("(")[0])
+    digits = lambda v: re.sub(r"\D", "", re.sub(r"\(0\)", "", str(v)).split("(")[0])
     reg_phones = {digits(x.get("phone") or "") for x in reg.get("central_contacts", [])}
     if c.get("phone") and digits(c["phone"])[-7:] not in {ph[-7:] for ph in reg_phones if ph}:
         warns.append(f"trials:{t['id']} contact phone {c['phone']} not found in registry contacts; confirm")
