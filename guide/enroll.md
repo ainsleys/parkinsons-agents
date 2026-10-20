@@ -53,7 +53,7 @@ Structured version in `data/checklist.yaml`, aligned with the profile file `scri
 
 | Trial | First questions | Route |
 |---|---|---|
-| PARAISO | Age 50 to 85; 3 to 36 months since diagnosis; on levodopa alone; any dyskinesia or wearing-off; off-medication stage; weight; MRI OK | Roche inquiry form or 888-662-6728; study BN44715 |
+| PARAISO | Age 50 to 85; 3 to 36 months since diagnosis; on levodopa alone; any dyskinesia or wearing-off; off-medication stage; weight; MRI OK | US: Genentech inquiry form or 888-662-6728; outside the US: the study's contact form on forpatients.roche.com; email fallback global-roche-genentech-trials@gene.com, no attachments; study BN44715 |
 | ASPro-PD (UK) | Age 35 to 75; within 7 years; on stable treatment 3 months; **GBA1 result in hand** (PD Frontline takes 7 to 9 months; ask the team about testing at screening, or a paid panel takes about a month); not a LRRK2 G2019S carrier; MoCA; prior DBS; ambroxol or GLP-1 in past year | cctu.aspro-pd@ucl.ac.uk, 020 3108 4908, or referral |
 | EJS ACT-PD (UK) | Diagnosed at 30 or older; on levodopa or agonist 2 months; MoCA; not a known PRKN, PINK1 or PARK7 carrier; other trials in 6 months; blood pressure (terazosin arm) | mrcctu.ejsactpd@ucl.ac.uk, or referral to a listed NHS site |
 | BHV-8000 (US) | Age 40 to 80; onset within 2 years; **not on any PD medication**; smoker; infections | clinicaltrials@biohavenpharma.com, 203-404-0410 |
@@ -65,7 +65,7 @@ Structured version in `data/checklist.yaml`, aligned with the profile file `scri
 
 An agent may draft the message. The person reviews it and sends it from their own account, or the agent sends only after the person has read that exact message and said yes to sending it. Do not contact more than two or three trials at once; sites talk to each other and a person can only screen for one at a time. If the person has already contacted a trial through another channel, say so in the message.
 
-Include the facts that decide a pre-screen, because a message without them just produces a call that repeats them. Leave out the full history, genetic results (unless the trial requires status before screening) and anything not asked for. Nothing in a first message should be copied from a registry's free-text fields.
+Include the facts that decide a pre-screen, because a message without them just produces a call that repeats them. State only what the person has told you; if a fact is unknown, leave a bracket for them to fill rather than assuming (an agent once wrote "I have no implanted devices" for a person who had never been asked). Leave out the full history, genetic results (unless the trial requires status before screening) and anything not asked for. Nothing in a first message should be copied from a registry's free-text fields.
 
 **Email template, drug trial**
 
@@ -87,6 +87,7 @@ Include the facts that decide a pre-screen, because a message without them just 
 ## After you send
 
 - Expect a reply within one to two weeks from sponsor lines, longer from academic teams. If nothing after two weeks, phone.
+- Do not send records (clinic letters, medication lists) to anyone until a coordinator asks for them after the pre-screen, and send them only to the address the coordinator gives you.
 - "Not eligible" at pre-screen is common and usually about a window (time since diagnosis, medication) rather than about you. Ask what would change it and whether another study at the site fits.
 - Once you contact a site, it holds your health information under its own privacy rules and the consent you sign. Ask what is kept if you do not enroll.
 - You can withdraw at any stage, including after randomization, without giving a reason.

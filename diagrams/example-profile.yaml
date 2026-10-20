@@ -9,12 +9,15 @@ hoehn_yahr: 2
 hoehn_yahr_state: "on"           # "on", "off" or null (how the stage was assessed)
 medication_state: on_treatment   # untreated | on_treatment | null
 medication_name: levodopa
+monotherapy: true                # true only if levodopa is the only PD medication
 medication_months: 6
 motor_complications: false       # dyskinesia or wearing-off
+dyskinesia: false
 off_hours_per_day: 0
+recurrent_falls: false
 genetics_tested: false
 variants: []                     # e.g. [GBA1] or [LRRK2 G2019S]
-implanted_devices: none          # or e.g. "pacemaker, model X, MRI-conditional"
+implanted_devices: none          # "none", or e.g. "pacemaker, model X, MRI-conditional"; leave null if not asked and the draft will show a bracket
 prior_brain_surgery: false
 weight_kg: 82
 height_cm: 178

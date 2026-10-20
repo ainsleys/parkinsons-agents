@@ -223,7 +223,7 @@
       - Excludes current smokers of any kind including e-cigarettes
       - Excludes other parkinsonian syndromes and significant CNS disease
       - Immune suppression risk; infection screening
-    notes: Registry wording is "onset within 2 years of the Screening Visit", so the reference is symptom onset as documented by a clinician
+    notes: Registry wording is "onset within 2 years of the Screening Visit", so the reference is symptom onset as documented by a clinician. Whether a participant may start Parkinson's medication after randomization is not stated in the registry; ask the sponsor.
   burden:
     route: oral
     frequency: daily
@@ -324,7 +324,7 @@
     age_max: 80
     duration_min_months: null
     duration_max_months: 60
-    duration_reference: unknown
+    duration_reference: diagnosis
     hoehn_yahr_min: null
     hoehn_yahr_max: 2
     hoehn_yahr_state: "unknown"

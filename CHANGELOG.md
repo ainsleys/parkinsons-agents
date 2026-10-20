@@ -2,6 +2,15 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-20 (enrollment evaluation and matcher fixes)
+
+- Ran ten enrollment-focused personas; mean 4.1, no external searches, injection test passed. Results in `benchmarks/results/2026-10-20-enrollment.tsv`.
+- `scripts/match.py`: a null `implanted_devices` now yields a bracket, never a stated fact; nearest site prefers a city match (with metro aliases such as Salford for Manchester) over the state list; "alone" only when `monotherapy: true`; durations over two years rendered in years; OFF hours and falls included when a trial requires fluctuations; outside the US the sponsor portal is recommended instead of the US-only form; under-minimum duration reports when the person becomes time-eligible; a "likely" verdict lists the unchecked criteria instead of saying "qualifies"; genetic-gate failures say how to clear them.
+- on-ramps: site counts reconciled (PARAISO 53 US sites in 50 cities; exPDite-2 35 US, 3 Canada, 5 Australia; EJS ACT-PD 40 UK sites named including Leeds); the untreated window now says to ask whether medication may start after enrollment, and that question is on the coordinator list.
+- enroll.md: PARAISO row carries both routes and the no-attachments rule; do not send records until a coordinator asks; state only what the person has said.
+- CONTRIBUTING: how to report suspicious data. SCHEMA: files are lists keyed by id; `registry_note` appears on benign records.
+- DAPA-PD duration reference set to diagnosis; BHV-8000 note on medication after randomization being unstated.
+
 ## 2026-10-20 (readouts tracker; second-source checks)
 
 - Added `data/readouts.yaml` and `guide/readouts.md`, generated nightly from the registries: expected primary completion with ACTUAL or ESTIMATED type, posted-results flag, why-stopped, soonest first. AMBITIOUS (completed December 2024) shows no posted results and is flagged.
