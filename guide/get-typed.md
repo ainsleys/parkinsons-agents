@@ -100,12 +100,12 @@ This matters when a trial needs the result before screening. Figures are from pr
 | Route | Time to result | Source |
 |---|---|---|
 | PD GENEration (free, Americas and Israel) | About 2 months after the sample reaches the lab; the lab report is typically 4 to 6 weeks, then a counseling call | [Foundation page](https://www.parkinson.org/advancing-research/our-research/pdgeneration), [2026 preprint](https://www.medrxiv.org/content/10.64898/2026.05.20.26353696v1.full) |
-| PD Frontline (free, UK research) | Kit in up to 4 weeks, then 6 to 8 months for sequencing. Plan on 7 to 9 months | [Parkinson's UK](https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons) |
+| PD Frontline (free, UK research) | Kit in 4 to 5 weeks. Sequencing 6 to 8 months per the Parkinson's UK page, up to a year per the sponsor FAQ (demand, staffing, GBA1 is hard to sequence). Plan on 8 to 13 months | [Parkinson's UK](https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons), [Cure Parkinson's FAQ](https://cureparkinsons.org.uk/wp-content/uploads/2025/04/ASPro-PD-and-PD-Frontline-FAQs-Final.pdf) |
 | Clinician-ordered commercial panel (US and Europe; cost or insurance) | 2 to 4 weeks is typical: Invitae 10 to 21 days, Revvity 2 to 3 weeks, Prevention Genetics 3 weeks, GeneDx 4 weeks, Radboud (NL) 4 to 8 weeks | Lab listings |
 | NHS clinical test (UK, if eligible) | Not published here | |
 | Consumer kit (23andMe) | Weeks, but covers two variants only | |
 
-The practical consequence for the UK: ASPro-PD requires GBA1 status before screening and caps age at 75. The free route takes most of a year. Someone near the cap, or who wants to move faster, has two other options: ask the ASPro-PD team whether a site can arrange testing at screening, or pay for a clinician-ordered panel and have the result in a month. Which to do is the person's choice; the repo's job is to make the timing visible.
+The practical consequence for the UK, verified against the sponsor's FAQ: **all recruitment to ASPro-PD comes through PD Frontline.** The trial team invites people once PD Frontline shares their result; the FAQ says someone who already knows their GBA1 status from another lab cannot take part unless they have been through PD Frontline. So a paid panel does not shorten the path to this trial. What it does do is answer the question for the person's own care and for other trials. For ASPro-PD the only move is to register with PD Frontline as early as possible, and if a result is more than a year overdue, email pdfrontline@ucl.ac.uk. Sites have been asked to prioritise people approaching the 7-year limit. Recruitment runs until 2027.
 
 ## Choosing between the skin biopsy and the spinal fluid test
 

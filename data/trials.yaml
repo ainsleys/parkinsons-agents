@@ -80,7 +80,7 @@
   intervention: Ambroxol 1,260 mg per day oral, GBA1 chaperone, vs placebo
   target_axis: genetic (GBA1 status must be known; carriers and non-carriers both enrolled)
   status: recruiting
-  status_note: Registry record last updated 2025-05-01; Cure Parkinson's reported 15 sites open and screening in 2026
+  status_note: Registry record last updated 2025-05-01; Cure Parkinson's reported 15 sites open and screening in 2026. Recruitment planned over 2 years from the first site opening in February 2025, "recruiting until 2027" per the sponsor FAQ; no exact close date published.
   countries: [United Kingdom]
   sites: 15
   eligibility:
@@ -96,7 +96,7 @@
     medication_min_months: 3
     motor_complications_allowed: unknown
     motor_complications_required: false
-    genetic_requirement: {required_variant: none, status_must_be_known: true, excluded_variants: [LRRK2 G2019S]}
+    genetic_requirement: {required_variant: none, status_must_be_known: true, excluded_variants: [LRRK2 G2019S], route: "PD Frontline only. The sponsor FAQ: all recruitment to ASPro-PD comes from people who have taken part in PD Frontline; a GBA1 result from another lab does not qualify. Participants are invited by the trial team once results are shared."}
     smoking_allowed: unknown
     cognition: MoCA 20 or above
     other:
@@ -118,17 +118,18 @@
     mri_required: unknown
     surgery: false
   contact:
-    preferred_route: Email the trial team, or ask your neurologist or Parkinson's nurse for a referral to the nearest site
+    preferred_route: Register with PD Frontline first; the ASPro-PD team invites eligible people once genetic results are shared. Questions to the trial team by email or phone; the FAQ says people who have not done PD Frontline cannot be enrolled
     email: cctu.aspro-pd@ucl.ac.uk
     phone: "020 3108 4908"
+    genetic_route_contact: pdfrontline@ucl.ac.uk
     per_site_contacts: named principal investigators per site in data/contacts.yaml, without direct phone or email
     registry_url: https://clinicaltrials.gov/study/NCT05778617
-    notes: GBA1 status must be known before screening; ask the trial team whether they can arrange testing or whether PD Frontline results are accepted.
+    notes: Verified 2026-10-20 against the Cure Parkinson's FAQ (April 2025) and the protocol paper. GBA1 status comes through PD Frontline, which can take up to a year; a paid private panel does not substitute. Recruiting until 2027.
   enrollment_target: 330
   primary_completion: 2029-02
   registry_last_updated: 2025-05-01
   background: Open-label AiM-PD (2020) showed CNS penetration and motor improvement; ambroxol missed primary endpoints in PD dementia (2025). The last large randomized test of GCase enhancement before gene therapy data.
-  verified: 2026-10-19
+  verified: 2026-10-20
   sources:
     - https://clinicaltrials.gov/study/NCT05778617
     - https://pubmed.ncbi.nlm.nih.gov/41708985/
@@ -199,7 +200,7 @@
   intervention: BHV-8000, oral TYK2/JAK1 inhibitor, vs placebo
   target_axis: none (early, untreated idiopathic PD; immune hypothesis)
   status: recruiting
-  status_note: null
+  status_note: Registry lists 24 US sites; Biohaven's June 2025 release describes about 185 sites in 13 countries, so the registry likely lags. A trial-finder listing describes the primary event as a 2-point or greater worsening on MDS-UPDRS Part II.
   countries: [United States]
   sites: 24
   eligibility:
@@ -223,7 +224,7 @@
       - Excludes current smokers of any kind including e-cigarettes
       - Excludes other parkinsonian syndromes and significant CNS disease
       - Immune suppression risk; infection screening
-    notes: Registry wording is "onset within 2 years of the Screening Visit", so the reference is symptom onset as documented by a clinician. Whether a participant may start Parkinson's medication after randomization is not stated in the registry; ask the sponsor.
+    notes: Registry wording is "onset within 2 years of the Screening Visit", so the reference is symptom onset as documented by a clinician. Whether a participant may start Parkinson's medication after randomization is not stated in the registry or in any public sponsor material we could find (checked 2026-10-20); the primary endpoint is time to a qualifying worsening on MDS-UPDRS Part II over 48 weeks, a design in which starting symptomatic therapy is sometimes counted as a worsening event. Ask the sponsor before enrolling.
   burden:
     route: oral
     frequency: daily
@@ -243,7 +244,7 @@
   primary_completion: 2027-08
   registry_last_updated: 2026-09-28
   background: No prior PD efficacy data; novel anti-inflammatory mechanism. The untreated requirement means joining competes with starting levodopa.
-  verified: 2026-10-19
+  verified: 2026-10-20
   sources:
     - https://clinicaltrials.gov/study/NCT06976268
 
@@ -554,11 +555,13 @@
       - Vaccination per national guidance for immunocompromised patients
     notes: null
   burden:
-    route: bilateral neurosurgical implantation vs sham surgery; about 12 months immunosuppression; PET and MRI; 5-year follow-up
+    route: bilateral neurosurgical implantation into the putamen (3 million cells per side) vs sham surgery (bilateral partial burr holes); PET and MRI; 5-year follow-up for treated participants
     frequency: single procedure
-    blinded_duration_weeks: unknown
-    open_label_extension: unknown
-    placebo_probability: unknown (sham surgery arm)
+    blinded_duration_weeks: 78
+    open_label_extension: "sham-arm participants who remain enrolled may receive bemdaneprocel in an open-label period about 18 months after the last participant is enrolled, subject to the primary analysis and data monitoring committee review"
+    placebo_probability: 0.33
+    randomization: "2 to 1, bemdaneprocel to sham"
+    immunosuppression: "about 12 months; the sham arm receives placebo equivalents to keep the blind; specific drugs not named in the registry"
     mri_required: true
     surgery: true
   contact:
@@ -571,10 +574,12 @@
   enrollment_target: 102
   primary_completion: 2027-03
   registry_last_updated: 2026-08-04
-  background: Phase 1 (12 participants) showed no tumours or graft-induced dyskinesia and about one hour more good ON time at 3 years, open-label. Sham-controlled cell therapy has failed under blinding before (Freed 2001, Olanow 2003).
-  verified: 2026-10-19
+  background: Phase 1 (12 participants) showed no tumours or graft-induced dyskinesia and about one hour more good ON time at 3 years, open-label. Sham-controlled cell therapy has failed under blinding before (Freed 2001, Olanow 2003). Primary endpoint is change in ON time without troublesome dyskinesia at week 78. First participant randomized and operated August 2025.
+  verified: 2026-10-20
   sources:
     - https://clinicaltrials.gov/study/NCT06944522
+    - https://www.aan.com/msa/Public/Events/AbstractDetails/64548
+    - https://www.bayer.com/media/en-us/first-parkinsons-disease-patient-treated-in-bluerocks-pivotal-phase-iii-trial-of-investigational-cell-therapy-bemdaneprocel/
     - research_notes/Parkinsons disease research review/07_cell_gene_therapy_and_emerging_tech.md
 
 - id: tame_pd

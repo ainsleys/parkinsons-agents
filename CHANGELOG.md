@@ -2,6 +2,14 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-20 (four open questions answered from primary sources)
+
+- **PPMI and medication.** The PPMI Clinical protocol (February 2021, sections 7.2.1, 10.4, 18.2, 19) requires that enrollees are not expected to need medication for 6 months, but allows medication to start at any time after enrollment at the participant's or physician's discretion, with the person remaining in the study. PPMI prefers but does not require 12 months before a drug trial. Recorded on the PPMI program record and in the guides. US contact joinppmi@michaeljfox.org added; US sites publish no coordinator contacts, confirmed on the Fox Foundation's contact page.
+- **BHV-8000 and medication.** Not published anywhere we could find; recorded as such with the design context (time-to-worsening endpoint). Sponsor describes about 185 sites in 13 countries versus 24 on the registry.
+- **ASPro-PD recruitment and route.** Sponsor FAQ (April 2025): recruiting until 2027 over about two years from February 2025; all recruitment comes through PD Frontline, and someone with a GBA1 result from elsewhere cannot enter without it; medication changes allowed during the trial (protocol paper); sites asked to prioritise people near the 7-year limit. The earlier suggestion that a paid panel could shortcut the gate was wrong and is removed.
+- **PD Frontline timing.** Kits in 4 to 5 weeks; sequencing 6 to 8 months per the Parkinson's UK page and up to a year per the FAQ. Kits currently prioritised for ASPro-PD-eligible people. Contact pdfrontline@ucl.ac.uk.
+- **exPDite-2 design.** Registry and AAN abstract: 2 to 1 randomization to cells or sham (bilateral partial burr holes), about 12 months of immunosuppression with placebo equivalents in the sham arm, primary readout at week 78, sham participants may receive cells in an open-label period about 18 months after the last enrollment. Immunosuppressant drugs not named.
+
 ## 2026-10-20 (enrollment evaluation and matcher fixes)
 
 - Ran ten enrollment-focused personas; mean 4.1, no external searches, injection test passed. Results in `benchmarks/results/2026-10-20-enrollment.tsv`.

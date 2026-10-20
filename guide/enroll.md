@@ -11,10 +11,10 @@ Three things take almost anyone with a diagnosis, cost nothing, block nothing, a
 | **PD GENEration** | Any confirmed PD diagnosis, 18+, in the US, Canada, Puerto Rico, Dominican Republic (at home) or Chile, Mexico, Israel (in person) | Online consent, blood kit by mail, counseling call. genetics@parkinson.org | Seven-gene result with counseling; the status several trials require |
 | **PPMI online (myPPMI)** | Anyone 18+ in the US, with or without PD | Sign up at michaeljfox.org/ppmi, questionnaires at home | Nothing clinical; data to the field's reference cohort |
 | **Fox Insight** | People with PD and family members, any country | foxinsight.michaeljfox.org, questionnaires every 90 days | Same |
-| **PPMI in clinic** | Recently diagnosed and not yet on medication, people with REM sleep behavior disorder, known genetic carriers; 50 sites in 12 countries, listed with cities in `data/program_sites.yaml` | US and Canada: mysmelltest.org/site, PPMI's five-minute online intake (two questions, then a mailed smell test and routing to the nearest site), or 877-525-PPMI; elsewhere, coordinator contacts in `data/programs.yaml` | Free synuclein assay, DaTscan and MRI; coordinators who know local trials |
-| **PD Frontline** (UK) | Formal diagnosis, UK resident, age 18 to 90 | Saliva and blood kits by post via Parkinson's UK; allow 7 to 9 months for results | LRRK2 and GBA1 status; recontact for UK trials including ASPro-PD |
+| **PPMI in clinic** | Recently diagnosed and not expected to need medication for 6 months (medication may start any time after enrollment), people with REM sleep behavior disorder, known genetic carriers; 50 sites in 12 countries, listed with cities in `data/program_sites.yaml` | US and Canada: mysmelltest.org/site, PPMI's five-minute online intake (two questions, then a mailed smell test and routing to the nearest site), joinppmi@michaeljfox.org, or 877-525-PPMI; US sites publish no coordinator contacts and the national team connects you; elsewhere, coordinator contacts in `data/programs.yaml` | Free synuclein assay, DaTscan and MRI; coordinators who know local trials |
+| **PD Frontline** (UK) | Formal diagnosis, UK resident, age 18 to 90; kits currently prioritised for people 35 to 75 diagnosed within 7 years | Register via Parkinson's UK; kits by post; allow 8 to 13 months for results; pdfrontline@ucl.ac.uk | LRRK2 and GBA1 status. The only door into ASPro-PD: its team recruits exclusively from PD Frontline participants |
 
-Joining these does not exclude you from any drug trial later. The in-clinic PPMI arm for untreated people is a window that closes once medication starts.
+Joining these does not exclude you from any drug trial later. The in-clinic PPMI arm enrolls people not expected to need medication for six months, but once enrolled a participant may start medication at any time at their own or their doctor's discretion and stays in the study; the protocol calls it a Need for PD Therapy visit (PPMI Clinical protocol, sections 10.4 and 18.2). PPMI also prefers, without requiring, twelve months of participation before a drug trial, and participants who join a trial may remain in PPMI. So PPMI does not ask anyone to delay treatment.
 
 ## How enrollment in a drug trial works
 
@@ -54,10 +54,10 @@ Structured version in `data/checklist.yaml`, aligned with the profile file `scri
 | Trial | First questions | Route |
 |---|---|---|
 | PARAISO | Age 50 to 85; 3 to 36 months since diagnosis; on levodopa alone; any dyskinesia or wearing-off; off-medication stage; weight; MRI OK | US: Genentech inquiry form or 888-662-6728; outside the US: the study's contact form on forpatients.roche.com; email fallback global-roche-genentech-trials@gene.com, no attachments; study BN44715 |
-| ASPro-PD (UK) | Age 35 to 75; within 7 years; on stable treatment 3 months; **GBA1 result in hand** (PD Frontline takes 7 to 9 months; ask the team about testing at screening, or a paid panel takes about a month); not a LRRK2 G2019S carrier; MoCA; prior DBS; ambroxol or GLP-1 in past year | cctu.aspro-pd@ucl.ac.uk, 020 3108 4908, or referral |
+| ASPro-PD (UK) | Age 35 to 75; within 7 years; on stable treatment 3 months; **GBA1 result through PD Frontline** (the trial recruits only from PD Frontline participants; allow 8 to 13 months; a private panel does not substitute); not a LRRK2 G2019S carrier; MoCA; prior DBS; ambroxol or GLP-1 in past year | cctu.aspro-pd@ucl.ac.uk, 020 3108 4908, or referral |
 | EJS ACT-PD (UK) | Diagnosed at 30 or older; on levodopa or agonist 2 months; MoCA; not a known PRKN, PINK1 or PARK7 carrier; other trials in 6 months; blood pressure (terazosin arm) | mrcctu.ejsactpd@ucl.ac.uk, or referral to a listed NHS site |
-| BHV-8000 (US) | Age 40 to 80; onset within 2 years; **not on any PD medication**; smoker; infections | clinicaltrials@biohavenpharma.com, 203-404-0410 |
-| exPDite-2 | Age 45 to 75; 4 to under 12 years since diagnosis; hours OFF per day; levodopa response; falls; prior surgery; immunosuppression concerns | clinicaltrials@bluerocktx.com, 1-877-380-3967 |
+| BHV-8000 (US) | Age 40 to 80; onset within 2 years; **not on any PD medication**; smoker; infections. Whether medication may be started after randomization is not published; ask | clinicaltrials@biohavenpharma.com, 203-404-0410 |
+| exPDite-2 | Age 45 to 75; 4 to under 12 years since diagnosis; hours OFF per day (2.5 or more); levodopa response; falls; prior surgery; immunosuppression concerns. Design: 2 to 1 randomization to cells or sham surgery (bilateral partial burr holes), about 12 months of immunosuppression with placebo equivalents in the sham arm, primary readout at week 78, sham participants may receive cells later if results support it | clinicaltrials@bluerocktx.com, 1-877-380-3967 |
 | GREAT (NL) | GBA1 variant; under 10 years; MRI compatible; DBS | o.siemeling@umcg.nl |
 | DAPA-PD (UK, Cambridge) | Age 50 to 80; under 5 years; stage 2 or below; no known PD gene variant; recent CRP; immune drugs | cuh.dapa-pd.trial@nhs.net, +44 1223 767069 |
 
@@ -96,6 +96,6 @@ Include the facts that decide a pre-screen, because a message without them just 
 ## Country notes
 
 - **US:** self-referral is normal; sponsor lines route to sites.
-- **UK:** trials recruit through NHS clinics. Ask your neurologist or Parkinson's nurse for a referral, and email the trial team in parallel. Parkinson's UK's Take Part hub lists studies. Genetic status for ASPro-PD comes from PD Frontline or the trial team.
+- **UK:** trials recruit through NHS clinics. Ask your neurologist or Parkinson's nurse for a referral, and email the trial team in parallel. Parkinson's UK's Take Part hub lists studies. ASPro-PD is the exception: it recruits only through PD Frontline, so register there first and wait to be invited.
 - **Netherlands:** GREAT is a single academic site; email the coordinator directly.
 - **Elsewhere:** PARAISO runs in 17 countries and routes through Roche's form; exPDite-2 has Canadian and Australian sites via the BlueRock line. For anything else the repo has no route yet.

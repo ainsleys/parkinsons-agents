@@ -52,6 +52,9 @@
     - Dopaminergic imaging
     - Site coordinators who know which local drug trials are opening
   excludes_from_other_studies: false
+  medication_rule: "Enrollment requires being untreated and not expected to need PD medication for at least 6 months (PPMI Clinical protocol, inclusion c). After enrollment, PD medication may be started at any time at the discretion of the participant or treating physician; the site records a Need for PD Therapy visit and the person stays in the study (protocol sections 10.4 and 18.2). Joining PPMI does not require delaying treatment."
+  trial_rule: "Participants may join therapeutic trials; PPMI prefers, but does not require, 12 months in PPMI first, and participants who join a trial may remain in PPMI (protocol section 19)."
+  us_contact: "joinppmi@michaeljfox.org or 877-525-PPMI (877-525-7764); US sites publish no coordinator contacts, the national team connects you to the site"
   how_to_join: "US and Canada: https://www.mysmelltest.org/site is PPMI's online intake, run with Indiana University. It asks two questions (US or Canada resident; diagnosed with Parkinson's), takes under five minutes, mails a smell test, and notes that people with Parkinson's may also qualify for free genetic screening; from there the study team routes you to the nearest of the 33 North American sites. Phone 877-525-PPMI (877-525-7764). Elsewhere: contact the site directly; coordinator contacts below."
   international_site_contacts:
     - {site: Innsbruck Medical University, country: Austria, contact: "Dora Valent", email: dora.valent@tirol-kliniken.at}
@@ -80,6 +83,8 @@
     - https://michaeljfox.org/ppmi
     - https://www.ppmi-info.org/about-ppmi/ppmi-clinical-sites
     - https://www.michaeljfox.org/ppmi-recruiting-sites
+    - https://www.michaeljfox.org/connect-ppmi-team
+    - https://www.ppmi-info.org/sites/default/files/docs/PA2_PPMI_Clinical%20Protocol_Final_01Feb2021.pdf
     - research_notes/Parkinsons disease research review/10_history_and_research_infrastructure.md
 
 - id: ppmi_online
@@ -151,24 +156,27 @@
   sponsor: UCL / Parkinson's UK
   type: genetic_testing
   eligibility:
-    - Formal Parkinson's diagnosis, living in the UK, age 18 to 90
-    - Earlier materials said priority for ages 35 to 75 diagnosed within 7 years; the current Parkinson's UK page gives only the 18 to 90 range
+    - Formal Parkinson's diagnosis, living in the UK, age 18 to 90 (Parkinson's UK page)
+    - Saliva kits are currently prioritised for people who meet ASPro-PD's preliminary criteria, ages 35 to 75 and diagnosed within 7 years (Cure Parkinson's FAQ, April 2025); others can register but may not be sent a kit yet
   countries: [United Kingdom]
   at_home: true
   cost: Free
-  genes: [LRRK2, GBA1, and others; full panel not published]
-  burden: Online questionnaire, then two kits by post for saliva and blood samples, returned in pre-paid packaging
+  genes: [GBA1, LRRK2, and other PD-associated genes; full panel not published]
+  burden: Online questionnaire, then kits by post (saliva; the current Parkinson's UK page also lists blood), returned in pre-paid packaging
   gives_participant:
-    - Genetic result (the team contacts you when ready) and recontact for trials, named explicitly as ASPro-PD
+    - Genetic result, returned when sequencing is complete
+    - Recontact for trials. All recruitment to ASPro-PD comes through PD Frontline; people who already know their GBA1 status from elsewhere cannot enter ASPro-PD without it
   excludes_from_other_studies: false
   how_to_join: https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons
+  contact_email: pdfrontline@ucl.ac.uk
   registry_id: NCT06151002
   status: recruiting
   url: https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons
-  turnaround: "Kit arrives in up to 4 weeks; the team allows 6 to 8 months for sequencing. Plan on about 7 to 9 months from sign-up to result."
-  verified: 2026-10-19
+  turnaround: "Kit in up to 4 to 5 weeks. Sequencing: the Parkinson's UK page says 6 to 8 months; the April 2025 FAQ says up to 1 year from receipt because of demand, staffing and the difficulty of sequencing GBA1. Plan on 8 to 13 months from sign-up to result. If over a year with no result, email pdfrontline@ucl.ac.uk."
+  verified: 2026-10-20
   sources:
     - https://www.parkinsons.org.uk/research/projects/pd-frontline-identifying-genes-people-parkinsons
+    - https://cureparkinsons.org.uk/wp-content/uploads/2025/04/ASPro-PD-and-PD-Frontline-FAQs-Final.pdf
     - https://clinicaltrials.gov/study/NCT06151002
     - https://services.nhslothian.scot/neuroprogressiveanddementianetwork/pd-frontline/
 

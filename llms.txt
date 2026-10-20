@@ -8,16 +8,16 @@ Provenance in one line: opened October 2026 by one maintainer (GitHub @ainsleys)
 
 ## Files (words)
 
-- [START_HERE.md](START_HERE.md) (988): Thesis, state of the field, what to do by role
-- [guide/get-typed.md](guide/get-typed.md) (2,515): Every subtype test: route, cost, what it unlocks, what a negative means, choosing between tests
+- [START_HERE.md](START_HERE.md) (996): Thesis, state of the field, what to do by role
+- [guide/get-typed.md](guide/get-typed.md) (2,580): Every subtype test: route, cost, what it unlocks, what a negative means, choosing between tests
 - [guide/subtypes.md](guide/subtypes.md) (1,409): Five overlapping axes, confirmation, treatment implications, prodromal
-- [guide/enroll.md](guide/enroll.md) (1,854): How to join: contribute today, the process, checklist, per-trial contact routes, draft message, after you send
+- [guide/enroll.md](guide/enroll.md) (2,027): How to join: contribute today, the process, checklist, per-trial contact routes, draft message, after you send
 - [guide/readouts.md](guide/readouts.md) (449): Expected and posted result dates per trial, soonest first (generated nightly)
-- [guide/on-ramps.md](guide/on-ramps.md) (2,284): Registries, cohorts, every recruiting trial with eligibility and cities, closed trials
+- [guide/on-ramps.md](guide/on-ramps.md) (2,439): Registries, cohorts, every recruiting trial with eligibility and cities, closed trials
 - [data/SCHEMA.md](data/SCHEMA.md) (1,656): Field definitions and the matching rules agents must follow
 - [data/tests.yaml](data/tests.yaml) (1,450): One record per test
-- [data/programs.yaml](data/programs.yaml) (1,165): Registries, cohorts, genetic testing programs
-- [data/trials.yaml](data/trials.yaml) (3,090): Trials with normalized eligibility for local matching
+- [data/programs.yaml](data/programs.yaml) (1,359): Registries, cohorts, genetic testing programs
+- [data/trials.yaml](data/trials.yaml) (3,361): Trials with normalized eligibility for local matching
 - [data/contacts.yaml](data/contacts.yaml) (2,200): Every published registry contact per trial, validated (generated; prefer the contact block in trials.yaml)
 - [data/checklist.yaml](data/checklist.yaml) (612): Pre-contact checklist as fields, aligned with the matcher profile
 - [data/program_sites.yaml](data/program_sites.yaml) (858): PPMI in-clinic sites with city and lead investigator (generated)
@@ -27,7 +27,7 @@ Provenance in one line: opened October 2026 by one maintainer (GitHub @ainsleys)
 - [README.md](README.md) (798): Why this exists, provenance, license, privacy design
 - [CORPUS.md](CORPUS.md) (640): Index of the literature review with per-file word counts
 - [CONTRIBUTING.md](CONTRIBUTING.md) (523): How to submit a correction; checks to run
-- [CHANGELOG.md](CHANGELOG.md) (1,493): What changed, newest first; poll this
+- [CHANGELOG.md](CHANGELOG.md) (1,785): What changed, newest first; poll this
 - [benchmarks/README.md](benchmarks/README.md) (1,000): How the repo is tested and the scores so far
 - [benchmarks/personas.md](benchmarks/personas.md) (1,393): The twenty fixed test personas and prompt template
 - [LICENSE](LICENSE) (82): CC BY 4.0
