@@ -2,6 +2,13 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-20 (readouts tracker; second-source checks)
+
+- Added `data/readouts.yaml` and `guide/readouts.md`, generated nightly from the registries: expected primary completion with ACTUAL or ESTIMATED type, posted-results flag, why-stopped, soonest first. AMBITIOUS (completed December 2024) shows no posted results and is flagged.
+- Nightly checks now corroborate every hand-entered contact email and phone in `trials.yaml` against the registry pull, and flag trials completed over a year ago with nothing posted.
+- Pull script drops the registry's daily snapshot field so unchanged records no longer churn the nightly commit.
+- `guide/get-typed.md` and `data/tests.yaml` explain what the PPMI smell test is (UPSIT), what it measures and its limits.
+
 ## 2026-10-19 (PPMI sites and genetic turnaround times)
 
 - Added `data/program_sites.yaml`: all 50 PPMI in-clinic sites with city, institution and lead investigator, pulled nightly from the JSON behind the ppmi-info.org table. 30 US, 3 Canada, 4 UK, 4 Germany, and one or two each in Spain, Austria, Greece, Italy, Luxembourg, Netherlands, Israel, Nigeria.

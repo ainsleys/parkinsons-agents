@@ -73,6 +73,10 @@ Every contact the registries publish, per trial, keyed by registry ID: `central_
 
 Sites for observational programs that are not trial registrations. Currently the 50 PPMI in-clinic sites (facility, city, state, country, lead investigator) from the JSON that feeds the table at ppmi-info.org. International coordinator contacts are hand-maintained on the `ppmi_clinic` record in `programs.yaml`.
 
+## readouts.yaml (generated)
+
+One record per trial from the registries: `registry_status`, `why_stopped`, `primary_completion` with its `type` (ACTUAL or ESTIMATED), `study_completion`, `results_posted` (the registry's flag), `results_first_posted`, `registry_last_updated`, `registry_url`. Sorted soonest first. `guide/readouts.md` is the same data as a table. Topline announcements that precede registry posting live in the trial's `background` with sources.
+
 ## checklist.yaml
 
 Pre-contact checklist as records: `field`, `question`, `source` (self, neurologist, records), `why`. Field names match the profile `scripts/match.py` reads; see `diagrams/example-profile.yaml` for the profile format.
@@ -95,7 +99,7 @@ Pre-contact checklist as records: `field`, `question`, `source` (self, neurologi
 | enrollment_target | integer or null | |
 | primary_completion | date string or `unknown` | |
 | registry_last_updated | date or null | The registry's own last-update date |
-| contact | object or null | Hand-reviewed route for inquiries: `preferred_route`, and any of `inquiry_form`, `portal`, `email`, `phone`, `reference`, `per_site_contacts`, `registry_url`, `sponsor_page`, `notes`. Required for every trial with status `recruiting`. Work contacts published by the sponsor for recruitment; role-based where the sponsor gives one |
+| contact | object or null | Hand-reviewed route for inquiries: `preferred_route`, and any of `inquiry_form`, `portal`, `email`, `phone`, `reference`, `per_site_contacts`, `registry_url`, `sponsor_page`, `notes`. Required for every trial with status `recruiting`. Work contacts published by the sponsor for recruitment. Every email and phone here is checked nightly against the registry pull in `contacts.yaml`; a mismatch is flagged |
 | background | string | One or two sentences on the evidence behind it |
 | verified, sources | | |
 

@@ -42,9 +42,7 @@
     }
    ]
   },
-  "miscInfoModule": {
-   "versionHolder": "2026-10-19"
-  }
+  "miscInfoModule": {}
  },
  "hasResults": false,
  "protocolSection": {
@@ -2172,8 +2170,8 @@
      "country": "Taiwan",
      "facility": "National Cheng Kung University Hospital",
      "geoPoint": {
-      "lat": 22.99083,
-      "lon": 120.21333
+      "lat": 22.99259,
+      "lon": 120.20507
      },
      "status": "RECRUITING",
      "zip": "704"

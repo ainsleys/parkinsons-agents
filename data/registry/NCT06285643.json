@@ -56,9 +56,7 @@
     }
    ]
   },
-  "miscInfoModule": {
-   "versionHolder": "2026-10-19"
-  }
+  "miscInfoModule": {}
  },
  "hasResults": false,
  "protocolSection": {

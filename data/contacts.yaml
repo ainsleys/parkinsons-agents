@@ -1,4 +1,4 @@
-# Trial contact details pulled from registries on 2026-10-19 by scripts/pull_registry.py.
+# Trial contact details pulled from registries on 2026-10-20 by scripts/pull_registry.py.
 # These are work contacts published by sponsors for recruitment inquiries. Fields are validated:
 # emails must look like emails, phones like phones, names are short and free of URLs; anything else is
 # kept in registry_note and must never be pasted into a message. Hand-reviewed routes live in

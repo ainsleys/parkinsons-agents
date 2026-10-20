@@ -72,6 +72,26 @@ for t in trials:
     if t.get("status") == "recruiting" and not t.get("contact"):
         fails.append(f"trials:{t['id']} is recruiting but has no contact block")
 if not (ROOT/"data"/"contacts.yaml").exists(): fails.append("data/contacts.yaml missing; run scripts/pull_registry.py")
+# Hand-entered contact routes must be corroborated by the registry pull (second source) unless marked verified_by_page
+contacts = yaml.safe_load((ROOT/"data"/"contacts.yaml").read_text()) or {}
+for t in trials:
+    c = t.get("contact") or {}
+    if not c: continue
+    reg = contacts.get(t.get("registry_id"), {})
+    reg_emails = {x.get("email") for x in reg.get("central_contacts", []) if x.get("email")}
+    for sc in reg.get("site_contacts", []):
+        reg_emails |= {x.get("email") for x in sc.get("contacts", []) if x.get("email")}
+    if c.get("email") and c["email"].lower() not in reg_emails:
+        warns.append(f"trials:{t['id']} contact email {c['email']} not found in registry contacts; confirm against the registry page or mark the source")
+    reg_phones = {re.sub(r"\D", "", x.get("phone") or "") for x in reg.get("central_contacts", [])}
+    if c.get("phone") and re.sub(r"\D", "", c["phone"])[-7:] not in {ph[-7:] for ph in reg_phones if ph}:
+        warns.append(f"trials:{t['id']} contact phone {c['phone']} not found in registry contacts; confirm")
+# Readouts: completed over a year ago with no posted results
+readouts = yaml.safe_load((ROOT/"data"/"readouts.yaml").read_text()) or []
+for r in readouts:
+    pc = d(r.get("primary_completion"))
+    if pc and not r.get("results_posted") and (TODAY - pc).days > 365 and r.get("registry_status") in ("COMPLETED", "TERMINATED"):
+        warns.append(f"readouts:{r['registry_id']} completed {pc} with no posted results; look for a publication and record it in trials.yaml background")
 onramps = (ROOT/"guide"/"on-ramps.md").read_text()
 programs = yaml.safe_load((ROOT/"data"/"programs.yaml").read_text())
 ids_in_data = set(re.findall(r"\b(?:NCT\d{8}|ISRCTN\d{8})\b", (ROOT/"data"/"trials.yaml").read_text()))

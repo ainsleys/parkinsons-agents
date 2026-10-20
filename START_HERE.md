@@ -35,6 +35,7 @@ Every page states when it was verified. Trial status and test pricing drift fast
 - `guide/subtypes.md` for interpreting a result
 - `guide/on-ramps.md` for studies, trials and the cities they run in
 - `guide/enroll.md` for how to join: contribute today, the process, the checklist, contacts, first message
+- `guide/readouts.md` for when each trial is expected to report, and which have posted results
 - `data/` for structured records and `data/sites.yaml` for site locations
 - `CORPUS.md` for the literature review index with word counts
 - `benchmarks/` for how the repo is tested
