@@ -146,6 +146,18 @@
      "zip": "35294"
     },
     {
+     "city": "Sun City",
+     "country": "United States",
+     "facility": "Site-079",
+     "geoPoint": {
+      "lat": 33.59754,
+      "lon": -112.27182
+     },
+     "state": "Arizona",
+     "status": "RECRUITING",
+     "zip": "85351"
+    },
+    {
      "city": "Irvine",
      "country": "United States",
      "facility": "Site-003",
@@ -549,10 +561,10 @@
     "hasExpandedAccess": false
    },
    "lastUpdatePostDateStruct": {
-    "date": "2026-09-28",
+    "date": "2026-10-22",
     "type": "ACTUAL"
    },
-   "lastUpdateSubmitDate": "2026-09-24",
+   "lastUpdateSubmitDate": "2026-10-21",
    "overallStatus": "RECRUITING",
    "primaryCompletionDateStruct": {
     "date": "2027-08",
@@ -562,7 +574,7 @@
     "date": "2025-05-28",
     "type": "ACTUAL"
    },
-   "statusVerifiedDate": "2026-09",
+   "statusVerifiedDate": "2026-10",
    "studyFirstPostDateStruct": {
     "date": "2025-05-16",
     "type": "ACTUAL"
