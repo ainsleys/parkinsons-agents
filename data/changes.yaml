@@ -1,0 +1,17 @@
+# Registry change feed, newest first. Written by scripts/pull_registry.py when a trial's registry record
+# changes materially: status, dates, eligibility, contacts, enrollment, sites added or removed, site status,
+# results posted. Agents: poll this file or data/changes.xml; scripts/match.py reports entries near a person.
+# A human still re-verifies the trial in data/trials.yaml before its `verified` date moves. Do not edit by hand.
+
+- date_observed: 2026-10-23
+  registry_id: "NCT06976268"
+  trial: "BHV-8000 phase 2/3"
+  kind: "site_added"
+  detail: "new site Site-079, Sun City, Arizona, United States (RECRUITING)"
+  registry_last_updated: "2026-10-22"
+  city: "Sun City"
+  state: "Arizona"
+  country: "United States"
+  facility: "Site-079"
+  site_status: "RECRUITING"
+  registry_url: "https://clinicaltrials.gov/study/NCT06976268"

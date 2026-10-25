@@ -7,11 +7,16 @@ Sources:
 
 Also writes data/sites.yaml: for each trial, the site list (facility, city, state,
 country, site status) and a per-country count, taken from the registry record.
-Deterministic; no LLM involved. Prints a compact summary for a reviewer.
+
+Change feed: before overwriting a record, the script diffs the old and new copies and
+records every material difference (status, dates, eligibility, contacts, enrollment,
+sites added/removed/status) in data/changes.yaml (newest first), data/changes.xml (Atom)
+and a dated section at the top of CHANGELOG.md. scripts/match.py reads the feed to tell a
+person about changes near them. Deterministic; no LLM involved.
 
 Usage: python3 scripts/pull_registry.py [--quiet]
 """
-import json, re, sys, html, urllib.request, pathlib, datetime, collections
+import json, re, sys, html, hashlib, urllib.request, pathlib, datetime, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TRIALS = ROOT / "data" / "trials.yaml"
@@ -21,6 +26,10 @@ CONTACTS = ROOT / "data" / "contacts.yaml"
 PROGRAM_SITES = ROOT / "data" / "program_sites.yaml"
 READOUTS_YAML = ROOT / "data" / "readouts.yaml"
 READOUTS_MD = ROOT / "guide" / "readouts.md"
+CHANGES = ROOT / "data" / "changes.yaml"
+CHANGES_FEED = ROOT / "data" / "changes.xml"
+CHANGELOG = ROOT / "CHANGELOG.md"
+REPO_URL = "https://github.com/ainsleys/parkinsons-agents"
 PPMI_SITES_JSON = "https://www.ppmi-info.org/sites/default/files/tables-data/clinical-sites-tables.json"
 US_STATES = {"AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY","DC"}
 EMAIL_RE = re.compile(r"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$")
@@ -45,6 +54,143 @@ def clean_contact(c):
 CTG = "https://clinicaltrials.gov/api/v2/studies/{}"
 ISRCTN = "https://www.isrctn.com/api/query/format/default?q={}"
 UA = {"User-Agent": "parkinsons-agents/0.1 (github.com/ainsleys/parkinsons-agents)"}
+
+def place(l):
+    return ", ".join(str(x) for x in (l.get("facility"), l.get("city"), l.get("state"), l.get("country")) if x)
+
+def site_key(l):
+    return (l.get("facility") or "", l.get("city") or "", l.get("state") or "", l.get("country") or "")
+
+def site_fields(l):
+    return {"city": l.get("city"), "state": l.get("state"), "country": l.get("country"), "facility": l.get("facility"), "site_status": l.get("status")}
+
+def diff_nct(old, new):
+    """Material differences between two ClinicalTrials.gov records: list of dicts with kind, detail, and site fields."""
+    if not old:
+        return []
+    out = []
+    op, np_ = old.get("protocolSection", {}), new.get("protocolSection", {})
+    os_, ns = op.get("statusModule", {}), np_.get("statusModule", {})
+    if os_.get("overallStatus") != ns.get("overallStatus"):
+        out.append({"kind": "status_change", "detail": f"overall status {os_.get('overallStatus')} -> {ns.get('overallStatus')}"})
+    if os_.get("whyStopped") != ns.get("whyStopped") and ns.get("whyStopped"):
+        out.append({"kind": "status_change", "detail": f"registry reason for stopping: {ns.get('whyStopped')}"})
+    for k, label in (("primaryCompletionDateStruct", "primary completion"), ("completionDateStruct", "study completion")):
+        a, b = os_.get(k, {}), ns.get(k, {})
+        if (a.get("date"), a.get("type")) != (b.get("date"), b.get("type")):
+            out.append({"kind": "date_change", "detail": f"{label} {a.get('date')} ({a.get('type')}) -> {b.get('date')} ({b.get('type')})"})
+    oe, ne = op.get("eligibilityModule", {}), np_.get("eligibilityModule", {})
+    if oe != ne:
+        fields = [k for k in sorted(set(oe) | set(ne)) if oe.get(k) != ne.get(k)]
+        out.append({"kind": "eligibility_change", "detail": "eligibility fields changed: " + ", ".join(fields) + "; re-verify the eligibility block in data/trials.yaml"})
+    od = op.get("designModule", {}).get("enrollmentInfo", {}); nd = np_.get("designModule", {}).get("enrollmentInfo", {})
+    if od != nd:
+        out.append({"kind": "enrollment_change", "detail": f"enrollment {od.get('count')} ({od.get('type')}) -> {nd.get('count')} ({nd.get('type')})"})
+    oc, nc = op.get("contactsLocationsModule", {}), np_.get("contactsLocationsModule", {})
+    if oc.get("centralContacts") != nc.get("centralContacts"):
+        out.append({"kind": "contact_change", "detail": "central contacts changed; re-verify the contact block in data/trials.yaml"})
+    ol = {site_key(l): l for l in oc.get("locations", [])}
+    nl = {site_key(l): l for l in nc.get("locations", [])}
+    for k in sorted(set(nl) - set(ol)):
+        out.append({"kind": "site_added", "detail": f"new site {place(nl[k])} ({nl[k].get('status') or 'status not listed'})", **site_fields(nl[k])})
+    for k in sorted(set(ol) - set(nl)):
+        out.append({"kind": "site_removed", "detail": f"site removed {place(ol[k])}", **site_fields(ol[k])})
+    for k in sorted(set(ol) & set(nl)):
+        if ol[k].get("status") != nl[k].get("status"):
+            out.append({"kind": "site_status_change", "detail": f"{place(nl[k])} {ol[k].get('status')} -> {nl[k].get('status')}", **site_fields(nl[k])})
+    if bool(old.get("hasResults") or "resultsSection" in old) != bool(new.get("hasResults") or "resultsSection" in new):
+        out.append({"kind": "results_posted", "detail": "results section now posted on the registry"})
+    return out
+
+def parse_isrctn_centres(raw):
+    """ISRCTN centres are free-text blocks: facility, address lines, city, blank, country, postcode, optional OID."""
+    centres = xml_tag(raw, "trialCentres") or ""
+    parsed = []
+    for block in re.split(r"\n\s*\n\s*\n", centres):
+        lines = [l.strip() for l in block.split("\n")]
+        lines = [l for l in lines if not re.match(r"^[A-Z0-9]+@[\d.]+$", l)]
+        if not any(lines):
+            continue
+        try:
+            i = lines.index("")
+            city, country = lines[i-1], lines[i+1] if i+1 < len(lines) else None
+        except ValueError:
+            city, country = None, None
+        facility = next((l for l in lines if l), None)
+        if country in ("England", "Scotland", "Wales", "Northern Ireland"):
+            country = "United Kingdom"
+        parsed.append({"facility": facility, "city": city, "country": country})
+    return parsed
+
+def diff_isrctn(old_raw, new_raw):
+    if not old_raw:
+        return []
+    out = []
+    for tag, label in (("recruitmentStart", "recruitment start"), ("recruitmentEnd", "recruitment end"), ("overallEndDate", "overall end date"), ("targetEnrolment", "target enrolment")):
+        a, b = (xml_tag(old_raw, tag) or "")[:10], (xml_tag(new_raw, tag) or "")[:10]
+        if a != b:
+            out.append({"kind": "date_change" if "Date" in tag or "recruitment" in tag else "enrollment_change", "detail": f"{label} {a or 'none'} -> {b or 'none'}"})
+    if (xml_tag(old_raw, "inclusion") or "") != (xml_tag(new_raw, "inclusion") or "") or (xml_tag(old_raw, "exclusion") or "") != (xml_tag(new_raw, "exclusion") or ""):
+        out.append({"kind": "eligibility_change", "detail": "inclusion or exclusion text changed; re-verify the eligibility block in data/trials.yaml"})
+    ol = {site_key(l): l for l in parse_isrctn_centres(old_raw)}
+    nl = {site_key(l): l for l in parse_isrctn_centres(new_raw)}
+    for k in sorted(set(nl) - set(ol)):
+        out.append({"kind": "site_added", "detail": f"new centre {place(nl[k])}", **site_fields(nl[k])})
+    for k in sorted(set(ol) - set(nl)):
+        out.append({"kind": "site_removed", "detail": f"centre removed {place(ol[k])}", **site_fields(ol[k])})
+    return out
+
+def record_changes(entries, today):
+    """Prepend entries to data/changes.yaml, rebuild data/changes.xml, and add a dated section to CHANGELOG.md.
+    Each entry: registry_id, trial, kind, detail, registry_last_updated, optional city/state/country/facility/site_status."""
+    if not entries:
+        return
+    header = ["# Registry change feed, newest first. Written by scripts/pull_registry.py when a trial's registry record",
+              "# changes materially: status, dates, eligibility, contacts, enrollment, sites added or removed, site status,",
+              "# results posted. Agents: poll this file or data/changes.xml; scripts/match.py reports entries near a person.",
+              "# A human still re-verifies the trial in data/trials.yaml before its `verified` date moves. Do not edit by hand.", ""]
+    existing = CHANGES.read_text() if CHANGES.exists() else ""
+    body = existing[existing.index("- "):] if "- " in existing else ""
+    lines = []
+    for e in entries:
+        lines.append(f"- date_observed: {today}")
+        for k in ("registry_id", "trial", "kind", "detail", "registry_last_updated", "city", "state", "country", "facility", "site_status"):
+            if k in e and e[k] is not None:
+                lines.append(f"  {k}: {yaml_str(e[k])}")
+        lines.append(f"  registry_url: {yaml_str(e['registry_url'])}")
+    CHANGES.write_text("\n".join(header + lines) + "\n" + body)
+    # CHANGELOG section
+    cl = CHANGELOG.read_text()
+    head = f"## {today} (registry changes, automated)\n\n"
+    bullets = "".join(f"- **{e['trial'] or e['registry_id']}** ({e['registry_id']}): {e['detail']}. Registry updated {e.get('registry_last_updated') or 'date not given'}; needs re-verification in `data/trials.yaml`.\n" for e in entries)
+    if head in cl:
+        cl = cl.replace(head, head + bullets, 1)
+    else:
+        anchor = "Newest first. Agents can poll this file to see what changed.\n\n"
+        cl = cl.replace(anchor, anchor + head + bullets + "\n", 1) if anchor in cl else head + bullets + "\n" + cl
+    CHANGELOG.write_text(cl)
+    write_feed()
+
+def write_feed():
+    """Atom feed of the change file, so a person can subscribe in an RSS reader. Parsed with regexes to avoid a pyyaml dependency."""
+    if not CHANGES.exists():
+        return
+    items = re.findall(r"^- date_observed: (\S+)\n((?:  .*\n)+)", CHANGES.read_text(), re.M)[:100]
+    esc = lambda s: html.escape(str(s), quote=True)
+    out = ['<?xml version="1.0" encoding="utf-8"?>', '<feed xmlns="http://www.w3.org/2005/Atom">',
+           '<title>Parkinson\'s trial registry changes</title>', f'<link href="{REPO_URL}/blob/main/data/changes.yaml"/>',
+           f'<id>{REPO_URL}/data/changes.xml</id>', f'<updated>{items[0][0] if items else "1970-01-01"}T06:30:00Z</updated>',
+           '<author><name>registry-bot (scripts/pull_registry.py)</name></author>']
+    for d, blk in items:
+        f = dict(re.findall(r"^  (\w+): (.*)$", blk, re.M))
+        unq = lambda v: v[1:-1].replace('\\"', '"') if v.startswith('"') and v.endswith('"') else v
+        f = {k: unq(v) for k, v in f.items()}
+        title = f"{f.get('trial') or f.get('registry_id')}: {f.get('kind', '').replace('_', ' ')}"
+        out += ["<entry>", f"<title>{esc(title)}</title>", f"<link href=\"{esc(f.get('registry_url', ''))}\"/>",
+                f"<id>{REPO_URL}/changes/{f.get('registry_id')}/{d}/{f.get('kind')}/{hashlib.sha1(f.get('detail', '').encode()).hexdigest()[:8]}</id>",
+                f"<updated>{d}T06:30:00Z</updated>", f"<summary>{esc(f.get('detail', ''))} (registry record updated {esc(f.get('registry_last_updated') or 'date not given')}; navigation, not medical advice; a human re-verifies before the guide changes)</summary>", "</entry>"]
+    out.append("</feed>")
+    CHANGES_FEED.write_text("\n".join(out) + "\n")
 
 def fetch(url):
     req = urllib.request.Request(url, headers=UA)
@@ -75,6 +221,7 @@ def main():
     today = datetime.date.today().isoformat()
     changed, errors = [], []
     readouts = []
+    change_entries = []
     contacts_out = [f"# Trial contact details pulled from registries on {today} by scripts/pull_registry.py.",
                     "# These are work contacts published by sponsors for recruitment inquiries. Fields are validated:",
                     "# emails must look like emails, phones like phones, names are short and free of URLs; anything else is",
@@ -93,11 +240,15 @@ def main():
         data.get("derivedSection", {}).get("miscInfoModule", {}).pop("versionHolder", None)
         path = OUT / f"{nct}.json"
         new = json.dumps(data, indent=1, sort_keys=True)
+        old = json.loads(path.read_text()) if path.exists() else None
         if not path.exists() or path.read_text() != new:
             changed.append(nct)
         path.write_text(new)
         p = data["protocolSection"]
         st = p.get("statusModule", {})
+        for d in diff_nct(old, data):
+            change_entries.append({"registry_id": nct, "trial": names.get(nct), "registry_last_updated": st.get("lastUpdatePostDateStruct", {}).get("date"),
+                                   "registry_url": f"https://clinicaltrials.gov/study/{nct}", **d})
         el = p.get("eligibilityModule", {})
         de = p.get("designModule", {})
         locs = p.get("contactsLocationsModule", {}).get("locations", [])
@@ -170,9 +321,13 @@ def main():
         except Exception as e:
             errors.append(f"{isr}: {e}"); continue
         path = OUT / f"{isr}.xml"
+        old_raw = path.read_text() if path.exists() else None
         if not path.exists() or path.read_text() != raw:
             changed.append(isr)
         path.write_text(raw)
+        for d in diff_isrctn(old_raw, raw):
+            change_entries.append({"registry_id": isr, "trial": names.get(isr), "registry_last_updated": None,
+                                   "registry_url": f"https://www.isrctn.com/{isr}", **d})
         # ISRCTN exposes recruitment start/end dates rather than a status enum.
         rs, re_ = (xml_tag(raw, "recruitmentStart") or "")[:10], (xml_tag(raw, "recruitmentEnd") or "")[:10]
         if rs and re_ and rs <= today <= re_:
@@ -182,23 +337,7 @@ def main():
         else:
             status = "unknown"
         edited = None  # the public XML does not carry a last-edited date
-        centres = xml_tag(raw, "trialCentres") or ""
-        # ISRCTN centres are free-text blocks: facility, address lines, city, blank, country, postcode, optional OID.
-        parsed = []
-        for block in re.split(r"\n\s*\n\s*\n", centres):
-            lines = [l.strip() for l in block.split("\n")]
-            lines = [l for l in lines if not re.match(r"^[A-Z0-9]+@[\d.]+$", l)]
-            if not any(lines):
-                continue
-            try:
-                i = lines.index("")
-                city, country = lines[i-1], lines[i+1] if i+1 < len(lines) else None
-            except ValueError:
-                city, country = None, None
-            facility = next((l for l in lines if l), None)
-            if country in ("England", "Scotland", "Wales", "Northern Ireland"):
-                country = "United Kingdom"
-            parsed.append({"facility": facility, "city": city, "country": country})
+        parsed = parse_isrctn_centres(raw)
         bycountry = collections.Counter(p["country"] or "unknown" for p in parsed)
         sites_out.append(f"{isr}:")
         sites_out.append(f"  name: {yaml_str(names.get(isr))}")
@@ -248,6 +387,7 @@ def main():
 
     SITES.write_text("\n".join(sites_out))
     CONTACTS.write_text("\n".join(contacts_out))
+    record_changes(change_entries, today)
 
     # Readouts: expected result dates and posted-results flags, all from the registries.
     def sort_key(r):
@@ -302,6 +442,8 @@ def main():
     except Exception as e:
         errors.append(f"PPMI sites: {e}")
     print(f"\npulled {len(ncts)} NCT and {len(isrctns)} ISRCTN records on {today}; changed: {changed or 'none'}; errors: {errors or 'none'}")
+    for e in change_entries:
+        print(f"CHANGE {e['registry_id']} {e['kind']}: {e['detail']}")
     if errors:
         sys.exit(1)
 

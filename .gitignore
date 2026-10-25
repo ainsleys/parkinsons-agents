@@ -3,3 +3,4 @@ reports/Trial enrollment one-pager.md
 
 .claude/
 .DS_Store
+__pycache__/

@@ -93,6 +93,16 @@ Include the facts that decide a pre-screen, because a message without them just 
 - You can withdraw at any stage, including after randomization, without giving a reason.
 - Tell your neurologist which trials you have contacted. Enrollment in one usually blocks others for its duration, and some trials require a stable medication plan the neurologist controls.
 
+## Staying informed without giving anyone your details
+
+Trials add sites, change status and open or close windows, and the registry is where it shows up first. The nightly job writes every such change to `data/changes.yaml` (and `data/changes.xml` as an Atom feed). Three ways to hear about it, none of which puts the person's information anywhere:
+
+- **An agent runs `scripts/match.py` on the local profile weekly.** The output ends with the registry changes since the last run that touch this person: a new site in their city or state, a status flip on a trial they match. Nothing leaves the machine.
+- **An RSS reader** can subscribe to the raw `data/changes.xml` URL on GitHub, one feed for all trials.
+- **GitHub** sends email to anyone who clicks Subscribe on the repository's per-trial issues (label `trial-updates`), where the nightly job posts each trial's changes. No one needs to post anything there; a reaction or a subscribe is enough. Do not post personal or medical details in those issues.
+
+A change in the feed means the registry moved, not that the guide has caught up. A person re-verifies the trial record afterwards; until then `check_freshness.py` fails on purpose.
+
 ## Country notes
 
 - **US:** self-referral is normal; sponsor lines route to sites.

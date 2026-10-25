@@ -2,9 +2,20 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-25 (registry change feed and notifications)
+
+- **Change feed.** `scripts/pull_registry.py` now diffs each registry record against the stored copy before overwriting it and writes every material difference (status, completion dates, eligibility fields, central contacts, enrollment, sites added or removed, per-site status, results posted) to `data/changes.yaml` (newest first), `data/changes.xml` (Atom) and a dated automated section in this file. Seeded with the BHV-8000 Sun City site observed 2026-10-23. Schema in `data/SCHEMA.md`.
+- **Matcher notifications.** `scripts/match.py` ends with the feed entries from the last 30 days (or `--since DATE`) that touch the person: any change on a trial they match, and any site added or changed in their city or state, flagged as such. Filtering happens locally; the repo never learns who asked.
+- **Per-trial GitHub issues.** `scripts/notify_issues.py` posts each day's changes as comments on one issue per trial (label `trial-updates`) so people can Subscribe and get GitHub's email. Wired into the nightly workflow but inert until the repository variable `NOTIFY_ISSUES` is set to `true`.
+- **Guide.** New "Staying informed without giving anyone your details" section in `guide/enroll.md`; README, llms.txt and CONTRIBUTING updated.
+
 ## 2026-10-25 (BHV-8000 re-verified after registry update)
 
 - The nightly check failed on 2026-10-23, 24 and 25 because the BHV-8000 registry record was updated on 2026-10-22 and the guide still carried the 2026-09-28 verification. That failure is by design: the bot pulls the record but never re-verifies it. Diff reviewed: one new recruiting site (Site-079, Sun City, Arizona) and the status-verified month; eligibility, contacts and endpoints unchanged. Site count 24 to 25 in `data/trials.yaml` and the on-ramps page; verification date advanced.
+
+## 2026-10-23 (registry changes, automated)
+
+- **BHV-8000 phase 2/3** (NCT06976268): new site Site-079, Sun City, Arizona, United States (RECRUITING). Registry updated 2026-10-22; needs re-verification in `data/trials.yaml`.
 
 ## 2026-10-20 (four open questions answered from primary sources)
 

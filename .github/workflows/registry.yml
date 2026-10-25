@@ -8,6 +8,7 @@ on:
     branches: [main]
 permissions:
   contents: write
+  issues: write
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -24,8 +25,13 @@ jobs:
         run: |
           git config user.name "registry-bot"
           git config user.email "registry-bot@users.noreply.github.com"
-          git add data/registry data/sites.yaml
+          git add data/registry data/sites.yaml data/changes.yaml data/changes.xml CHANGELOG.md
           git diff --cached --quiet || git commit -m "registry: nightly refresh $(date -u +%F)"
           git push
+      - name: Comment on per-trial issues (only when repository variable NOTIFY_ISSUES is true)
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.NOTIFY_ISSUES == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/notify_issues.py
       - name: Freshness and consistency checks
         run: python3 scripts/check_freshness.py

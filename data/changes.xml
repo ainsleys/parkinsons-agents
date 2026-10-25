@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Parkinson's trial registry changes</title>
+<link href="https://github.com/ainsleys/parkinsons-agents/blob/main/data/changes.yaml"/>
+<id>https://github.com/ainsleys/parkinsons-agents/data/changes.xml</id>
+<updated>2026-10-23T06:30:00Z</updated>
+<author><name>registry-bot (scripts/pull_registry.py)</name></author>
+<entry>
+<title>BHV-8000 phase 2/3: site added</title>
+<link href="https://clinicaltrials.gov/study/NCT06976268"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06976268/2026-10-23/site_added/07d5e1e0</id>
+<updated>2026-10-23T06:30:00Z</updated>
+<summary>new site Site-079, Sun City, Arizona, United States (RECRUITING) (registry record updated 2026-10-22; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+</feed>

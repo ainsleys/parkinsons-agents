@@ -77,6 +77,10 @@ Sites for observational programs that are not trial registrations. Currently the
 
 One record per trial from the registries: `registry_status`, `why_stopped`, `primary_completion` with its `type` (ACTUAL or ESTIMATED), `study_completion`, `results_posted` (the registry's flag), `results_first_posted`, `registry_last_updated`, `registry_url`. Sorted soonest first. `guide/readouts.md` is the same data as a table. Topline announcements that precede registry posting live in the trial's `background` with sources.
 
+## changes.yaml (generated)
+
+Registry change feed, newest first, written by `scripts/pull_registry.py` whenever a record differs materially from the stored copy. Fields: `date_observed` (the pull date), `registry_id`, `trial`, `kind` (one of `status_change`, `date_change`, `eligibility_change`, `enrollment_change`, `contact_change`, `site_added`, `site_removed`, `site_status_change`, `results_posted`), `detail` (one generated sentence), `registry_last_updated`, `registry_url`, and for site kinds `city`, `state`, `country`, `facility`, `site_status`. `data/changes.xml` is the same feed as Atom for RSS readers; the nightly job also writes the entries into `CHANGELOG.md`. An entry means the registry changed, not that the guide has caught up: `trials.yaml` is re-verified by a person afterwards, and until then `check_freshness.py` fails on the `registry_last_updated` mismatch. Agents notifying a person should filter locally (see `scripts/match.py`, which flags entries in the person's city or state) and should not paste `detail` text into messages to third parties.
+
 ## checklist.yaml
 
 Pre-contact checklist as records: `field`, `question`, `source` (self, neurologist, records), `why`. Field names match the profile `scripts/match.py` reads; see `diagrams/example-profile.yaml` for the profile format.

@@ -5,15 +5,19 @@ Implements the matching rules in data/SCHEMA.md: unknown never passes; stage is
 state-dependent; duration has a reference point; untreated vs on-treatment is an
 enum; genetics has three parts; geography is a country match, not a travel match.
 
-Usage: python3 scripts/match.py profile.yaml [--mermaid] [--draft]
+Usage: python3 scripts/match.py profile.yaml [--mermaid] [--draft] [--since YYYY-MM-DD]
 Output: a verdict per trial with the deciding criterion, nearest sites by country,
+registry changes from data/changes.yaml in the last 30 days (or since --since) that
+touch this person's options (a new site in their city or state, a status flip),
 (with --mermaid) a Sankey showing where trials drop out, and (with --draft) the
 contact route plus a first-contact email DRAFT for each trial still in play.
+Run it weekly and the changes block is a private notification: the repo never
+knows who is asking.
 Drafts are for the person to review and send; this script never sends anything.
 Nothing leaves the machine.
 Needs pyyaml.
 """
-import sys, pathlib, collections
+import sys, pathlib, collections, datetime
 try:
     import yaml
 except ImportError:
@@ -150,6 +154,24 @@ def main():
             if state_: print(f"           other sites in your state: {'; '.join(fmt(state_))}")
             cities = sorted({f"{str(x.get('city')).split(',')[0]}{', ' + x['state'] if x.get('state') else ''}" for x in allc})
             if cities: print(f"           all sites in {p['country']} ({len(cities)}): {', '.join(cities)}")
+    # Registry changes that touch this person: read from the generated feed, filtered locally.
+    since_arg = next((sys.argv[i+1] for i, a in enumerate(sys.argv) if a == "--since" and i+1 < len(sys.argv)), None)
+    since = since_arg or (datetime.date.today() - datetime.timedelta(days=30)).isoformat()
+    changes = (load(ROOT/"data"/"changes.yaml") or []) if (ROOT/"data"/"changes.yaml").exists() else []
+    verdict = {t["registry_id"]: v for t, v, _ in rows}
+    hits = []
+    for c in changes:
+        if str(c.get("date_observed")) < since: continue
+        v = verdict.get(c.get("registry_id"))
+        here = c.get("country") == p.get("country") if c.get("country") else False
+        tag = ""
+        if c.get("kind") in ("site_added", "site_status_change", "site_removed") and here:
+            if same_city(c, p): tag = " [in or near your city]"
+            elif p.get("state") and c.get("state") == p["state"]: tag = " [in your state]"
+        if v != "no" or tag or (c.get("kind") == "site_added" and here):
+            hits.append(f"  {c.get('date_observed')}  {c.get('trial') or c.get('registry_id')}: {c.get('detail')}{tag}")
+    print(f"\nRegistry changes since {since} touching these options (from data/changes.yaml; a human re-verifies before the guide changes):")
+    print("\n".join(hits) if hits else "  none")
     if "--draft" in sys.argv:
         checklist = load(ROOT/"data"/"checklist.yaml")
         print("\n=== Contact routes and DRAFT first messages (not sent; the person reviews and sends) ===")

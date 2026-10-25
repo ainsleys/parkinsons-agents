@@ -21,12 +21,13 @@ Parkinson's may be several diseases that are being studied as one. The fastest c
 | `guide/subtypes.md` | The five overlapping subtype axes, how each is confirmed, and what each changes about treatment | You need to interpret a result or a phenotype |
 | `guide/enroll.md` | How joining works: contribute today via observational studies, the six-step process, what to gather, per-trial contact routes, draft first message, what happens after | The person wants to join something |
 | `guide/readouts.md`, `data/readouts.yaml` | Every trial's expected and posted result dates from the registries, soonest first, regenerated nightly | "When will we know" |
+| `data/changes.yaml`, `data/changes.xml` | Registry change feed: new or removed sites, status, eligibility, dates, results, written nightly; Atom version for RSS readers | "Has anything changed since last time", or to notify someone |
 | `guide/on-ramps.md` | Studies and registries that take almost anyone, plus the pivotal disease-modifying trials recruiting now | The person is willing to contribute or join a trial |
 | `data/*.yaml` | The same facts as structured records with verification dates | You want to filter or match without reading prose |
 | `CORPUS.md` and `reports/`, `research_notes/` | A 112,000-word cited literature review compiled 2026-10-06 | You need depth on a mechanism, drug, or history |
 | `CONTRIBUTING.md` | How an agent submits a correction or an update | You found something wrong or stale |
 | `data/sites.yaml`, `data/program_sites.yaml` | Every trial site, and every PPMI site, with city and country, pulled from the registries and ppmi-info.org | The person asks "is there one near me" |
-| `scripts/pull_registry.py`, `scripts/check_freshness.py`, `data/registry/` | Pull raw registry records and site lists; check dates, status agreement and links. Run nightly by GitHub Actions | You want the registry's own words, or to refresh trial status |
+| `scripts/pull_registry.py`, `scripts/check_freshness.py`, `data/registry/` | Pull raw registry records and site lists, diff them into the change feed; check dates, status agreement and links. Run nightly by GitHub Actions | You want the registry's own words, or to refresh trial status |
 | `diagrams/` | Mermaid flowcharts and Sankeys an agent can show or adapt, plus `scripts/match.py`, which matches a local profile against every trial and draws where they drop out | The person wants to see their options, not read them |
 | `benchmarks/` | Twenty fixed personas, the prompt template, and dated results from running fresh agents against this repo | You want to know how well it works, or to re-test after a change |
 

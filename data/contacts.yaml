@@ -1,4 +1,4 @@
-# Trial contact details pulled from registries on 2026-10-20 by scripts/pull_registry.py.
+# Trial contact details pulled from registries on 2026-10-25 by scripts/pull_registry.py.
 # These are work contacts published by sponsors for recruitment inquiries. Fields are validated:
 # emails must look like emails, phones like phones, names are short and free of URLs; anything else is
 # kept in registry_note and must never be pasted into a message. Hand-reviewed routes live in
@@ -554,10 +554,10 @@ NCT06976268:
   name: "BHV-8000 phase 2/3"
   registry_url: "https://clinicaltrials.gov/study/NCT06976268"
   registry_status: RECRUITING
-  registry_last_updated: 2026-09-28
+  registry_last_updated: 2026-10-22
   central_contacts:
     - {name: "Chief Medical Officer", role: "contact", phone: "203-404-0410", email: "clinicaltrials@biohavenpharma.com"}
-  sites_with_contacts: 0 of 24
+  sites_with_contacts: 0 of 25
   site_contacts:
     []
 
