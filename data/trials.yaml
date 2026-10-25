@@ -200,9 +200,9 @@
   intervention: BHV-8000, oral TYK2/JAK1 inhibitor, vs placebo
   target_axis: none (early, untreated idiopathic PD; immune hypothesis)
   status: recruiting
-  status_note: Registry lists 24 US sites; Biohaven's June 2025 release describes about 185 sites in 13 countries, so the registry likely lags. A trial-finder listing describes the primary event as a 2-point or greater worsening on MDS-UPDRS Part II.
+  status_note: Registry lists 25 US sites (Sun City, Arizona added 2026-10-22); Biohaven's June 2025 release describes about 185 sites in 13 countries, so the registry likely lags. A trial-finder listing describes the primary event as a 2-point or greater worsening on MDS-UPDRS Part II.
   countries: [United States]
-  sites: 24
+  sites: 25
   eligibility:
     age_min: 40
     age_max: 80
@@ -242,9 +242,9 @@
     notes: Requires being untreated, so discuss timing with your neurologist before making contact.
   enrollment_target: 550
   primary_completion: 2027-08
-  registry_last_updated: 2026-09-28
+  registry_last_updated: 2026-10-22
   background: No prior PD efficacy data; novel anti-inflammatory mechanism. The untreated requirement means joining competes with starting levodopa.
-  verified: 2026-10-20
+  verified: 2026-10-25
   sources:
     - https://clinicaltrials.gov/study/NCT06976268
 

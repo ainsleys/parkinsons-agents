@@ -2,6 +2,10 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-25 (BHV-8000 re-verified after registry update)
+
+- The nightly check failed on 2026-10-23, 24 and 25 because the BHV-8000 registry record was updated on 2026-10-22 and the guide still carried the 2026-09-28 verification. That failure is by design: the bot pulls the record but never re-verifies it. Diff reviewed: one new recruiting site (Site-079, Sun City, Arizona) and the status-verified month; eligibility, contacts and endpoints unchanged. Site count 24 to 25 in `data/trials.yaml` and the on-ramps page; verification date advanced.
+
 ## 2026-10-20 (four open questions answered from primary sources)
 
 - **PPMI and medication.** The PPMI Clinical protocol (February 2021, sections 7.2.1, 10.4, 18.2, 19) requires that enrollees are not expected to need medication for 6 months, but allows medication to start at any time after enrollment at the participant's or physician's discretion, with the person remaining in the study. PPMI prefers but does not require 12 months before a drug trial. Recorded on the PPMI program record and in the guides. US contact joinppmi@michaeljfox.org added; US sites publish no coordinator contacts, confirmed on the Fox Foundation's contact page.
