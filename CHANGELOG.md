@@ -2,6 +2,12 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-10-30 (registry changes, automated)
+
+- **exPDite-2** (NCT06944522): primary completion 2027-03 (ESTIMATED) -> 2028-10 (ESTIMATED). Registry updated 2026-10-30; needs re-verification in `data/trials.yaml`.
+- **exPDite-2** (NCT06944522): study completion 2032-03 (ESTIMATED) -> 2034-08 (ESTIMATED). Registry updated 2026-10-30; needs re-verification in `data/trials.yaml`.
+- **exPDite-2** (NCT06944522): eligibility fields changed: eligibilityCriteria; re-verify the eligibility block in data/trials.yaml. Registry updated 2026-10-30; needs re-verification in `data/trials.yaml`.
+
 ## 2026-10-25 (registry change feed and notifications)
 
 - **Change feed.** `scripts/pull_registry.py` now diffs each registry record against the stored copy before overwriting it and writes every material difference (status, completion dates, eligibility fields, central contacts, enrollment, sites added or removed, per-site status, results posted) to `data/changes.yaml` (newest first), `data/changes.xml` (Atom) and a dated automated section in this file. Seeded with the BHV-8000 Sun City site observed 2026-10-23. Schema in `data/SCHEMA.md`.

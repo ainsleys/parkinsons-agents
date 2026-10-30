@@ -1,4 +1,4 @@
-# Trial site locations pulled from registries on 2026-10-29 by scripts/pull_registry.py.
+# Trial site locations pulled from registries on 2026-10-30 by scripts/pull_registry.py.
 # Do not edit by hand; re-run the script. Site status is the registry's per-site status where given.
 
 NCT04127578:
@@ -360,7 +360,7 @@ NCT06944522:
   name: "exPDite-2"
   registry_id: "NCT06944522"
   registry_status: RECRUITING
-  registry_last_updated: 2026-08-04
+  registry_last_updated: 2026-10-30
   site_count: 43
   countries:
     "United States": 34

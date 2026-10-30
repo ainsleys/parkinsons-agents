@@ -1001,7 +1001,7 @@
    "studyType": "INTERVENTIONAL"
   },
   "eligibilityModule": {
-   "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of clinically established PD as defined by the International Parkinson and Movement Disorders Society\n* Individual of any sex \u226545 to \u226475 years of age at informed consent\n* Robust and clear response to DA therapy as defined by MDS-UPDRS Part III\n* \u22654 and \\<12 years from time of PD diagnosis at informed consent\n* Must demonstrate responsiveness to levodopa therapy\n* Receiving medical therapy for the treatment of PD symptoms\n* \u22652.5 hours of daily OFF-time\n* Vaccinated per current national guidelines or local practice for patients with altered immunocompetence\n\nExclusion Criteria:\n\n* PD presenting with recurrent falls\n* Diagnosis of primary mitochondrial disorder, epilepsy, stroke, multiple sclerosis, or clinical features suggestive of a neurodegenerative disease other than PD, including multiple system atrophy, progressive supranuclear palsy, corticobasal degeneration, or Lewy body dementia\n* Any current or relevant previous history of serious, severe, or unstable physical, neurological, or psychiatric illness that may interfere with study participation, participant's safety, or assessment of endpoints per investigator's judgment\n* History of gene therapy or cell therapy\n* Prior treatment with intrajejunal or subcutaneous infusion therapies for PD\n* Prior surgical or radiation therapy to the brain, including deep brain stimulation (DBS) and lesion therapy, or prior history of intradural spinal cord surgery\n* Contraindication to surgery, general anesthesia, cell therapy, immunosuppression, or other required drugs, or anything that prevents use of PET or MRI\n* Any active infection (including but not limited to HIV, HCV, HBV, CMV, syphilis, or tuberculosis) or condition that, in the opinion of the investigator could put the participant at significant risk from immunosuppression or impact the participant's ability to perform study assessments\n* Current or previously active malignant disease within the past 5 years\n* Chronic immunosuppressive therapy\n* Receipt of another investigational therapy within 5 half-lives of the active treatment\n* Pregnancy or breastfeeding",
+   "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of clinically established PD as defined by the International Parkinson and Movement Disorders Society\n* Individual of any sex \u226545 to \u226475 years of age at informed consent\n* Robust and clear response to DA therapy as defined by MDS-UPDRS Part III\n* \u22654 and \\<12 years from time of PD diagnosis at informed consent\n* Must demonstrate responsiveness to levodopa therapy\n* Receiving medical therapy for the treatment of PD symptoms\n* \u22652.5 hours of daily OFF-time\n* Vaccinated per current national guidelines or local practice for patients with altered immunocompetence\n\nExclusion Criteria:\n\n* PD presenting with recurrent falls\n* Diagnosis of primary mitochondrial disorder, epilepsy, stroke, multiple sclerosis, or clinical features suggestive of a neurodegenerative disease other than PD, including multiple system atrophy, progressive supranuclear palsy, corticobasal degeneration, or Lewy body dementia\n* Any current or relevant previous history of serious, severe, or unstable physical, neurological, or psychiatric illness that may interfere with study participation, participant's safety, or assessment of endpoints per investigator's judgment\n* History of gene therapy or cell therapy for a neurological or intercerebral condition\n* Prior treatment with intrajejunal or subcutaneous infusion therapies for PD\n* Prior surgical or radiation therapy to the brain, including deep brain stimulation (DBS) and lesion therapy, or prior history of intradural spinal cord surgery\n* Contraindication to surgery, general anesthesia, cell therapy, immunosuppression, or other required drugs, or anything that prevents use of PET or MRI\n* Any history or evidence of infection with HBV or HIV; and any condition that, in the opinion of the investigator could put the participant at significant risk from immunosuppression or impact the participant's ability to perform study assessments. Exceptions: Treated and resolved TB, syphilis and/or HCV are not exclusionary\n* Current or previously active malignant disease within the past 5 years\n* Chronic immunosuppressive therapy\n* Receipt of another investigational therapy within 5 half-lives of the active treatment\n* Pregnancy or breastfeeding\n* Unable to comply with study requirements for any reason",
    "healthyVolunteers": false,
    "maximumAge": "75 Years",
    "minimumAge": "45 Years",
@@ -1045,6 +1045,10 @@
      "timeFrame": "From baseline to Week 78"
     },
     {
+     "measure": "Percentage change from baseline in 18F-DOPA uptake in the posterior putamen.",
+     "timeFrame": "From baseline to Week 78"
+    },
+    {
      "measure": "Change from baseline in Parkinson's Disease Questionnaire-39 (PDQ-39) summary index. Summary index score can range from 0 to 100, with lower scores being better.",
      "timeFrame": "From baseline to Week 78"
     },
@@ -1076,27 +1080,27 @@
   },
   "statusModule": {
    "completionDateStruct": {
-    "date": "2032-03",
+    "date": "2034-08",
     "type": "ESTIMATED"
    },
    "expandedAccessInfo": {
     "hasExpandedAccess": false
    },
    "lastUpdatePostDateStruct": {
-    "date": "2026-08-04",
+    "date": "2026-10-30",
     "type": "ACTUAL"
    },
-   "lastUpdateSubmitDate": "2026-08-03",
+   "lastUpdateSubmitDate": "2026-10-28",
    "overallStatus": "RECRUITING",
    "primaryCompletionDateStruct": {
-    "date": "2027-03",
+    "date": "2028-10",
     "type": "ESTIMATED"
    },
    "startDateStruct": {
     "date": "2025-06-17",
     "type": "ACTUAL"
    },
-   "statusVerifiedDate": "2026-07",
+   "statusVerifiedDate": "2026-10",
    "studyFirstPostDateStruct": {
     "date": "2025-04-25",
     "type": "ACTUAL"

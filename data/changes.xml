@@ -3,8 +3,29 @@
 <title>Parkinson's trial registry changes</title>
 <link href="https://github.com/ainsleys/parkinsons-agents/blob/main/data/changes.yaml"/>
 <id>https://github.com/ainsleys/parkinsons-agents/data/changes.xml</id>
-<updated>2026-10-23T06:30:00Z</updated>
+<updated>2026-10-30T06:30:00Z</updated>
 <author><name>registry-bot (scripts/pull_registry.py)</name></author>
+<entry>
+<title>exPDite-2: date change</title>
+<link href="https://clinicaltrials.gov/study/NCT06944522"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06944522/2026-10-30/date_change/ecd89b52</id>
+<updated>2026-10-30T06:30:00Z</updated>
+<summary>primary completion 2027-03 (ESTIMATED) -&gt; 2028-10 (ESTIMATED) (registry record updated 2026-10-30; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>exPDite-2: date change</title>
+<link href="https://clinicaltrials.gov/study/NCT06944522"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06944522/2026-10-30/date_change/9df2bd44</id>
+<updated>2026-10-30T06:30:00Z</updated>
+<summary>study completion 2032-03 (ESTIMATED) -&gt; 2034-08 (ESTIMATED) (registry record updated 2026-10-30; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>exPDite-2: eligibility change</title>
+<link href="https://clinicaltrials.gov/study/NCT06944522"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06944522/2026-10-30/eligibility_change/d26541bb</id>
+<updated>2026-10-30T06:30:00Z</updated>
+<summary>eligibility fields changed: eligibilityCriteria; re-verify the eligibility block in data/trials.yaml (registry record updated 2026-10-30; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
 <entry>
 <title>BHV-8000 phase 2/3: site added</title>
 <link href="https://clinicaltrials.gov/study/NCT06976268"/>
