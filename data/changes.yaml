@@ -3,6 +3,13 @@
 # results posted. Agents: poll this file or data/changes.xml; scripts/match.py reports entries near a person.
 # A human still re-verifies the trial in data/trials.yaml before its `verified` date moves. Do not edit by hand.
 
+- date_observed: 2026-11-02
+  registry_id: "NCT06944522"
+  trial: "exPDite-2"
+  kind: "eligibility_change"
+  detail: "eligibility fields changed: eligibilityCriteria; re-verify the eligibility block in data/trials.yaml"
+  registry_last_updated: "2026-11-02"
+  registry_url: "https://clinicaltrials.gov/study/NCT06944522"
 - date_observed: 2026-10-30
   registry_id: "NCT06944522"
   trial: "exPDite-2"

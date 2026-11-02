@@ -2,6 +2,10 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-11-02 (registry changes, automated)
+
+- **exPDite-2** (NCT06944522): eligibility fields changed: eligibilityCriteria; re-verify the eligibility block in data/trials.yaml. Registry updated 2026-11-02; needs re-verification in `data/trials.yaml`.
+
 ## 2026-10-30 (registry changes, automated)
 
 - **exPDite-2** (NCT06944522): primary completion 2027-03 (ESTIMATED) -> 2028-10 (ESTIMATED). Registry updated 2026-10-30; needs re-verification in `data/trials.yaml`.
