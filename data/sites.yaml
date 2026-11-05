@@ -1,4 +1,4 @@
-# Trial site locations pulled from registries on 2026-11-04 by scripts/pull_registry.py.
+# Trial site locations pulled from registries on 2026-11-05 by scripts/pull_registry.py.
 # Do not edit by hand; re-run the script. Site status is the registry's per-site status where given.
 
 NCT04127578:
@@ -268,7 +268,7 @@ NCT06285643:
   name: "REGENERATE-PD"
   registry_id: "NCT06285643"
   registry_status: ACTIVE_NOT_RECRUITING
-  registry_last_updated: 2026-10-01
+  registry_last_updated: 2026-11-05
   site_count: 46
   countries:
     "United States": 34
@@ -450,7 +450,7 @@ NCT07174310:
   name: "PARAISO"
   registry_id: "NCT07174310"
   registry_status: RECRUITING
-  registry_last_updated: 2026-10-06
+  registry_last_updated: 2026-11-05
   site_count: 192
   countries:
     "United States": 53
@@ -603,13 +603,13 @@ NCT07174310:
     - {facility: "National Taiwan University Hospital", city: "Taipei", state: null, country: "Taiwan", status: "RECRUITING"}
     - {facility: "Taipei Veterans General Hospital", city: "Taipei", state: null, country: "Taiwan", status: "RECRUITING"}
     - {facility: "Chang Gung Memorial Hospital - Linkou", city: "Taoyuan City", state: null, country: "Taiwan", status: "RECRUITING"}
-    - {facility: "Ninewells Hospital, Dundee- Scotland", city: "Dundee", state: null, country: "United Kingdom", status: "RECRUITING"}
-    - {facility: "Royal Devon and Exeter Hospital (Wonford)", city: "Exeter", state: null, country: "United Kingdom", status: "RECRUITING"}
-    - {facility: "Royal London Hospital", city: "London", state: null, country: "United Kingdom", status: "RECRUITING"}
-    - {facility: "Charing Cross Hospital", city: "London", state: null, country: "United Kingdom", status: "RECRUITING"}
-    - {facility: "Campus for Ageing and Vitality", city: "Newcastle", state: null, country: "United Kingdom", status: "RECRUITING"}
-    - {facility: "Oxford University Hospitals NHS Foundation Trust", city: "Oxford", state: null, country: "United Kingdom", status: "RECRUITING"}
-    - {facility: "Plymouth Hospitals NHS Trust - Derriford Hospital", city: "Plymouth,Devon", state: null, country: "United Kingdom", status: "RECRUITING"}
+    - {facility: "Ninewells Hospital, Dundee- Scotland", city: "Dundee", state: null, country: "United Kingdom", status: "ACTIVE_NOT_RECRUITING"}
+    - {facility: "Royal Devon and Exeter Hospital (Wonford)", city: "Exeter", state: null, country: "United Kingdom", status: "ACTIVE_NOT_RECRUITING"}
+    - {facility: "Royal London Hospital", city: "London", state: null, country: "United Kingdom", status: "ACTIVE_NOT_RECRUITING"}
+    - {facility: "Charing Cross Hospital", city: "London", state: null, country: "United Kingdom", status: "ACTIVE_NOT_RECRUITING"}
+    - {facility: "Campus for Ageing and Vitality", city: "Newcastle", state: null, country: "United Kingdom", status: "ACTIVE_NOT_RECRUITING"}
+    - {facility: "Oxford University Hospitals NHS Foundation Trust", city: "Oxford", state: null, country: "United Kingdom", status: "ACTIVE_NOT_RECRUITING"}
+    - {facility: "Plymouth Hospitals NHS Trust - Derriford Hospital", city: "Plymouth,Devon", state: null, country: "United Kingdom", status: "ACTIVE_NOT_RECRUITING"}
     - {facility: "University of Alabama at Birmingham", city: "Birmingham", state: "Alabama", country: "United States", status: "RECRUITING"}
     - {facility: "Barrow Neurological Institute", city: "Phoenix", state: "Arizona", country: "United States", status: "RECRUITING"}
     - {facility: "Neurology Center of North Orange County", city: "Fullerton", state: "California", country: "United States", status: "RECRUITING"}

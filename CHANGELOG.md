@@ -2,6 +2,17 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-11-05 (registry changes, automated)
+
+- **REGENERATE-PD** (NCT06285643): enrollment 127 (ESTIMATED) -> 59 (ACTUAL). Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.
+- **PARAISO** (NCT07174310): Campus for Ageing and Vitality, Newcastle, United Kingdom RECRUITING -> ACTIVE_NOT_RECRUITING. Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.
+- **PARAISO** (NCT07174310): Charing Cross Hospital, London, United Kingdom RECRUITING -> ACTIVE_NOT_RECRUITING. Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.
+- **PARAISO** (NCT07174310): Ninewells Hospital, Dundee- Scotland, Dundee, United Kingdom RECRUITING -> ACTIVE_NOT_RECRUITING. Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.
+- **PARAISO** (NCT07174310): Oxford University Hospitals NHS Foundation Trust, Oxford, United Kingdom RECRUITING -> ACTIVE_NOT_RECRUITING. Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.
+- **PARAISO** (NCT07174310): Plymouth Hospitals NHS Trust - Derriford Hospital, Plymouth,Devon, United Kingdom RECRUITING -> ACTIVE_NOT_RECRUITING. Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.
+- **PARAISO** (NCT07174310): Royal Devon and Exeter Hospital (Wonford), Exeter, United Kingdom RECRUITING -> ACTIVE_NOT_RECRUITING. Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.
+- **PARAISO** (NCT07174310): Royal London Hospital, London, United Kingdom RECRUITING -> ACTIVE_NOT_RECRUITING. Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.
+
 ## 2026-11-02 (registry changes, automated)
 
 - **exPDite-2** (NCT06944522): eligibility fields changed: eligibilityCriteria; re-verify the eligibility block in data/trials.yaml. Registry updated 2026-11-02; needs re-verification in `data/trials.yaml`.

@@ -2217,7 +2217,7 @@
       "lat": 56.46913,
       "lon": -2.97489
      },
-     "status": "RECRUITING",
+     "status": "ACTIVE_NOT_RECRUITING",
      "zip": "DD2 1SY"
     },
     {
@@ -2228,7 +2228,7 @@
       "lat": 50.7236,
       "lon": -3.52751
      },
-     "status": "RECRUITING",
+     "status": "ACTIVE_NOT_RECRUITING",
      "zip": "EX2 5DW"
     },
     {
@@ -2239,7 +2239,7 @@
       "lat": 51.50853,
       "lon": -0.12574
      },
-     "status": "RECRUITING",
+     "status": "ACTIVE_NOT_RECRUITING",
      "zip": "E1 1FR"
     },
     {
@@ -2250,7 +2250,7 @@
       "lat": 51.50853,
       "lon": -0.12574
      },
-     "status": "RECRUITING",
+     "status": "ACTIVE_NOT_RECRUITING",
      "zip": "W6 8RF"
     },
     {
@@ -2261,7 +2261,7 @@
       "lat": 54.21804,
       "lon": -5.88979
      },
-     "status": "RECRUITING",
+     "status": "ACTIVE_NOT_RECRUITING",
      "zip": "NE4 5PL"
     },
     {
@@ -2272,7 +2272,7 @@
       "lat": 51.75222,
       "lon": -1.25596
      },
-     "status": "RECRUITING",
+     "status": "ACTIVE_NOT_RECRUITING",
      "zip": "OX3 7LE"
     },
     {
@@ -2283,7 +2283,7 @@
       "lat": 50.37153,
       "lon": -4.14305
      },
-     "status": "RECRUITING",
+     "status": "ACTIVE_NOT_RECRUITING",
      "zip": "PL6 8DH"
     }
    ],
@@ -2458,10 +2458,10 @@
     "hasExpandedAccess": false
    },
    "lastUpdatePostDateStruct": {
-    "date": "2026-10-06",
+    "date": "2026-11-05",
     "type": "ACTUAL"
    },
-   "lastUpdateSubmitDate": "2026-10-05",
+   "lastUpdateSubmitDate": "2026-11-04",
    "overallStatus": "RECRUITING",
    "primaryCompletionDateStruct": {
     "date": "2029-06-30",
@@ -2471,7 +2471,7 @@
     "date": "2025-11-24",
     "type": "ACTUAL"
    },
-   "statusVerifiedDate": "2026-10",
+   "statusVerifiedDate": "2026-11",
    "studyFirstPostDateStruct": {
     "date": "2025-09-15",
     "type": "ACTUAL"

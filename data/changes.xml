@@ -3,8 +3,64 @@
 <title>Parkinson's trial registry changes</title>
 <link href="https://github.com/ainsleys/parkinsons-agents/blob/main/data/changes.yaml"/>
 <id>https://github.com/ainsleys/parkinsons-agents/data/changes.xml</id>
-<updated>2026-11-02T06:30:00Z</updated>
+<updated>2026-11-05T06:30:00Z</updated>
 <author><name>registry-bot (scripts/pull_registry.py)</name></author>
+<entry>
+<title>REGENERATE-PD: enrollment change</title>
+<link href="https://clinicaltrials.gov/study/NCT06285643"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06285643/2026-11-05/enrollment_change/45ab1ffa</id>
+<updated>2026-11-05T06:30:00Z</updated>
+<summary>enrollment 127 (ESTIMATED) -&gt; 59 (ACTUAL) (registry record updated 2026-11-05; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>PARAISO: site status change</title>
+<link href="https://clinicaltrials.gov/study/NCT07174310"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT07174310/2026-11-05/site_status_change/4e2a24c6</id>
+<updated>2026-11-05T06:30:00Z</updated>
+<summary>Campus for Ageing and Vitality, Newcastle, United Kingdom RECRUITING -&gt; ACTIVE_NOT_RECRUITING (registry record updated 2026-11-05; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>PARAISO: site status change</title>
+<link href="https://clinicaltrials.gov/study/NCT07174310"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT07174310/2026-11-05/site_status_change/c4c939cc</id>
+<updated>2026-11-05T06:30:00Z</updated>
+<summary>Charing Cross Hospital, London, United Kingdom RECRUITING -&gt; ACTIVE_NOT_RECRUITING (registry record updated 2026-11-05; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>PARAISO: site status change</title>
+<link href="https://clinicaltrials.gov/study/NCT07174310"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT07174310/2026-11-05/site_status_change/38bf71b3</id>
+<updated>2026-11-05T06:30:00Z</updated>
+<summary>Ninewells Hospital, Dundee- Scotland, Dundee, United Kingdom RECRUITING -&gt; ACTIVE_NOT_RECRUITING (registry record updated 2026-11-05; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>PARAISO: site status change</title>
+<link href="https://clinicaltrials.gov/study/NCT07174310"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT07174310/2026-11-05/site_status_change/85e64b6a</id>
+<updated>2026-11-05T06:30:00Z</updated>
+<summary>Oxford University Hospitals NHS Foundation Trust, Oxford, United Kingdom RECRUITING -&gt; ACTIVE_NOT_RECRUITING (registry record updated 2026-11-05; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>PARAISO: site status change</title>
+<link href="https://clinicaltrials.gov/study/NCT07174310"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT07174310/2026-11-05/site_status_change/e3b974bc</id>
+<updated>2026-11-05T06:30:00Z</updated>
+<summary>Plymouth Hospitals NHS Trust - Derriford Hospital, Plymouth,Devon, United Kingdom RECRUITING -&gt; ACTIVE_NOT_RECRUITING (registry record updated 2026-11-05; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>PARAISO: site status change</title>
+<link href="https://clinicaltrials.gov/study/NCT07174310"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT07174310/2026-11-05/site_status_change/1e430693</id>
+<updated>2026-11-05T06:30:00Z</updated>
+<summary>Royal Devon and Exeter Hospital (Wonford), Exeter, United Kingdom RECRUITING -&gt; ACTIVE_NOT_RECRUITING (registry record updated 2026-11-05; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>PARAISO: site status change</title>
+<link href="https://clinicaltrials.gov/study/NCT07174310"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT07174310/2026-11-05/site_status_change/c1e4c3b7</id>
+<updated>2026-11-05T06:30:00Z</updated>
+<summary>Royal London Hospital, London, United Kingdom RECRUITING -&gt; ACTIVE_NOT_RECRUITING (registry record updated 2026-11-05; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
 <entry>
 <title>exPDite-2: eligibility change</title>
 <link href="https://clinicaltrials.gov/study/NCT06944522"/>
