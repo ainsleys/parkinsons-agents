@@ -14,7 +14,7 @@
   intervention: Prasinezumab, anti-alpha-synuclein monoclonal antibody, IV every 4 weeks
   target_axis: none (early idiopathic PD on stable symptomatic monotherapy; no genetic or synuclein requirement)
   status: recruiting
-  status_note: null
+  status_note: All 7 UK sites (London x2, Oxford, Newcastle, Dundee, Exeter, Plymouth) changed to active-not-recruiting on the registry on 2026-11-05, so the UK is closed to new participants unless that reverses; one site each in Austria and Poland is withdrawn. 183 sites recruiting elsewhere. No sponsor statement found.
   countries: [United States, China, Germany, Italy, Spain, France, Poland, Brazil, Australia, Portugal, United Kingdom, South Korea, Taiwan, Austria, Canada, Denmark, Mexico]
   sites: 192
   eligibility:
@@ -64,9 +64,9 @@
     notes: Verified 2026-10-19 by reading both pages. The Genentech form is for US residents and asks patients to consult their physician or submit a question; the registry says no attachments to the email and that the form gets the fastest response. ForPatients asks for initials only and no addresses or birthdays.
   enrollment_target: 900
   primary_completion: 2029-06-30
-  registry_last_updated: 2026-10-06
+  registry_last_updated: 2026-11-05
   background: Phase 2b PADOVA missed its primary endpoint (HR 0.84, p 0.066); prespecified levodopa-treated subgroup HR 0.79. The only anti-synuclein agent with a replicated directional signal.
-  verified: 2026-10-19
+  verified: 2026-11-07
   sources:
     - https://clinicaltrials.gov/study/NCT07174310
     - research_notes/Parkinsons disease research review/06_disease_modifying_therapy_pipeline.md
@@ -481,7 +481,7 @@
   intervention: AB-1005, AAV2-GDNF gene therapy delivered by neurosurgery, vs control surgery
   target_axis: none (moderate idiopathic PD with motor fluctuations)
   status: active_not_recruiting
-  status_note: null
+  status_note: Registry enrollment changed from 127 (estimated) to 59 (actual) on 2026-11-05, so the trial closed to enrollment at under half its listed target; AskBio's January 2025 release had said about 87. No sponsor explanation found.
   countries: [United States, United Kingdom, Germany, Poland]
   sites: 46
   eligibility:
@@ -513,12 +513,14 @@
     mri_required: true
     surgery: true
   enrollment_target: 127
+  enrollment_actual: 59
   primary_completion: 2028-08-31
-  registry_last_updated: 2026-10-01
+  registry_last_updated: 2026-11-05
   background: Growth-factor gene therapy; earlier GDNF programs showed imaging signals without clinical confirmation.
-  verified: 2026-10-19
+  verified: 2026-11-07
   sources:
     - https://clinicaltrials.gov/study/NCT06285643
+    - https://www.bayer.com/media/en-us/first-participants-randomized-in-askbio-phase-ii-gene-therapy-trial-for-parkinsons-disease/
 
 - id: expdite_2
   name: exPDite-2
@@ -551,9 +553,10 @@
     other:
       - Clinically established PD, 4 to under 12 years since diagnosis
       - Robust levodopa response on MDS-UPDRS III; at least 2.5 hours of daily OFF time
-      - Excludes recurrent falls, prior gene or cell therapy, prior infusion therapies, prior brain surgery or DBS, active infection, malignancy within 5 years, chronic immunosuppression
+      - Excludes recurrent falls, prior gene or cell therapy for a neurological condition, prior infusion therapies, prior brain surgery or DBS, malignancy within 5 years, chronic immunosuppression
+      - Infection (registry text revised 2026-11-02): any history of HIV or hepatitis B excludes; active hepatitis C, CMV, syphilis or latent tuberculosis excludes; treated and resolved tuberculosis, syphilis or hepatitis C do not
       - Vaccination per national guidance for immunocompromised patients
-    notes: null
+    notes: Registry eligibility text was revised on 2026-10-30 and again on 2026-11-02 (cell or gene therapy exclusion narrowed to neurological conditions; infection exclusions rewritten as above; "unable to comply with study requirements" added). On 2026-10-30 the primary completion moved from March 2027 to October 2028 and study completion from 2032 to 2034; no public explanation found.
   burden:
     route: bilateral neurosurgical implantation into the putamen (3 million cells per side) vs sham surgery (bilateral partial burr holes); PET and MRI; 5-year follow-up for treated participants
     frequency: single procedure
@@ -572,10 +575,10 @@
     registry_url: https://clinicaltrials.gov/study/NCT06944522
     notes: Have daily OFF hours and years since diagnosis ready; both are entry criteria.
   enrollment_target: 102
-  primary_completion: 2027-03
-  registry_last_updated: 2026-08-04
+  primary_completion: 2028-10
+  registry_last_updated: 2026-11-02
   background: Phase 1 (12 participants) showed no tumours or graft-induced dyskinesia and about one hour more good ON time at 3 years, open-label. Sham-controlled cell therapy has failed under blinding before (Freed 2001, Olanow 2003). Primary endpoint is change in ON time without troublesome dyskinesia at week 78. First participant randomized and operated August 2025.
-  verified: 2026-10-20
+  verified: 2026-11-07
   sources:
     - https://clinicaltrials.gov/study/NCT06944522
     - https://www.aan.com/msa/Public/Events/AbstractDetails/64548

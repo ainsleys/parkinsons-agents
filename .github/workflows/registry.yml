@@ -25,7 +25,7 @@ jobs:
         run: |
           git config user.name "registry-bot"
           git config user.email "registry-bot@users.noreply.github.com"
-          git add data/registry data/sites.yaml data/changes.yaml data/changes.xml CHANGELOG.md
+          git add data/registry data/sites.yaml data/contacts.yaml data/readouts.yaml guide/readouts.md data/program_sites.yaml data/changes.yaml data/changes.xml CHANGELOG.md
           git diff --cached --quiet || git commit -m "registry: nightly refresh $(date -u +%F)"
           git push
       - name: Comment on per-trial issues (only when repository variable NOTIFY_ISSUES is true)

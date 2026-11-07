@@ -51,14 +51,21 @@ def nearby(sites_for_trial, p):
     state = [x for x in allc if p.get("state") and x.get("state") == p["state"] and x not in city]
     return city, state, allc
 
-def check(trial, p):
-    """Return (verdict, reason). verdict in {qualifies, unclear, no}."""
+CLOSED_SITE = {"ACTIVE_NOT_RECRUITING", "COMPLETED", "WITHDRAWN", "TERMINATED", "SUSPENDED"}
+
+def check(trial, p, site_rec=None):
+    """Return (verdict, reason). verdict in {likely, unclear, no}."""
     e = trial.get("eligibility") or {}
     unclear = []
     if trial.get("status") not in ("recruiting",):
         return "no", f"status is {trial.get('status')}"
     if p.get("country") and trial.get("countries") and p["country"] not in trial["countries"]:
         return "no", f"no sites in {p['country']} (runs in {', '.join(trial['countries'][:4])}{'...' if len(trial['countries'])>4 else ''})"
+    # Rule: per-site status beats the country list (data/SCHEMA.md).
+    if site_rec and p.get("country"):
+        here = [x for x in site_rec.get("sites", []) if x.get("country") == p["country"]]
+        if here and all((x.get("status") or "").upper() in CLOSED_SITE for x in here):
+            return "no", f"all {len(here)} sites in {p['country']} are no longer recruiting (registry site status); the trial continues elsewhere"
     # age
     if p.get("age") is None: unclear.append("age")
     else:
@@ -140,7 +147,7 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     if not args: print(__doc__); sys.exit(1)
     p = load(args[0]); trials = load(ROOT/"data"/"trials.yaml"); sites = load(ROOT/"data"/"sites.yaml")
-    rows = [(t, *check(t, p)) for t in trials]
+    rows = [(t, *check(t, p, sites.get(t["registry_id"]))) for t in trials]
     order = {"likely": 0, "unclear": 1, "no": 2}
     rows.sort(key=lambda r: order[r[1]])
     print("Navigation, not medical advice. Registries list key criteria only; confirm with the site coordinator.\n")
@@ -240,7 +247,7 @@ def main():
         buckets = collections.Counter()
         for t, v, why in rows:
             if v == "no":
-                key = ("Closed or not recruiting" if "status is" in why else "Not in your country" if "no sites" in why
+                key = ("Closed or not recruiting" if ("status is" in why or "no longer recruiting" in why) else "Not in your country" if "no sites" in why
                        else "Genetic test needed" if "genetic" in why or "variant" in why else "Medication state" if "medication" in why
                        else "Stage or complications" if "stage" in why or "motor" in why else "Age or time since diagnosis")
             elif v == "unclear": key = "Unclear: ask your neurologist"

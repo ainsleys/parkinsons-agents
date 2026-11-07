@@ -2,6 +2,14 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-11-07 (three trials re-verified after registry updates; per-site status rule)
+
+- **REGENERATE-PD closed at 59, not 127.** The registry moved enrollment from 127 (estimated) to 59 (actual) on 2026-11-05. Recorded as `enrollment_actual` (new field in `data/SCHEMA.md`) with a status note; the on-ramps line now says the trial closed at under half its listed target. The earlier reading that it closed at its target was wrong.
+- **PARAISO: UK closed.** All 7 UK sites changed to active-not-recruiting on 2026-11-05 while 183 sites elsewhere recruit. Status note, on-ramps and enroll pages updated. New matching rule 10: per-site status beats the country list, and `scripts/match.py` now returns no for a country whose sites have all stopped recruiting (verified with a Manchester profile).
+- **exPDite-2: eligibility and timeline.** Registry eligibility text revised 2026-10-30 and 2026-11-02 (cell or gene therapy exclusion narrowed to neurological conditions; any history of HIV or hepatitis B excludes; active hepatitis C, CMV, syphilis or latent TB excludes; treated and resolved TB, syphilis or hepatitis C allowed). Primary completion moved from March 2027 to October 2028 and study completion to 2034, with no public explanation found. Recorded in `data/trials.yaml` and the on-ramps page.
+- **Pipeline.** Generated files (`contacts.yaml`, `readouts.yaml`, `guide/readouts.md`, `program_sites.yaml`) no longer carry a pull date in their header, so the nightly job now commits them too; before this the readouts tracker only updated when someone ran the pull by hand. The commit date is the pull date.
+- The nightly check had failed since 2026-10-30 on these three records, as designed; it is green again after this re-verification.
+
 ## 2026-11-05 (registry changes, automated)
 
 - **REGENERATE-PD** (NCT06285643): enrollment 127 (ESTIMATED) -> 59 (ACTUAL). Registry updated 2026-11-05; needs re-verification in `data/trials.yaml`.

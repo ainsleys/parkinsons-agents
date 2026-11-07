@@ -108,4 +108,4 @@ A change in the feed means the registry moved, not that the guide has caught up.
 - **US:** self-referral is normal; sponsor lines route to sites.
 - **UK:** trials recruit through NHS clinics. Ask your neurologist or Parkinson's nurse for a referral, and email the trial team in parallel. Parkinson's UK's Take Part hub lists studies. ASPro-PD is the exception: it recruits only through PD Frontline, so register there first and wait to be invited.
 - **Netherlands:** GREAT is a single academic site; email the coordinator directly.
-- **Elsewhere:** PARAISO runs in 17 countries and routes through Roche's form; exPDite-2 has Canadian and Australian sites via the BlueRock line. For anything else the repo has no route yet.
+- **Elsewhere:** PARAISO runs in 17 countries and routes through Roche's form (its UK sites stopped recruiting in November 2026); exPDite-2 has Canadian and Australian sites via the BlueRock line. For anything else the repo has no route yet.
