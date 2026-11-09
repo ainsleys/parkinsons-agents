@@ -3,6 +3,58 @@
 # results posted. Agents: poll this file or data/changes.xml; scripts/match.py reports entries near a person.
 # A human still re-verifies the trial in data/trials.yaml before its `verified` date moves. Do not edit by hand.
 
+- date_observed: 2026-11-09
+  registry_id: "NCT06193421"
+  trial: "High-dose ambroxol in GBA1 PD (Agyany)"
+  kind: "status_change"
+  detail: "overall status UNKNOWN -> TERMINATED"
+  registry_last_updated: "2026-11-09"
+  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
+- date_observed: 2026-11-09
+  registry_id: "NCT06193421"
+  trial: "High-dose ambroxol in GBA1 PD (Agyany)"
+  kind: "status_change"
+  detail: "registry reason for stopping: Sponsor's decision"
+  registry_last_updated: "2026-11-09"
+  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
+- date_observed: 2026-11-09
+  registry_id: "NCT06193421"
+  trial: "High-dose ambroxol in GBA1 PD (Agyany)"
+  kind: "date_change"
+  detail: "primary completion 2025-02-27 (ESTIMATED) -> 2026-03-30 (ACTUAL)"
+  registry_last_updated: "2026-11-09"
+  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
+- date_observed: 2026-11-09
+  registry_id: "NCT06193421"
+  trial: "High-dose ambroxol in GBA1 PD (Agyany)"
+  kind: "date_change"
+  detail: "study completion 2025-04-30 (ESTIMATED) -> 2026-04-30 (ACTUAL)"
+  registry_last_updated: "2026-11-09"
+  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
+- date_observed: 2026-11-09
+  registry_id: "NCT06193421"
+  trial: "High-dose ambroxol in GBA1 PD (Agyany)"
+  kind: "enrollment_change"
+  detail: "enrollment 40 (ESTIMATED) -> 46 (ACTUAL)"
+  registry_last_updated: "2026-11-09"
+  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
+- date_observed: 2026-11-09
+  registry_id: "NCT06193421"
+  trial: "High-dose ambroxol in GBA1 PD (Agyany)"
+  kind: "contact_change"
+  detail: "central contacts changed; re-verify the contact block in data/trials.yaml"
+  registry_last_updated: "2026-11-09"
+  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
+- date_observed: 2026-11-09
+  registry_id: "NCT06193421"
+  trial: "High-dose ambroxol in GBA1 PD (Agyany)"
+  kind: "site_status_change"
+  detail: "Shaare Zedek Medical Center, Jerusalem, Israel RECRUITING -> None"
+  registry_last_updated: "2026-11-09"
+  city: "Jerusalem"
+  country: "Israel"
+  facility: "Shaare Zedek Medical Center"
+  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
 - date_observed: 2026-11-05
   registry_id: "NCT06285643"
   trial: "REGENERATE-PD"

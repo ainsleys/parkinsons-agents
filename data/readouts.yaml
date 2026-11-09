@@ -25,17 +25,6 @@
   results_first_posted: null
   registry_last_updated: "2025-08-14"
   registry_url: "https://clinicaltrials.gov/study/NCT05287503"
-- registry_id: "NCT06193421"
-  name: "High-dose ambroxol in GBA1 PD (Agyany)"
-  registry_status: "UNKNOWN"
-  why_stopped: null
-  primary_completion: "2025-02-27"
-  primary_completion_type: "ESTIMATED"
-  study_completion: "2025-04-30"
-  results_posted: false
-  results_first_posted: null
-  registry_last_updated: "2024-02-08"
-  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
 - registry_id: "NCT05830396"
   name: "GREAT (GRoningen Early-PD Ambroxol Treatment)"
   registry_status: "UNKNOWN"
@@ -58,6 +47,17 @@
   results_first_posted: null
   registry_last_updated: "2026-06-04"
   registry_url: "https://clinicaltrials.gov/study/NCT05348785"
+- registry_id: "NCT06193421"
+  name: "High-dose ambroxol in GBA1 PD (Agyany)"
+  registry_status: "TERMINATED"
+  why_stopped: "Sponsor's decision"
+  primary_completion: "2026-03-30"
+  primary_completion_type: "ACTUAL"
+  study_completion: "2026-04-30"
+  results_posted: false
+  results_first_posted: null
+  registry_last_updated: "2026-11-09"
+  registry_url: "https://clinicaltrials.gov/study/NCT06193421"
 - registry_id: "NCT06602193"
   name: "BEACON"
   registry_status: "ACTIVE_NOT_RECRUITING"

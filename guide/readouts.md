@@ -8,9 +8,9 @@ Expected result dates for every trial in the data, soonest first. `ACTUAL` means
 |---|---|---|---|---|---|
 | LIGHTHOUSE (terminated phase 3 in LRRK2 carriers; see LUMA record) ([NCT05418673](https://clinicaltrials.gov/study/NCT05418673)) | TERMINATED | 2023-07-27 | ACTUAL | yes | results posted |
 | AMBITIOUS ([NCT05287503](https://clinicaltrials.gov/study/NCT05287503)) | COMPLETED | 2024-12-15 | ACTUAL | no | completed, results not yet posted on the registry |
-| High-dose ambroxol in GBA1 PD (Agyany) ([NCT06193421](https://clinicaltrials.gov/study/NCT06193421)) | UNKNOWN | 2025-02-27 | ESTIMATED | no | registry status unknown; past estimated completion |
 | GREAT (GRoningen Early-PD Ambroxol Treatment) ([NCT05830396](https://clinicaltrials.gov/study/NCT05830396)) | UNKNOWN | 2025-07 | ESTIMATED | no | registry status unknown; past estimated completion |
 | LUMA ([NCT05348785](https://clinicaltrials.gov/study/NCT05348785)) | COMPLETED | 2026-03-09 | ACTUAL | no | completed, results not yet posted on the registry |
+| High-dose ambroxol in GBA1 PD (Agyany) ([NCT06193421](https://clinicaltrials.gov/study/NCT06193421)) | TERMINATED | 2026-03-30 | ACTUAL | no | completed, results not yet posted on the registry |
 | BEACON ([NCT06602193](https://clinicaltrials.gov/study/NCT06602193)) | ACTIVE_NOT_RECRUITING | 2027-03 | ESTIMATED | no |  |
 | BHV-8000 phase 2/3 ([NCT06976268](https://clinicaltrials.gov/study/NCT06976268)) | RECRUITING | 2027-08 | ESTIMATED | no |  |
 | DAPA-PD ([ISRCTN16806940](https://www.isrctn.com/ISRCTN16806940)) | recruiting (derived from recruitment dates) | 2028-02-28 | overall end date (ISRCTN) | no |  |

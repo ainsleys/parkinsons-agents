@@ -2,6 +2,16 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-11-09 (registry changes, automated)
+
+- **High-dose ambroxol in GBA1 PD (Agyany)** (NCT06193421): overall status UNKNOWN -> TERMINATED. Registry updated 2026-11-09; needs re-verification in `data/trials.yaml`.
+- **High-dose ambroxol in GBA1 PD (Agyany)** (NCT06193421): registry reason for stopping: Sponsor's decision. Registry updated 2026-11-09; needs re-verification in `data/trials.yaml`.
+- **High-dose ambroxol in GBA1 PD (Agyany)** (NCT06193421): primary completion 2025-02-27 (ESTIMATED) -> 2026-03-30 (ACTUAL). Registry updated 2026-11-09; needs re-verification in `data/trials.yaml`.
+- **High-dose ambroxol in GBA1 PD (Agyany)** (NCT06193421): study completion 2025-04-30 (ESTIMATED) -> 2026-04-30 (ACTUAL). Registry updated 2026-11-09; needs re-verification in `data/trials.yaml`.
+- **High-dose ambroxol in GBA1 PD (Agyany)** (NCT06193421): enrollment 40 (ESTIMATED) -> 46 (ACTUAL). Registry updated 2026-11-09; needs re-verification in `data/trials.yaml`.
+- **High-dose ambroxol in GBA1 PD (Agyany)** (NCT06193421): central contacts changed; re-verify the contact block in data/trials.yaml. Registry updated 2026-11-09; needs re-verification in `data/trials.yaml`.
+- **High-dose ambroxol in GBA1 PD (Agyany)** (NCT06193421): Shaare Zedek Medical Center, Jerusalem, Israel RECRUITING -> None. Registry updated 2026-11-09; needs re-verification in `data/trials.yaml`.
+
 ## 2026-11-07 (three trials re-verified after registry updates; per-site status rule)
 
 - **REGENERATE-PD closed at 59, not 127.** The registry moved enrollment from 127 (estimated) to 59 (actual) on 2026-11-05. Recorded as `enrollment_actual` (new field in `data/SCHEMA.md`) with a status note; the on-ramps line now says the trial closed at under half its listed target. The earlier reading that it closed at its target was wrong.

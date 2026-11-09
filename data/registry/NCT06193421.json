@@ -81,44 +81,15 @@
    ]
   },
   "contactsLocationsModule": {
-   "centralContacts": [
-    {
-     "email": "joleen.istaiti@agyany-pharmaceuticals.com",
-     "name": "Majdolen Istaiti, MBA",
-     "phone": "+972526659995",
-     "role": "CONTACT"
-    }
-   ],
    "locations": [
     {
      "city": "Jerusalem",
-     "contacts": [
-      {
-       "email": "michalbc@szmc.org.il",
-       "name": "Michal Becker-Cohen, MSc",
-       "phone": "+972504606310",
-       "role": "CONTACT"
-      },
-      {
-       "name": "Shoshana Revel-Vilk, MD",
-       "role": "PRINCIPAL_INVESTIGATOR"
-      },
-      {
-       "name": "Gilad Yahalom, MD",
-       "role": "SUB_INVESTIGATOR"
-      },
-      {
-       "name": "Mikhal Cohen, MD",
-       "role": "SUB_INVESTIGATOR"
-      }
-     ],
      "country": "Israel",
      "facility": "Shaare Zedek Medical Center",
      "geoPoint": {
       "lat": 31.76904,
       "lon": 35.21633
      },
-     "status": "RECRUITING",
      "zip": "9103102"
     }
    ],
@@ -145,8 +116,8 @@
     "primaryPurpose": "TREATMENT"
    },
    "enrollmentInfo": {
-    "count": 40,
-    "type": "ESTIMATED"
+    "count": 46,
+    "type": "ACTUAL"
    },
    "phases": [
     "PHASE1",
@@ -349,34 +320,34 @@
   },
   "statusModule": {
    "completionDateStruct": {
-    "date": "2025-04-30",
-    "type": "ESTIMATED"
+    "date": "2026-04-30",
+    "type": "ACTUAL"
    },
    "expandedAccessInfo": {
     "hasExpandedAccess": false
    },
-   "lastKnownStatus": "RECRUITING",
    "lastUpdatePostDateStruct": {
-    "date": "2024-02-08",
+    "date": "2026-11-09",
     "type": "ACTUAL"
    },
-   "lastUpdateSubmitDate": "2024-02-07",
-   "overallStatus": "UNKNOWN",
+   "lastUpdateSubmitDate": "2026-11-04",
+   "overallStatus": "TERMINATED",
    "primaryCompletionDateStruct": {
-    "date": "2025-02-27",
-    "type": "ESTIMATED"
+    "date": "2026-03-30",
+    "type": "ACTUAL"
    },
    "startDateStruct": {
     "date": "2023-10-24",
     "type": "ACTUAL"
    },
-   "statusVerifiedDate": "2024-02",
+   "statusVerifiedDate": "2026-05",
    "studyFirstPostDateStruct": {
     "date": "2024-01-05",
     "type": "ACTUAL"
    },
    "studyFirstSubmitDate": "2023-11-07",
-   "studyFirstSubmitQcDate": "2024-01-04"
+   "studyFirstSubmitQcDate": "2024-01-04",
+   "whyStopped": "Sponsor's decision"
   }
  }
 }

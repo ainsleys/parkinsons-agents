@@ -200,22 +200,13 @@ NCT05830396:
 NCT06193421:
   name: "High-dose ambroxol in GBA1 PD (Agyany)"
   registry_url: "https://clinicaltrials.gov/study/NCT06193421"
-  registry_status: UNKNOWN
-  registry_last_updated: 2024-02-08
+  registry_status: TERMINATED
+  registry_last_updated: 2026-11-09
   central_contacts:
-    - {name: "Majdolen Istaiti, MBA", role: "contact", phone: "+972526659995", email: "joleen.istaiti@agyany-pharmaceuticals.com"}
-  sites_with_contacts: 1 of 1
+    []
+  sites_with_contacts: 0 of 1
   site_contacts:
-    - facility: "Shaare Zedek Medical Center"
-      city: "Jerusalem"
-      state: null
-      country: "Israel"
-      site_status: "RECRUITING"
-      contacts:
-        - {name: "Michal Becker-Cohen, MSc", role: "contact", phone: "+972504606310", email: "michalbc@szmc.org.il"}
-        - {name: "Shoshana Revel-Vilk, MD", role: "principal investigator"}
-        - {name: "Gilad Yahalom, MD", role: "sub investigator"}
-        - {name: "Mikhal Cohen, MD", role: "sub investigator"}
+    []
 
 NCT06285643:
   name: "REGENERATE-PD"

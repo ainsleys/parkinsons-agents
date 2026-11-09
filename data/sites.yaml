@@ -256,13 +256,13 @@ NCT05830396:
 NCT06193421:
   name: "High-dose ambroxol in GBA1 PD (Agyany)"
   registry_id: "NCT06193421"
-  registry_status: UNKNOWN
-  registry_last_updated: 2024-02-08
+  registry_status: TERMINATED
+  registry_last_updated: 2026-11-09
   site_count: 1
   countries:
     "Israel": 1
   sites:
-    - {facility: "Shaare Zedek Medical Center", city: "Jerusalem", state: null, country: "Israel", status: "RECRUITING"}
+    - {facility: "Shaare Zedek Medical Center", city: "Jerusalem", state: null, country: "Israel", status: null}
 
 NCT06285643:
   name: "REGENERATE-PD"

@@ -3,8 +3,57 @@
 <title>Parkinson's trial registry changes</title>
 <link href="https://github.com/ainsleys/parkinsons-agents/blob/main/data/changes.yaml"/>
 <id>https://github.com/ainsleys/parkinsons-agents/data/changes.xml</id>
-<updated>2026-11-05T06:30:00Z</updated>
+<updated>2026-11-09T06:30:00Z</updated>
 <author><name>registry-bot (scripts/pull_registry.py)</name></author>
+<entry>
+<title>High-dose ambroxol in GBA1 PD (Agyany): status change</title>
+<link href="https://clinicaltrials.gov/study/NCT06193421"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06193421/2026-11-09/status_change/f0ff0d6f</id>
+<updated>2026-11-09T06:30:00Z</updated>
+<summary>overall status UNKNOWN -&gt; TERMINATED (registry record updated 2026-11-09; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>High-dose ambroxol in GBA1 PD (Agyany): status change</title>
+<link href="https://clinicaltrials.gov/study/NCT06193421"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06193421/2026-11-09/status_change/93a3fbb7</id>
+<updated>2026-11-09T06:30:00Z</updated>
+<summary>registry reason for stopping: Sponsor&#x27;s decision (registry record updated 2026-11-09; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>High-dose ambroxol in GBA1 PD (Agyany): date change</title>
+<link href="https://clinicaltrials.gov/study/NCT06193421"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06193421/2026-11-09/date_change/1ef49f8c</id>
+<updated>2026-11-09T06:30:00Z</updated>
+<summary>primary completion 2025-02-27 (ESTIMATED) -&gt; 2026-03-30 (ACTUAL) (registry record updated 2026-11-09; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>High-dose ambroxol in GBA1 PD (Agyany): date change</title>
+<link href="https://clinicaltrials.gov/study/NCT06193421"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06193421/2026-11-09/date_change/3d4a1530</id>
+<updated>2026-11-09T06:30:00Z</updated>
+<summary>study completion 2025-04-30 (ESTIMATED) -&gt; 2026-04-30 (ACTUAL) (registry record updated 2026-11-09; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>High-dose ambroxol in GBA1 PD (Agyany): enrollment change</title>
+<link href="https://clinicaltrials.gov/study/NCT06193421"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06193421/2026-11-09/enrollment_change/748b04ab</id>
+<updated>2026-11-09T06:30:00Z</updated>
+<summary>enrollment 40 (ESTIMATED) -&gt; 46 (ACTUAL) (registry record updated 2026-11-09; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>High-dose ambroxol in GBA1 PD (Agyany): contact change</title>
+<link href="https://clinicaltrials.gov/study/NCT06193421"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06193421/2026-11-09/contact_change/554cbe55</id>
+<updated>2026-11-09T06:30:00Z</updated>
+<summary>central contacts changed; re-verify the contact block in data/trials.yaml (registry record updated 2026-11-09; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
+<entry>
+<title>High-dose ambroxol in GBA1 PD (Agyany): site status change</title>
+<link href="https://clinicaltrials.gov/study/NCT06193421"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06193421/2026-11-09/site_status_change/5af0823f</id>
+<updated>2026-11-09T06:30:00Z</updated>
+<summary>Shaare Zedek Medical Center, Jerusalem, Israel RECRUITING -&gt; None (registry record updated 2026-11-09; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
 <entry>
 <title>REGENERATE-PD: enrollment change</title>
 <link href="https://clinicaltrials.gov/study/NCT06285643"/>
