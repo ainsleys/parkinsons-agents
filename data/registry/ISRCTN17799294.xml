@@ -1,5 +1,5 @@
 <allTrials totalCount="1" xmlns="http://www.67bricks.com/isrctn"><fullTrial>
-  <trial lastUpdated="2025-09-04T13:07:48.986382227Z" version="71" isPublished="true" publicIdentifierType="isrctn" publicIdentifierCanonical="ISRCTN17799294" publicIdentifierDateAssigned="2025-02-24T13:33:07.420873Z">
+  <trial lastUpdated="2026-11-16T17:06:48.222706603Z" version="74" isPublished="true" publicIdentifierType="isrctn" publicIdentifierCanonical="ISRCTN17799294" publicIdentifierDateAssigned="2025-02-24T13:33:07.420873Z">
     <isrctn dateAssigned="2025-02-24T13:33:07.420873Z">17799294</isrctn>
     <trialDescription thirdPartyFilesAcknowledgement="false">
       <acknowledgment>true</acknowledgment>
@@ -100,8 +100,8 @@ EJS ACT-PD Trial Team at MRC CTU, mrcctu.ejsactpd@ucl.ac.uk</plainEnglishSummary
       <primaryStudyDesign>Interventional</primaryStudyDesign>
       <secondaryStudyDesign>Randomised controlled trial</secondaryStudyDesign>
       <trialTypes>
-	<trialType>Safety</trialType>
 	<trialType>Efficacy</trialType>
+	<trialType>Safety</trialType>
       </trialTypes>
       <overallEndDate>2031-07-31T00:00:00.000Z</overallEndDate>
     </trialDesign>
@@ -117,7 +117,7 @@ EJS ACT-PD Trial Team at MRC CTU, mrcctu.ejsactpd@ucl.ac.uk</plainEnglishSummary
 	  <address>Campus for Ageing and Vitality</address>
 	  <city>Newcastle upon Tyne</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>NE4 5PL</zip>
 	</trialCentre>
 	<trialCentre id="aae3f1e0-db4d-4f44-8acb-4adf7dbf2f69">
@@ -125,7 +125,7 @@ EJS ACT-PD Trial Team at MRC CTU, mrcctu.ejsactpd@ucl.ac.uk</plainEnglishSummary
 	  <address>Glossop Road</address>
 	  <city>Sheffield</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>S10 2JF</zip>
 	  <rtsId>5EQHH@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -135,17 +135,17 @@ EJS ACT-PD Trial Team at MRC CTU, mrcctu.ejsactpd@ucl.ac.uk</plainEnglishSummary
 Eccles</address>
 	  <city>Salford</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>M6 8HD</zip>
 	  <rtsId>01GAW@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
 	<trialCentre id="3754a034-7efd-4bd4-8af9-dbb40d3c8fb8">
-	  <name>Queen Elizabeth Hospital </name>
+	  <name>Queen Elizabeth Hospital</name>
 	  <address>Mindelsohn Way
 Edgbaston</address>
 	  <city>Birmingham</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>B15 2GW</zip>
 	</trialCentre>
 	<trialCentre id="228a4d5b-75b3-4b09-80ea-0bd7c92b0fd8">
@@ -153,7 +153,7 @@ Edgbaston</address>
 	  <address>Robinson Way</address>
 	  <city>Cambridge</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>CB2 0PY</zip>
 	</trialCentre>
 	<trialCentre id="1e8b448e-411a-4fb6-ab29-47712de21e06">
@@ -161,7 +161,7 @@ Edgbaston</address>
 	  <address>250 Euston Road</address>
 	  <city>London</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>NW1 2PG</zip>
 	</trialCentre>
 	<trialCentre id="0a994f22-4a3d-4da2-923e-8680837067b0">
@@ -169,24 +169,24 @@ Edgbaston</address>
 	  <address>Whitechapel Rd</address>
 	  <city>London</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>E1 1FR</zip>
 	</trialCentre>
 	<trialCentre id="6c01edd0-a5ba-4096-9f9a-ac026c7cf55b">
-	  <name>St Georges Hospital </name>
+	  <name>St Georges Hospital</name>
 	  <address>Blackshaw Rd</address>
 	  <city>London</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>SW17 0QT</zip>
 	</trialCentre>
 	<trialCentre id="3fecc633-5d78-42fa-ab1c-8b9ebe77dd8f">
 	  <name>John Radcliffe Hospital</name>
 	  <address>Headley Way
 Headington</address>
-	  <city>Oxford	</city>
+	  <city>Oxford</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>OX3 9DU</zip>
 	</trialCentre>
 	<trialCentre id="68a1699c-cfc0-422c-9ba4-a6eef6787ec7">
@@ -194,7 +194,7 @@ Headington</address>
 	  <address>Eastern Rd, Brighton and Hove</address>
 	  <city>Brighton</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>BN2 5BE</zip>
 	</trialCentre>
 	<trialCentre id="dbabbe65-7a6e-4227-9fc5-682dbe3b329d">
@@ -202,7 +202,7 @@ Headington</address>
 	  <address>Combe Park</address>
 	  <city>Bath</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>BA1 3NG</zip>
 	  <rtsId>RNZ71@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -212,7 +212,7 @@ Headington</address>
 Crownhill</address>
 	  <city>Plymouth</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>PL6 8DH</zip>
 	  <rtsId>RK950@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -221,7 +221,7 @@ Crownhill</address>
 	  <address>Ninewells Avenue</address>
 	  <city>Dundee</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>Scotland</country>
 	  <zip>DD1 9SY</zip>
 	  <rtsId>T101H@2.16.840.1.113883.2.1.3.8.2.16.2</rtsId>
 	</trialCentre>
@@ -230,7 +230,7 @@ Crownhill</address>
 	  <address>Heath Park</address>
 	  <city>Cardiff</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>Wales</country>
 	  <zip>CF14 4XW</zip>
 	  <rtsId>RWMBV@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -239,7 +239,7 @@ Crownhill</address>
 	  <address>51 Lisburn Rd</address>
 	  <city>Belfast</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>Northern Ireland</country>
 	  <zip>BT9 7AB</zip>
 	  <rtsId>ZT00104@2.16.840.1.113883.2.1.3.10.2</rtsId>
 	</trialCentre>
@@ -249,7 +249,7 @@ Crownhill</address>
 Fazakerley</address>
 	  <city>Liverpool</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>L9 7LJ</zip>
 	</trialCentre>
 	<trialCentre id="b39b7bdc-d89f-4488-9455-f2d1f9c53c0d">
@@ -257,7 +257,7 @@ Fazakerley</address>
 	  <address>Fulham Palace Road</address>
 	  <city>London</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>W6 8RF</zip>
 	  <rtsId>RDU92@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -266,7 +266,7 @@ Fazakerley</address>
 	  <address>Tremona Road</address>
 	  <city>Southampton</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>SO16 6YD</zip>
 	</trialCentre>
 	<trialCentre id="ade313b8-f1e5-4643-bb4d-07e3aa13b6f4">
@@ -276,7 +276,7 @@ Old Dalkeith Road
 Edinburgh</address>
 	  <city>Lothian</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>Scotland</country>
 	  <zip>EH16 4SA</zip>
 	  <rtsId>S314H@2.16.840.1.113883.2.1.3.8.2.16.2</rtsId>
 	</trialCentre>
@@ -285,7 +285,7 @@ Edinburgh</address>
 	  <address>Denmark Hill</address>
 	  <city>London</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>SE5 9RS</zip>
 	  <rtsId>5LD98@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -294,7 +294,7 @@ Edinburgh</address>
 	  <address>Lewisham High Street</address>
 	  <city>London</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>SE13 6LH</zip>
 	  <rtsId>RAV04@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -303,7 +303,7 @@ Edinburgh</address>
 	  <address>1345 Govan Road</address>
 	  <city>Glasgow</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>Scotland</country>
 	  <zip>G51 4TF</zip>
 	  <rtsId>G405H@2.16.840.1.113883.2.1.3.8.2.16.2</rtsId>
 	</trialCentre>
@@ -312,7 +312,7 @@ Edinburgh</address>
 	  <address>Rom Valley Way</address>
 	  <city>Romford</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>RM7 0AG</zip>
 	  <rtsId>V43559@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -321,7 +321,7 @@ Edinburgh</address>
 	  <address>Great George Street</address>
 	  <city>Leeds</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>LS1 3EX</zip>
 	  <rtsId>D6A2L@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -330,7 +330,7 @@ Edinburgh</address>
 	  <address>Barrack Road</address>
 	  <city>Exeter</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>EX2 5DW</zip>
 	  <rtsId>RH801@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -339,7 +339,7 @@ Edinburgh</address>
 	  <address>Rake Lane</address>
 	  <city>North Shields</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>NE29 8NH</zip>
 	  <rtsId>RTDAL@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -348,7 +348,7 @@ Edinburgh</address>
 	  <address>Fairmile Road</address>
 	  <city>Christchurch</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>BH23 2JX</zip>
 	  <rtsId>RNZ15@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -357,7 +357,7 @@ Edinburgh</address>
 	  <address>Longfleet Road</address>
 	  <city>Poole</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>BH15 2JB</zip>
 	  <rtsId>5QN33@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -366,7 +366,7 @@ Edinburgh</address>
 	  <address>Sheriff Hill</address>
 	  <city>Gateshead</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>NE9 6SX</zip>
 	  <rtsId>RR7EN@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -375,7 +375,7 @@ Edinburgh</address>
 	  <address>Heath Road</address>
 	  <city>Ipswich</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>IP4 5PD</zip>
 	  <rtsId>RWN59@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -385,7 +385,7 @@ Edinburgh</address>
 Wrexham Technology Park</address>
 	  <city>Wrexham</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>Wales</country>
 	  <zip>LL13 7TD</zip>
 	  <rtsId>7A1A4@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -395,7 +395,7 @@ Wrexham Technology Park</address>
 Penrhosgarnedd</address>
 	  <city>Bangor</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>Wales</country>
 	  <zip>LL57 2PW</zip>
 	  <rtsId>RT7@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -404,7 +404,7 @@ Penrhosgarnedd</address>
 	  <address>Woodlands Drive</address>
 	  <city>Scarborough</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>YO12 6QL</zip>
 	  <rtsId>RR854@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -413,7 +413,7 @@ Penrhosgarnedd</address>
 	  <address>Mytton Oak Road</address>
 	  <city>Shrewsbury</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>SY3 8XQ</zip>
 	  <rtsId>RXWAS@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -422,7 +422,7 @@ Penrhosgarnedd</address>
 	  <address>Guildford Road</address>
 	  <city>Chertsey</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>KT16 0PZ</zip>
 	  <rtsId>RVRA3@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -432,7 +432,7 @@ Penrhosgarnedd</address>
 Clifford Bridge Road</address>
 	  <city>Coventry</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>CV2 2DX</zip>
 	  <rtsId>RKB@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -442,7 +442,7 @@ Clifford Bridge Road</address>
 Willesborough</address>
 	  <city>Ashford</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>TN24 0LZ</zip>
 	  <rtsId>RWF37@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -451,7 +451,7 @@ Willesborough</address>
 	  <address>Higher Kingston</address>
 	  <city>Yeovil</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>BA21 4AT</zip>
 	</trialCentre>
 	<trialCentre id="462a888c-4972-49e8-8d8d-1852a2f0cd34">
@@ -459,7 +459,7 @@ Willesborough</address>
 	  <address>Musgrove Park Hospital</address>
 	  <city>Taunton</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>TA1 5DA</zip>
 	  <rtsId>NT489@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -469,7 +469,7 @@ Willesborough</address>
 Colney</address>
 	  <city>Norwich</city>
 	  <state/>
-	  <country>United Kingdom</country>
+	  <country>England</country>
 	  <zip>NR4 7UY</zip>
 	  <rtsId>RM102@2.16.840.1.113883.2.1.3.2.4.18.48</rtsId>
 	</trialCentre>
@@ -488,11 +488,12 @@ Colney</address>
 9. If a participant is being re-randomised into the trial, additional timing of entry requirements must also be met:
 9.1. For participants re-randomised after completing 36 months’ follow-up and the arm was not closed due to lack of activity, a 26-week washout period from the last dose of IMP must be completed before their screening visit. If the primary analysis indicates that the IMP was ineffective then this washout period can be reduced to 6 weeks. 
 9.2. For participants being re-randomised following treatment arm termination due to lack of activity, a 6-week washout period from their last dose of IMP must be completed prior to screening assessment.</inclusion>
-      <ageRange>Adult</ageRange>
+      <ageRange>Mixed</ageRange>
       <lowerAgeLimit unit="years" value="30.0">30 Years</lowerAgeLimit>
+      <upperAgeLimit unit="years" value="100.0">100 Years</upperAgeLimit>
       <gender>All</gender>
       <targetEnrolment>1200</targetEnrolment>
-      <totalFinalEnrolment/>
+      <totalFinalEnrolment>0</totalFinalEnrolment>
       <exclusion>1. Diagnosis or suspicion of other cause for parkinsonism such as atypical parkinsonism, dystonic tremor, essential tremor, or drug-induced parkinsonism.
 2. Known carriers of recessive PD gene mutations PRKN, PINK1 or DJ1 (based on previous medical tests/notes).
 3. Clinical diagnosis of dementia or MoCA &lt;21 at screening visit.
@@ -577,25 +578,30 @@ Data and/ or samples will be shared during the trial according to the CTU’s co
 4. The resources required to process requests should not be underestimated, particularly successful requests which lead to preparing data for release. Therefore, adequate resources must be available in order to comply in a timely manner or at all, and the scientific aims of the study must justify the use of such resources. 
 5. Data and/ or sample exchange complies with Information Governance and Data Security Policies in all of the relevant countries. 
 6. Data and/ or sample exchange is only provided following the execution of a valid material transfer agreement (MTA). 
-Anonymised study data will be made available on appropriate data-sharing platforms. </ipdSharingStatement>
+Anonymised study data will be made available on appropriate data-sharing platforms.</ipdSharingStatement>
       <dataPolicies>
 	<dataPolicy>Available on request</dataPolicy>
       </dataPolicies>
       <publicationDetails/>
-      <publicationStage/>
+      <publicationStage>Protocol</publicationStage>
       <basicReport/>
       <plainEnglishReport/>
     </results>
     <outputs>
+      <output id="01d85dfb-40ea-4d60-a68c-85bdd1392118" outputType="protocolother" artefactType="ExternalLink" dateCreated="2026-04-16T00:00:00.000Z" dateUploaded="2026-11-16T00:00:00.000Z" peerReviewed="false" patientFacing="false" createdBy="">
+	<externalLink url="https://njl-admin.nihr.ac.uk/document/download/2051644"/>
+	<description>V4.0</description>
+	<productionNotes/>
+      </output>
       <output id="0e4c6605-a6a3-4bb9-ae97-b01b03337b27" outputType="trialwebsite" artefactType="ExternalLink" dateCreated="" dateUploaded="2025-09-04T00:00:00.000Z" peerReviewed="false" patientFacing="false" createdBy="">
 	<externalLink url="https://www.ejsactpd.com/"/>
 	<description/>
 	<productionNotes/>
       </output>
-      <output id="96873449-ca16-4ad2-af1b-d547b8c1293a" outputType="trialwebsite" artefactType="ExternalLink" dateCreated="2025-11-11T00:00:00.000Z" dateUploaded="2025-11-11T00:00:00.000Z" peerReviewed="false" patientFacing="true" createdBy="Migration">
-	<externalLink url="https://www.ejsactpd.com/"/>
-	<description>Study website</description>
-	<productionNotes>Migrated from study website field</productionNotes>
+      <output id="040d17fb-9ec5-4a88-91e7-0110a1da3b33" outputType="trialwebsite" artefactType="ExternalLink" dateCreated="" dateUploaded="2026-11-16T00:00:00.000Z" peerReviewed="false" patientFacing="false" createdBy="">
+	<externalLink url="https://www.fundingawards.nihr.ac.uk/award/NIHR160829"/>
+	<description/>
+	<productionNotes/>
       </output>
     </outputs>
     <parties xmlns:ssb="http://www.67bricks.com/isrctn/functions">
@@ -613,7 +619,7 @@ Anonymised study data will be made available on appropriate data-sharing platfor
   <contact id="88feb389-7af8-4735-8112-81d48a2f6321">
     <title>Dr</title>
     <forename>EJS ACT-PD Trial Team</forename>
-    <surname> at MRC CTU </surname>
+    <surname>at MRC CTU</surname>
     <orcid/>
     <contactTypes>
       <contactType>Public</contactType>
@@ -652,7 +658,7 @@ Anonymised study data will be made available on appropriate data-sharing platfor
   </contact>
   <contact id="5255e23d-4e3f-4f9b-8895-6144fa0b74c0">
     <title>Prof</title>
-    <forename>Camille </forename>
+    <forename>Camille</forename>
     <surname>Carroll</surname>
     <orcid/>
     <contactTypes>
