@@ -1354,11 +1354,6 @@
      "domain": "EU CT Number",
      "id": "2023-505645-12",
      "type": "OTHER"
-    },
-    {
-     "id": "2023",
-     "link": "https://reporter.nih.gov/quickSearch/2023",
-     "type": "NIH"
     }
    ]
   },
