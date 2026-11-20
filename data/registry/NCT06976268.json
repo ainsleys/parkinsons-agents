@@ -254,6 +254,18 @@
      "zip": "32751"
     },
     {
+     "city": "Tampa",
+     "country": "United States",
+     "facility": "Site-078",
+     "geoPoint": {
+      "lat": 27.94752,
+      "lon": -82.45843
+     },
+     "state": "Florida",
+     "status": "RECRUITING",
+     "zip": "33613"
+    },
+    {
      "city": "Chicago",
      "country": "United States",
      "facility": "Site-027",
@@ -556,10 +568,10 @@
     "hasExpandedAccess": false
    },
    "lastUpdatePostDateStruct": {
-    "date": "2026-10-22",
+    "date": "2026-11-20",
     "type": "ACTUAL"
    },
-   "lastUpdateSubmitDate": "2026-10-21",
+   "lastUpdateSubmitDate": "2026-11-19",
    "overallStatus": "RECRUITING",
    "primaryCompletionDateStruct": {
     "date": "2027-08",
@@ -569,7 +581,7 @@
     "date": "2025-05-28",
     "type": "ACTUAL"
    },
-   "statusVerifiedDate": "2026-10",
+   "statusVerifiedDate": "2026-11",
    "studyFirstPostDateStruct": {
     "date": "2025-05-16",
     "type": "ACTUAL"

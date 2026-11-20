@@ -3,8 +3,15 @@
 <title>Parkinson's trial registry changes</title>
 <link href="https://github.com/ainsleys/parkinsons-agents/blob/main/data/changes.yaml"/>
 <id>https://github.com/ainsleys/parkinsons-agents/data/changes.xml</id>
-<updated>2026-11-09T06:30:00Z</updated>
+<updated>2026-11-20T06:30:00Z</updated>
 <author><name>registry-bot (scripts/pull_registry.py)</name></author>
+<entry>
+<title>BHV-8000 phase 2/3: site added</title>
+<link href="https://clinicaltrials.gov/study/NCT06976268"/>
+<id>https://github.com/ainsleys/parkinsons-agents/changes/NCT06976268/2026-11-20/site_added/f316f1aa</id>
+<updated>2026-11-20T06:30:00Z</updated>
+<summary>new site Site-078, Tampa, Florida, United States (RECRUITING) (registry record updated 2026-11-20; navigation, not medical advice; a human re-verifies before the guide changes)</summary>
+</entry>
 <entry>
 <title>High-dose ambroxol in GBA1 PD (Agyany): status change</title>
 <link href="https://clinicaltrials.gov/study/NCT06193421"/>

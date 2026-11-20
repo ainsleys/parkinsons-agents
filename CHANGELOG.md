@@ -2,6 +2,10 @@
 
 Newest first. Agents can poll this file to see what changed.
 
+## 2026-11-20 (registry changes, automated)
+
+- **BHV-8000 phase 2/3** (NCT06976268): new site Site-078, Tampa, Florida, United States (RECRUITING). Registry updated 2026-11-20; needs re-verification in `data/trials.yaml`.
+
 ## 2026-11-09 (registry changes, automated)
 
 - **High-dose ambroxol in GBA1 PD (Agyany)** (NCT06193421): overall status UNKNOWN -> TERMINATED. Registry updated 2026-11-09; needs re-verification in `data/trials.yaml`.
